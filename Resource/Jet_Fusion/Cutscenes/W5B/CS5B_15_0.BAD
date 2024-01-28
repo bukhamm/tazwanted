@@ -1,0 +1,8 @@
+mesh a_sub
+skeleton CS5B_15_0
+
+ANIM IDLE01
+50-96,1
+CYCLE LOOP
+
+

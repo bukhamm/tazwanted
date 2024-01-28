@@ -1,0 +1,6 @@
+mesh a_JimmyJapan
+skeleton CS2B_01_0
+
+ANIM CUTSCENE
+100-480,1
+CYCLE STOP

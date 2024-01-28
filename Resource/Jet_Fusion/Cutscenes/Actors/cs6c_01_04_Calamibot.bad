@@ -1,0 +1,10 @@
+mesh a_Calamibot
+skeleton cs6c_01_04_Calamibot
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+646-940,1
+cycle stop

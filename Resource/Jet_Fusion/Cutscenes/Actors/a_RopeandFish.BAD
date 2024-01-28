@@ -1,0 +1,10 @@
+mesh a_RopeandFish
+skeleton a_RopeandFish
+
+anim bindPose
+0,1
+cycle stop
+
+anim breakrope
+60-111,1
+cycle loop

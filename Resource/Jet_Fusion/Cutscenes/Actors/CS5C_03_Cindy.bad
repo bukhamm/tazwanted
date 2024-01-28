@@ -1,0 +1,10 @@
+mesh a_cindy
+skeleton CS5C_03_Cindy
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+101-270,1
+cycle stop

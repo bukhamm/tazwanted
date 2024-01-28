@@ -1,0 +1,10 @@
+mesh a_MsfowlFire
+skeleton cs3C_01_02_MsfowlFire
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+200-875,1
+cycle stop

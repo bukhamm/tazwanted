@@ -1,0 +1,880 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "29/06/2003"
+  Time = "10:11:07 AM"
+  EdPos = 2.47,779.18,-123.51
+  EdPitch = -0.620
+  EdYaw = -0.010
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Brain"
+  {
+    "Brain_Voice" = 66646332,0
+    "Brain_Lips" = 66646332,1
+    "Brain_Head" = 66646332,2
+    "Brain_Body" = 66646332,3
+    "Brain_Pos" = 66646332,4
+    "Brain_Look" = 66646332,5
+    "SoundFX" = -2,0
+  }
+  "EarCanal"
+  {
+    "EarCanal_Voice" = 98761508,0
+    "EarCanal_Lips" = 98761508,1
+    "EarCanal_Head" = 98761508,2
+    "EarCanal_Body" = 98761508,3
+    "EarCanal_Pos" = 98761508,4
+    "EarCanal_Look" = 98761508,5
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 99090000,0
+    "Jimmy_Lips" = 99090000,1
+    "Jimmy_Head" = 99090000,2
+    "Jimmy_Body" = 99090000,3
+    "Jimmy_Pos" = 99090000,4
+    "Jimmy_Look" = 99090000,5
+  }
+  "Neuronstrands"
+  {
+    "Neuronstrands_Voice" = 98552908,0
+    "Neuronstrands_Lips" = 98552908,1
+    "Neuronstrands_Head" = 98552908,2
+    "Neuronstrands_Body" = 98552908,3
+    "Neuronstrands_Pos" = 98552908,4
+    "Neuronstrands_Look" = 98552908,5
+  }
+  "Neuronpieces"
+  {
+    "Neuronpieces_Voice" = 98939312,0
+    "Neuronpieces_Lips" = 98939312,1
+    "Neuronpieces_Head" = 98939312,2
+    "Neuronpieces_Body" = 98939312,3
+    "Neuronpieces_Pos" = 98939312,4
+    "Neuronpieces_Look" = 98939312,5
+  }
+  "Repomachine"
+  {
+    "Repomachine_Voice" = 121634816,0
+    "Repomachine_Lips" = 121634816,1
+    "Repomachine_Head" = 121634816,2
+    "Repomachine_Body" = 121634816,3
+    "Repomachine_Pos" = 121634816,4
+    "Repomachine_Look" = 121634816,5
+  }
+  "plate"
+  {
+    "plate_Voice" = 100614132,0
+    "plate_Lips" = 100614132,1
+    "plate_Head" = 100614132,2
+    "plate_Body" = 100614132,3
+    "plate_Pos" = 100614132,4
+    "plate_Look" = 100614132,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 1,"CS1A_03_Camera.mcd"
+  WorldFile = (null)
+  Level = W1A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_FastWhoosh" = 16,36
+  "CS_SlowWhoosh" = 55,61
+  "CS_FastWhoosh" = 122,39
+  "CS_zap2" = 327,12
+  "CS_zap2" = 339,30
+  "CS_bodyfall" = 379,30
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1A_03_P01JIEN.wav" = 230,84
+  "CS1A_03_P02JIEN.wav" = 329,95
+}
+
+[ACTOR_DATA]
+{
+  Count = 7
+  "CS1A_03_Brain.BAD" = "Brain","CS1A_03_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS1A_03_EarCanal.BAD" = "EarCanal","CS1A_03_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS1A_03_Jimmy.bad" = "Jimmy","CS1A_03_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS1A_03_Neuron_Strands.bad" = "Neuronstrands","CS1A_03_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS1A_03_Neuronpieces06.bad" = "Neuronpieces","CS1A_03_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs1A_03_07_RepoMachine.bad" = "Repomachine","CS1A_03_5.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "plate_01.bad" = "plate","CS1A_03_6.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Brain"
+  {
+    "Brain_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Brain_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Brain_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Brain_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 117
+          length = 44
+        }
+      }
+    }
+    "Brain_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 117
+          length = 44
+        }
+      }
+    }
+    "Brain_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "EarCanal"
+  {
+    "EarCanal_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "EarCanal_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "EarCanal_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "EarCanal_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 50
+          length = 66
+        }
+      }
+    }
+    "EarCanal_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 50
+          length = 66
+        }
+      }
+    }
+    "EarCanal_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "The Virtual World Reproduction Machine!" = "CS1A_03_P01JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 230
+          length = 84
+        }
+        "Brings the story straight from a book to a cinema near you." = "CS1A_03_P02JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 329
+          length = 95
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 10
+          length = 49
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 10
+          length = 49
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //The Virtual World Reproduction Machine!
+      Jimmy
+      {
+        d = 90,162,126,99,99,117,162,144,180,207,243,234,117,135,216,243,252,144,255,255,
+        d = 0,0,0,0,0,0,0,0,255,255,255,255,255,255,198,234,234,225,252,255,255,189,189,216,
+        d = 0,153,0,0,153,0,0,216,0,0,243,0,255,144,90,9,27,99,255,255,162,234,255,144,99,
+        d = 9,0,90,216,0,0,189,180,0,0,252,255,0,0,255,
+      }
+      //Brings the story straight from a book to a cinema near you.
+      Jimmy
+      {
+        d = 153,255,216,225,255,255,225,225,216,171,207,225,207,234,144,27,162,255,207,171,
+        d = 0,0,0,0,0,0,0,0,207,216,171,189,198,255,255,255,36,0,108,255,255,255,255,255,
+        d = 243,0,0,54,0,63,0,0,18,0,126,0,0,255,255,255,255,234,180,207,162,162,255,171,
+        d = 9,0,0,0,9,0,207,255,0,243,0,0,255,189,0,153,0,198,0,198,180,180,255,243,234,171,
+        d = 162,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Neuronstrands"
+  {
+    "Neuronstrands_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Neuronstrands_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Neuronstrands_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Neuronstrands_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 162
+          length = 354
+        }
+      }
+    }
+    "Neuronstrands_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 162
+          length = 354
+        }
+      }
+    }
+    "Neuronstrands_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Neuronpieces"
+  {
+    "Neuronpieces_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Neuronpieces_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Neuronpieces_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Neuronpieces_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 162
+          length = 354
+        }
+      }
+    }
+    "Neuronpieces_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 162
+          length = 354
+        }
+      }
+    }
+    "Neuronpieces_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+    }
+  }
+  "Repomachine"
+  {
+    "Repomachine_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Repomachine_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Repomachine_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Repomachine_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 160
+          length = 356
+        }
+      }
+    }
+    "Repomachine_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 160
+          length = 356
+        }
+      }
+    }
+    "Repomachine_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,
+    }
+  }
+  "plate"
+  {
+    "plate_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plate_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plate_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plate_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 162
+          length = 354
+        }
+      }
+    }
+    "plate_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 162
+          length = 354
+        }
+      }
+    }
+    "plate_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_FastWhoosh",""
+    Breaker = 0
+    Lock = 0
+    start = 16
+    length = 36
+  }
+  bar
+  {
+    BarName = "CS_SlowWhoosh",""
+    Breaker = 0
+    Lock = 0
+    start = 55
+    length = 61
+  }
+  bar
+  {
+    BarName = "CS_FastWhoosh",""
+    Breaker = 0
+    Lock = 0
+    start = 122
+    length = 39
+  }
+  bar
+  {
+    BarName = "CS_zap2",""
+    Breaker = 0
+    Lock = 0
+    start = 327
+    length = 12
+  }
+  bar
+  {
+    BarName = "CS_zap2",""
+    Breaker = 0
+    Lock = 0
+    start = 339
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_bodyfall",""
+    Breaker = 0
+    Lock = 0
+    start = 379
+    length = 30
+  }
+}
+
+[CAMERA]
+{
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

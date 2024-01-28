@@ -1,0 +1,6 @@
+mesh A_HealthBonusSynker
+skeleton CS1G_12_0
+
+ANIM BINDPOSE
+0-1,1
+CYCLE STOP

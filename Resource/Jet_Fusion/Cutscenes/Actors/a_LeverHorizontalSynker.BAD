@@ -1,0 +1,10 @@
+mesh a_LeverHorizontalsynker
+skeleton a_LeverHorizontalsynker
+
+anim bindpose
+0-1,1
+cycle stop
+
+anim lever_across
+10-40,1
+cycle stop

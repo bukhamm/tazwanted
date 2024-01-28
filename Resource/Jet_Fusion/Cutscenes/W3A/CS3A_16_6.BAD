@@ -1,0 +1,6 @@
+mesh a_BoulderGlow
+skeleton CS3A_16_6
+
+ANIM BINDPOSE
+0-1,1
+CYCLE STOP

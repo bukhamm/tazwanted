@@ -1,0 +1,413 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:38:05 PM"
+  EdPos = 3249.46,215.55,753.75
+  EdPitch = -0.770
+  EdYaw = -2.650
+}
+
+[EXTRAS]
+{
+  Windowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 110247936,0
+    "Goddard_Lips" = 110247936,1
+    "Goddard_Head" = 110247936,2
+    "Goddard_Body" = 110247936,3
+    "Goddard_Pos" = 110247936,4
+    "Goddard_Look" = 110247936,5
+    "Camera" = -3,0
+  }
+  "NAVCHIP"
+  {
+    "NAVCHIP_Voice" = 77241628,0
+    "NAVCHIP_Lips" = 77241628,1
+    "NAVCHIP_Head" = 77241628,2
+    "NAVCHIP_Body" = 77241628,3
+    "NAVCHIP_Pos" = 77241628,4
+    "NAVCHIP_Look" = 77241628,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W1A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1G_05_P01GOFR.WAV" = 15,52
+  "CS1G_05_P02GOFR.WAV" = 85,91
+  "CS1G_05_P03GOFR.WAV" = 182,54
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_GODDARD_Synker.BAD" = "Goddard","CS1G_05_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 3275.039,120.666,693.510
+        rot = 0.000,-1.980,0.000
+      }
+    }
+  }
+  "A_ChipNavSynker.BAD" = "NAVCHIP","CS1G_05_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 3270.491,169.776,714.519
+        rot = 0.000,0.000,0.000
+        pos = 3270.491,169.776,714.519
+        rot = 0.000,0.990,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "This is a NAVCHIP." = "CS1G_05_P01GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 15
+          length = 52
+        }
+        "If you get ten of these you can program me" = "CS1G_05_P02GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 85
+          length = 91
+        }
+        "to find a way to a different level." = "CS1G_05_P03GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 182
+          length = 54
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 256
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 256
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 256
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 80
+          length = 176
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //This is a NAVCHIP.
+      Goddard
+      {
+        d = 12,18,42,174,255,255,255,162,156,66,102,120,138,144,156,120,30,0,0,6,255,255,
+        d = 192,126,108,240,192,192,216,204,210,174,150,144,126,120,120,102,78,30,30,42,18,
+        d = 24,186,138,102,192,114,102,60,0,
+      }
+      //If you get ten of these you can program me
+      Goddard
+      {
+        d = 108,189,139,99,18,4,49,144,255,255,166,108,81,166,229,184,36,4,0,40,58,99,198,
+        d = 207,175,238,202,99,99,85,108,148,144,126,112,108,117,121,94,94,81,63,9,0,0,0,
+        d = 0,0,0,0,0,0,0,0,0,36,148,243,99,13,54,157,184,157,180,90,13,49,94,243,247,255,
+        d = 189,144,112,220,180,135,126,121,103,135,162,157,148,171,193,234,189,54,0,
+      }
+      //to find a way to a different level.
+      Goddard
+      {
+        d = 156,186,42,6,12,120,162,132,120,162,192,228,180,255,255,252,210,240,255,186,210,
+        d = 255,198,240,174,30,60,54,180,246,255,174,138,72,114,255,180,18,18,24,144,162,
+        d = 168,84,30,192,255,240,162,162,156,90,144,168,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "NAVCHIP"
+  {
+    "NAVCHIP_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "NAVCHIP_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "NAVCHIP_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "NAVCHIP_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "bindpose" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 80
+        }
+      }
+    }
+    "NAVCHIP_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 80
+        }
+      }
+    }
+    "NAVCHIP_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 3163.07,188.67,708.14, 3270.04,170.67,717.66
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 256
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

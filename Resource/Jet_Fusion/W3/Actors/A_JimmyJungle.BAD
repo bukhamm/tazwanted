@@ -1,0 +1,860 @@
+mesh a_JimmyJungle
+skeleton a_Jimmy
+
+anim bindpose
+0,1
+cycle loop
+
+//movement with no weapon
+
+anim walk
+SoundEvent JimmyStep 2027
+SoundEvent JimmyStep 2012
+2001-2030,1
+event Footstep 2015
+event Footstep 2030
+cycle loop
+
+anim run
+SoundEvent JimmyStep 2099
+SoundEvent JimmyStep 2089
+2080-2100,1
+event Footstep 2087
+event Footstep 2097
+cycle loop
+
+anim runtostop
+SoundEvent JimmyStep 2110
+SoundEvent JimmyStep 2108
+2100-2118,1
+event JumpLand 2109
+cycle stop
+
+anim sneak
+3500-3550,1
+event Footstep 3502
+event Footstep 3527
+cycle loop
+
+anim walk02
+SoundEvent JimmyStep 10322
+SoundEvent JimmyStep 10302
+10300-10340,1
+event Footstep 10325
+event Footstep 10305
+cycle loop
+
+anim idle01
+2140-2180,1
+cycle loop
+
+//Blink
+anim idle02
+6420-6460,1
+cycle loop
+
+//Jimmy has a think
+anim specialidle01
+7200-7320,1
+cycle loop
+
+anim specialidle02
+10001-10163,1
+cycle loop
+
+//Jimmy looks around for no good reason
+anim specialidle03
+6300-6410,1
+cycle loop
+
+// Jimmy does the chicken dance.  Play only after specialidle02
+anim chickenidle
+SoundEvent TouchTwoHard 7604
+SoundEvent TouchTwoHard 7592
+SoundEvent TouchTwoHard 7580
+SoundEvent TouchTwoHard 7568
+7400-7616,1
+cycle loop
+
+anim jumpstart
+SoundEvent JimmyJump 8603
+8600-8606,1
+event JumpStart 8600
+cycle stop 
+
+anim jumpmid
+8610-8630,1
+cycle loop
+
+anim jumpdown
+8640-8650,1
+cycle loop
+
+anim jumpland
+8650-8661,1
+event JumpLand 8655
+cycle stop
+
+anim jumpcrouch
+8670-8680,1
+cycle stop
+
+anim JumpClimbEntry
+SoundEvent JNpat 2265
+SoundEvent JimmyLand 2267
+2260-2268, LVE
+cycle stop
+
+anim bounceidle
+SoundEvent JimmyLand 6213
+6200-6218,1
+cycle loop
+
+anim bouncestart
+4800-4813,1
+event Jumpstart 4800
+cycle stop
+
+anim bouncemid
+4813-4823,1
+cycle loop
+
+anim bouncedown
+4835-4845,1
+cycle loop
+
+anim bounceland
+SoundEvent JimmyLand 4828
+4824-4834,1
+event jumpLand 4831
+cycle stop
+
+anim somersault
+SoundEvent NinjaLunge 4952
+4950-4965,1
+cycle stop
+
+//Sliding anims
+anim SlideForward
+7800-7820,1
+cycle loop
+
+anim SlideBackward
+7830-7850,1
+cycle loop
+
+anim SlideLeft
+7860-7880,1
+cycle loop
+
+anim SlideRight
+7890-7910,1
+cycle loop
+
+//hit in the face
+anim flinch01
+4500-4517,1
+cycle stop
+
+//hit from the front and right
+anim flinch02
+4520-4538,1
+cycle stop
+
+//hit from the front and left
+anim flinch03
+4540-4558,1
+cycle stop
+
+//hit from the back
+anim flinch04
+4560-4575,1
+cycle stop
+
+anim death01
+6000-6040,1
+event SlowTurn 6002
+event JimmyKnockDown 6024
+cycle stop
+
+anim death02
+//drowning
+6900-6983,1
+cycle stop
+
+//movement with sword type weapon
+
+anim swordwalk
+SoundEvent JimmyStep 48
+SoundEvent JimmyStep 33
+20-50,1
+event Footstep 35
+event Footstep 50
+cycle loop
+
+anim swordrun
+SoundEvent JimmyStep 99
+SoundEvent JimmyStep 89
+80-100,1
+event Footstep 107
+event Footstep 117
+cycle loop
+
+anim swordruntostop
+SoundEvent JNSoftStep 109
+SoundEvent JimmyStep 108
+100-118,1
+event JumpLand 109
+cycle stop
+
+anim swordsneak
+3600-3650,1
+event Footstep 3602
+event Footstep 3627
+cycle loop
+
+anim swordwalk02
+SoundEvent JimmyStep 10422
+SoundEvent JimmyStep 10402
+10400-10440,1
+event Footstep 10425
+event Footstep 10405
+cycle loop
+
+anim swordidle01
+140-180,1
+cycle loop
+
+//Blink
+anim swordidle02
+6620-6660,1
+cycle loop
+
+//Jimmy goes all kung-fu
+anim swordspecialidle01
+SoundEvent JimmyFlip1 9902
+SoundEvent JimmyFlip1 9895
+9800-9936,1
+cycle loop
+
+anim swordspecialidle02
+10001-10163,1
+cycle loop
+
+//Jimmy looks around for no good reason
+anim swordspecialidle03
+6500-6610,1
+cycle loop
+
+anim swordjumpstart
+SoundEvent JimmyJump 8703
+8700-8706,1
+event JumpStart 8700
+cycle stop 
+
+anim swordjumpmid
+8710-8730,1
+cycle loop
+
+anim swordjumpdown
+8740-8750,1
+cycle loop
+
+anim swordjumpland
+8750-8761,1
+event JumpLand 8756
+cycle stop
+
+anim swordjumpcrouch
+8770-8780,1
+cycle stop
+
+anim swordbounceidle
+SoundEvent JimmyLand 6233
+6220-6238,1
+cycle loop
+
+anim swordbouncestart
+4850-4863,1
+event Jumpstart 4850
+cycle stop
+
+anim swordbouncemid
+4863-4873,1
+cycle loop
+
+anim swordbouncedown
+4885-4895,1
+cycle loop
+
+anim swordbounceland
+SoundEvent JimmyLand 4877
+4874-4884,1
+event jumpLand 4881
+cycle stop
+
+anim swordsomersault
+SoundEvent EnemyThrows 4983
+4982-4997,1
+cycle stop
+
+//sliding anims
+anim swordSlideForward
+7920-7940,1
+cycle loop
+
+anim swordSlideBackward
+7950-7970,1
+cycle loop
+
+anim swordSlideLeft
+7980-8000,1
+cycle loop
+
+anim swordSlideRight
+8010-8030,1
+cycle loop
+
+//hit in the face
+anim swordflinch01
+4600-4617,1
+cycle stop
+
+//hit from the front and right
+anim swordflinch02
+4620-4638,1
+cycle stop
+
+//hit from the front and left
+anim swordflinch03
+4640-4658,1
+cycle stop
+
+//hit from the back
+anim swordflinch04
+4660-4675,1
+cycle stop
+
+anim sworddeath01
+6050-6090,1
+event SlowTurn 6059
+event JimmyKnockDown 6078
+cycle stop
+
+anim sworddeath02
+//drowning
+7000-7083,1
+cycle stop
+
+//Movement with gun type weapon
+
+anim gunwalk
+SoundEvent JimmyStep 1029
+SoundEvent JimmyStep 1013
+1000-1030,1
+event Footstep 1015
+event Footstep 1030
+cycle loop
+
+anim gunrun
+SoundEvent JimmyStep 1097
+SoundEvent JimmyStep 1087
+1080-1100,1
+event Footstep 1087
+event Footstep 1097
+cycle loop
+
+anim gunruntostop
+SoundEvent JNSoftStep 1110
+SoundEvent JimmyStep 1108
+1100-1118,1
+event JumpLand 1109
+cycle stop
+
+anim gunsneak
+3700-3750,1
+event Footstep 3702
+event Footstep 3727
+cycle loop
+
+anim gunwalk02
+SoundEvent JimmyStep 10522
+SoundEvent JimmyStep 10502
+10500-10540,1
+event Footstep 10525
+event Footstep 10505
+cycle loop
+
+anim gunidle01
+1120-1160,1
+cycle loop
+
+//Blink
+anim gunidle02
+6820-6860,1
+cycle loop
+
+//Jimmy plays with his gun
+anim gunspecialidle01
+SoundEvent JNSoftStep 9584
+SoundEvent JNSoftStep 9577
+SoundEvent CEQuickTurn 9544
+SoundEvent CEQuickTurn 9524
+9500-9606,1
+cycle loop
+
+anim gunspecialidle02
+SoundEvent JNpat 9733
+SoundEvent JNTwirl 9708
+SoundEvent JNpat 9733
+9700-9740,1
+cycle loop
+
+//Jimmy looks around for no good reason
+anim gunspecialidle03
+6700-6810,1
+cycle loop
+
+anim gunjumpstart
+SoundEvent JimmyJump 8503
+8500-8506,1
+event JumpStart 8506
+cycle stop 
+
+anim gunjumpmid
+8510-8530,1
+cycle loop
+
+anim gunjumpdown
+8540-8550,1
+cycle loop
+
+anim gunjumpland
+8550-8561,1
+event JumpLand 8556
+cycle stop
+
+anim gunjumpcrouch
+8570-8580,1
+cycle stop
+
+anim gunbounceidle
+SoundEvent JimmyStep 6253
+6240-6258,1
+cycle loop
+
+anim gunbouncestart
+4900-4913,1
+event Jumpstart 4900
+cycle stop
+
+anim gunbouncemid
+4913-4923,1
+cycle loop
+
+anim gunbouncedown
+4935-4945,1
+cycle loop
+
+anim gunbounceland
+SoundEvent JimmyLand 4929
+4924-4934,1
+event jumpLand 4931
+cycle stop
+
+anim gunsomersault
+SoundEvent JimmyFlip1 4968
+4966-4981,1
+cycle stop
+
+//sliding anims
+anim gunSlideForward
+8040-8060,1
+cycle loop
+
+anim gunSlideBackward
+8070-8090,1
+cycle loop
+
+anim gunSlideLeft
+8100-8120,1
+cycle loop
+
+anim gunSlideRight
+8130-8150,1
+cycle loop
+
+//hit in the face
+anim gunflinch01
+4700-4717,1
+cycle stop
+
+//hit from the front and right
+anim gunflinch02
+4720-4738,1
+cycle stop
+
+//hit from the front and left
+anim gunflinch03
+4740-4758,1
+cycle stop
+
+//hit from the back
+anim gunflinch04
+4760-4775,1
+cycle stop
+
+anim gundeath01
+6100-6140,1
+event SlowTurn 6108
+event JimmyKnockDown 6126
+cycle stop
+
+anim gundeath02
+//drowning
+7100-7183,1
+cycle stop
+
+//Push anims
+
+anim walktopush
+500-508,1
+cycle stop
+
+anim idletopush
+SoundEvent JNSoftStep 607
+600-610,1
+cycle stop
+
+anim push
+SoundEvent JNSoftStep 370
+SoundEvent JNSoftStep 350
+350-390,1
+cycle loop
+
+anim pushtoidle
+SoundEvent JNSoftStep 653
+650-658,1
+cycle stop
+
+//Pull anims
+
+anim walktopull
+510-518,1
+cycle stop
+
+anim idletopull
+SoundEvent JNSoftStep 626
+620-630,1
+cycle stop
+
+anim pull
+SoundEvent JNSoftStep 432
+SoundEvent JNSoftStep 408
+400-440,1
+cycle loop
+
+anim pulltoidle
+670-678,1
+cycle stop
+
+anim puffed
+900-990,1
+cycle loop
+
+// Climbing
+
+anim climbentry
+SoundEvent Climb 705
+700-711,LVE
+cycle stop
+
+anim climbloop
+SoundEvent Climb 747
+SoundEvent Climb 731
+720-750,LVE
+cycle loop
+
+anim climbexit
+SoundEvent JNSoftStep 808
+SoundEvent JimmyStep 802
+SoundEvent JimmyStep 790
+SoundEvent Climb 779
+SoundEvent Climb 761
+751-801,LVE
+cycle stop
+
+// Using weapons and tools
+
+anim ShootEntry
+SoundEvent JNSoftStep 457
+450-465,1
+cycle stop
+
+anim ShootIdle
+465-485,1
+cycle loop
+
+anim ShootExit
+SoundEvent JNSoftStep 492
+485-499,1
+cycle stop
+
+anim swordattack01
+1301-1329,1
+cycle stop
+
+anim swordattack02
+1350-1381,1
+cycle stop
+
+// sumo anims
+
+anim grapple01
+1500-1530,1
+cycle loop
+
+anim pushForward01
+SoundEvent JNSoftStep 1548
+SoundEvent JNSoftStep 1537
+1530-1555,1
+cycle stop
+
+anim pushBackward01
+SoundEvent JNSoftStep 1579
+SoundEvent JNSoftStep 1567
+1555-1580,1
+cycle stop
+
+anim fallEntry01
+1580-1596,1
+cycle stop
+
+anim fallLoop01
+1596-1600,1
+cycle loop
+
+anim fallExit01
+SoundEvent JimmyKnockDown 1601
+1600-1615,1
+cycle stop
+
+//JimmyShimmy anims
+
+anim grab
+SoundEvent JNpat 1928
+SoundEvent TouchOne 1929
+1920-1930,1
+cycle stop
+
+anim grabidle
+1730-1770,1
+cycle loop
+
+anim grabSpecialidle
+2600-2675,1
+cycle loop
+
+anim shimmyLeft
+SoundEvent JNpat 1816
+SoundEvent JimmyShimmy 1810
+1800-1830,1
+cycle loop
+
+anim shimmyright
+SoundEvent JNpat 1867
+SoundEvent JimmyShimmy 1859
+1850-1880,1
+cycle loop
+
+anim dropentry
+1900-1915,1
+cycle stop
+//links to jumpmid and jumpland
+
+anim pullUp
+SoundEvent JimmyStep 1978
+SoundEvent JNSoftStep 1970
+1950-1979,LVE
+cycle stop
+
+//rope anims
+
+anim climbropeentry
+SoundEvent JNpat 4003
+3995-4010,1
+cycle stop
+
+anim climbropeloop
+SoundEvent JNpat 4037
+SoundEvent JNpat 4022
+SoundEvent Rope 4029
+SoundEvent Rope 4011
+4010-4040,LVE
+cycle loop
+
+//anim climbropeexit
+//4040-,1
+//cycle stop
+
+anim swingLeft
+4100-4110,1
+cycle loop
+
+anim swingright
+4150-4160,1
+cycle loop
+
+anim swingbackward
+4120-4130,1
+cycle loop
+
+anim swingforward
+4135-4145,1
+cycle loop
+
+//eaten by venus tree anims
+
+anim legshake
+7700-7716,1
+cycle loop
+
+//Ultralord shake anims
+
+//anim nothingshake
+//SoundEvent JNSoftStep 3070
+//SoundEvent JNSoftStep 3063
+//SoundEvent JNSoftStep 3049
+//SoundEvent JNSoftStep 3043
+//3000-3109,1
+//cycle loop
+
+//anim gunshake
+//3150-3259,1
+//cycle loop
+
+//anim swordshake
+//3300-3409,1
+//cycle loop
+
+//Flying Fox anims
+
+anim FlyingFoxLoop
+4230-4242,1
+cycle loop
+
+//Mine Cart anims
+
+anim MineCartLoop
+8800-8830,1
+cycle loop
+
+anim mineCartLeanRight
+8840-8850,1
+cycle loop
+
+anim mineCartLeanLeft
+8860-8870,1
+cycle loop
+
+anim mineCartLeanForward
+8880-8890,1
+cycle loop
+
+anim mineCartLeanBackward
+8900-8910,1
+cycle loop
+
+anim mineCartDuck
+8920-8930,1
+cycle loop
+
+//Humphrey anims
+
+anim HeldEntry
+11000-11010,1
+cycle stop
+
+anim HeldLoop
+11010-11040,1
+cycle loop
+
+anim HeldExit
+11040-11053,1
+cycle stop
+
+anim GunHeldEntry
+11100-11110,1
+cycle stop
+
+anim GunHeldLoop
+11110-11140,1
+cycle loop
+
+anim GunHeldExit
+11140-11153,1
+cycle stop
+
+anim SwordHeldEntry
+11200-11210,1
+cycle stop
+
+anim SwordHeldLoop
+11210-11240,1
+cycle loop
+
+anim SwordHeldExit
+11240-11253,1
+cycle stop
+
+//typing anims
+
+anim TypeEntry01
+12000-12010,1
+cycle stop
+
+anim TypeLoop01
+12010-12044,1
+cycle loop
+
+anim TypeExit01
+12044-12060,1
+cycle stop
+
+anim TypeEntry02
+12100-12110,1
+cycle stop
+
+anim TypeLoop02
+12110-12144,1
+cycle loop
+
+anim TypeExit02
+12144-12160,1
+cycle stop
+
+/////////Expressions
+
+anim Expression01
+13000-13040,1
+cycle stop
+
+anim Expression02
+13050-13090,1
+cycle stop
+
+anim Expression03
+13100-13136,1
+cycle stop
+
+anim Expression03
+13150-13170,1
+cycle stop
+
+//claims
+
+//anim claim01
+//12550-12591,1
+//cycle stop
+
+//end

@@ -1,0 +1,6 @@
+skeleton a_PedestalSynker
+mesh a_PedestalSynker
+
+anim bindpose
+0-1,1
+cycle stop

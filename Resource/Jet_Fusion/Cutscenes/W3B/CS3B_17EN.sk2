@@ -1,0 +1,378 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "JAIMEHOE"
+  Date = "15/06/2003"
+  Time = "7:16:31 PM"
+  EdPos = 57.69,149.33,402.44
+  EdPitch = -0.190
+  EdYaw = 1.080
+}
+
+[EXTRAS]
+{
+  bWindowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jet"
+  {
+    "Jet_Voice" = 75628500,0
+    "Jet_Lips" = 75628500,1
+    "Jet_Head" = 75628500,2
+    "Jet_Body" = 75628500,3
+    "Jet_Pos" = 75628500,4
+    "Jet_Look" = 75628500,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+    "Event_0" = -1,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W3B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_staticinout" = 310,23
+  "CS_lp_static" = 333,17
+}
+
+[DYNAMIC_SFX]
+{
+  "CS3B_17_P01JFEN.wav" = 10,14
+  "CS3B_17_P02JFEN.wav" = 34,78
+  "CS3B_17_P03JFEN.wav" = 122,97
+  "CS3B_17_P04JFEN.wav" = 229,49
+  "CS3B_17_P05JFEN.wav" = 288,27
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_JetFusion_Synker.BAD" = "Jet","CS3B_17_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -97.544,19.258,431.129
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jet"
+  {
+    "Jet_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Jimmy..." = "CS3B_17_P01JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 14
+        }
+        "Calamitous has almost obtained the second idol..." = "CS3B_17_P02JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 34
+          length = 78
+        }
+        "You have to get into the crater and get the idol before he does." = "CS3B_17_P03JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 122
+          length = 97
+        }
+        "The world's counting on you Jimmy." = "CS3B_17_P04JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 229
+          length = 49
+        }
+        "Gotta jet..." = "CS3B_17_P05JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 288
+          length = 27
+        }
+      }
+    }
+    "Jet_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 350
+        }
+      }
+    }
+    "Jet_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 350
+        }
+      }
+    }
+    "Jet_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 350
+        }
+      }
+    }
+    "Jet_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 350
+        }
+      }
+    }
+    "Jet_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Jimmy...
+      Jet
+      {
+        d = 45,144,216,255,255,255,216,198,99,81,36,9,0,0,
+      }
+      //Calamitous has almost obtained the second idol...
+      Jet
+      {
+        d = 45,75,142,172,172,195,217,217,255,247,180,210,150,150,150,105,172,127,112,97,
+        d = 97,120,15,0,0,150,255,255,255,255,240,240,225,180,210,232,150,67,112,165,105,
+        d = 37,7,15,135,90,225,195,195,195,217,240,217,135,135,232,225,240,225,150,225,255,
+        d = 75,15,135,202,225,195,217,195,202,217,142,105,75,22,7,0,
+      }
+      //You have to get into the crater and get the idol before he does.
+      Jet
+      {
+        d = 22,142,210,202,127,82,120,210,255,255,255,202,22,7,60,225,150,67,172,202,142,
+        d = 202,240,112,157,195,157,150,225,52,15,30,52,105,217,225,225,210,142,180,172,217,
+        d = 172,172,120,60,7,0,60,202,255,217,15,0,30,202,195,195,180,187,180,217,255,157,
+        d = 165,202,150,82,180,97,15,7,45,210,232,232,187,97,112,142,232,255,255,217,142,
+        d = 225,135,120,97,45,7,45,90,90,97,75,15,
+      }
+      //The world's counting on you Jimmy.
+      Jet
+      {
+        d = 144,198,198,153,99,126,207,255,255,255,252,225,207,135,99,135,0,9,171,255,255,
+        d = 255,255,255,207,207,255,198,207,255,216,216,207,162,171,153,63,36,162,135,153,
+        d = 243,135,162,153,153,162,99,18,
+      }
+      //Gotta jet...
+      Jet
+      {
+        d = 0,0,0,45,108,234,255,255,255,189,225,108,63,171,255,162,234,207,144,81,27,0,0,
+        d = 90,117,45,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,0,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 50.000
+    ToFOV = 50.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -105.59,135.51,371.73, -90.97,131.48,492.93
+    node = -106.00,111.00,372.00, -90.97,143.48,492.93
+  }
+}
+
+[EVENT_DATA]
+{
+  "ShowStatic" = "ShowStatic"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "ShowStatic",""
+    Breaker = 0
+    Lock = 0
+    start = 310
+    length = 40
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_staticinout",""
+    Breaker = 0
+    Lock = 0
+    start = 310
+    length = 23
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 333
+    length = 17
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 350
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

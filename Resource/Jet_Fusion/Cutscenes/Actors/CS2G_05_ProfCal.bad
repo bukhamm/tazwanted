@@ -1,0 +1,10 @@
+mesh a_ProfCalamitus
+skeleton CS2G_05_ProfCal
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+610-1000,1
+cycle stop

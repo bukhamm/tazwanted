@@ -1,0 +1,515 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "24/06/2003"
+  Time = "10:17:19 AM"
+  EdPos = 2000.53,1089.24,208.89
+  EdPitch = -0.590
+  EdYaw = 2.440
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+    "Camera" = -3,0
+    "Jimmy_Voice" = 60866448,0
+    "SoundFX" = -2,0
+  }
+  "Bully"
+  {
+    "Bully_Voice" = 63094692,0
+    "Bully_Lips" = 63094692,1
+    "Bully_Head" = 63094692,2
+    "Bully_Body" = 63094692,3
+    "Bully_Pos" = 63094692,4
+    "Bully_Look" = 63094692,5
+    "Camera" = -3,0
+    "Jimmy_Voice" = 60866448,0
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 60866448,0
+    "Jimmy_Lips" = 60866448,1
+    "Jimmy_Head" = 60866448,2
+    "Jimmy_Body" = 60866448,3
+    "Jimmy_Pos" = 60866448,4
+    "Jimmy_Look" = 60866448,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W1A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_whoosh" = 250,62
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1A_07_P01JIEN.wav" = 10,90
+  "CS1A_07_P02JIEN.wav" = 114,18
+  "CS1A_07_P03JIEN.wav" = 146,34
+  "CS1A_07_P04JIEN.wav" = 190,50
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_BULLY01_Synker.BAD" = "Bully","CS1A_07_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.100
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 637.901,501.223,-75.108
+        rot = 0.000,0.000,0.000
+        pos = -566.786,501.223,-129.001
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_JIMMY_Synker.BAD" = "Jimmy","CS1A_07_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 201.000,501.000,300.000
+        rot = 0.000,0.230,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 200.629,501.223,299.744
+        rot = 0.000,-2.300,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Bully"
+  {
+    "Bully_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Bully_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Bully_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Bully_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "bodywalk" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 240
+        }
+      }
+    }
+    "Bully_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 240
+        }
+      }
+    }
+    "Bully_Look"
+    {
+      Voice = 0
+      Bars
+      {
+        "Jimmy_0_Head" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 114
+          length = 27
+        }
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,
+    }
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Hmm... I need something to protect myself." = "CS1A_07_P01JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 90
+        }
+        "I know..." = "CS1A_07_P02JIEN.wav"
+        {
+          Breaker = 0
+          Lock = 1
+          start = 114
+          length = 18
+        }
+        "The Goddard Shield!" = "CS1A_07_P03JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 146
+          length = 34
+        }
+        "I think I left it in the science room..." = "CS1A_07_P04JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 190
+          length = 50
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 240
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 240
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 49
+        }
+        "BodyThinking" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 49
+          length = 120
+        }
+        "BodyScratchHead" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 169
+          length = 71
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 114
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 114
+          length = 177
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Hmm... I need something to protect myself.
+      Jimmy
+      {
+        d = 0,0,4,4,90,234,207,175,162,153,117,67,54,63,63,49,45,49,45,18,0,0,0,63,126,112,
+        d = 112,180,255,255,255,255,255,255,234,148,180,126,126,121,135,117,76,94,81,63,76,
+        d = 22,13,117,157,153,76,108,94,4,9,180,166,40,31,139,238,211,9,0,31,255,225,139,
+        d = 103,85,67,76,90,72,63,36,22,22,4,4,4,4,13,0,0,0,0,0,
+      }
+      //I know...
+      Jimmy
+      {
+        d = 67,195,187,255,255,255,240,150,157,172,180,255,255,240,67,0,0,0,
+      }
+      //The Goddard Shield!
+      Jimmy
+      {
+        d = 175,255,243,255,148,255,255,255,255,175,255,255,255,216,202,229,255,243,255,255,
+        d = 255,229,255,255,162,121,81,40,40,27,0,0,0,0,
+      }
+      //I think I left it in the science room...
+      Jimmy
+      {
+        d = 144,162,189,45,207,234,144,108,234,255,255,255,255,255,255,63,9,117,255,153,153,
+        d = 243,255,255,162,171,207,225,255,255,216,234,255,216,162,99,189,162,207,255,225,
+        d = 171,126,126,117,45,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  Camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 40.00,611.00,320.00, 168.84,585.22,276.10
+    node = 45.00,611.00,308.00, 168.84,586.22,276.10
+  }
+  Camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 5,0.000,0.000,0.668,0.797,0.776,0.925,0.887,0.978,1.000,1.000,
+    node = 156.04,589.22,447.46, 168.46,567.22,336.55
+    node = 130.17,589.22,437.06, 168.46,567.22,336.55
+  }
+  Camera3
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 719.00,731.00,160.00, 1923.45,637.22,-295.28
+    node = 1690.00,711.00,-106.00, 1923.45,657.22,-295.28
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_whoosh",""
+    Breaker = 0
+    Lock = 0
+    start = 250
+    length = 62
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "Camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 114
+  }
+  bar
+  {
+    BarName = "Camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 114
+    length = 136
+  }
+  bar
+  {
+    BarName = "Camera3",""
+    Breaker = 0
+    Lock = 0
+    start = 250
+    length = 41
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

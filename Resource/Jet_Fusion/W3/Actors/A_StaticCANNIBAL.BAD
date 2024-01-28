@@ -1,0 +1,10 @@
+mesh a_Cannibal
+skeleton a_StaticCannibal
+
+anim bindPose
+0,1
+cycle stop
+
+anim idle01  //scratch head
+250-350,1
+cycle loop

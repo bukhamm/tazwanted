@@ -1,0 +1,10 @@
+mesh cs1A_04_17_ElemOutside
+skeleton cs1A_04_17_ElemOutside
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+2750-2830,1
+cycle stop

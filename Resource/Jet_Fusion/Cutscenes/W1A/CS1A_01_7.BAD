@@ -1,0 +1,6 @@
+mesh cs1A_01_08_CindyHairGrow
+skeleton CS1A_01_7
+
+ANIM CUTSCENE
+150-460,1
+CYCLE STOP

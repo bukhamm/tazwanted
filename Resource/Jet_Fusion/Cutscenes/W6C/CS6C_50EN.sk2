@@ -1,0 +1,262 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "JAIMEHOE"
+  Date = "22/06/2003"
+  Time = "12:16:05 PM"
+  EdPos = 461.58,673.43,-219.35
+  EdPitch = -0.040
+  EdYaw = 10.310
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "jimmy"
+  {
+    "jimmy_Voice" = 61722604,0
+    "jimmy_Lips" = 61722604,1
+    "jimmy_Head" = 61722604,2
+    "jimmy_Body" = 61722604,3
+    "jimmy_Pos" = 61722604,4
+    "jimmy_Look" = 61722604,5
+    "Camera" = -3,0
+    "Event_0" = -1,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W6C.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_JIMMY_SYNKER_TUXEDO.BAD" = "jimmy","CS6C_50_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -50.191,71.836,51.232
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "jimmy"
+  {
+    "jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 150
+        }
+      }
+    }
+    "jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 2492.30,699.00,-1494.73, 2185.68,611.00,-1576.29
+  }
+}
+
+[EVENT_DATA]
+{
+  "shield" = "playsound ShieldDown6c"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "shield",""
+    Breaker = 0
+    Lock = 0
+    start = 20
+    length = 70
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 150
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

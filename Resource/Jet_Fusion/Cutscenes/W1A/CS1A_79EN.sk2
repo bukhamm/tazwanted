@@ -1,0 +1,318 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "JAIMEHOE"
+  Date = "15/06/2003"
+  Time = "11:55:24 AM"
+  EdPos = 2541.98,318.06,773.28
+  EdPitch = -0.270
+  EdYaw = -1.620
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 76873728,0
+    "Jimmy_Lips" = 76873728,1
+    "Jimmy_Head" = 76873728,2
+    "Jimmy_Body" = 76873728,3
+    "Jimmy_Pos" = 76873728,4
+    "Jimmy_Look" = 76873728,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W1A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1A_79_P01JIEN.wav" = 10,72
+  "CS1A_79_P02JIEN.wav" = 92,66
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_JIMMY_SYNKER.BAD" = "Jimmy","CS1A_79_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 3002.517,63.666,712.813
+        rot = 0.000,-1.520,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "This looks like where I can use this stuff." = "CS1A_79_P01JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 72
+        }
+        "But I don't think I have everything I need." = "CS1A_79_P02JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 92
+          length = 66
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 168
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 168
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 30
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 30
+          length = 62
+        }
+        "BodyScratchHead" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 92
+          length = 76
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 168
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //This looks like where I can use this stuff.
+      Jimmy
+      {
+        d = 150,210,255,232,195,180,172,135,255,255,255,127,45,52,210,180,165,135,150,120,
+        d = 52,157,255,255,187,180,232,255,255,255,255,210,60,15,90,150,105,120,172,187,255,
+        d = 255,255,225,217,180,195,127,157,180,225,127,97,142,195,187,157,15,7,187,240,180,
+        d = 105,82,60,30,15,7,22,7,22,22,
+      }
+      //But I don't think I have everything I need.
+      Jimmy
+      {
+        d = 126,126,96,36,96,138,114,42,126,174,216,162,114,24,0,6,18,84,180,180,84,66,186,
+        d = 240,216,150,126,186,210,180,210,78,60,0,0,6,126,186,114,96,114,168,210,240,102,
+        d = 72,96,174,186,252,240,192,174,156,174,240,255,255,255,222,138,78,66,24,0,36,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  Camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 2908.35,164.67,735.96, 3004.70,152.67,705.02
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "Camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 168
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

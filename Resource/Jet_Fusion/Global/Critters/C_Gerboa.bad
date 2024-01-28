@@ -1,0 +1,15 @@
+skeleton c_Gerboa
+mesh c_Gerboa
+
+anim jump
+1-16,1
+cycle loop
+
+anim Idle01
+17-200,1
+cycle loop
+
+anim Idle02
+201-504,1
+cycle loop
+//end

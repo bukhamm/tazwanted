@@ -1,0 +1,6 @@
+skeleton a_Idol2cSynker
+mesh a_Idol2cSynker
+
+anim bindpose
+0-1,1
+cycle stop

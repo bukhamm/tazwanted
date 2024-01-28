@@ -1,0 +1,19 @@
+mesh a_MGCalam
+skeleton a_MGCalam
+
+anim bindPose
+0,1
+cycle stop
+
+anim TypeLoop01
+35-174,1
+cycle loop
+
+anim idle01
+510-797,1
+Cycle loop
+
+
+
+
+

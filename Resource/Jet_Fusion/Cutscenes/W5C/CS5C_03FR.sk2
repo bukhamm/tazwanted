@@ -1,0 +1,857 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "27/06/2003"
+  Time = "11:38:30 AM"
+  EdPos = 188.17,1411.96,-621.81
+  EdPitch = -1.160
+  EdYaw = -2.900
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Cindy"
+  {
+    "Cindy_Voice" = 58566692,0
+    "Cindy_Lips" = 58566692,1
+    "Cindy_Head" = 58566692,2
+    "Cindy_Body" = 58566692,3
+    "Cindy_Pos" = 58566692,4
+    "Cindy_Look" = 58566692,5
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 51717460,0
+    "Goddard_Lips" = 51717460,1
+    "Goddard_Head" = 51717460,2
+    "Goddard_Body" = 51717460,3
+    "Goddard_Pos" = 51717460,4
+    "Goddard_Look" = 51717460,5
+  }
+  "Humphrey"
+  {
+    "Humphrey_Voice" = 84738052,0
+    "Humphrey_Lips" = 84738052,1
+    "Humphrey_Head" = 84738052,2
+    "Humphrey_Body" = 84738052,3
+    "Humphrey_Pos" = 84738052,4
+    "Humphrey_Look" = 84738052,5
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 84811812,0
+    "Jimmy_Lips" = 84811812,1
+    "Jimmy_Head" = 84811812,2
+    "Jimmy_Body" = 84811812,3
+    "Jimmy_Pos" = 84811812,4
+    "Jimmy_Look" = 84811812,5
+  }
+  "Calimatous"
+  {
+    "Calimatous_Voice" = 85512184,0
+    "Calimatous_Lips" = 85512184,1
+    "Calimatous_Head" = 85512184,2
+    "Calimatous_Body" = 85512184,3
+    "Calimatous_Pos" = 85512184,4
+    "Calimatous_Look" = 85512184,5
+    "SoundFX" = -2,0
+  }
+  "Remote"
+  {
+    "Remote_Voice" = 59487880,0
+    "Remote_Lips" = 59487880,1
+    "Remote_Head" = 59487880,2
+    "Remote_Body" = 59487880,3
+    "Remote_Pos" = 59487880,4
+    "Remote_Look" = 59487880,5
+    "Event_0" = -1,0
+    "SoundFX" = -2,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 1,"CS5C_03_Camera.mcd"
+  WorldFile = (null)
+  Level = W5C.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_2c_Calamitousland" = 386,30
+  "CS_2c_Calamitousland" = 416,30
+  "CS_explosionsmall" = 502,9
+  "CS_zapped" = 511,30
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5C_03_P01PCFR.wav" = 190,61
+  "CS5C_03_P02PCFR.wav" = 275,53
+  "CS5C_03_P03PCFR.wav" = 336,60
+  "CS5C_03_P04JIFR.wav" = 545,62
+  "CS5C_03_P05JIFR.wav" = 641,36
+  "CS5C_03_P07PCFR.wav" = 726,45
+  "CS5C_03_P06PCFR.wav" = 776,31
+}
+
+[ACTOR_DATA]
+{
+  Count = 6
+  "CS5C_03_Cindy.bad" = "Cindy","CS5C_03_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -750.000,900.000,850.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS5C_03_Goddard.bad" = "Goddard","CS5C_03_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS5C_03_Humphrey.bad" = "Humphrey","CS5C_03_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -750.000,900.000,850.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs5C_03_Jimmy.bad" = "Jimmy","CS5C_03_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS5C_03_ProfCal.bad" = "Calimatous","CS5C_03_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS5C_03_Remote.bad" = "Remote","CS5C_03_5.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Cindy"
+  {
+    "Cindy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cindy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cindy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cindy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 91
+          length = 169
+        }
+      }
+    }
+    "Cindy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 91
+          length = 171
+        }
+      }
+    }
+    "Cindy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 671
+          length = 169
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 671
+          length = 169
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Humphrey"
+  {
+    "Humphrey_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Humphrey_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Humphrey_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Humphrey_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 91
+          length = 169
+        }
+      }
+    }
+    "Humphrey_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 91
+          length = 171
+        }
+      }
+    }
+    "Humphrey_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,
+    }
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "So sleepy..." = "CS5C_03_P04JIFR.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 545
+          length = 62
+        }
+        "Musn't..." = "CS5C_03_P05JIFR.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 641
+          length = 36
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 670
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 673
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //So sleepy...
+      Jimmy
+      {
+        d = 45,135,195,210,240,255,247,210,255,255,255,255,240,255,255,195,52,30,0,0,0,0,
+        d = 0,0,0,0,0,0,0,0,0,37,97,142,172,202,150,22,22,52,97,187,255,255,255,255,142,22,
+        d = 0,90,0,255,0,0,255,0,255,247,240,187,82,37,
+      }
+      //Musn't...
+      Jimmy
+      {
+        d = 15,22,15,15,15,52,202,255,255,255,232,225,255,255,255,255,255,202,225,255,75,
+        d = 0,0,0,0,0,15,0,7,22,22,22,15,7,7,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Calimatous"
+  {
+    "Calimatous_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Ha ha!" = "CS5C_03_P01PCFR.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 190
+          length = 61
+        }
+        "You filled the room." = "CS5C_03_P02PCFR.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 275
+          length = 53
+        }
+        "Now my Neutron Trapper will." = "CS5C_03_P03PCFR.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 336
+          length = 60
+        }
+        "The idols are..." = "CS5C_03_P07PCFR.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 726
+          length = 45
+        }
+        "Mine!" = "CS5C_03_P06PCFR.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 776
+          length = 31
+        }
+      }
+    }
+    "Calimatous_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Calimatous_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Calimatous_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 184
+          length = 656
+        }
+      }
+    }
+    "Calimatous_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 184
+          length = 486
+        }
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 671
+          length = 169
+        }
+      }
+    }
+    "Calimatous_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Ha ha!
+      Calimatous
+      {
+        d = 0,21,31,31,31,168,255,255,255,126,94,94,63,42,31,42,63,63,63,73,63,73,52,73,84,
+        d = 0,0,0,0,0,63,147,255,255,255,255,255,255,255,255,255,255,255,255,255,231,189,
+        d = 115,0,0,73,0,0,0,0,0,0,0,0,10,21,
+      }
+      //You filled the room.
+      Calimatous
+      {
+        d = 0,72,153,207,225,243,207,126,63,81,90,54,36,27,45,198,255,243,189,189,243,225,
+        d = 0,0,0,0,0,99,90,81,99,255,252,162,171,180,189,225,255,243,207,198,198,189,189,
+        d = 189,0,0,144,0,0,72,0,
+      }
+      //Now my Neutron Trapper will.
+      Calimatous
+      {
+        d = 45,105,150,165,210,225,210,90,90,120,180,165,165,120,135,120,165,180,180,210,
+        d = 0,0,0,0,0,240,255,255,210,30,0,15,135,180,165,255,255,195,90,105,90,45,195,255,
+        d = 0,180,0,0,210,0,0,210,30,45,150,255,255,135,240,255,
+      }
+      //The idols are...
+      Calimatous
+      {
+        d = 21,94,189,255,255,255,255,255,255,199,220,231,189,136,73,63,63,84,52,31,52,63,
+        d = 0,0,0,0,0,31,0,0,0,0,0,1,126,1,126,1,128,1,27,0,27,0,208,
+      }
+      //Mine!
+      Calimatous
+      {
+        d = 13,40,175,243,202,81,27,27,189,255,255,255,255,162,54,243,255,255,255,229,189,
+        d = 0,0,0,0,0,216,189,255,255,255,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,
+    }
+  }
+  "Remote"
+  {
+    "Remote_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Remote_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Remote_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Remote_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 340
+          length = 500
+        }
+      }
+    }
+    "Remote_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 339
+          length = 501
+        }
+      }
+    }
+    "Remote_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+}
+
+[EVENT_DATA]
+{
+  "Zap" = "electric 3 5"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "Zap",""
+    Breaker = 0
+    Lock = 0
+    start = 510
+    length = 30
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_2c_Calamitousland",""
+    Breaker = 0
+    Lock = 0
+    start = 386
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_2c_Calamitousland",""
+    Breaker = 0
+    Lock = 0
+    start = 416
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_explosionsmall",""
+    Breaker = 0
+    Lock = 0
+    start = 502
+    length = 9
+  }
+  bar
+  {
+    BarName = "CS_zapped",""
+    Breaker = 0
+    Lock = 0
+    start = 511
+    length = 30
+  }
+}
+
+[CAMERA]
+{
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

@@ -1,0 +1,10 @@
+mesh cs6c_01_05_Shuttle
+skeleton cs6c_01_05_Shuttle
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+10-195,1
+cycle stop

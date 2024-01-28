@@ -1,0 +1,6 @@
+mesh a_Idol2cSynker
+skeleton CS2C_02_2
+
+ANIM CUTSCENE
+190-1900,1
+CYCLE STOP

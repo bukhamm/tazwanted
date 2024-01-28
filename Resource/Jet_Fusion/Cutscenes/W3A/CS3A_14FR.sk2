@@ -1,0 +1,483 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:51:56 PM"
+  EdPos = 27184.19,-327.17,3646.03
+  EdPitch = -0.340
+  EdYaw = 12.760
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 64700340,0
+    "Jimmy_Lips" = 64700340,1
+    "Jimmy_Head" = 64700340,2
+    "Jimmy_Body" = 64700340,3
+    "Jimmy_Pos" = 64700340,4
+    "Jimmy_Look" = 64700340,5
+    "Camera" = -3,0
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 63373296,0
+    "Goddard_Lips" = 63373296,1
+    "Goddard_Head" = 63373296,2
+    "Goddard_Body" = 63373296,3
+    "Goddard_Pos" = 63373296,4
+    "Goddard_Look" = 63373296,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W3A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS3A_14_P01JIFR.WAV" = 15,18
+  "CS3A_14_P02JIFR.WAV" = 40,62
+  "CS3A_14_P03JIFR.WAV" = 120,68
+  "CS3A_14_P04JIFR.WAV" = 210,102
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_JIMMY_SYNKER_JUNGLE.BAD" = "Jimmy","CS3A_14_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 27034.258,-426.554,4034.484
+        rot = 0.000,0.160,0.000
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "Goddard","CS3A_14_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 26912.434,-422.838,4047.790
+        rot = 0.110,0.440,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Look boy!" = "CS3A_14_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 15
+          length = 18
+        }
+        "There's some coconuts in the middle of that pond." = "CS3A_14_P02JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 40
+          length = 62
+        }
+        "Maybe those switches will open the gate." = "CS3A_14_P03JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 120
+          length = 68
+        }
+        "There must be some way of holding all three switches down at once!" = "CS3A_14_P04JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 210
+          length = 102
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 325
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 325
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 210
+        }
+        "BodyScratchHead" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 210
+          length = 90
+        }
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 300
+          length = 25
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 325
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Look boy!
+      Jimmy
+      {
+        d = 225,255,255,255,255,135,7,0,15,112,240,172,172,187,240,127,30,0,
+      }
+      //There's some coconuts in the middle of that pond.
+      Jimmy
+      {
+        d = 112,225,195,150,232,195,255,255,165,15,0,127,172,255,255,105,0,105,225,150,127,
+        d = 127,82,7,45,127,255,255,232,255,255,255,232,202,202,210,217,247,232,150,240,135,
+        d = 105,97,15,0,0,15,90,232,165,255,255,255,180,135,90,37,7,15,0,0,
+      }
+      //Maybe those switches will open the gate.
+      Jimmy
+      {
+        d = 153,225,255,243,234,234,216,162,117,234,216,207,189,135,234,216,189,207,207,99,
+        d = 153,225,255,216,255,198,45,117,216,255,255,171,9,153,255,255,255,243,207,216,
+        d = 255,255,252,255,255,255,207,63,18,252,243,255,255,207,180,81,144,255,189,189,
+        d = 108,18,0,90,36,0,0,0,
+      }
+      //There must be some way of holding all three switches down at once!
+      Jimmy
+      {
+        d = 7,30,30,112,225,232,217,180,105,202,90,0,0,120,172,105,90,150,255,255,255,255,
+        d = 187,165,202,255,240,255,255,195,187,202,127,105,97,195,255,232,217,165,255,255,
+        d = 195,52,127,247,255,255,255,112,22,37,112,165,255,255,255,217,202,150,52,210,255,
+        d = 127,15,172,187,202,165,60,0,135,97,112,195,255,255,195,97,142,217,255,255,225,
+        d = 255,202,37,0,0,0,0,82,165,225,150,15,0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 325
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 325
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 325
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+        "Jimmy_0_Head" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 325
+        }
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 27114.32,-336.84,3871.18, 27009.24,-352.01,4027.42
+    node = 27091.80,-337.00,3859.31, 27008.80,-352.00,4027.31
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 29728.00,-761.84,795.17, 29928.00,-810.84,795.17
+    node = 29778.37,-741.84,797.17, 29928.00,-811.00,795.00
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 104
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 104
+    length = 106
+  }
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 210
+    length = 115
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

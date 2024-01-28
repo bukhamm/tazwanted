@@ -1,0 +1,98 @@
+mesh Prop_Tree_Venus
+skeleton Prop_Tree_Venus
+
+anim bindpose
+0,1
+cycle loop
+
+anim Idle01
+10-90,1
+cycle loop
+
+anim attackIdle01
+255-335,1
+cycle loop
+
+anim alert
+240-255,1
+cycle stop
+
+anim QuickTurn01
+920-935,1
+cycle stop
+
+anim Rangedget01
+150-175,1
+cycle stop
+
+anim rangedShow01
+175-195,1
+cycle loop
+
+anim rangedthrow01
+195-225,1
+event Spit 202
+cyclestop
+
+anim gobble01
+960-1100,1
+cycle stop
+
+anim Gum01
+1380-1440,1
+cycle loop
+
+anim grow01 //done in code
+345-400,1
+cycle stop
+
+anim grow02
+410-465,1
+cycle stop
+
+anim BigIdle01
+480-560,1
+cycle loop
+
+anim BigAttack01
+580-640,1
+cycle stop
+
+anim BigAttackIdle01///
+660-750,1
+cycle loop
+
+anim BigAlert01
+770-785,1
+cycle stop
+
+anim BigRangedGet01
+785-810,1
+cycle stop
+
+anim BigRangedShow01
+810-830,1
+cycle loop
+
+anim BigRangedThrow01
+830-860,1
+event Spit 844
+cycle stop
+
+anim BigGobble01
+1140-1280,1
+event Upright 1160
+event Throw 1254
+cycle stop
+
+anim BigQuickTurn01
+900-915,1
+cycle stop
+
+anim BigGum01
+1300-1360,1
+cycle loop
+
+anim death01
+940-945,1
+cycle stop

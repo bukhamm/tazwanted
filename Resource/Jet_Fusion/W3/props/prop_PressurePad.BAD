@@ -1,0 +1,11 @@
+mesh prop_PressurePad.mdl
+skeleton prop_PressurePad.anm
+
+anim idle01
+5,1
+cycle stop
+
+anim down
+10-50,1
+cycle stop
+

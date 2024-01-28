@@ -1,0 +1,9 @@
+mesh fx_radar.mdl
+skeleton fx_radar.anm
+
+
+
+
+anim rotate
+0-89,1
+cycle loop

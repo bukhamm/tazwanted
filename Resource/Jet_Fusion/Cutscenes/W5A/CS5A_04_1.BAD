@@ -1,0 +1,6 @@
+mesh a_Goddard
+skeleton CS5A_04_1
+
+ANIM CUTSCENE
+10-470,1
+CYCLE STOP

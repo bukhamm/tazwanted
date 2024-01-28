@@ -1,0 +1,14 @@
+mesh prop_Jump_flower.mdl
+skeleton prop_Jump_flower.anm
+
+anim bindPose
+0,1
+cycle stop
+
+anim idle
+5,1
+cycle loop
+
+anim bounce
+5-20,1
+cycle stop

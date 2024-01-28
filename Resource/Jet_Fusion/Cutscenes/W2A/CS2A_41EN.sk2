@@ -1,0 +1,292 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "JAIMEHOE"
+  Date = "15/06/2003"
+  Time = "5:13:51 PM"
+  EdPos = 3346.12,364.32,-6843.23
+  EdPitch = -0.480
+  EdYaw = 3.290
+}
+
+[EXTRAS]
+{
+  (null) =
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Lever"
+  {
+    "Lever_Voice" = 71880732,0
+    "Lever_Lips" = 71880732,1
+    "Lever_Head" = 71880732,2
+    "Lever_Body" = 71880732,3
+    "Lever_Pos" = 71880732,4
+    "Lever_Look" = 71880732,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W2A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1G_20_P03GOEN.wav" = 15,57
+  "CS1G_20_P04GOEN.wav" = 78,95
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "a_LeverHorizontalSynker.BAD" = "Lever","CS2A_41_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 116.603,41.619,656.867
+        rot = 0.000,-0.290,0.150
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Lever"
+  {
+    "Lever_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "This is a Magnetic Lever." = "CS1G_20_P03GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 15
+          length = 57
+        }
+        "Using the Magnetic Turner on it will activate it." = "CS1G_20_P04GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 78
+          length = 95
+        }
+      }
+    }
+    "Lever_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Lever_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Lever_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "bindpose" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 184
+        }
+      }
+    }
+    "Lever_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 184
+        }
+      }
+    }
+    "Lever_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //This is a Magnetic Lever.
+      Lever
+      {
+        d = 30,30,42,132,255,255,255,255,120,138,162,198,162,30,0,0,72,255,144,162,168,255,
+        d = 162,216,222,168,180,180,66,42,66,210,255,222,216,198,36,210,192,48,0,0,120,210,
+        d = 222,252,240,186,222,120,84,210,168,114,66,72,48,
+      }
+      //Using the Magnetic Turner on it will activate it.
+      Lever
+      {
+        d = 30,150,198,255,255,255,255,144,132,255,255,234,252,255,255,246,234,252,246,228,
+        d = 255,186,60,90,192,255,198,204,186,180,255,210,96,6,0,0,84,60,186,192,186,222,
+        d = 198,192,180,162,42,36,96,138,156,174,168,198,144,192,150,18,0,0,18,6,0,12,24,
+        d = 132,255,255,255,255,132,18,6,6,108,150,156,96,6,0,0,108,252,132,72,204,204,162,
+        d = 138,78,102,108,90,12,6,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 3573.97,209.99,-6443.89, 3369.36,141.58,-7101.46
+    node = 3467.73,180.85,-6899.74, 3406.32,142.67,-7123.07
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 184
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

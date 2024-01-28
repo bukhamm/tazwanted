@@ -1,0 +1,6 @@
+mesh a_JimmyPirate
+skeleton CS5C_01_0
+
+ANIM CUTSCENE
+11-600,1
+CYCLE STOP

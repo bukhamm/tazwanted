@@ -1,0 +1,739 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "JAIMEHOE"
+  Date = "15/06/2003"
+  Time = "6:08:19 PM"
+  EdPos = 5826.16,624.63,-567.21
+  EdPitch = -0.540
+  EdYaw = 1.310
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Cannibal"
+  {
+    "Cannibal_Voice" = 61374388,0
+    "Cannibal_Lips" = 61374388,1
+    "Cannibal_Head" = 61374388,2
+    "Cannibal_Body" = 61374388,3
+    "Cannibal_Pos" = 61374388,4
+    "Cannibal_Look" = 61374388,5
+    "Camera" = -3,0
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 58884044,0
+    "Jimmy_Lips" = 58884044,1
+    "Jimmy_Head" = 58884044,2
+    "Jimmy_Body" = 58884044,3
+    "Jimmy_Pos" = 58884044,4
+    "Jimmy_Look" = 58884044,5
+    "Camera" = -3,0
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 99957484,0
+    "Goddard_Lips" = 99957484,1
+    "Goddard_Head" = 99957484,2
+    "Goddard_Body" = 99957484,3
+    "Goddard_Pos" = 99957484,4
+    "Goddard_Look" = 99957484,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W3A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS3A_10_P01CAEN.wav" = 15,65
+  "CS3A_10_P02CAEN.wav" = 88,67
+  "CS3A_10_P03CAEN.wav" = 163,40
+  "CS3A_10_P04CAEN.wav" = 210,96
+  "CS3A_10_P05JIEN.wav" = 325,29
+  "CS3A_10_P06JIEN.wav" = 367,53
+  "CS3A_10_P07JIEN.wav" = 436,38
+  "CS3A_10_P08GOEN.wav" = 491,82
+  "CS3A_10_P09JIEN.wav" = 592,35
+}
+
+[ACTOR_DATA]
+{
+  Count = 3
+  "A_CANNIBAL_Synker.BAD" = "Cannibal","CS3A_10_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 5508.966,427.041,-25.965
+        rot = 0.000,-1.170,0.000
+      }
+    }
+  }
+  "A_JIMMY_SYNKER_JUNGLE.BAD" = "Jimmy","CS3A_10_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 5592.934,397.064,-349.395
+        rot = 0.000,0.880,0.000
+      }
+    }
+  }
+  "A_Goddard_synker.bad" = "Goddard","CS3A_10_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 5750.946,346.474,114.521
+        rot = 0.110,0.840,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Cannibal"
+  {
+    "Cannibal_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Hello Big-Headed One!" = "CS3A_10_P01CAEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 15
+          length = 65
+        }
+        "I am the Gate-Keeper." = "CS3A_10_P02CAEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 88
+          length = 67
+        }
+        "To get through the gate..." = "CS3A_10_P03CAEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 163
+          length = 40
+        }
+        "you must beat me in a race through the swamp." = "CS3A_10_P04CAEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 210
+          length = 96
+        }
+      }
+    }
+    "Cannibal_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 325
+        }
+      }
+    }
+    "Cannibal_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 325
+        }
+      }
+    }
+    "Cannibal_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 70
+        }
+        "BodyNeutral01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 70
+          length = 133
+        }
+        "BodyNeutral02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 203
+          length = 100
+        }
+        "BodyNeutral01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 303
+          length = 22
+        }
+      }
+    }
+    "Cannibal_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 325
+        }
+      }
+    }
+    "Cannibal_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Hello Big-Headed One!
+      Cannibal
+      {
+        d = 21,168,189,241,255,220,255,252,255,255,241,255,255,255,255,255,255,255,241,241,
+        d = 241,147,21,21,10,31,255,220,199,105,63,73,84,157,255,220,73,220,255,168,126,231,
+        d = 241,189,231,255,255,255,255,199,168,157,147,189,231,252,220,210,126,21,0,0,0,
+        d = 0,0,
+      }
+      //I am the Gate-Keeper.
+      Cannibal
+      {
+        d = 147,255,255,255,255,255,255,255,255,255,210,189,178,157,157,126,84,189,252,255,
+        d = 157,199,255,136,105,255,168,31,21,199,255,255,255,241,115,21,0,10,168,255,241,
+        d = 178,21,0,115,255,255,241,210,189,136,115,84,52,42,10,0,0,0,0,0,0,0,0,0,0,0,
+      }
+      //To get through the gate...
+      Cannibal
+      {
+        d = 54,216,153,81,54,216,255,234,153,27,18,36,9,0,0,54,117,117,255,198,255,189,108,
+        d = 255,255,255,234,207,90,0,0,9,0,0,0,0,0,0,0,0,
+      }
+      //you must beat me in a race through the swamp.
+      Cannibal
+      {
+        d = 67,157,150,195,217,217,255,255,255,195,225,135,127,37,0,30,52,30,15,157,255,255,
+        d = 255,105,7,45,165,232,247,255,255,225,142,30,0,0,0,15,187,225,255,217,202,195,
+        d = 187,202,232,255,240,255,240,127,135,157,127,135,105,75,22,0,0,0,0,0,7,0,15,142,
+        d = 255,255,225,255,105,157,180,142,67,120,210,255,255,255,255,202,82,22,7,0,0,0,
+        d = 0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,0,
+    }
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Hmm..." = "CS3A_10_P05JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 325
+          length = 29
+        }
+        "How am I going to race him?" = "CS3A_10_P06JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 367
+          length = 53
+        }
+        "Goddard... options!" = "CS3A_10_P07JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 436
+          length = 38
+        }
+        "OK then." = "CS3A_10_P09JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 592
+          length = 35
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 325
+          length = 166
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 592
+          length = 55
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 325
+          length = 166
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 592
+          length = 55
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyScratchHead" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 325
+          length = 90
+        }
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 415
+          length = 76
+        }
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 592
+          length = 30
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 622
+          length = 25
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 325
+          length = 166
+        }
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 592
+          length = 55
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Hmm...
+      Jimmy
+      {
+        d = 0,0,0,6,30,255,255,255,255,255,255,255,255,228,210,192,168,168,144,114,90,60,
+        d = 42,48,36,12,6,0,0,
+      }
+      //How am I going to race him?
+      Jimmy
+      {
+        d = 54,189,162,216,255,255,207,252,255,255,198,255,252,255,255,225,189,216,99,225,
+        d = 252,243,225,255,255,225,255,255,243,216,189,207,198,198,234,162,153,162,216,225,
+        d = 207,225,180,162,153,117,99,81,54,18,0,0,0,
+      }
+      //Goddard... options!
+      Jimmy
+      {
+        d = 18,18,216,255,255,255,255,180,255,255,198,36,0,0,0,0,36,207,255,255,108,27,90,
+        d = 153,171,180,171,144,144,126,90,45,81,144,99,9,0,0,
+      }
+      //OK then.
+      Jimmy
+      {
+        d = 135,195,157,255,255,255,255,150,37,0,0,120,247,255,255,255,232,210,127,75,180,
+        d = 150,142,142,105,82,90,67,37,30,22,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Find lost Goddard River Raft Upgrade." = "CS3A_10_P08GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 491
+          length = 82
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 491
+          length = 101
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 491
+          length = 101
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 491
+          length = 50
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 541
+          length = 51
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 491
+          length = 101
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Find lost Goddard River Raft Upgrade.
+      Goddard
+      {
+        d = 6,12,6,84,168,204,198,156,168,252,255,255,180,96,255,255,216,210,186,192,156,
+        d = 126,132,156,78,168,138,255,192,180,168,162,246,228,174,114,138,168,255,255,228,
+        d = 60,192,255,255,252,198,255,156,114,126,102,114,12,6,0,78,6,0,126,180,174,18,6,
+        d = 12,0,0,102,246,228,198,150,168,144,126,132,78,42,30,24,6,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 5329.98,559.15,-46.81, 5504.56,532.74,-53.59
+    node = 5342.20,559.00,-76.30, 5505.00,533.00,-54.00
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 5692.29,479.73,-407.71, 5541.64,462.49,-355.69
+    node = 5695.90,480.00,-390.53, 5542.00,462.00,-356.00
+  }
+  camera3
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 5904.72,403.71,35.48, 5816.18,393.47,68.45
+    node = 5903.28,404.00,44.48, 5816.00,393.00,68.00
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 325
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 325
+    length = 166
+  }
+  bar
+  {
+    BarName = "camera3",""
+    Breaker = 0
+    Lock = 0
+    start = 491
+    length = 101
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 592
+    length = 55
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

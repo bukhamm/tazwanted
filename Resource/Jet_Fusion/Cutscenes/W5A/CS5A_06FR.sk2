@@ -1,0 +1,587 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "3:07:35 PM"
+  EdPos = 3793.78,-260.76,-241.15
+  EdPitch = -0.260
+  EdYaw = -8.220
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "jimmy"
+  {
+    "jimmy_Voice" = 73285632,0
+    "jimmy_Lips" = 73285632,1
+    "jimmy_Head" = 73285632,2
+    "jimmy_Body" = 73285632,3
+    "jimmy_Pos" = 73285632,4
+    "jimmy_Look" = 73285632,5
+    "Camera" = -3,0
+  }
+  "goddard"
+  {
+    "goddard_Voice" = 72040432,0
+    "goddard_Lips" = 72040432,1
+    "goddard_Head" = 72040432,2
+    "goddard_Body" = 72040432,3
+    "goddard_Pos" = 72040432,4
+    "goddard_Look" = 72040432,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+  }
+  "Sailfish"
+  {
+    "Sailfish_Voice" = 105070592,0
+    "Sailfish_Lips" = 105070592,1
+    "Sailfish_Head" = 105070592,2
+    "Sailfish_Body" = 105070592,3
+    "Sailfish_Pos" = 105070592,4
+    "Sailfish_Look" = 105070592,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W5A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_5aSplash" = 229,43
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5A_06_P01JIFR.WAV" = 10,95
+  "CS5A_06_P02GOFR.WAV" = 153,109
+}
+
+[ACTOR_DATA]
+{
+  Count = 3
+  "A_JIMMY_SYNKER_PIRATE.BAD" = "jimmy","CS5A_06_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 4530.538,-492.554,-481.465
+        rot = 0.000,-1.800,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 4712.502,-470.577,-561.778
+        rot = 0.000,-0.070,0.000
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "goddard","CS5A_06_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 3,0.000,0.000,0.257,1.000,1.000,1.000,
+        pos = 4641.802,-412.572,-147.289
+        rot = 0.000,-2.570,0.000
+        pos = 4641.802,-259.572,-147.289
+        rot = 0.000,-2.470,0.000
+      }
+    }
+  }
+  "A_SAILFISH.BAD" = "Sailfish","CS5A_06_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 4868.271,-1544.465,-2691.104
+        rot = 0.000,0.000,0.000
+        pos = 4868.271,-625.465,-2691.104
+        rot = 0.000,0.000,0.000
+        pos = 5239.787,-1820.465,-3832.148
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "jimmy"
+  {
+    "jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Let's see if we can reel it all the way in this time..." = "CS5A_06_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 95
+        }
+      }
+    }
+    "jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 272
+        }
+      }
+    }
+    "jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadSurprised" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 115
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 115
+          length = 157
+        }
+      }
+    }
+    "jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 115
+        }
+        "BodyWaterCannon" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 115
+          length = 157
+        }
+      }
+    }
+    "jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 115
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 115
+          length = 157
+        }
+      }
+    }
+    "jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Let's see if we can reel it all the way in this time...
+      jimmy
+      {
+        d = 36,99,189,255,255,234,225,81,18,90,99,117,180,252,207,225,99,45,108,189,216,126,
+        d = 36,144,234,255,255,255,255,255,255,255,255,252,243,255,216,243,198,99,81,54,117,
+        d = 255,255,255,255,255,255,255,252,90,180,255,255,255,255,234,234,255,255,252,207,
+        d = 216,255,255,255,207,171,108,162,234,108,9,162,198,207,180,162,153,126,108,99,
+        d = 117,90,54,9,0,0,0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "goddard"
+  {
+    "goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Heh Heh Heh. Nothing can stop us now..." = "CS5A_06_P02GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 153
+          length = 109
+        }
+      }
+    }
+    "goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 115
+          length = 157
+        }
+      }
+    }
+    "goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 115
+          length = 157
+        }
+      }
+    }
+    "goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 115
+          length = 38
+        }
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 153
+          length = 70
+        }
+        "BodyNo" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 223
+          length = 49
+        }
+      }
+    }
+    "goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 115
+          length = 157
+        }
+      }
+    }
+    "goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Heh Heh Heh. Nothing can stop us now...
+      goddard
+      {
+        d = 0,195,255,255,45,210,255,255,247,82,0,82,217,225,150,15,0,30,142,180,165,180,
+        d = 127,142,150,165,105,97,82,0,0,7,22,52,15,0,22,60,97,135,120,142,195,150,90,22,
+        d = 22,7,90,135,105,75,7,120,112,187,15,15,165,255,255,210,195,90,0,7,105,127,120,
+        d = 142,15,30,90,142,105,112,97,97,7,7,52,82,217,187,157,165,150,157,135,90,75,52,
+        d = 45,75,67,97,127,142,165,202,202,157,120,82,52,60,22,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Sailfish"
+  {
+    "Sailfish_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Sailfish_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Sailfish_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Sailfish_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "rear_up" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 181
+          length = 55
+        }
+      }
+    }
+    "Sailfish_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 181
+          length = 91
+        }
+      }
+    }
+    "Sailfish_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 4398.21,-397.55,-389.98, 4509.64,-427.55,-502.24
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 4559.83,-192.60,-35.48, 4723.77,-182.60,-422.98
+    node = 4542.00,-193.00,-44.00, 4724.00,-183.00,-423.00
+  }
+}
+
+[EVENT_DATA]
+{
+  "Splash" = "playsound CannonHit"
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_5aSplash",""
+    Breaker = 0
+    Lock = 0
+    start = 229
+    length = 43
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 115
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 115
+    length = 157
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

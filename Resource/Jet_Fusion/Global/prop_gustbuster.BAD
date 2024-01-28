@@ -1,0 +1,28 @@
+mesh prop_gustbuster
+skeleton prop_gustbuster
+
+anim bindpose
+0,1
+cycle stop
+
+anim TakeOut01
+50-56,1
+cycle stop
+
+anim PutAway01
+60-66,1
+cycle stop
+
+anim Fire01
+70-85,1
+cycle stop
+
+anim Fire02
+90-110,1
+cycle stop
+
+anim Idle01
+10-40,1
+cycle loop
+
+//end

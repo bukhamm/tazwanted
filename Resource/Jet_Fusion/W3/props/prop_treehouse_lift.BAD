@@ -1,0 +1,7 @@
+mesh prop_Treehouse_Lift.mdl
+skeleton prop_Treehouse_Lift.anm
+
+anim forward
+10-40,1
+cycle loop
+

@@ -1,0 +1,9 @@
+mesh CS_BBIntro_Neuron_Strands
+skeleton CS6C_03_4
+
+ANIM CUTSCENE
+172-450,1
+CYCLE STOP
+
+
+//END

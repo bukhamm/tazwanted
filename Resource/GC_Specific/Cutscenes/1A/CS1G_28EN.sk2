@@ -1,0 +1,335 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "9/04/2003"
+  Time = "4:31:07 PM"
+  EdPos = 3152.87,201.29,860.94
+  EdPitch = -0.320
+  EdYaw = -3.050
+}
+
+[EXTRAS]
+{
+  Windowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+    "Camera" = -3,0
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 62853396,0
+    "Goddard_Lips" = 62853396,1
+    "Goddard_Head" = 62853396,2
+    "Goddard_Body" = 62853396,3
+    "Goddard_Pos" = 62853396,4
+    "Goddard_Look" = 62853396,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W1A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1A_88_P01GOEN.wav" = 10,60
+  "CS1A_88_P02GOEN.wav" = 80,178
+  "CS1A_88_P03GOEN.wav" = 268,115
+  "CS1A_88_P05GOEN.wav" = 389,159
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_GODDARD_synker.BAD" = "Goddard","CS1G_28_0.BAD"
+  {
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 3252.150,122.666,666.037
+        rot = 0.000,-2.030,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "I have a Play Dead mode." = "CS1A_88_P01GOEN.wav"
+        {
+          Breaker = 0
+          Lock = 1
+          start = 10
+          length = 60
+        }
+        "If you hold the PLAY DEAD Button €, you can control me for three seconds." = "CS1A_88_P02GOEN.wav"
+        {
+          Breaker = 0
+          Lock = 1
+          start = 80
+          length = 178
+        }
+        "If you press the button I will explode immediately." = "CS1A_88_P03GOEN.wav"
+        {
+          Breaker = 0
+          Lock = 1
+          start = 268
+          length = 115
+        }
+        "Play Dead is very powerful, but needs a lot of battery power." = "CS1A_88_P05GOEN.wav"
+        {
+          Breaker = 0
+          Lock = 1
+          start = 389
+          length = 159
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 558
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 558
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 50
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 50
+          length = 148
+        }
+        "BodyScratchHead" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 198
+          length = 80
+        }
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 278
+          length = 70
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 348
+          length = 210
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 558
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //I have a Play Dead mode.
+      Goddard
+      {
+        d = 142,225,232,232,240,255,255,217,187,150,157,157,135,142,37,15,187,202,90,7,0,
+        d = 37,90,255,255,232,247,255,255,210,165,75,187,255,255,255,255,240,247,217,255,
+        d = 255,255,195,187,195,165,195,150,165,120,112,60,15,22,37,0,0,0,0,
+      }
+      //If you hold the PLAY DEAD BUTTON, you can control me for three seconds.
+      Goddard
+      {
+        d = 202,255,255,153,22,9,18,54,171,207,202,252,193,108,94,144,211,225,220,225,238,
+        d = 202,139,90,103,94,121,202,175,148,135,153,139,121,121,103,54,9,4,0,0,0,0,0,36,
+        d = 40,180,198,180,211,225,202,180,162,72,27,18,117,193,180,166,198,162,144,130,36,
+        d = 4,31,112,76,45,31,27,63,94,112,139,148,148,112,18,4,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 45,85,202,229,198,72,9,54,175,148,130,162,90,18,72,130,171,171,49,27,94,67,130,
+        d = 225,255,247,202,216,193,189,157,121,121,135,135,130,157,76,4,9,90,184,139,144,
+        d = 108,9,4,31,54,31,130,255,171,175,184,184,171,121,99,153,193,130,144,171,135,90,
+        d = 9,9,72,130,103,90,67,81,58,63,27,22,40,27,0,0,0,
+      }
+      //If you press the button I will explode immediately.
+      Goddard
+      {
+        d = 240,255,255,84,6,6,150,255,255,255,255,252,255,255,255,246,180,204,192,255,255,
+        d = 255,255,132,150,108,24,78,120,186,72,36,54,174,120,132,72,6,30,138,174,114,96,
+        d = 114,72,18,0,0,0,0,0,0,0,42,132,138,126,210,204,192,174,234,210,186,186,174,54,
+        d = 12,126,186,90,0,0,198,255,255,255,255,234,180,198,222,120,114,30,168,228,216,
+        d = 255,252,255,255,240,234,96,198,204,180,144,18,12,66,138,132,102,78,78,24,18,0,
+        d = 0,0,0,0,0,
+      }
+      //Play Dead is very powerful, but needs a lot of battery power.
+      Goddard
+      {
+        d = 40,130,180,184,189,184,184,211,229,229,216,220,252,255,255,243,184,135,144,121,
+        d = 103,85,13,4,49,144,153,180,90,81,99,58,175,180,184,166,171,180,148,121,103,108,
+        d = 103,94,81,76,54,67,54,54,18,27,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 72,157,255,216,117,9,31,112,184,157,180,207,193,157,175,216,112,4,4,22,153,162,
+        d = 139,139,45,40,63,108,207,139,103,117,94,36,4,0,13,108,81,85,117,81,4,0,31,58,
+        d = 198,180,162,85,90,49,121,108,126,162,157,175,135,63,36,58,238,180,112,72,139,
+        d = 130,229,130,126,90,9,0,0,0,0,72,67,58,13,0,13,72,103,63,22,31,9,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  Camera_1
+  {
+    Enabled = 1
+    FromFOV = 40.000
+    ToFOV = 40.000
+    NearPlane = 1.000
+    FarPlane = 10000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 3074.06,173.67,684.06, 3196.63,172.67,684.23
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENTS]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "Camera_1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 557
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

@@ -1,0 +1,13 @@
+skeleton GoddardToJetSki
+mesh GoddardToJetSki
+
+anim transform01
+1-100,1
+cycle stop
+
+//end
+
+
+
+
+//The meat! The meat! the horrible MEAT!

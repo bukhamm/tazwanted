@@ -1,0 +1,9 @@
+mesh a_Witchdoctor
+skeleton cs3A_05_04_witch
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+575-645,1
+cycle stop

@@ -1,0 +1,14 @@
+mesh prop_Divingboard.mdl
+skeleton prop_Divingboard.anm
+
+anim bindPose
+0,1
+cycle stop
+
+anim idle
+5,1
+cycle loop
+
+anim bounce
+5-20,1
+cycle stop

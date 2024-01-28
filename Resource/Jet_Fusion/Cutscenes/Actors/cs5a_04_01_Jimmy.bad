@@ -1,0 +1,10 @@
+mesh a_JimmyPirate
+skeleton cs5a_04_01_Jimmy
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+10-470,1
+cycle stop

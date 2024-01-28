@@ -1,0 +1,6 @@
+skeleton a_LeverLightraysynker
+mesh a_LeverLightraysynker
+
+anim bindpose
+0-1,1
+cycle stop

@@ -1,0 +1,73 @@
+mesh a_CuttleFish
+skeleton a_CuttleFish
+
+anim bindpose
+0-0,1
+cycle loop
+
+/////Patrol Mode/////
+
+anim Swim01
+120-160,1
+cycle loop
+
+anim Idle01
+10-50,1
+cycle loop
+
+anim Idle02
+250-370,1
+cycle stop
+
+anim Idle03
+820-1000,1
+cycle stop
+
+anim Alert01
+430-445,1
+cycle stop
+
+/////Attack Mode/////
+
+anim Swim02
+90-108,1
+cycle loop
+
+anim AttackIdle01
+200-230,1
+cycle loop
+
+anim AttackIdle02
+630-700,1
+cycle stop
+
+
+anim RangedEntry01
+460-510,1
+cycle stop
+
+anim RangedLoop01
+510-550,1
+cycle loop
+
+anim RangedExit01
+550-600,1
+cycle stop
+
+
+/////Damage/////
+
+
+anim Flinch01
+400-415,1
+cycle stop
+
+anim DeathEntry01
+750-770,1
+cycle stop
+
+anim Deathloop01
+770-800,1
+cycle loop
+
+end

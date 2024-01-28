@@ -1,0 +1,16 @@
+skeleton c_eagle_01
+mesh c_eagle_01
+
+anim bindpose
+0,1
+cycle stop
+
+anim soar01
+1-86,1
+cycle loop
+
+anim fly01
+87-180,1
+cycle loop
+
+//end

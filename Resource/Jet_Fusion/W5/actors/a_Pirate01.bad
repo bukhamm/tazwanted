@@ -1,0 +1,172 @@
+mesh a_Pirate01
+skeleton a_Pirate01
+
+
+anim bindPose
+0,1
+cycle stop
+
+//Patrol
+
+anim walk01
+SoundEvent NinjaSteps 21
+SoundEvent NinjaSteps 36
+10-40,1
+cycle loop
+
+anim idle01  
+80-120,1
+cycle loop
+
+anim idle02
+SoundEvent TouchOne 241
+SoundEvent TouchOne 254
+SoundEvent TouchOne 266
+120-425,1
+cycle stop
+
+anim idle03 
+450-640,1
+cycle stop
+
+anim Alert01
+SoundEvent PirateMutterings 660
+SoundEvent SwordSheath 653
+650-665,1
+cycle stop
+
+anim QuickTurn01 
+SoundEvent PirateSkid 843
+SoundEvent NinjaSteps 851
+840-855,1
+cycle stop
+
+//Attack
+ 
+anim run01
+SoundEvent NinjaSteps 69
+SoundEvent NinjaSteps 58
+50-70,1
+cycle loop
+
+anim AttackIdle01 
+680-700,1
+cycle loop
+
+anim AttackIdle02 
+SoundEvent PirateAttack 775
+SoundEvent NinjaSteps 765
+SoundEvent NinjaSteps 763
+SoundEvent NinjaLunge 741
+SoundEvent PirateSkid 736
+SoundEvent NinjaSteps 733
+SoundEvent EnemyJump 719
+710-830,1
+cycle stop
+
+
+//Charge Attacks
+
+anim ChargeEntry01
+SoundEvent NinjaSteps 894
+SoundEvent PirateSwordSwing 892
+SoundEvent PirateSwordSwing 888
+SoundEvent PirateSwordSwing 883
+SoundEvent NinjaJump 871
+870-910,1
+cycle stop
+
+anim ChargeLoop01
+SoundEvent NinjaSteps 923
+SoundEvent NinjaSteps 917
+910-924,1
+cycle loop
+
+anim ChargeExit01
+SoundEvent PirateSkid 932
+930-950,1
+cycle stop
+
+anim ChargeCrash01 
+SoundEvent NinjaSteps 1017
+SoundEvent NinjaSteps 1011
+SoundEvent EnemyLunge 1005
+SoundEvent EnemyFallMed 974
+SoundEvent NinjaSwingsFists 963
+960-1030,1
+cycle stop
+
+anim Backstep01
+SoundEvent NinjaSteps 1227
+SoundEvent NinjaSteps 1210
+1200-1230,1
+cycle loop
+
+//Melee
+ 
+anim melee01
+SoundEvent PirateSkid 1070
+SoundEvent NinjaSteps 1067
+SoundEvent PirateSwordSwing 1079
+SoundEvent PirateSwordSwing 1048
+1040-1090,1
+cycle stop
+
+anim melee02
+SoundEvent FishyHit 1132
+SoundEvent PirateSwordSwing 1129
+SoundEvent NinjaSteps 1128
+1100-1170,1
+cycle stop
+
+//Damage
+
+anim DeathEntry01
+SoundEvent EnemyFallMed 1271
+SoundEvent BigPirateHit 1252
+1250-1295,1
+cycle stop
+
+anim DeathLoop01
+1295-1300,1
+cycle loop
+
+
+
+///?????PIRATE WITH BIRD?????////
+
+anim BirdIdle01
+1320-1360,1
+cycle loop
+
+
+anim BirdAttackIdle01
+1380-1400,1
+cycle loop
+
+
+anim BirdLaunch01
+1420-1470,1
+cycle stop
+
+
+anim BirdReturn01
+1800-1850,1
+cycle stop
+
+
+
+\\\\\transition to Cannon Pirate Pose//////
+
+anim ToCannonPirate01
+SoundEvent SwordSheath 1873
+1870-1895,1
+cycle stop
+
+anim FromCannonPirate01
+1900-1910,1
+cycle stop
+
+anim Gum01
+3100-3180,1
+cycle loop

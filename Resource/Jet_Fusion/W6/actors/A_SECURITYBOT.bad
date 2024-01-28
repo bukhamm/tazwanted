@@ -1,0 +1,120 @@
+mesh a_SecurityBot
+skeleton a_SecurityBot
+
+Anim bindpose 
+0,1
+cycle stop
+
+anim idle01
+40-70,1
+cycle loop
+
+anim idle02
+SoundEvent BotWhirWhiz 178
+SoundEvent BotWhirWhiz 141
+SoundEvent BotWhirWhiz 108
+70-190,1
+cycle loop
+
+anim idle03
+SoundEvent BotWhirWhiz 448
+SoundEvent SecBotWhir1 408
+SoundEvent SecBotWhir1 382
+SoundEvent BotWhirWhiz 372
+370-460,1
+cycle stop
+
+anim walk01
+10-30,1
+cycle loop
+
+
+anim Run01
+205-215,1
+cycle loop
+
+
+anim RightTurn01
+SoundEvent BotClank 271
+SoundEvent SciBotWhir2 262
+260-275,1
+cycle stop
+
+anim LeftTurn01
+SoundEvent BotClank 296
+SoundEvent SciBotWhir2 286
+285-300,1
+cycle stop
+
+anim Alert01
+SoundEvent SecBotAlert 191
+SoundEvent SecBotWhir2 191
+190-205,1
+cycle stop
+
+anim AttackIdle01
+SoundEvent SciBotWhir 311
+SoundEvent SecBotTaunt 311
+310-350,1
+cycle stop
+
+anim attackIdle01
+230-250,1
+cycle loop
+
+anim Melee01
+SoundEvent NinjaLunge 513
+SoundEvent BallBounce 523
+SoundEvent SecBotWhir2 507
+SoundEvent SciBotWhir2 501
+500-530,1
+cycle stop
+
+anim Melee02
+SoundEvent EnemyLunge 559
+SoundEvent WhirQuicker 541
+540-580,1
+cycle stop
+
+anim RangedEntry
+SoundEvent SciBotWhir2 616
+SoundEvent SecBotWhir2 600
+600-625,1
+cycle stop
+
+anim RangedLoop
+SoundEvent SecBotFire 626
+625-640,1
+cycle loop
+
+anim RangedExit
+SoundEvent SecBotWhir1 640
+640-660,1
+cycle stop
+
+anim Flinch
+SoundEvent BotClank 724
+SoundEvent SciBotWhir 700
+SoundEvent SecBotHit 700
+700-730,1
+cycle stop
+
+anim Flinch02
+SoundEvent SciBotWhir 741
+740-770,1
+cycle loop
+
+anim Death
+SoundEvent HatNinjaClunk 819
+SoundEvent BotHeadClang 812
+SoundEvent BotFall 798
+SoundEvent BotMalfunct 780
+SoundEvent SecBotExplode 780
+780-824,1
+cycle stop
+
+anim Gum01
+840-905
+cycle loop
+
+\\end

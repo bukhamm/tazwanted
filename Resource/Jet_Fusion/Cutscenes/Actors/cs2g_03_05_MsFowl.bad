@@ -1,0 +1,10 @@
+mesh a_MsFowl
+skeleton cs2g_03_05_MsFowl
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+140-660,1
+cycle stop

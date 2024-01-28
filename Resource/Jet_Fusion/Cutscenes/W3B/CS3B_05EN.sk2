@@ -1,0 +1,894 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "24/06/2003"
+  Time = "5:01:40 PM"
+  EdPos = -12860.73,-311.86,-11263.13
+  EdPitch = -1.010
+  EdYaw = 4.330
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 36306900,0
+    "Jimmy_Lips" = 36306900,1
+    "Jimmy_Head" = 36306900,2
+    "Jimmy_Body" = 36306900,3
+    "Jimmy_Pos" = 36306900,4
+    "Jimmy_Look" = 36306900,5
+    "Camera" = -3,0
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 74727424,0
+    "Goddard_Lips" = 74727424,1
+    "Goddard_Head" = 74727424,2
+    "Goddard_Body" = 74727424,3
+    "Goddard_Pos" = 74727424,4
+    "Goddard_Look" = 74727424,5
+    "Camera" = -3,0
+  }
+  "Dragon"
+  {
+    "Dragon_Voice" = 74070820,0
+    "Dragon_Lips" = 74070820,1
+    "Dragon_Head" = 74070820,2
+    "Dragon_Body" = 74070820,3
+    "Dragon_Pos" = 74070820,4
+    "Dragon_Look" = 74070820,5
+    "Camera" = -3,0
+    "Event_0" = -1,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W3B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS3B_05_P01GOEN.wav" = 10,15
+  "CS3B_05_P02JIEN.wav" = 35,19
+  "CS3B_05_P03JIEN.wav" = 97,56
+  "CS3B_05_P04JIEN.wav" = 163,50
+  "CS3B_05_P05JIEN.wav" = 223,53
+  "CS3B_05_P06GOEN.wav" = 286,15
+  "CS3B_05_P07JIEN.wav" = 311,36
+  "CS3B_05_P08JIEN.wav" = 440,80
+}
+
+[ACTOR_DATA]
+{
+  Count = 3
+  "A_JIMMY_SYNKER_JUNGLE.BAD" = "Jimmy","CS3B_05_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -11058.271,-74.908,-10232.140
+        rot = 0.000,-0.310,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -11530.062,-46.586,-10318.140
+        rot = 0.000,1.760,0.000
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "Goddard","CS3B_05_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -10927.403,-66.708,-10341.762
+        rot = 0.000,-0.530,0.000
+      }
+      "path_2"
+      {
+        stride = 0.900
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -10927.000,-67.000,-10342.000
+        rot = 0.000,0.000,0.000
+        pos = -11115.430,-68.011,-10686.623
+        rot = 110.926,8.433,-184.774
+      }
+      "path_3"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -12291.158,-642.629,-9554.289
+        rot = 0.000,0.000,0.000
+        pos = -12199.775,-630.923,-9942.330
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_LAVADRAGON.BAD" = "Dragon","CS3B_05_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -11794.333,-637.154,-9617.351
+        rot = 0.000,0.000,0.000
+        pos = -12187.233,-632.154,-9638.760
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "What is it, boy?" = "CS3B_05_P02JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 35
+          length = 19
+        }
+        "Jeepers, what's that doing down there?" = "CS3B_05_P03JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 97
+          length = 56
+        }
+        "It could be useful," = "CS3B_05_P04JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 163
+          length = 50
+        }
+        "but I don't think that I can get to it." = "CS3B_05_P05JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 223
+          length = 53
+        }
+        "No Goddard!" = "CS3B_05_P07JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 311
+          length = 36
+        }
+        "Looks like I'll have to keep those Lava Dragons at bay." = "CS3B_05_P08JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 440
+          length = 80
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 97
+        }
+        "LipsSad" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 223
+          length = 134
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 440
+          length = 90
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 97
+        }
+        "HeadSad" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 223
+          length = 134
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 440
+          length = 90
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 35
+        }
+        "BodyScratchHead" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 35
+          length = 90
+        }
+        "BodyNo" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 223
+          length = 50
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 273
+          length = 34
+        }
+        "BodyNo" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 307
+          length = 50
+        }
+        "BodyScratchHead" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 440
+          length = 90
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 440
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 440
+          length = 90
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //What is it, boy?
+      Jimmy
+      {
+        d = 42,199,255,231,255,255,241,199,252,105,73,94,168,136,136,189,210,136,21,
+      }
+      //Jeepers, what's that doing down there?
+      Jimmy
+      {
+        d = 60,142,127,90,165,187,165,30,7,30,75,67,60,60,67,60,127,157,217,135,22,112,30,
+        d = 82,255,255,255,105,7,0,37,255,255,255,247,247,240,157,97,217,187,165,195,195,
+        d = 255,255,217,202,187,187,150,105,37,0,0,0,
+      }
+      //It could be useful,
+      Jimmy
+      {
+        d = 6,6,0,0,0,42,78,144,246,216,126,138,150,120,72,240,255,255,255,255,255,240,255,
+        d = 255,255,255,210,102,126,150,6,6,96,126,102,102,60,18,0,6,12,12,12,6,6,6,0,0,0,
+        d = 0,
+      }
+      //but I don't think that I can get to it.
+      Jimmy
+      {
+        d = 67,120,127,142,97,150,187,112,30,255,240,232,172,135,7,0,60,180,172,165,45,7,
+        d = 105,217,142,195,225,180,52,67,255,255,255,172,30,52,240,240,210,15,0,15,225,255,
+        d = 255,225,112,97,60,0,90,7,0,
+      }
+      //No Goddard!
+      Jimmy
+      {
+        d = 105,115,115,210,252,255,220,255,241,105,105,42,189,255,241,255,255,255,168,178,
+        d = 255,255,255,255,105,126,105,10,0,0,0,0,0,0,0,0,
+      }
+      //Looks like I'll have to keep those Lava Dragons at bay.
+      Jimmy
+      {
+        d = 7,105,187,97,60,142,112,142,225,195,90,97,240,232,240,232,217,105,157,210,142,
+        d = 15,0,75,112,7,60,240,210,67,7,22,210,210,187,157,105,172,180,180,255,255,255,
+        d = 120,127,172,112,120,135,172,187,187,157,135,180,195,195,240,180,135,172,157,52,
+        d = 7,150,255,255,255,255,255,105,82,97,37,0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Bark bark!" = "CS3B_05_P01GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 15
+        }
+        "Bark bark!" = "CS3B_05_P06GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 286
+          length = 15
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 45
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 223
+          length = 134
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 97
+        }
+        "HeadCurious" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 223
+          length = 74
+        }
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 297
+          length = 60
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 97
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 223
+          length = 74
+        }
+        "run01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 297
+          length = 16
+        }
+        "JumpEntry01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 313
+          length = 15
+        }
+        "JumpExit01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 328
+          length = 15
+        }
+        "walk01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 357
+          length = 83
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 97
+        }
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 223
+          length = 74
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 297
+          length = 60
+        }
+        "path_3" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 357
+          length = 83
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Bark bark!
+      Goddard
+      {
+        d = 210,255,255,210,48,6,0,12,210,255,255,255,102,6,30,
+      }
+      //Bark bark!
+      Goddard
+      {
+        d = 210,255,255,210,48,6,0,12,210,255,255,255,102,6,30,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Dragon"
+  {
+    "Dragon_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Dragon_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Dragon_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Dragon_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "walk01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 357
+          length = 83
+        }
+      }
+    }
+    "Dragon_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 357
+          length = 83
+        }
+      }
+    }
+    "Dragon_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -11343.77,73.92,-10574.35, -11049.61,0.66,-10313.39
+    node = -11326.82,74.00,-10598.55, -11049.82,1.00,-10313.55
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = -14221.74,964.57,-10733.94, -12516.59,-1337.02,-11381.19
+    node = -14125.90,762.00,-10769.35, -12474.70,-1337.00,-11402.93
+  }
+  camera3
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -12879.34,-141.22,-8997.29, -12219.42,-580.82,-9991.32
+    node = -12843.00,-141.00,-9061.00, -12171.00,-581.00,-10127.00
+  }
+  camera4
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -11367.01,49.11,-10328.57, -11585.58,18.62,-10281.58
+    node = -11367.55,49.00,-10307.35, -11586.00,19.00,-10282.00
+  }
+  Camera5
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -11243.17,85.88,-10435.71, -10914.46,-15.12,-10395.45
+    node = -11234.66,86.00,-10447.59, -10914.43,-15.00,-10395.45
+  }
+}
+
+[EVENT_DATA]
+{
+  "Dragonstep" = "playsound LavaDragonStep"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "Dragonstep",""
+    Breaker = 0
+    Lock = 0
+    start = 359
+    length = 7
+  }
+  bar
+  {
+    BarName = "Dragonstep",""
+    Breaker = 0
+    Lock = 0
+    start = 375
+    length = 7
+  }
+  bar
+  {
+    BarName = "Dragonstep",""
+    Breaker = 0
+    Lock = 0
+    start = 397
+    length = 9
+  }
+  bar
+  {
+    BarName = "Dragonstep",""
+    Breaker = 0
+    Lock = 0
+    start = 416
+    length = 9
+  }
+  bar
+  {
+    BarName = "Dragonstep",""
+    Breaker = 0
+    Lock = 0
+    start = 435
+    length = 7
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 97
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 97
+    length = 126
+  }
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 223
+    length = 63
+  }
+  bar
+  {
+    BarName = "Camera5",""
+    Breaker = 0
+    Lock = 0
+    start = 286
+    length = 71
+  }
+  bar
+  {
+    BarName = "camera3",""
+    Breaker = 0
+    Lock = 0
+    start = 357
+    length = 83
+  }
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 440
+    length = 90
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

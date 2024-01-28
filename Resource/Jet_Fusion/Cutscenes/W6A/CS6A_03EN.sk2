@@ -1,0 +1,899 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "BURGERLT"
+  Date = "6/17/2003"
+  Time = "6:25:04 PM"
+  EdPos = 712.50,2453.13,3120.04
+  EdPitch = -0.920
+  EdYaw = 2.020
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "CircuitBoard"
+  {
+    "CircuitBoard_Voice" = 93847452,0
+    "CircuitBoard_Lips" = 93847452,1
+    "CircuitBoard_Head" = 93847452,2
+    "CircuitBoard_Body" = 93847452,3
+    "CircuitBoard_Pos" = 93847452,4
+    "CircuitBoard_Look" = 93847452,5
+  }
+  "GodtoJet"
+  {
+    "GodtoJet_Voice" = 96677888,0
+    "GodtoJet_Lips" = 96677888,1
+    "GodtoJet_Head" = 96677888,2
+    "GodtoJet_Body" = 96677888,3
+    "GodtoJet_Pos" = 96677888,4
+    "GodtoJet_Look" = 96677888,5
+    "Event_0" = -1,0
+    "Event_3" = -1,3
+  }
+  "Guard1"
+  {
+    "Guard1_Voice" = 97058816,0
+    "Guard1_Lips" = 97058816,1
+    "Guard1_Head" = 97058816,2
+    "Guard1_Body" = 97058816,3
+    "Guard1_Pos" = 97058816,4
+    "Guard1_Look" = 97058816,5
+    "Event_2" = -1,2
+    "Event_1" = -1,1
+    "SoundFX" = -2,0
+  }
+  "Guard2"
+  {
+    "Guard2_Voice" = 139345920,0
+    "Guard2_Lips" = 139345920,1
+    "Guard2_Head" = 139345920,2
+    "Guard2_Body" = 139345920,3
+    "Guard2_Pos" = 139345920,4
+    "Guard2_Look" = 139345920,5
+  }
+  "Spring"
+  {
+    "Spring_Voice" = 139441544,0
+    "Spring_Lips" = 139441544,1
+    "Spring_Head" = 139441544,2
+    "Spring_Body" = 139441544,3
+    "Spring_Pos" = 139441544,4
+    "Spring_Look" = 139441544,5
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 143671040,0
+    "Jimmy_Lips" = 143671040,1
+    "Jimmy_Head" = 143671040,2
+    "Jimmy_Body" = 143671040,3
+    "Jimmy_Pos" = 143671040,4
+    "Jimmy_Look" = 143671040,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 1,"CS6A_03_Camera.mcd"
+  WorldFile = (null)
+  Level = W6A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_RoboNijaAngryWhir" = 258,56
+  "CS_RoboNijaAngryWhir" = 334,58
+  "CS_goddardtransform3" = 500,58
+  "CS_RoboNinjaLeap" = 581,22
+  "CS_RoboNinjaLeap" = 603,30
+}
+
+[DYNAMIC_SFX]
+{
+  "CS6A_03_P01JIEN.wav" = 60,74
+  "CS6A_03_P02JIEN.wav" = 153,72
+  "CS6A_03_P03JIEN.wav" = 250,18
+  "CS6A_03_P04JIEN.wav" = 280,30
+  "CS6A_03_P05JIEN.wav" = 328,62
+  "CS6A_03_P06JIEN.wav" = 431,24
+  "CS6A_03_P07JIEN.wav" = 476,12
+  "CS6A_03_P08JIEN.wav" = 492,21
+}
+
+[ACTOR_DATA]
+{
+  Count = 6
+  "CS6A_03_A_CircutBoard.BAD" = "CircuitBoard","CS6A_03_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs6A_03_A_GodtoJet.BAD" = "GodtoJet","CS6A_03_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS6A_03_a_SecBot_Guard01.BAD" = "Guard1","CS6A_03_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS6A_03_a_SecBot_Guard02.BAD" = "Guard2","CS6A_03_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS6A_03_A_Spring.BAD" = "Spring","CS6A_03_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs6A_03_Jimmy.bad" = "Jimmy","CS6A_03_5.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "CircuitBoard"
+  {
+    "CircuitBoard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "CircuitBoard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "CircuitBoard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "CircuitBoard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "CutScene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 270
+        }
+      }
+    }
+    "CircuitBoard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 270
+        }
+      }
+    }
+    "CircuitBoard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "GodtoJet"
+  {
+    "GodtoJet_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "GodtoJet_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "GodtoJet_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "GodtoJet_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "CutScene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 660
+        }
+      }
+    }
+    "GodtoJet_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 660
+        }
+      }
+    }
+    "GodtoJet_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+    }
+  }
+  "Guard1"
+  {
+    "Guard1_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Guard1_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Guard1_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Guard1_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "CutScene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 218
+          length = 442
+        }
+      }
+    }
+    "Guard1_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 218
+          length = 442
+        }
+      }
+    }
+    "Guard1_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Guard2"
+  {
+    "Guard2_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Guard2_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Guard2_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Guard2_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "CutScene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 218
+          length = 442
+        }
+      }
+    }
+    "Guard2_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 218
+          length = 442
+        }
+      }
+    }
+    "Guard2_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Spring"
+  {
+    "Spring_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Spring_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Spring_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Spring_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "CutScene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 291
+        }
+      }
+    }
+    "Spring_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 291
+        }
+      }
+    }
+    "Spring_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "We haven't got enough for anything here Goddard" = "CS6A_03_P01JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 60
+          length = 74
+        }
+        "We need to find some more pieces before I can" = "CS6A_03_P02JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 153
+          length = 72
+        }
+        "Oh no!" = "CS6A_03_P03JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 250
+          length = 18
+        }
+        "No time now," = "CS6A_03_P04JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 280
+          length = 30
+        }
+        "We're going to have to figure this out on the way down!" = "CS6A_03_P05JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 328
+          length = 62
+        }
+        "Gotta jet!" = "CS6A_03_P06JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 431
+          length = 24
+        }
+        "Goddard" = "CS6A_03_P07JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 476
+          length = 12
+        }
+        "Jet-Board!" = "CS6A_03_P08JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 492
+          length = 21
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 660
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 660
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //We haven't got enough for anything here Goddard
+      Jimmy
+      {
+        d = 18,45,180,255,255,255,198,252,255,108,216,180,207,135,144,255,255,171,243,243,
+        d = 0,0,0,0,0,0,0,255,255,234,255,216,45,9,27,99,234,225,255,255,225,216,99,117,207,
+        d = 0,126,0,0,135,0,0,108,0,0,153,252,255,252,255,225,243,234,216,225,198,135,45,
+        d = 108,0,162,0,72,0,
+      }
+      //We need to find some more pieces before I can
+      Jimmy
+      {
+        d = 117,198,207,234,255,255,255,189,189,189,252,180,72,180,255,126,18,18,216,216,
+        d = 0,0,0,0,0,0,0,216,198,171,216,135,162,171,234,255,255,255,207,243,252,207,99,
+        d = 9,0,0,0,27,0,162,0,0,255,0,0,255,234,153,108,135,117,126,126,27,63,234,207,27,
+        d = 9,54,0,189,
+      }
+      //Oh no!
+      Jimmy
+      {
+        d = 126,255,180,234,207,189,234,255,255,252,189,144,81,9,0,0,0,0,
+      }
+      //No time now,
+      Jimmy
+      {
+        d = 0,96,255,255,255,252,192,204,132,12,144,255,180,252,255,252,36,48,204,255,255,
+        d = 0,0,0,0,0,0,0,255,255,
+      }
+      //We're going to have to figure this out on the way down!
+      Jimmy
+      {
+        d = 63,189,189,255,255,231,126,241,147,220,255,115,10,52,136,52,10,42,210,189,105,
+        d = 0,0,0,0,0,0,0,220,168,168,199,189,73,73,126,231,255,255,255,157,189,220,126,73,
+        d = 0,199,0,0,220,0,0,231,0,0,241,252,255,231,21,94,255,
+      }
+      //Gotta jet!
+      Jimmy
+      {
+        d = 120,255,192,255,192,192,240,60,48,156,216,180,255,255,255,240,96,36,144,36,0,
+        d = 0,0,0,
+      }
+      //Goddard
+      Jimmy
+      {
+        d = 153,207,255,255,189,171,135,81,27,9,0,0,
+      }
+      //Jet-Board!
+      Jimmy
+      {
+        d = 144,255,255,243,9,0,0,45,252,255,255,252,180,162,36,9,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+}
+
+[EVENT_DATA]
+{
+  "jetboardexhaust" = "jetboardexhaust 1"
+  "Botmove" = "playsound SecBotRollLP"
+  "jetboard" = "GddBoardLP"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "jetboardexhaust",""
+    Breaker = 0
+    Lock = 0
+    start = 554
+    length = 106
+  }
+}
+
+[EVENT_1]
+{
+  bar
+  {
+    BarName = "Botmove",""
+    Breaker = 0
+    Lock = 0
+    start = 239
+    length = 350
+  }
+}
+
+[EVENT_2]
+{
+  bar
+  {
+    BarName = "Botmove",""
+    Breaker = 0
+    Lock = 0
+    start = 234
+    length = 347
+  }
+}
+
+[EVENT_3]
+{
+  bar
+  {
+    BarName = "jetboard",""
+    Breaker = 0
+    Lock = 0
+    start = 554
+    length = 106
+  }
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_RoboNijaAngryWhir",""
+    Breaker = 0
+    Lock = 0
+    start = 258
+    length = 56
+  }
+  bar
+  {
+    BarName = "CS_RoboNijaAngryWhir",""
+    Breaker = 0
+    Lock = 0
+    start = 334
+    length = 58
+  }
+  bar
+  {
+    BarName = "CS_goddardtransform3",""
+    Breaker = 0
+    Lock = 0
+    start = 500
+    length = 58
+  }
+  bar
+  {
+    BarName = "CS_RoboNinjaLeap",""
+    Breaker = 0
+    Lock = 0
+    start = 581
+    length = 22
+  }
+  bar
+  {
+    BarName = "CS_RoboNinjaLeap",""
+    Breaker = 0
+    Lock = 0
+    start = 603
+    length = 30
+  }
+}
+
+[CAMERA]
+{
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

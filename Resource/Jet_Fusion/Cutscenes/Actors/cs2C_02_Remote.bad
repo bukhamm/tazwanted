@@ -1,0 +1,10 @@
+mesh cs2C_02_Remote
+skeleton cs2C_02_Remote
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+1050-1230,1
+cycle stop

@@ -1,0 +1,16 @@
+mesh prop_Lantern_Onibi
+skeleton prop_Lantern_Onibi
+
+anim OnibiOpen
+700-725,1
+cycle stop
+
+anim OnibiClose
+725-750,1
+cycle stop
+
+anim idle01
+660-660,1
+cycle loop
+
+//end

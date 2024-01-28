@@ -1,0 +1,10 @@
+mesh a_Idol2cSynker
+skeleton CS2G_08_02_Idol
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+1593-2401,1
+cycle stop

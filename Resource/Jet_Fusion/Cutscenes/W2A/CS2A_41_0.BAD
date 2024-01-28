@@ -1,0 +1,8 @@
+mesh a_LeverHorizontalsynker
+skeleton CS2A_41_0
+
+ANIM BINDPOSE
+0-1,1
+CYCLE STOP
+
+

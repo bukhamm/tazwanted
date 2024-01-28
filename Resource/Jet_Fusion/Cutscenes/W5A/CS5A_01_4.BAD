@@ -1,0 +1,6 @@
+mesh prop_CommDevice_Big
+skeleton CS5A_01_4
+
+ANIM CUTSCENE
+40-920,1
+CYCLE STOP

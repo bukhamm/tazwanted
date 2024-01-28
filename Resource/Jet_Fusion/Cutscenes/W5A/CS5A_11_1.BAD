@@ -1,0 +1,8 @@
+mesh a_Sailfish.mdl
+skeleton CS5A_11_1
+
+ANIM SWIM01
+15-45,1
+CYCLE LOOP
+
+

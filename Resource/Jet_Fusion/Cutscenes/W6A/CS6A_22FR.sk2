@@ -1,0 +1,728 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "3:15:09 PM"
+  EdPos = -21802.13,-237.38,-30839.20
+  EdPitch = -1.440
+  EdYaw = 6.250
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "goddard"
+  {
+    "goddard_Voice" = 71253992,0
+    "goddard_Lips" = 71253992,1
+    "goddard_Head" = 71253992,2
+    "goddard_Body" = 71253992,3
+    "goddard_Pos" = 71253992,4
+    "goddard_Look" = 71253992,5
+    "Camera" = -3,0
+  }
+  "jimmy"
+  {
+    "jimmy_Voice" = 111126568,0
+    "jimmy_Lips" = 111126568,1
+    "jimmy_Head" = 111126568,2
+    "jimmy_Body" = 111126568,3
+    "jimmy_Pos" = 111126568,4
+    "jimmy_Look" = 111126568,5
+    "Camera" = -3,0
+  }
+  "guard1"
+  {
+    "guard1_Voice" = 109740032,0
+    "guard1_Lips" = 109740032,1
+    "guard1_Head" = 109740032,2
+    "guard1_Body" = 109740032,3
+    "guard1_Pos" = 109740032,4
+    "guard1_Look" = 109740032,5
+    "Camera" = -3,0
+  }
+  "guard2"
+  {
+    "guard2_Voice" = 101099724,0
+    "guard2_Lips" = 101099724,1
+    "guard2_Head" = 101099724,2
+    "guard2_Body" = 101099724,3
+    "guard2_Pos" = 101099724,4
+    "guard2_Look" = 101099724,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W6A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS6A_22_P01JIFR.WAV" = 120,82
+  "CS6A_22_P02JIFR.WAV" = 212,79
+  "CS6A_22_P03JIFR.WAV" = 301,55
+}
+
+[ACTOR_DATA]
+{
+  Count = 4
+  "A_GODDARD_Synker.BAD" = "goddard","CS6A_22_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -21927.042,-711.100,-30510.348
+        rot = 0.000,0.260,0.000
+      }
+    }
+  }
+  "A_JIMMY_SYNKER_tuxedo.BAD" = "jimmy","CS6A_22_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -21835.888,-708.909,-30573.750
+        rot = 0.000,-0.560,0.000
+      }
+    }
+  }
+  "A_SECURITYBOT.BAD" = "guard1","CS6A_22_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -21435.540,-708.100,-31751.966
+        rot = 0.000,1.677,0.000
+        pos = -21901.950,-711.100,-31768.330
+        rot = 0.000,1.420,0.000
+      }
+    }
+  }
+  "A_SECURITYBOT.BAD" = "guard2","CS6A_22_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -21082.500,-711.100,-31923.010
+        rot = 0.000,0.000,0.000
+        pos = -21086.988,-708.100,-32294.362
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "goddard"
+  {
+    "goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadCurious" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 120
+          length = 78
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 198
+          length = 172
+        }
+      }
+    }
+    "goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 120
+          length = 78
+        }
+        "BodyNeutral02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 198
+          length = 172
+        }
+      }
+    }
+    "goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 120
+          length = 250
+        }
+      }
+    }
+    "goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "jimmy"
+  {
+    "jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "There doesn't seem to be any way of opening that gate." = "CS6A_22_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 120
+          length = 82
+        }
+        "I'm going to need something to lure those guards out." = "CS6A_22_P02JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 212
+          length = 79
+        }
+        "But what would they come out for?" = "CS6A_22_P03JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 301
+          length = 55
+        }
+      }
+    }
+    "jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 120
+          length = 82
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 212
+          length = 79
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 301
+          length = 55
+        }
+      }
+    }
+    "jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadBlink" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 120
+          length = 30
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 150
+          length = 40
+        }
+        "HeadBlinkSurprised" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 190
+          length = 30
+        }
+        "HeadSurprised" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 220
+          length = 30
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 250
+          length = 51
+        }
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 301
+          length = 39
+        }
+        "HeadBlinkHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 340
+          length = 30
+        }
+      }
+    }
+    "jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyScratchHead" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 120
+          length = 90
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 210
+          length = 40
+        }
+        "idle02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 250
+          length = 40
+        }
+        "BodyNeutral02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 290
+          length = 38
+        }
+        "BodyThinking" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 328
+          length = 42
+        }
+      }
+    }
+    "jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 120
+          length = 250
+        }
+      }
+    }
+    "jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //There doesn't seem to be any way of opening that gate.
+      jimmy
+      {
+        d = 112,135,120,135,127,210,195,172,165,172,232,255,202,52,82,165,187,255,255,255,
+        d = 255,165,127,172,210,195,255,255,255,247,187,165,180,165,195,255,255,240,202,202,
+        d = 225,202,255,225,150,127,165,217,247,172,187,225,210,247,112,22,165,247,255,255,
+        d = 255,255,255,217,172,142,105,7,0,82,255,255,247,255,247,135,97,22,0,112,52,0,
+      }
+      //I'm going to need something to lure those guards out.
+      jimmy
+      {
+        d = 12,18,42,36,12,6,54,186,255,156,150,120,96,174,228,255,255,255,204,168,66,186,
+        d = 186,198,186,222,180,228,255,168,132,48,6,6,84,102,126,156,198,78,144,204,186,
+        d = 234,240,246,255,255,255,162,198,204,255,240,132,42,0,108,162,255,255,255,204,
+        d = 198,108,60,120,114,102,90,72,36,6,12,18,0,0,0,0,
+      }
+      //But what would they come out for?
+      jimmy
+      {
+        d = 138,255,180,84,18,96,108,102,126,132,150,150,54,54,162,222,252,168,78,108,144,
+        d = 162,78,6,54,132,252,255,246,255,255,255,204,162,54,18,24,0,0,36,210,156,144,114,
+        d = 78,66,54,36,6,0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "guard1"
+  {
+    "guard1_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "guard1_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "guard1_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "guard1_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "walk01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 120
+        }
+      }
+    }
+    "guard1_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 120
+        }
+      }
+    }
+    "guard1_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "guard2"
+  {
+    "guard2_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "guard2_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "guard2_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "guard2_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 120
+        }
+      }
+    }
+    "guard2_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 120
+        }
+      }
+    }
+    "guard2_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -21872.23,-612.68,-30774.03, -21882.82,-629.68,-30570.75
+    node = -21881.23,-613.68,-30776.67, -21882.32,-629.98,-30570.77
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -21539.66,-652.10,-30042.61, -21727.31,-634.10,-30551.08
+    node = -21539.93,-652.10,-30042.97, -21299.82,-632.10,-30531.18
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 120
+  }
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 120
+    length = 250
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

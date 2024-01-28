@@ -1,0 +1,351 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:41:11 PM"
+  EdPos = 8095.31,349.32,-496.49
+  EdPitch = -0.504
+  EdYaw = 1.689
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Sumo"
+  {
+    "Sumo_Voice" = 69468104,0
+    "Sumo_Lips" = 69468104,1
+    "Sumo_Head" = 69468104,2
+    "Sumo_Body" = 69468104,3
+    "Sumo_Pos" = 69468104,4
+    "Sumo_Look" = 69468104,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W2A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS2A_08_P01SUFR.WAV" = 10,64
+  "CS2A_08_P02SUFR.WAV" = 84,37
+  "CS2A_08_P03SUFR.WAV" = 131,106
+  "CS2A_08_P04SUFR.WAV" = 247,89
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_SUMO_Synker.BAD" = "Sumo","CS2A_08_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 7765.872,93.348,-636.845
+        rot = 0.000,2.544,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Sumo"
+  {
+    "Sumo_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Ha ha ha!" = "CS2A_08_P01SUFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 64
+        }
+        "I win!" = "CS2A_08_P02SUFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 84
+          length = 37
+        }
+        "I am the GREATEST!" = "CS2A_08_P03SUFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 131
+          length = 106
+        }
+        "You want to have another go, Little Man?" = "CS2A_08_P04SUFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 247
+          length = 89
+        }
+      }
+    }
+    "Sumo_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsAngry" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 247
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 247
+          length = 98
+        }
+      }
+    }
+    "Sumo_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Sumo_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyAngry" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 121
+        }
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 131
+          length = 100
+        }
+        "BodyPoint" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 247
+          length = 45
+        }
+      }
+    }
+    "Sumo_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 346
+        }
+      }
+    }
+    "Sumo_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Ha ha ha!
+      Sumo
+      {
+        d = 0,7,45,120,255,255,255,255,255,255,255,90,37,45,52,52,52,52,45,180,255,255,255,
+        d = 105,30,75,60,60,75,75,172,240,210,217,232,247,217,202,240,202,172,157,172,172,
+        d = 150,157,157,120,112,82,90,97,105,97,90,75,60,37,37,15,0,0,0,0,
+      }
+      //I win!
+      Sumo
+      {
+        d = 207,243,255,255,255,255,255,255,144,153,72,63,153,216,216,198,171,189,180,180,
+        d = 198,171,189,180,180,162,207,216,90,54,0,0,0,0,0,0,0,
+      }
+      //I am the GREATEST!
+      Sumo
+      {
+        d = 97,165,217,232,217,180,150,142,105,112,112,90,37,0,0,0,0,0,0,0,0,112,210,217,
+        d = 202,225,210,172,127,112,105,120,67,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,135,255,157,
+        d = 120,112,37,105,195,247,255,255,255,247,232,52,7,75,247,255,255,255,247,255,255,
+        d = 255,225,217,187,187,187,195,195,150,157,172,187,157,217,150,150,112,60,105,172,
+        d = 165,165,157,90,15,0,7,15,0,0,0,0,0,0,
+      }
+      //You want to have another go, Little Man?
+      Sumo
+      {
+        d = 52,172,187,217,240,255,255,195,255,225,157,157,75,22,60,120,120,135,135,195,120,
+        d = 52,157,180,142,142,210,135,52,97,135,165,75,97,142,202,217,240,255,255,255,157,
+        d = 67,7,0,0,0,0,0,7,15,60,172,180,225,217,45,60,195,187,210,225,225,255,202,225,
+        d = 255,255,232,232,225,202,225,225,217,255,202,142,120,172,180,22,0,0,0,0,0,0,0,
+        d = 
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 7876.08,183.08,-575.52, 7725.42,149.16,-643.34
+    node = 7858.68,183.00,-549.61, 7725.68,149.00,-643.61
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 346
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

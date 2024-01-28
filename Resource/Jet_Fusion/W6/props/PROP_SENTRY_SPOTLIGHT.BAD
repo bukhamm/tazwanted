@@ -1,0 +1,12 @@
+skeleton prop_sentry_spotlight
+mesh prop_sentry_spotlight
+
+anim bindpose
+0-0,1
+cycle stop
+
+anim idle01
+10-10,1
+cycle stop
+
+

@@ -1,0 +1,283 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "1/05/2003"
+  Time = "12:01:51 PM"
+  EdPos = -15910.48,-1456.53,-109533.16
+  EdPitch = -0.060
+  EdYaw = -9.990
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "goddard"
+  {
+    "goddard_Voice" = 91191688,0
+    "goddard_Lips" = 91191688,1
+    "goddard_Head" = 91191688,2
+    "goddard_Body" = 91191688,3
+    "goddard_Pos" = 91191688,4
+    "goddard_Look" = 91191688,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W5B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5B_10_P01GOEN.wav" = 10,101
+  "CS5B_10_P02GOEN.wav" = 125,107
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_GODDARD_Synker.BAD" = "goddard","CS5B_10_0.BAD"
+  {
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -16126.926,-1425.135,-110043.976
+        rot = 0.000,0.890,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "goddard"
+  {
+    "goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "To move around the screen, use the Control Stick ²." = "CS5B_10_P01GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 101
+        }
+        "The PRIMARY FIRE Button ž will fire your Shockwave." = "CS5B_10_P02GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 125
+          length = 107
+        }
+      }
+    }
+    "goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 252
+        }
+      }
+    }
+    "goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadSurprised" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 125
+        }
+        "HeadCurious" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 125
+          length = 127
+        }
+      }
+    }
+    "goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 140
+        }
+        "BodyNeutral02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 140
+          length = 112
+        }
+      }
+    }
+    "goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 252
+        }
+      }
+    }
+    "goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //To move around the screen, use the CONTROL STICK.
+      goddard
+      {
+        d = 54,108,157,135,162,193,193,255,255,198,207,99,126,216,180,148,198,166,103,85,
+        d = 85,103,117,81,67,99,63,121,130,67,0,4,90,198,135,130,103,121,112,90,85,99,126,
+        d = 130,27,0,0,0,0,0,0,0,0,0,0,13,103,144,216,247,234,207,180,184,148,171,63,135,
+        d = 207,58,4,40,175,175,198,72,45,58,193,220,229,207,225,193,108,63,72,112,72,13,
+        d = 103,153,135,72,4,0,4,0,4,0,0,
+      }
+      //The PRIMARY FIRE BUTTON will fire your Shockwave.
+      goddard
+      {
+        d = 52,157,247,255,225,45,67,112,187,180,165,225,255,255,255,202,157,187,240,232,
+        d = 240,255,105,15,7,52,240,225,195,202,217,225,232,247,240,187,112,67,180,127,105,
+        d = 22,82,105,112,30,7,52,75,67,60,37,7,60,172,255,255,255,255,187,15,0,0,22,225,
+        d = 165,157,195,195,202,225,247,217,187,210,202,187,255,255,255,247,120,157,150,157,
+        d = 165,210,142,180,120,7,0,7,232,255,255,172,187,180,210,150,127,75,30,15,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 1.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = -16024.50,-1373.48,-110125.60, -16067.89,-1374.48,-110092.43
+    node = -16024.50,-1370.48,-110125.60, -16067.89,-1371.48,-110092.43
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENTS]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 252
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

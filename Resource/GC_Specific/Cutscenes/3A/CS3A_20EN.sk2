@@ -1,0 +1,327 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "15/04/2003"
+  Time = "1:58:50 PM"
+  EdPos = -947.19,317.22,-53.88
+  EdPitch = -0.710
+  EdYaw = -0.330
+}
+
+[EXTRAS]
+{
+  bWindowed = 1,
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 97458768,0
+    "Goddard_Lips" = 97458768,1
+    "Goddard_Head" = 97458768,2
+    "Goddard_Body" = 97458768,3
+    "Goddard_Pos" = 97458768,4
+    "Goddard_Look" = 97458768,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W3A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS3A_20_P01GOEN.wav" = 10,46
+  "CS3A_20_P02GOEN.wav" = 66,81
+  "CS3A_20_P03GOEN.wav" = 157,87
+  "CS3A_20_P04GOEN.wav" = 245,44
+  "CS3A_20_P05GOEN.wav" = 305,80
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_GODDARD_Synker.BAD" = "Goddard","CS3A_20_0.BAD"
+  {
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -1048.929,-113.879,276.335
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "To swing on a rope," = "CS3A_20_P01GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 46
+        }
+        "just jump onto it to grab hold." = "CS3A_20_P02GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 66
+          length = 81
+        }
+        "While swinging move the Control Stick ≤ in the" = "CS3A_20_P03GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 157
+          length = 87
+        }
+        "direction you want to go" = "CS3A_20_P04GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 245
+          length = 44
+        }
+        "To jump off, press the           JUMP Button ù." = "CS3A_20_P05GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 305
+          length = 80
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 391
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 391
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 157
+        }
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 157
+          length = 50
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 207
+          length = 184
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 391
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //To swing on a rope,
+      Goddard
+      {
+        d = 150,255,247,142,217,232,225,232,67,202,255,255,255,255,255,255,240,172,52,52,
+        d = 90,157,172,217,217,247,255,232,202,210,255,255,240,225,225,187,82,0,0,0,15,0,
+        d = 0,0,0,0,
+      }
+      //just jump onto it to grab hold.
+      Goddard
+      {
+        d = 42,156,240,198,138,126,66,0,24,198,228,204,168,174,96,12,0,156,192,180,174,180,
+        d = 210,222,144,36,84,114,186,180,216,204,204,96,6,0,0,0,0,0,0,0,0,102,234,222,144,
+        d = 138,108,255,255,162,144,144,144,168,144,156,66,162,255,255,255,255,234,210,168,
+        d = 126,102,72,72,42,12,6,0,0,0,0,0,0,0,
+      }
+      //While swinging move the CONTROL STICK in the
+      Goddard
+      {
+        d = 42,162,222,174,156,162,156,174,240,186,198,234,186,144,90,162,198,198,132,132,
+        d = 96,114,108,84,66,72,66,66,84,66,12,0,0,0,0,0,0,0,0,0,114,168,228,255,255,246,
+        d = 255,156,114,144,255,168,12,66,216,192,198,54,102,84,216,222,198,216,222,162,84,
+        d = 114,180,54,18,150,186,210,150,6,6,48,84,78,156,192,216,204,198,120,30,
+      }
+      //direction you want to go
+      Goddard
+      {
+        d = 102,198,228,246,255,255,156,126,12,24,120,108,150,180,246,228,252,255,255,198,
+        d = 228,162,144,150,102,18,48,255,144,108,102,255,216,204,174,150,108,102,66,42,12,
+        d = 0,0,0,
+      }
+      //To jump off, press the JUMP BUTTON.
+      Goddard
+      {
+        d = 96,138,222,192,96,72,198,222,255,192,174,192,18,0,126,138,222,216,204,126,96,
+        d = 102,102,108,18,0,0,12,0,0,0,0,0,48,72,255,222,255,198,102,168,180,72,0,48,255,
+        d = 255,168,138,90,156,192,246,168,168,72,6,0,0,0,0,156,144,78,18,0,54,108,138,108,
+        d = 66,30,30,12,0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 1.000
+    FarPlane = 10000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -1008.89,-60.22,146.75, -1081.70,-65.72,280.21
+    node = -1017.00,-60.00,137.00, -1082.00,-66.00,280.00
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENTS]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 391
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

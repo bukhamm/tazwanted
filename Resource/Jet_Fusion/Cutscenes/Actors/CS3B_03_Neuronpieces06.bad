@@ -1,0 +1,14 @@
+mesh CS_BBIntro_Neuronpieces06
+skeleton CS3B_03_Neuronpieces06
+
+
+anim bindPose
+0-0,1
+cycle stop
+
+anim cutscene
+127-500,1
+cycle stop
+
+
+//end

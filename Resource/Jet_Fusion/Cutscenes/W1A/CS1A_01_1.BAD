@@ -1,0 +1,6 @@
+mesh A_cindyPlain
+skeleton CS1A_01_1
+
+ANIM CUTSCENE
+461-730,1
+CYCLE STOP

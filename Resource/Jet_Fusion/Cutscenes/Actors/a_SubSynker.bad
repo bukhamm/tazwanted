@@ -1,0 +1,16 @@
+skeleton a_SubSynker
+mesh a_SubSynker
+
+anim bindpose
+0-1,1
+cycle stop
+
+anim swim01
+10-33,1
+cycle loop
+
+anim idle01
+50-96,1
+cycle loop
+
+//end

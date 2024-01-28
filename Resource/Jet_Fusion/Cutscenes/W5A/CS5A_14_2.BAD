@@ -1,0 +1,13 @@
+mesh GoddardToJetSki
+skeleton CS5A_14_2
+
+ANIM TRANSFORM01
+1-100,1
+CYCLE STOP
+
+//END
+
+
+
+
+//THE MEAT! THE MEAT! THE HORRIBLE MEAT!

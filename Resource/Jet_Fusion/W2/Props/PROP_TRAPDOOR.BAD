@@ -1,0 +1,6 @@
+skeleton Prop_Trapdoor
+mesh Prop_Trapdoor
+
+anim open
+0-10, 1
+cycle stop

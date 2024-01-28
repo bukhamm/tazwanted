@@ -1,0 +1,6 @@
+mesh A_Wheel
+skeleton CS2A_11_5
+
+ANIM BINDPOSE
+0-1,1
+CYCLE STOP

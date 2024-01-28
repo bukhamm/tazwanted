@@ -1,0 +1,8 @@
+mesh CS_BBIntro_Neuronpieces06
+skeleton CS2A_02_2
+
+ANIM CUTSCENE
+172-770,1
+CYCLE STOP
+
+//END

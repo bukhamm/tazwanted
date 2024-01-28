@@ -1,0 +1,6 @@
+skeleton Prop_Fridge
+mesh Prop_Fridge
+
+anim open
+0-20,1
+cycle stop

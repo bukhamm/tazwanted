@@ -1,0 +1,13 @@
+mesh CS_BBIntro_Neuron_Strands
+skeleton CS3A_03_Neuron_Strands
+
+anim bindPose
+0-1,1
+cycle stop
+
+anim cutscene
+172-686,1
+cycle stop
+
+
+//end

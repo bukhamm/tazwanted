@@ -1,0 +1,10 @@
+skeleton prop_Gate_Radar
+mesh prop_Gate_Radar
+
+anim bindpose
+0,1
+cycle stop
+
+anim open
+10-50,1
+cycle stop

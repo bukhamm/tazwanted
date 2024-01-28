@@ -1,0 +1,13 @@
+mesh prop_ShuttleCar
+skeleton CS6B_11_1
+
+ANIM OPEN
+10-30,1
+CYCLE STOP
+CYCLE STOP
+
+ANIM BINDPOSE
+0,1
+CYCLE STOP
+
+

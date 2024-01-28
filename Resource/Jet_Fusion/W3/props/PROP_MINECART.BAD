@@ -1,0 +1,10 @@
+mesh prop_minecart
+skeleton prop_minecart
+
+anim bindPose
+0,1
+cycle stop
+
+anim roll
+5-15,1
+cycle loop

@@ -1,0 +1,570 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "3:08:05 PM"
+  EdPos = 7180.84,-178.49,-192.99
+  EdPitch = -0.400
+  EdYaw = 0.330
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 80650212,0
+    "Jimmy_Lips" = 80650212,1
+    "Jimmy_Head" = 80650212,2
+    "Jimmy_Body" = 80650212,3
+    "Jimmy_Pos" = 80650212,4
+    "Jimmy_Look" = 80650212,5
+    "Camera" = -3,0
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 127942640,0
+    "Goddard_Lips" = 127942640,1
+    "Goddard_Head" = 127942640,2
+    "Goddard_Body" = 127942640,3
+    "Goddard_Pos" = 127942640,4
+    "Goddard_Look" = 127942640,5
+    "Camera" = -3,0
+  }
+  "Jetski"
+  {
+    "Jetski_Voice" = 110208308,0
+    "Jetski_Lips" = 110208308,1
+    "Jetski_Head" = 110208308,2
+    "Jetski_Body" = 110208308,3
+    "Jetski_Pos" = 110208308,4
+    "Jetski_Look" = 110208308,5
+    "Event_0" = -1,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W5A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5A_16_P01JIFR.WAV" = 115,30
+}
+
+[ACTOR_DATA]
+{
+  Count = 3
+  "A_JIMMY_SYNKER_PIRATE.BAD" = "Jimmy","CS5A_16_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 7101.719,-492.554,288.123
+        rot = 0.000,-3.030,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 7102.000,-493.000,288.000
+        rot = 0.000,0.000,0.000
+        pos = 7060.989,-492.000,582.119
+        rot = 0.100,0.000,0.000
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "Goddard","CS5A_16_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 7060.698,-491.554,141.948
+        rot = 0.000,0.000,0.000
+        pos = 6930.494,-486.554,542.342
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_GoddardJetSki.bad" = "Jetski","CS5A_16_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 8153.968,-591.000,-433.839
+        rot = 0.000,0.000,0.000
+        pos = 7405.180,-581.874,-14.595
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Come on, boy!" = "CS5A_16_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 115
+          length = 30
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 79
+          length = 36
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 115
+          length = 63
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 79
+          length = 36
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 115
+          length = 63
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 79
+          length = 36
+        }
+        "walk" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 115
+          length = 63
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 79
+          length = 36
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 115
+          length = 63
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Come on, boy!
+      Jimmy
+      {
+        d = 117,153,54,234,255,255,72,90,243,198,153,198,162,162,198,189,153,153,225,252,
+        d = 234,234,243,234,255,243,171,162,99,9,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 110
+          length = 68
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 110
+          length = 68
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "walk01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 110
+          length = 68
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 110
+          length = 68
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Jetski"
+  {
+    "Jetski_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jetski_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jetski_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jetski_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "Win" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 79
+        }
+      }
+    }
+    "Jetski_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 79
+        }
+      }
+    }
+    "Jetski_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  Camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 5,0.000,0.000,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 6951.48,-226.55,443.89, 8089.32,-554.10,-492.34
+    node = 6848.65,-227.00,372.35, 7268.00,-556.00,-27.00
+  }
+  Camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 6964.84,-411.55,227.55, 7184.65,-417.55,253.92
+    node = 6965.37,-412.00,245.05, 7185.00,-418.00,254.00
+  }
+  Camera3
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 7169.95,-412.39,104.43, 7067.00,-416.00,308.00
+    node = 7186.55,-412.00,117.85, 7067.00,-416.00,308.00
+  }
+}
+
+[EVENT_DATA]
+{
+  "Jetski" = "playsound JetskiLP"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "Jetski",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 79
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "Camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 79
+  }
+  bar
+  {
+    BarName = "Camera3",""
+    Breaker = 0
+    Lock = 0
+    start = 79
+    length = 99
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

@@ -1,0 +1,10 @@
+mesh cs6c_01_06_CalBotBox
+skeleton cs6c_01_06_CalBotBox
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+450-940,1
+cycle stop

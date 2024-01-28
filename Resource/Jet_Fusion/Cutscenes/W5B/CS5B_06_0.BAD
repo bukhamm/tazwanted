@@ -1,0 +1,8 @@
+mesh a_OctopusBody
+skeleton CS5B_06_0
+
+ANIM BODYGOAWAY
+3195-3291,1
+CYCLE STOP
+CYCLE STOP
+

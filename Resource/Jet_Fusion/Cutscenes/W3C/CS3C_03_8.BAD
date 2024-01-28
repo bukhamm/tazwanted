@@ -1,0 +1,8 @@
+mesh CS3c_03_09_Idle
+skeleton CS3C_03_8
+
+ANIM CUTSCENE
+1-1240,1
+CYCLE LOOP
+CYCLE LOOP
+

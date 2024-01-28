@@ -1,0 +1,7 @@
+mesh prop_chamber.mdl
+skeleton prop_chamber.anm
+
+anim idle01
+0-30,1
+cycle stop
+

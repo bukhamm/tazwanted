@@ -1,0 +1,8 @@
+mesh a_PirateParrot
+skeleton CS5A_18_4
+
+ANIM ATTACKIDLE01
+1550-1570,1
+CYCLE LOOP
+
+

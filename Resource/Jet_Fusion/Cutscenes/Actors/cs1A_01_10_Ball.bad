@@ -1,0 +1,9 @@
+mesh cs1A_01_10_Ball
+skeleton cs1A_01_10_Ball
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+2045-4000,1
+cycle stop

@@ -1,0 +1,10 @@
+mesh CS2G_06_a_GODNuts
+skeleton CS2G_06_a_GODNuts
+
+anim bindpose
+0,1
+cycle loop
+
+anim CutScene
+150-900,1
+cycle stop

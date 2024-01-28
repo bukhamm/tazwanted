@@ -1,0 +1,10 @@
+mesh a_Humphrey
+skeleton cs5c_01_05_Humphrey
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+526-600,1
+cycle stop

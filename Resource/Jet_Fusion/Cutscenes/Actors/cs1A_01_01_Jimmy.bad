@@ -1,0 +1,9 @@
+mesh a_Jimmy
+skeleton cs1A_01_01_Jimmy
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+150-4000,1
+cycle stop

@@ -1,0 +1,10 @@
+mesh prop_CommDevice_Big
+skeleton CS3c_03_06_Comm_big
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+786-1119,1
+cycle loop

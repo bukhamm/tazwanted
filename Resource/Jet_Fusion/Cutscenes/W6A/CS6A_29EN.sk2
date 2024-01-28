@@ -1,0 +1,509 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "JAIMEHOE"
+  Date = "24/06/2003"
+  Time = "10:05:30 AM"
+  EdPos = -29896.74,1594.14,-46583.22
+  EdPitch = -0.120
+  EdYaw = -21.990
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "jimmy"
+  {
+    "jimmy_Voice" = 73088176,0
+    "jimmy_Lips" = 73088176,1
+    "jimmy_Head" = 73088176,2
+    "jimmy_Body" = 73088176,3
+    "jimmy_Pos" = 73088176,4
+    "jimmy_Look" = 73088176,5
+    "Camera" = -3,0
+  }
+  "goddard"
+  {
+    "goddard_Voice" = 92897280,0
+    "goddard_Lips" = 92897280,1
+    "goddard_Head" = 92897280,2
+    "goddard_Body" = 92897280,3
+    "goddard_Pos" = 92897280,4
+    "goddard_Look" = 92897280,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W6A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS6A_29_P01JIEN.wav" = 10,64
+  "CS6A_29_P02JIEN.wav" = 357,59
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_JIMMY_SYNKER_TUXEDO.BAD" = "jimmy","CS6A_29_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -39274.652,1399.878,-55033.872
+        rot = 0.070,0.097,0.000
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "goddard","CS6A_29_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -39197.612,1399.787,-55031.764
+        rot = 0.000,-0.103,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "jimmy"
+  {
+    "jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "I don't think I have everything I need yet, Goddard." = "CS6A_29_P01JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 64
+        }
+        "Maybe I've missed something back there." = "CS6A_29_P02JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 357
+          length = 59
+        }
+      }
+    }
+    "jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 10
+          length = 64
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 357
+          length = 59
+        }
+      }
+    }
+    "jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyScratchHead" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 74
+        }
+        "BodyNeutral02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 357
+          length = 59
+        }
+      }
+    }
+    "jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 74
+        }
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 357
+          length = 59
+        }
+      }
+    }
+    "jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //I don't think I have everything I need yet, Goddard.
+      jimmy
+      {
+        d = 52,45,75,22,180,172,127,37,0,7,105,217,157,52,112,195,187,202,255,232,180,157,
+        d = 127,172,165,172,172,187,240,105,97,225,247,240,255,247,255,255,255,255,255,210,
+        d = 127,60,82,225,247,172,60,0,0,0,75,127,127,142,142,157,240,240,217,75,22,0,
+      }
+      //Maybe I've missed something back there.
+      jimmy
+      {
+        d = 0,204,255,255,255,255,255,255,240,216,12,18,36,24,60,180,138,162,186,210,255,
+        d = 255,255,255,255,234,162,102,42,54,192,186,174,246,174,138,36,138,174,216,144,
+        d = 90,180,90,102,12,0,0,78,120,96,78,72,60,12,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "goddard"
+  {
+    "goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 74
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 357
+          length = 59
+        }
+      }
+    }
+    "goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 74
+        }
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 357
+          length = 59
+        }
+      }
+    }
+    "goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -39233.81,1462.93,-55186.08, -39233.85,1463.83,-55119.90
+    node = -39229.83,1462.93,-55186.38, -39233.85,1462.83,-55119.90
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -29917.94,1611.32,-46913.99, -30041.87,1608.72,-47114.42
+    node = -30057.94,1609.00,-46919.15, -30041.87,1608.72,-47114.42
+  }
+  camera3
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -30668.00,79.00,-34096.00, -31458.90,72.36,-33606.37
+    node = -30765.47,79.00,-33732.10, -31458.90,73.36,-33606.37
+  }
+  camera4
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -18689.39,-903.00,-19212.74, -18458.39,-902.69,-18846.70
+    node = -18836.79,-903.00,-19022.40, -18458.83,-902.69,-18846.92
+  }
+  camera5
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -5199.26,-1451.22,3645.72, -4933.74,-1451.22,3096.11
+    node = -4684.31,-1451.22,3428.24, -4933.74,-1451.22,3096.11
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 74
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 74
+    length = 56
+  }
+  bar
+  {
+    BarName = "camera3",""
+    Breaker = 0
+    Lock = 0
+    start = 130
+    length = 73
+  }
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 203
+    length = 65
+  }
+  bar
+  {
+    BarName = "camera5",""
+    Breaker = 0
+    Lock = 0
+    start = 268
+    length = 89
+  }
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 357
+    length = 59
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

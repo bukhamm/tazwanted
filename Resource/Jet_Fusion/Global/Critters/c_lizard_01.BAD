@@ -1,0 +1,20 @@
+skeleton c_lizard_01
+mesh c_lizard_01
+
+anim bindpose
+0,1
+cycle stop
+
+anim walk01
+1-17
+cycle loop
+
+anim Idle01
+18-154
+cycle loop
+
+anim Idle02
+155-416
+cyccle loop
+
+//end

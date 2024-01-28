@@ -1,0 +1,1047 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "24/06/2003"
+  Time = "4:52:24 PM"
+  EdPos = -952.21,1042.17,-279.25
+  EdPitch = -0.440
+  EdYaw = 1.230
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 53202160,0
+    "Jimmy_Lips" = 53202160,1
+    "Jimmy_Head" = 53202160,2
+    "Jimmy_Body" = 53202160,3
+    "Jimmy_Pos" = 53202160,4
+    "Jimmy_Look" = 53202160,5
+    "Event_1" = -1,1
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 102809332,0
+    "Goddard_Lips" = 102809332,1
+    "Goddard_Head" = 102809332,2
+    "Goddard_Body" = 102809332,3
+    "Goddard_Pos" = 102809332,4
+    "Goddard_Look" = 102809332,5
+  }
+  "Calamitous"
+  {
+    "Calamitous_Voice" = 103350192,0
+    "Calamitous_Lips" = 103350192,1
+    "Calamitous_Head" = 103350192,2
+    "Calamitous_Body" = 103350192,3
+    "Calamitous_Pos" = 103350192,4
+    "Calamitous_Look" = 103350192,5
+    "SoundFX" = -2,0
+  }
+  "Shuttle"
+  {
+    "Shuttle_Voice" = 103738988,0
+    "Shuttle_Lips" = 103738988,1
+    "Shuttle_Head" = 103738988,2
+    "Shuttle_Body" = 103738988,3
+    "Shuttle_Pos" = 103738988,4
+    "Shuttle_Look" = 103738988,5
+    "Event_0" = -1,0
+    "SoundFX" = -2,0
+  }
+  "Calbox"
+  {
+    "Calbox_Voice" = 103542548,0
+    "Calbox_Lips" = 103542548,1
+    "Calbox_Head" = 103542548,2
+    "Calbox_Body" = 103542548,3
+    "Calbox_Pos" = 103542548,4
+    "Calbox_Look" = 103542548,5
+  }
+  "Calimibot"
+  {
+    "Calimibot_Voice" = 103492644,0
+    "Calimibot_Lips" = 103492644,1
+    "Calimibot_Head" = 103492644,2
+    "Calimibot_Body" = 103492644,3
+    "Calimibot_Pos" = 103492644,4
+    "Calimibot_Look" = 103492644,5
+  }
+  "Jet"
+  {
+    "Jet_Voice" = 103592176,0
+    "Jet_Lips" = 103592176,1
+    "Jet_Head" = 103592176,2
+    "Jet_Body" = 103592176,3
+    "Jet_Pos" = 103592176,4
+    "Jet_Look" = 103592176,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 1,"cs6C_01_camera.mcd"
+  WorldFile = (null)
+  Level = W6C.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_Shuttlearrives" = 0,128
+  "CS_calambutton" = 268,30
+  "CS_metalthud" = 639,15
+  "CS_2bdoorslam" = 664,13
+  "CS_RoboNinjaKonk1" = 677,13
+  "CS_RoboNinjaKonk1" = 690,20
+  "CS_RoboNinjaKonk1" = 710,19
+  "CS_RoboNinjaKonk1" = 764,30
+  "CS_RoboNinjaKonk1" = 891,23
+  "CS_RoboNinjaKonk1" = 914,30
+}
+
+[DYNAMIC_SFX]
+{
+  "CS6C_01_P01PCEN.wav" = 190,135
+  "CS6C_01_P02PCEN.wav" = 339,104
+  "CS6C_01_P03PCEN.wav" = 453,51
+  "CS6C_01_P04PCEN.wav" = 575,65
+  "CS6C_01_P05PCEN.wav" = 679,75
+  "CS6C_01_P06PCEN.wav" = 785,53
+  "CS6C_01_P07JIEN.wav" = 896,32
+  "CS6C_01_P08JIEN.wav" = 942,102
+}
+
+[ACTOR_DATA]
+{
+  Count = 7
+  "cs6c_01_01_Jimmy.bad" = "Jimmy","CS6C_01_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs6c_01_02_Goddard.bad" = "Goddard","CS6C_01_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs6c_01_03_ProfCal.bad" = "Calamitous","CS6C_01_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs6c_01_05_Shuttle.bad" = "Shuttle","CS6C_01_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs6c_01_06_CalBotBox.bad" = "Calbox","CS6C_01_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs6c_01_04_Calamibot.bad" = "Calimibot","CS6C_01_5.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs6c_01_07_JetFusion.bad" = "Jet","CS6C_01_6.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "This isn't good..." = "CS6C_01_P07JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 896
+          length = 32
+        }
+        "Maybe I could use that machine to create my own robot!" = "CS6C_01_P08JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 942
+          length = 102
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1044
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1044
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //This isn't good...
+      Jimmy
+      {
+        d = 120,150,142,210,255,255,210,195,165,240,255,255,255,232,165,105,60,7,67,180,232,
+        d = 0,0,0,0,0,0,0,0,0,0,0,
+      }
+      //Maybe I could use that machine to create my own robot!
+      Jimmy
+      {
+        d = 18,144,243,255,255,255,207,216,225,255,153,81,189,255,255,255,243,180,54,81,180,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,180,144,63,108,255,255,255,234,153,162,189,198,243,
+        d = 189,0,0,243,0,0,255,0,0,108,0,0,162,0,0,234,0,0,225,0,216,153,126,198,234,207,
+        d = 198,255,0,0,255,207,0,0,180,198,0,0,216,198,0,0,90,234,0,0,171,27,0,54,0,72,180,
+        d = 0,225,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1044
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1044
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Calamitous"
+  {
+    "Calamitous_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "So you have come to stop..." = "CS6C_01_P01PCEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 190
+          length = 135
+        }
+        "But you will not take my moment of glory!" = "CS6C_01_P02PCEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 339
+          length = 104
+        }
+        "The idols power my..." = "CS6C_01_P03PCEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 453
+          length = 51
+        }
+        "Calamibot, attack!" = "CS6C_01_P04PCEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 575
+          length = 65
+        }
+        "It worked!" = "CS6C_01_P05PCEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 679
+          length = 75
+        }
+        "It actually worked!" = "CS6C_01_P06PCEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 785
+          length = 53
+        }
+      }
+    }
+    "Calamitous_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Calamitous_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Calamitous_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 186
+          length = 649
+        }
+      }
+    }
+    "Calamitous_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 186
+          length = 651
+        }
+      }
+    }
+    "Calamitous_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //So you have come to stop...
+      Calamitous
+      {
+        d = 22,157,217,225,255,255,255,180,195,180,157,120,97,60,45,37,37,22,15,22,22,7,0,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,75,172,225,165,105,105,150,105,37,37,
+        d = 0,0,0,0,0,52,0,120,0,0,112,0,0,210,0,0,225,0,0,90,0,52,105,157,75,60,217,172,
+        d = 172,0,225,0,255,0,255,0,255,142,0,0,0,0,0,0,165,0,217,0,157,0,82,0,0,0,0,0,22,
+        d = 0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,15,37,0,0,67,97,
+      }
+      //But you will not take my moment of glory!
+      Calamitous
+      {
+        d = 108,198,216,189,216,225,216,189,171,207,198,153,243,255,243,153,126,162,198,180,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,135,252,255,234,45,0,0,0,0,45,234,135,243,216,108,0,
+        d = 0,0,27,0,0,27,0,108,0,0,162,0,0,216,0,0,225,0,0,252,0,198,171,90,63,72,81,99,
+        d = 189,0,162,189,0,0,171,0,90,99,0,144,0,108,0,63,0,36,108,0,0,144,126,0,0,81,45,
+        d = 
+      }
+      //The idols power my...
+      Calamitous
+      {
+        d = 60,180,108,0,0,0,120,132,144,132,132,144,24,36,120,180,180,144,132,132,120,255,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,12,120,180,132,255,255,255,255,255,255,255,255,
+        d = 204,0,
+      }
+      //Calamibot, attack!
+      Calamitous
+      {
+        d = 220,252,255,255,210,210,255,255,255,84,147,255,255,63,115,199,136,42,0,0,10,147,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,73,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,252,178,31,63,
+        d = 0,255,0,0,168,0,0,255,
+      }
+      //It worked!
+      Calamitous
+      {
+        d = 207,255,144,90,72,135,255,255,198,216,198,216,135,81,9,9,0,0,18,18,0,0,0,0,0,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,108,255,255,255,243,135,207,234,
+        d = 216,0,0,207,0,0,243,0,0,252,0,0,255,0,0,255,0,0,255,
+      }
+      //It actually worked!
+      Calamitous
+      {
+        d = 48,144,168,12,12,84,255,255,255,72,24,24,48,252,192,192,96,228,255,240,144,144,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,216,240,255,255,255,255,255,255,255,255,255,255,240,
+        d = 228,0,0,156,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,
+    }
+  }
+  "Shuttle"
+  {
+    "Shuttle_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Shuttle_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Shuttle_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Shuttle_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 185
+        }
+      }
+    }
+    "Shuttle_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 185
+        }
+      }
+    }
+    "Shuttle_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Calbox"
+  {
+    "Calbox_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Calbox_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Calbox_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Calbox_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 440
+          length = 490
+        }
+      }
+    }
+    "Calbox_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 440
+          length = 490
+        }
+      }
+    }
+    "Calbox_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,
+    }
+  }
+  "Calimibot"
+  {
+    "Calimibot_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Calimibot_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Calimibot_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Calimibot_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 636
+          length = 294
+        }
+      }
+    }
+    "Calimibot_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 636
+          length = 294
+        }
+      }
+    }
+    "Calimibot_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,1,1,1,
+    }
+  }
+  "Jet"
+  {
+    "Jet_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jet_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jet_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jet_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 186
+          length = 649
+        }
+      }
+    }
+    "Jet_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 186
+          length = 649
+        }
+      }
+    }
+    "Jet_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+}
+
+[EVENT_DATA]
+{
+  "Gddsurprised" = "playsound GDDSurprised"
+  "Goddardland" = "playsound GDDLand"
+  "Jimmyland" = "playsound JimmyKnockDown"
+  "Shuttle" = "ShuttleFlames 3"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "Shuttle",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 185
+  }
+}
+
+[EVENT_1]
+{
+  bar
+  {
+    BarName = "Jimmyland",""
+    Breaker = 0
+    Lock = 0
+    start = 138
+    length = 4
+  }
+  bar
+  {
+    BarName = "Jimmyland",""
+    Breaker = 0
+    Lock = 0
+    start = 164
+    length = 4
+  }
+  bar
+  {
+    BarName = "Gddsurprised",""
+    Breaker = 0
+    Lock = 0
+    start = 851
+    length = 4
+  }
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_Shuttlearrives",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 128
+  }
+  bar
+  {
+    BarName = "CS_calambutton",""
+    Breaker = 0
+    Lock = 0
+    start = 268
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_metalthud",""
+    Breaker = 0
+    Lock = 0
+    start = 639
+    length = 15
+  }
+  bar
+  {
+    BarName = "CS_2bdoorslam",""
+    Breaker = 0
+    Lock = 0
+    start = 664
+    length = 13
+  }
+  bar
+  {
+    BarName = "CS_RoboNinjaKonk1",""
+    Breaker = 0
+    Lock = 0
+    start = 677
+    length = 13
+  }
+  bar
+  {
+    BarName = "CS_RoboNinjaKonk1",""
+    Breaker = 0
+    Lock = 0
+    start = 690
+    length = 20
+  }
+  bar
+  {
+    BarName = "CS_RoboNinjaKonk1",""
+    Breaker = 0
+    Lock = 0
+    start = 710
+    length = 19
+  }
+  bar
+  {
+    BarName = "CS_RoboNinjaKonk1",""
+    Breaker = 0
+    Lock = 0
+    start = 764
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_RoboNinjaKonk1",""
+    Breaker = 0
+    Lock = 0
+    start = 891
+    length = 23
+  }
+  bar
+  {
+    BarName = "CS_RoboNinjaKonk1",""
+    Breaker = 0
+    Lock = 0
+    start = 914
+    length = 30
+  }
+}
+
+[CAMERA]
+{
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

@@ -1,0 +1,8 @@
+skeleton prop_Gate_Icebars
+mesh prop_Gate_Icebars
+
+anim open
+0-49,1
+cycle stop
+
+//end

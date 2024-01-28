@@ -1,0 +1,46 @@
+[UserInterface]
+{
+  CreditsScreen
+  {
+    id Scr_Credits
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    OnSelectPressed
+    {
+      target system
+      message PopScreen
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 695 TEXT_PAUSE_EXITMAINMENU
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 690 TEXT_PAUSE_CONTINUE
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+mesh CS_BBIntro_Brain
+skeleton CS5A_03_Brain
+
+anim cutscene
+127-171,1
+cycle stop
+
+//END

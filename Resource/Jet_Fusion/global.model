@@ -1,0 +1,4758 @@
+//###############################################################
+// Classes
+//###############################################################
+//###############################################################
+
+[default]
+maxDrawDist 10000
+maxScissorDist 2000
+maxUpdateDist 10000
+type update+, draw+, prelit-, descCreateModelMatrices
+
+/////////////////////////////////////////////////////////////////
+// CLASS: GameCamera
+/////////////////////////////////////////////////////////////////
+[CLS_GameCamera]
+alias default
+type global
+collisionRadius             50.0            // cm
+fieldOfView                  1.2            // radians
+dragTowardCamera             0.0            // cm
+dragAwayFromCamera           0.0            // cm
+maxHeroJumpHeight            0.0            // m
+jumpTargetAdjustMaxOffset    0.0            // cm
+jumpTargetAdjustMinOffset    0.0            // cm
+playerRotateDefaultSpeed     2.5
+maxCameraStates             10
+maxStateMessagesStored       8
+noCollideMaterialID       CameraNoCollide	// ID for the camera to ignore
+fadeMaterialID	          CameraFade 		// Camera ignores but doesn't fade
+collisionMode             All
+defaultDeltaTime             0.6            // seconds
+<W1A>defaultDeltaTime        0.3            // seconds
+<W5C>defaultDeltaTime        0.3            // seconds
+minFieldOfView               1.2            // radians
+maxFieldOfView               1.4            // radians
+<W2C>secondaryTarget      Sheen
+<W3C>secondaryTarget      MsFowl
+<W5C>secondaryTarget      Cindy
+deltaStageType = default
+  closestZDelta			       280
+  <W1A>closestZDelta			 180
+  closestYDelta			       100
+  closestTargetYOffset	   100
+  middleZDelta			       440
+  middleYDelta			       160
+  middleTargetYOffset		   100
+  furtherestZDelta		     500
+  furtherestYDelta		     250
+  furtherestTargetYOffset  100
+  //NOT WORKING - minAdjustSourceDistance      100
+
+
+
+/////////////////////////////////////////////////////////////////
+// CLASS: General Props
+/////////////////////////////////////////////////////////////////
+
+[CLS_KDProp]
+alias default
+model prop_%s
+type static, update-
+CanHandleMissingFiles 1
+materialID CameraNoCollide CameraFade
+
+[CLS_SignProp]
+alias default
+model prop_%s
+type update-
+CanHandleMissingFiles 1
+materialID CameraNoCollide CameraFade
+
+[CLS_ParticleSpawnProp]
+alias default
+model prop_%s
+type update+
+
+[CLS_BurningBasket]
+alias CLS_KDProp
+type update+
+
+[CLS_LeverProp]
+alias default
+//badfile prop_%s
+type dynamic
+
+[CLS_Gate]
+alias CLS_KDProp
+badfile prop_%s
+type dynamic
+
+[CLS_PlayOnceProp]
+alias CLS_KDProp
+type dynamic
+
+[CLS_ScriptProp]
+alias default
+type global
+
+[CLS_ConditionalTriggerProp]
+alias default
+type global
+
+[CLS_TriggerProp]
+alias default
+type global
+
+[CLS_FallDieTriggerProp]
+alias CLS_TriggerProp
+
+[CLS_TriggerZoneProp]
+alias CLS_TriggerProp
+
+[CLS_WaterVolume]
+alias default
+type global
+
+[CLS_CameraOverride]
+alias CLS_TriggerProp
+
+[CLS_BossCamOverride]
+alias CLS_TriggerProp
+
+[CLS_GoddardOverride]
+alias CLS_TriggerProp
+
+[CLS_CutsceneProp]
+alias default
+type global
+
+[CLS_ObjectiveProp]
+alias default
+model prop_EndPoint
+type global, alpha
+materialID CameraNoCollide
+DrawPriority 1
+
+[CLS_KDSoundProp]
+alias default
+maxDrawDist 0
+maxScissorDist 0
+maxUpdateDist 2000
+
+[CLS_ShockwaveProp]
+alias CLS_KDProp
+model fx_shockwave
+type dynamic, alpha
+
+[ShockwaveProp]
+alias CLS_ShockwaveProp
+
+[CLS_ThrowableProp]
+alias CLS_KDProp
+type dynamic
+
+[CLS_Platform]
+alias CLS_KDProp
+subtype 0
+drawshadow true
+maxUpdateDist 2000000
+type dynamic
+
+[CLS_PistonPlatform]
+alias CLS_Platform
+materialID none
+
+[CLS_PlatformSharePath]
+alias CLS_KDProp
+maxUpdateDist 2000000
+type dynamic
+
+[CLS_Croc]
+alias CLS_PlatformSharePath
+maxUpdateDist 2000000
+badfile a_croc_Frogger
+type dynamic
+
+[CLS_Log]
+alias CLS_PlatformSharePath
+maxUpdateDist 2000000
+model prop_log_frog
+type dynamic
+
+[CLS_CanibalCanoe]
+alias CLS_PlatformSharePath
+maxUpdateDist 2000000
+badfile a_CannibalCanoe
+type dynamic
+
+[CLS_CanibalCanoeFront]
+alias CLS_KDProp
+badfile a_CannibalCanoeFront
+type dynamic
+
+[CLS_Mirror2BProp]
+alias default
+badfile prop_Mirror_Metal
+type dynamic
+
+[CLS_Mirror2BObjective]
+alias CLS_TriggerProp
+type global, alpha
+
+[CLS_Well2BObjective]
+alias default
+type global
+
+[CLS_WellWheel2BProp]
+alias default
+badfile prop_WaterWheel
+type dynamic, alpha
+
+[CLS_WellPipe2BProp]
+alias default
+model prop_bamboopipe
+type dynamic
+
+[CLS_WellPipeLong2BProp]
+alias default
+model prop_bamboopipelong
+
+[CLS_Well2BProp]
+alias default
+badfile prop_Well
+type dynamic, alpha
+
+[CLS_Bridge3AObjective]
+alias default
+type global
+
+[CLS_BridgeLever3AProp]
+alias default
+badfile prop_WaterWheel
+type dynamic,alpha
+
+[CLS_Bridge3AProp]
+alias 	CLS_KDProp
+model prop_Treehouse_Swing
+type dynamic
+
+[CLS_BridgeJet3AProp]
+alias default
+model prop_Treehouse_Swingjet
+type dynamic
+
+[CLS_Pond3AController]
+alias default
+type global
+
+[CLS_RollingBoulder]
+alias CLS_KDProp
+model prop_boulder_glow
+type dynamic
+
+[CLS_WaterCannonBall]
+alias CLS_KDProp
+model prop_water_cannonball
+type global, drawlast
+
+[CLS_Teleport5BPickup]
+alias default
+type global
+
+[CLS_RestartProp]
+alias CLS_KDProp
+badfile Prop_%s
+type dynamic
+
+[CLS_RopeProp]
+alias default
+type dynamic
+material fx_rope
+
+[CLS_CritterField]
+alias default
+maxDrawDist    5000
+maxScissorDist 0
+maxUpdateDist  5000
+minimumScale   = 0.7
+maximumScale   = 1.3
+
+[CLS_CritterFieldButterfly]
+alias CLS_CritterField
+model                   = C_Butterfly
+badfile                 = C_Butterfly
+material                = C_Butterfly
+textureMappingCount     = 2
+textureMappingRandom    = false
+// movement descriptor
+maxSpeed                = 15.0
+yDampeningFactor        = 1.0
+turnSpeed               = 10.0
+maxRoll                 = 0.0
+smoothTime              = 1.0
+
+[CLS_CritterFieldFish]
+alias CLS_CritterField
+model                   = C_Fish_Cod
+badfile                 = C_Fish_Cod
+// movement descriptor
+maxSpeed                = 200.0
+yDampeningFactor        = 0.5
+turnSpeed               = 1.0
+maxRoll                 = 0.0
+smoothTime              = 1.0
+type alpha
+
+[CLS_CritterFieldJellyFish]
+alias CLS_CritterField
+type drawlast
+model                   = C_JellyFish
+badfile                 = C_JellyFish
+// movement descriptor
+maxSpeed                = 200.0
+yDampeningFactor        = 0.5
+turnSpeed               = 1.0
+maxRoll                 = 0.0
+smoothTime              = 1.0
+type alpha
+
+[CLS_CritterFieldHopper]
+alias CLS_CritterField
+
+[CLS_CritterFieldCaveBat]
+alias CLS_CritterField
+model                   = C_Bat
+badfile                 = C_Bat
+material                = C_Bat
+textureMappingCount     = 2
+textureMappingRandom    = false
+// movement descriptor
+maxSpeed                = 25.0
+yDampeningFactor        = 1.0
+turnSpeed               = 15.0
+maxRoll                 = 0.0
+smoothTime              = 1.0
+
+[CLS_CritterFieldSparrow]
+alias CLS_CritterField
+
+[CLS_CritterFieldSeagull]
+alias CLS_CritterField
+maxDrawDist 3500
+maxUpdateDist 10000
+
+[CLS_CritterFieldFireFly]
+alias CLS_CritterField
+type dynamic, alpha
+materialFrameCount      = 8
+materialFPS             = 30
+materialFrameWidth      = 0.125
+material                = c_FireFly
+minimumScale            = 7.0
+maximumScale            = 10.0
+// movement descriptor
+maxSpeed                = 10.0
+yDampeningFactor        = 1.0
+turnSpeed               = 20.0
+maxRoll                 = 0.0
+smoothTime              = 1.0
+
+
+[CLS_Plankton]
+alias default
+type global, alpha
+
+[Plankton]
+alias CLS_Plankton
+
+[CLS_SmashBonusController]
+alias default
+type global
+
+[CLS_OpenAndSpawnProp]
+alias default
+badfile prop_%s
+type dynamic
+
+[CLS_FlyingFox]
+alias default
+type dynamic, update+, draw+
+ropeRadius 10.0f
+maxDrawDistance 10000
+
+[CLS_FlyingPlatform]
+alias default
+type global, update+, draw+
+ropeRadius 10.0f
+
+[CLS_MsFowlFireball]
+alias default
+type dynamic
+model prop_%s
+
+[CLS_Stalactite]
+alias default
+type dynamic
+model prop_%s
+subtype 0
+
+[CLS_StalactiteSpawner]
+alias default
+type global
+
+[CLS_SteamTrap]
+alias default
+model prop_Volcano_PipeHole
+MaxDrawDist 4000
+MaxUpdateDist 4000
+
+[CLS_StatueSteamTrap]
+alias default
+
+[CLS_LavaSpurtTrap]
+alias default
+model prop_Lava_Spurt
+
+[CLS_ScienceSteamTrap]
+alias default
+model prop_science_steamjet
+materialID CameraNoCollide CameraFade
+
+[CLS_OmniLightProp]
+alias CLS_KDProp
+type update+
+CanHandleMissingFiles 1
+
+[CLS_TeleportProp]
+alias CLS_TriggerProp
+
+[CLS_Mine]
+alias CLS_KDProp
+type dynamic, update+
+subtype 0
+
+[CLS_ElectricFence]
+alias CLS_KDProp
+subtype 0
+type dynamic
+//type dynamic, drawlast
+
+[CLS_OtherElectricFence]
+alias CLS_KDProp
+
+[CLS_LightSwitch]
+alias CLS_KDProp
+type update+
+
+[CLS_Gate5BController]
+alias CLS_KDProp
+type global update+
+
+[CLS_IceBergCrusher]
+alias CLS_KDProp
+maxUpdateDist 2000000
+type dynamic
+
+[CLS_IceWall]
+alias CLS_KDProp
+type dynamic
+//model prop_Iceberg
+
+[CLS_IceWallController]
+alias default
+type global
+
+[CLS_LightTower]
+alias CLS_KDProp
+type dynamic, alpha
+
+[CLS_SteamJet]
+alias CLS_Shatterable
+model prop_%s
+RemainingSubObject   m_SteamJet_Pipe
+RemainingCollision c_SteamJet_Pipe
+upVel 800.0
+life 2
+bounce 0.75
+gravity 1500.0
+spinrate 3.5
+type dynamic
+
+[CLS_WaterBomb]
+alias default
+type dynamic
+model prop_%s
+
+[CLS_WaterPipeBulge]
+alias CLS_KDProp
+type dynamic
+badfile prop_%s
+
+[CLS_WaterValve]
+alias CLS_KDProp
+type dynamic
+badfile prop_%s
+
+[CLS_ShieldedCog]
+alias CLS_KDProp
+type dynamic, alpha
+badfile prop_%s
+
+[Wall_Cogs]
+alias CLS_ShieldedCog
+
+[CLS_Ripple]
+alias default
+
+[CLS_FloatingFlurp]
+alias CLS_Shatterable
+upVel 350.0
+gravity 1500.0
+bounce 0.3
+type dynamic
+
+[CLS_MetalSpike]
+alias CLS_KDProp
+type dynamic
+
+[CLS_MarbleFan]
+alias CLS_KDProp
+type dynamic
+
+[CLS_WoodenSpike]
+alias CLS_KDProp
+type dynamic
+
+[CLS_FlurpBarrel]
+alias CLS_Shatterable
+upVel 800.0
+life 2
+bounce 0.75
+gravity 1500.0
+spinrate 3.5
+type dynamic
+
+[CLS_WaterGrate]
+alias CLS_Gate
+badfile prop_grate_water
+
+[CLS_SlidingPuzzleProp]
+alias CLS_KDProp
+type dynamic
+
+[CLS_FlashSquare]
+alias CLS_KDProp
+type dynamic
+maxDrawDist 5000
+maxUpdateDist 5000
+
+[CLS_FlashSquareController]
+alias default
+type global
+
+[CLS_Basketball]
+alias CLS_KDProp
+type dynamic
+
+[CLS_CableCart]
+alias CLS_KDProp
+type dynamic
+
+[CLS_CableCartController]
+alias default
+type global
+
+[CLS_W6ACarLiftController]
+alias default
+type global
+
+[CLS_GrindRailProp]
+alias CLS_KDProp
+type dynamic
+
+[CLS_SheenMagneticEffect]
+alias default
+type global, alpha
+material fx_MagneticRay
+
+[CLS_SheenAttackEffect]
+alias default
+type dynamic, alpha
+badfile prop_sheen_Attack
+
+[CLS_TeleportPickupProp]
+alias CLS_KDProp
+type global
+
+[CLS_BubbleSpawnerProp]
+alias CLS_KDProp
+type dynamic
+MaxUpdateDist 5000
+MaxDrawDist 5000
+
+
+[CLS_ControllerGenetic]
+alias CLS_KDProp
+type global
+CanHandleMissingFiles 1
+
+[CLS_HintProp]
+alias CLS_KDProp
+type global
+
+[Cls_SkyGateController]
+alias CLS_KDProp
+type global
+
+/////////////////////////////////////////////////////////////////
+// CLASS: Turrets
+/////////////////////////////////////////////////////////////////
+
+[CLS_Turret]
+alias default
+badfile a_%s
+type dynamic
+
+[CLS_PirateCannon]
+maxDrawDist 5000
+maxUpdateDist 5000
+alias CLS_Turret
+
+[CLS_MGPirateCannon]
+alias CLS_Turret
+badfile a_PirateCannon
+
+[CLS_TurretHarpoon]
+alias default
+type dynamic
+
+[CLS_HarpoonGun]
+alias CLS_TurretHarpoon
+model prop_ClampGun
+
+[CLS_LaserTurret]
+alias CLS_KDProp
+type dynamic
+subtype 0
+
+[CLS_PulseLaserTurret]
+alias CLS_Turret
+
+[CLS_PopupLaserTurret]
+alias CLS_Shatterable
+upVel 800.0
+life 2
+bounce 0.75
+gravity 1500.0
+spinrate 3.5
+
+/////////////////////////////////////////////////////////////////
+// CLASS: Shatterables
+/////////////////////////////////////////////////////////////////
+
+[CLS_Shatterable]
+	alias default
+	power 250.0     // power of the explosion
+	upVel 100.0 	  // amount of upwards lift when exploding
+	life 1.5  	    // length frags stay before fading out
+	bounce 0.4 	    // 0->1, 0 is no bounce, 1 is bounce back to full height
+	gravity 3600.0
+	spinrate 0.5
+	airResistance 0.3
+	type dynamic
+
+[CLS_BambooCentre]
+	alias CLS_Shatterable
+	power 440.0     // power of the explosion in cms
+	upVel 280.0     // amount of upwards lift when exploding in cms
+	life 2    	    // length frags stay before fading out
+	bounce 0.6 	    // 0->1, 0 is no bounce, 1 is bounce back to full height
+	gravity 2000.0  // gravity in cms
+
+[CLS_SpawnerProp]
+	alias CLS_Shatterable
+	spawnPoolCount 4
+	type dynamic
+
+[CLS_OnibiLantern]
+	alias CLS_SpawnerProp
+	badfile prop_%s
+upVel 800.0
+life 2
+bounce 0.75
+gravity 1500.0
+spinrate 3.5
+//	power 440.0     // power of the explosion in cms
+//	upVel 280.0     // amount of upwards lift when exploding in cms
+//	life 2    	    // length frags stay before fading out
+//	bounce 0.6 	    // 0->1, 0 is no bounce, 1 is bounce back to full height
+//	gravity 2000.0  // gravity in cms
+//	spinrate 0.1    // rate of spin in radians
+	type alpha
+
+[CLS_UltralordMachine2B]
+	alias CLS_SpawnerProp
+	badfile prop_ult_spawner
+	power 440.0     // power of the explosion in cms
+	upVel 280.0     // amount of upwards lift when exploding in cms
+	life 2    	// length frags stay before fading out
+	bounce 0.6 	// 0->1, 0 is no bounce, 1 is bounce back to full height
+	gravity 2000.0  // gravity in cms
+	spinrate 0.1    // rate of spin in radians
+
+[CLS_Crate]
+	alias CLS_Shatterable
+	upVel 800.0
+	life 2
+	bounce 0.75
+	gravity 1500.0
+	spinrate 3.5
+	subtype 0
+	type dynamic
+
+[CLS_Log_Swamp]
+	alias CLS_Shatterable
+	power 440.0
+	upVel 280.0
+	life 2
+	bounce 0.6
+	gravity 2000.0
+	spinrate 0.5
+
+
+[CLS_PlatformCrumbling]
+	alias CLS_Shatterable
+	power 250.0     // power of the explosion
+	upVel 0.5 	    // amount of upwards lift when exploding
+	life 3  	    // length frags stay before fading out
+	bounce 0.4 	    // 0->1, 0 is no bounce, 1 is bounce back to full height
+	gravity 3200.0
+	spinrate 0.1
+	CrumbleDelay 4.0  // crumble delay in seconds
+	maxTilt 0.02
+	maxUpdateDist 2000000
+	type dynamic
+
+[CLS_PillarLeaning]
+	alias CLS_Shatterable
+	power 400.0     // power of the explosion
+	upVel 0.5 	    // amount of upwards lift when exploding
+	life 10.0  	    // length frags stay before fading out
+	bounce 0.0 	    // 0->1, 0 is no bounce, 1 is bounce back to full height
+	gravity 3200.0
+	spinrate 0.3
+	CrumbleDelay 8.0  // crumble delay in seconds
+	maxTilt 1.0
+	tiltSpeed 0.01
+	maxUpdateDist 2000000
+	type dynamic
+
+[CLS_ShatterPylon]
+alias CLS_Shatterable
+upVel 800.0
+life 2
+bounce 0.75
+gravity 1500.0
+spinrate 3.5
+
+
+[CLS_ShatterPylonController]
+alias default
+type global
+
+[CLS_TrapMoving]
+alias CLS_Shatterable
+upVel 800.0
+life 2
+bounce 0.75
+gravity 1500.0
+spinrate 3.5
+type dynamic
+
+/////////////////////////////////////////////////////////////////
+// CLASS: MiniGame Props
+/////////////////////////////////////////////////////////////////
+
+[CLS_Tutorial1AProp]
+alias default
+type global
+
+[CLS_MiniGameProp]
+alias default
+type global
+
+[CLS_MiniGame2ASumo]
+alias CLS_MiniGameProp
+
+[CLS_MiniGame2ARickshaw]
+alias CLS_MiniGameProp
+
+[CLS_RickshawCrashed]
+alias CLS_KDProp
+
+[CLS_StaticBlackNinja]
+alias CLS_MiniGameProp
+type dynamic
+badfile a_StaticNinja01
+
+[CLS_StaticCannibal]
+alias CLS_MiniGameProp
+type dynamic
+badfile a_StaticCannibal
+
+[CLS_StaticPirate]
+alias CLS_MiniGameProp
+type dynamic
+badfile a_StaticPirate01
+
+[CLS_MiniGame3ARiverRace]
+alias CLS_MiniGameProp
+
+[CLS_MiniGame3AFrogger]
+alias default
+type global
+
+[CLS_MiniGame3BBoulder]
+alias CLS_MiniGameProp
+
+[CLS_MineCartRide]
+alias CLS_MiniGameProp
+
+[CLS_MiniGame5AJetSki]
+alias CLS_MiniGameProp
+
+[CLS_MiniGame5APirateShooting]
+alias CLS_MiniGameProp
+
+[CLS_MiniGame5AFishing]
+alias CLS_MiniGameProp
+
+[CLS_MiniGame5ABirdChase]
+alias CLS_MiniGameProp
+
+[CLS_MGBC_Bird]
+alias CLS_Character
+badfile a_parrot
+type global
+
+[CLS_MGBC_Battery]
+alias CLS_KDProp
+model prop_battery
+type global
+
+
+[CLS_MGFish]
+alias CLS_KDProp
+
+[CLS_MiniGame5BIceCrystal]
+alias CLS_MiniGameProp
+
+[CLS_MiniGame5BGiantSquid]
+alias CLS_MiniGameProp
+
+[CLS_MGOctopus]
+alias default
+type dynamic
+
+[CLS_MiniGame6APicturePuzzle]
+alias CLS_MiniGameProp
+
+[CLS_MiniGame6AButtonPress]
+alias CLS_MiniGameProp
+
+[CLS_MGCalamitus]
+alias default
+type dynamic
+
+/////////////////////////////////////////////////////////////////
+// Levers
+/////////////////////////////////////////////////////////////////
+[Lever_Vertical]
+alias CLS_LeverProp
+badfile prop_%s
+subtype 0
+maxDrawDist 7500
+maxUpdateDist 7500
+bUseGroundColor 0
+type alpha
+
+[Lever_Gust]
+alias CLS_LeverProp
+badfile prop_%s
+subtype 1
+
+[Lever_Gust3c]
+alias CLS_LeverProp
+badfile prop_%s
+subtype 1
+
+[Lever_LightRay]
+alias CLS_LeverProp
+model prop_%s
+type prelit, alpha
+bUseGroundColor 0
+subtype 2
+
+/////////////////////////////////////////////////////////////////
+// Gates
+/////////////////////////////////////////////////////////////////
+
+[Wall_j03]
+alias CLS_Gate
+
+[Shack]
+alias CLS_Gate
+maxScissorDist 500000
+materialID none
+type dynamic, alpha
+OpenSound CartPulPushLP
+
+[Gate_Solar]
+alias CLS_Gate
+
+[Door_Classroom]
+alias CLS_Gate
+materialID CameraFade
+type dynamic, alpha
+
+[Door_lock]
+alias CLS_PlayOnceProp
+model prop_%s
+materialID CameraFade
+
+[Fridge]
+alias CLS_Gate
+
+//2c
+[Trapdoor]
+alias CLS_Gate
+materialID none
+
+//3a
+[GATE_POOLEDGE]
+alias CLS_Gate
+
+[Gate_Swamp]
+alias CLS_Gate
+
+//3b
+[GATE_MINE]
+alias CLS_Gate
+
+//3c
+[WaterGrate]
+alias CLS_WaterGrate
+
+//5a
+[Door_PirateTemp]
+alias CLS_Gate
+badfile prop_Door_Classroom
+
+//5b
+[Gate_Icebars]
+alias CLS_Gate
+
+//6a
+[Gate_Radar]
+alias CLS_Gate
+
+/////////////////////////////////////////////////////////////////
+// CLASS: Moveable Items
+/////////////////////////////////////////////////////////////////
+
+[CLS_MoveableProp]
+alias CLS_KDProp
+type dynamic						// they must be able to move
+blowable false
+
+[CLS_LightGunLeverProp]
+alias CLS_KDProp
+type dynamic						// they must be able to move
+blowable false
+shieldModel prop_goddardShield
+
+[BounceProp]
+alias CLS_MoveableProp
+bounceSettings -50, 300, 400, 1080		// bounce loss, gain, minVel, maxVel
+
+/////////////////////////////////////////////////////////////////
+// CLASS: Collectable Items
+/////////////////////////////////////////////////////////////////
+
+[CLS_Collectable]
+alias default
+model prop_%s
+type dynamic, alpha
+maxDrawDist 4500
+maxUpdateDist 4500
+
+[CLS_Battery]
+alias CLS_Collectable
+MaxDrawDist 5000
+MaxUpdateDist 5000
+
+[CLS_BigBattery]
+alias CLS_Collectable
+
+[CLS_InventionPiece]
+alias CLS_Collectable
+
+[CLS_WeaponPart]
+alias CLS_Collectable
+displayEffectsModel true
+
+[CLS_GoddardNavChip]
+alias CLS_Collectable
+
+[CLS_GoddardUpgradeChip]
+alias CLS_Collectable
+
+[CLS_WhiteCandy]
+alias CLS_Collectable
+type prelit
+
+[CLS_HealthPickup]
+alias CLS_Collectable
+lit 0
+
+[CLS_ExtraLifePickup]
+alias CLS_Collectable
+
+[CLS_BatteryCharger]
+alias default
+model prop_Battery_Recharger
+type dynamic, alpha
+
+[CLS_MovieCamera]
+alias CLS_Collectable
+model prop_movie_camera
+
+[CLS_IdolW6C]
+alias CLS_Collectable
+model prop_%s
+
+/////////////////////////////////////////////////////////////////
+// CLASS: Characters
+/////////////////////////////////////////////////////////////////
+
+[CLS_Enemy]
+alias default
+badfile a_%s
+type dynamic
+maxDrawDist 5000
+maxUpdateDist 5000
+
+[CLS_Character]
+alias default
+badfile a_%s
+type dynamic
+
+[CLS_Jimmy]
+alias CLS_Character
+type dynamic, draw-
+maxUpdateDist 1000000
+updatePriority -1
+
+[CLS_JimmyBot]
+alias CLS_KDProp
+type dynamic, alpha
+
+[CLS_JimmyDuplicate]
+alias CLS_Character
+type dynamic,drawlast
+
+[CLS_Goddard]
+alias CLS_Character
+type global
+power 200.0     // power of the explosion
+upVel 800.0 	  // amount of upwards lift when exploding
+life 2.5  	    // length frags stay before fading out
+bounce 0.5 	    // 0->1, 0 is no bounce, 1 is bounce back to full height
+gravity 3600.0
+spinrate 0.5
+
+[CLS_Bully01]
+alias CLS_Enemy
+badfile a_bully01
+
+[CLS_BlackNinja]
+alias CLS_Enemy
+
+[CLS_Ninja03]
+alias CLS_Enemy
+attackpattern 0
+
+[CLS_Sheen]
+alias CLS_Enemy
+maxDrawDist 100000
+maxUpdateDist 100000
+
+[CLS_UltraLord]
+alias CLS_Enemy
+maxDrawDist 3000
+maxUpdateDist 3000
+
+[CLS_Onibi]
+alias CLS_Character
+type alpha
+
+[CLS_Sumo]
+alias default
+badfile a_%s
+type dynamic
+
+[CLS_VenusTrap]
+alias CLS_Shatterable
+power 350.0     // power of the explosion
+upVel 800.0
+life 2.5
+bounce 0.2
+gravity 1500.0
+spinrate 3.5
+badfile PROP_TREE_VENUS
+type dynamic
+RemainingSubObject   m_base
+RemainingCollision c_base
+
+[CLS_Pirate]
+alias CLS_Enemy
+
+[CLS_PirateParrot]
+alias CLS_Character  // not a full enemy, too much code in enemy would go unused
+
+[CLS_PeckingSeagull]
+alias CLS_Character  // not a full enemy, too much code in enemy would go unused
+badfile a_Seagull
+
+[CLS_PirateWaterCannon]
+alias CLS_Enemy
+type dynamic, alpha
+
+[CLS_Cannibal]
+alias CLS_Enemy
+maxDrawDist 4000
+maxUpdateDist 4000
+type dynamic, drawbeforewater
+
+[CLS_WitchDoctor]
+alias CLS_Enemy
+
+[CLS_LavaDragon]
+alias CLS_Enemy
+
+[CLS_MGDragon]
+alias default
+badfile a_lavadragon
+type dynamic
+maxDrawDist 5000
+maxUpdateDist 5000
+
+[CLS_MsFowl]
+alias CLS_Enemy
+maxDrawDist 100000
+maxUpdateDist 100000
+
+[CLS_Cindy]
+alias CLS_Enemy
+maxDrawDist 100000
+maxUpdateDist 100000
+
+[CLS_Humphrey]
+alias CLS_Enemy
+maxDrawDist 100000
+maxUpdateDist 100000
+
+[CLS_CannibalWaterCannon]
+alias default
+bUseGroundColor 0
+badfile A_CannibalCannon
+type dynamic, alpha
+maxDrawDist 5000
+maxUpdateDist 5000
+
+[CLS_KillerWhale]
+alias default
+badfile a_%s
+type dynamic, alpha
+
+[CLS_CuttleFish]
+alias default
+badfile a_%s
+type dynamic, alpha
+
+[CLS_ScienceBot]
+alias CLS_Enemy
+type alpha
+
+[CLS_SecurityBot]
+alias CLS_Enemy
+
+[CLS_SecurityBotSkier]
+alias CLS_Character
+type global, alpha
+MaxUpdateDist 10000
+
+[CLS_Calamibot]
+alias CLS_Enemy
+MaxUpdateDist 100000
+type alpha
+
+[CLS_CalamibotMine]
+alias CLS_KDProp
+type global
+model prop_Mine_Bouncing
+
+[CLS_Calamitus]
+alias CLS_Enemy
+badfile a_profcalamitus
+type global
+
+/////////////////////////////////////////////////////////////////
+// CLASS: Vehicles
+/////////////////////////////////////////////////////////////////
+
+[CLS_Vehicle]
+alias default
+type dynamic
+
+[CLS_GoddardGokart]
+alias CLS_Vehicle
+badfile a_GoddardGokart
+type alpha
+MaxUpdateDist 1000000
+
+[CLS_Rickshaw]
+alias CLS_Vehicle
+badfile a_rickshaw
+maxUpdateDist 25000
+type alpha
+
+[CLS_GoddardRaft]
+alias CLS_Vehicle
+badfile a_GoddardRaft
+MaxUpdateDist 1000000
+
+[CLS_RaceCanoe]
+alias CLS_Vehicle
+badfile a_CannibalCanoe
+maxUpdateDist 25000
+
+[CLS_Submarine]
+alias CLS_Vehicle
+badfile a_Sub
+type global,alpha
+
+[CLS_GoddardJetBoard]
+alias CLS_Vehicle
+badfile a_GoddardJetboard
+type alpha
+
+[CLS_GoddardJetSki]
+alias CLS_Vehicle
+badfile a_GoddardJetSki
+
+/////////////////////////////////////////////////////////////////
+// CLASS: Effects
+/////////////////////////////////////////////////////////////////
+
+[CLS_MKParticleSystem]
+type global, alpha
+updatePriority -2
+
+[CLS_GustParticleSystem]
+alias CLS_MKParticleSystem
+material FX_FootDustParticle
+
+[CLS_FootDustParticleSystem]
+alias CLS_MKParticleSystem
+material FX_FootDustParticle
+
+[CLS_RocketParticleSystemRelative]
+alias CLS_MKBaseParticleSystem
+type global, alpha
+material fx_FirePArticle
+
+[CLS_FootGrassParticleSystem]
+alias CLS_MKParticleSystem
+material FX_FootGrass
+
+[CLS_FootGravelParticleSystem]
+alias CLS_MKParticleSystem
+material FX_FootGravel
+
+[CLS_FootWaterParticleSystem]
+alias CLS_MKParticleSystem
+material FX_FootWater
+
+[CLS_FootRippleParticleSystem]
+alias CLS_MKParticleSystem
+material FX_FootWaterRipple
+
+[CLS_CollectableParticleSystem]
+alias CLS_MKParticleSystem
+material fx_LightParticle
+
+[CLS_CollectableEffectParticleSystem]
+alias CLS_MKParticleSystem
+material fx_LightParticle
+
+[CLS_FireParticleSystem]
+alias CLS_MKParticleSystem
+material fx_FireParticle
+
+[CLS_FireBreathParticleSystem]
+alias CLS_MKParticleSystem
+material fx_FireParticle
+
+[CLS_MsFowlFireParticleSystem]
+alias CLS_MKParticleSystem
+material fx_FireParticle
+
+[CLS_GoddardShieldParticleSystem]
+alias CLS_MKParticleSystem
+material fx_LightBurst
+
+[CLS_RocketParticleSystem]
+alias CLS_MKParticleSystem
+material fx_FirePArticle
+
+[CLS_LightParticleSystem]
+alias CLS_MKParticleSystem
+material fx_LightBurst
+
+[CLS_Light2DParticleSystem]
+alias CLS_MKParticleSystem
+material fx_LightBurst
+type draw-
+
+[CLS_DropShadow]
+alias default
+material FX_DropShadow
+type global, alpha
+DrawPriority 3
+
+[CLS_LaserLight]
+alias default
+material FX_DropShadow
+type global, alpha
+
+[CLS_ElectricFenceEffect]
+alias default
+type global, alpha
+
+[CLS_WaterSprayParticleSystem]
+alias CLS_MKParticleSystem
+material fx_WaterParticle
+
+[CLS_WaterSprayLongParticleSystem]
+alias CLS_MKParticleSystem
+material fx_WaterParticle
+
+[CLS_WaterSplashParticleSystem]
+alias CLS_MKParticleSystem
+material fx_waterspray
+
+[CLS_SmokePuffParticleSystem]
+alias CLS_MKParticleSystem
+material FX_FootDustParticle
+
+[CLS_SquidInkParticleSystem]
+alias CLS_MKParticleSystem
+material fx_SquidInkParticle
+
+[CLS_BubbleParticleSystem]
+alias CLS_MKParticleSystem
+material FX_Bubble
+
+[CLS_SteamJetPS]
+alias CLS_MKParticleSystem
+material FX_Steam
+
+[CLS_ScienceSteamTrapPS]
+alias CLS_MKParticleSystem
+material FX_Steam
+
+[CLS_ScienceSteamTrapIdlePS]
+alias CLS_MKParticleSystem
+material FX_Steam
+
+[CLS_MsFowlSteamParticleSystem]
+alias CLS_MKParticleSystem
+material FX_Steam
+
+[CLS_LavaSpurtPS]
+alias CLS_MKParticleSystem
+material fx_FireParticle
+
+[CLS_RocketSmokeParticleSystem]
+alias CLS_MKParticleSystem
+material FX_FootDustParticle
+
+[CLS_SparkParticleSystem]
+alias CLS_MKParticleSystem
+
+[CLS_SpaceWarp]
+alias default
+type global, drawlast
+material fx_SpaceWarp
+
+[SpaceWarp]
+alias CLS_SpaceWarp
+
+
+/////////////////////////////////////////////////////////////////
+// CLASS: Projectile Managers
+/////////////////////////////////////////////////////////////////
+
+[CLS_ProjectileManager]
+alias default
+type global, alpha
+maxProjectiles 10
+
+[CLS_LightGun_ProjMgr_01]
+alias CLS_ProjectileManager
+
+[CLS_LightGun_ProjMgr_02]
+alias CLS_ProjectileManager
+
+[CLS_MagneticTurner_ProjMgr_01]
+alias CLS_ProjectileManager
+
+[CLS_MagneticTurner_ProjMgr_02]
+alias CLS_ProjectileManager
+
+[CLS_GustBuster_ProjMgr_01]
+alias CLS_ProjectileManager
+
+[CLS_GustBuster_ProjMgr_02]
+alias CLS_ProjectileManager
+
+[CLS_BubbleGumGun_ProjMgr_01]
+alias CLS_ProjectileManager
+
+[CLS_VenusTrap_ProjMgr_01]
+alias CLS_ProjectileManager
+
+[CLS_CuttleFishInk_ProjMgr_01]
+alias CLS_ProjectileManager
+
+[CLS_VenusTrap_ProjMgr_02]
+alias CLS_ProjectileManager
+
+[CLS_SleepDust_ProjMgr_01]
+alias CLS_ProjectileManager
+
+[CLS_FireBreath_ProjMgr_01]
+alias CLS_ProjectileManager
+
+[CLS_SubmarinePulseGun_ProjMgr_01]
+alias CLS_ProjectileManager
+
+[CLS_SecurityBotLaser_ProjMgr_01]
+alias CLS_ProjectileManager
+
+[CLS_PulseLaser_ProjMgr_01]
+alias CLS_ProjectileManager
+
+[CLS_Calamibot_ProjMgr_01]
+alias CLS_ProjectileManager
+
+[CLS_Calamibot_ProjMgr_02]
+alias CLS_ProjectileManager
+
+//###############################################################
+//###############################################################
+// Instances of classes
+//###############################################################
+//###############################################################
+
+/////////////////////////////////////////////////////////////////
+// General
+/////////////////////////////////////////////////////////////////
+
+[*]
+alias CLS_KDProp
+
+[Basket_Flaming]
+alias CLS_BurningBasket
+MaxDrawDist 4000
+MaxUpdateDist 4000
+
+[Jap_Yukimi]
+alias CLS_BurningBasket
+MaxDrawDist 4000
+MaxUpdateDist 4000
+
+[Light_Volcano]
+alias CLS_BurningBasket
+
+[CollideBox]
+alias CLS_SignProp
+model prop_collideBoxAlias
+
+[SPARKSBOX]
+ alias CLS_ParticleSpawnProp
+ CanHandleMissingFiles 1
+ MaxDrawDist 4000
+ MaxUpdateDist 4000
+ spawntype 3
+ SpawnsPerSecond 10.f
+ bDrawProp  = false
+// sound FlamingTorchLP
+ particlesystem SparkParticleSystem
+//color 0.1, 0.1, 1.0, 1.0
+
+[SoundProp]
+alias CLS_KDSoundProp
+
+[Script]
+alias CLS_ScriptProp
+
+[ConditionalTriggerBox]
+alias CLS_ConditionalTriggerProp
+
+[ConditionalTriggerSphere]
+alias CLS_ConditionalTriggerProp
+
+[TriggerBox]
+alias CLS_TriggerProp
+
+[TriggerSphere]
+alias CLS_TriggerProp
+
+[TriggerPoly]
+alias CLS_TriggerProp
+
+[FallDieTriggerBox]
+alias CLS_FallDieTriggerProp
+
+[TriggerZoneBox]
+alias CLS_TriggerZoneProp
+
+[TriggerZoneSphere]
+alias CLS_TriggerZoneProp
+
+[TriggerZonePoly]
+alias CLS_TriggerZoneProp
+
+[CameraOverride]
+alias CLS_CameraOverride
+
+[CameraOverridePoly]
+alias CLS_CameraOverride
+
+[BossCamOverride]
+alias CLS_BossCamOverride
+
+[GoddardOverride]
+alias CLS_GoddardOverride
+
+[ObjectiveInvention]
+alias CLS_ObjectiveProp
+maxDrawDist 5000
+maxUpdateDist 5000
+
+[Endpoint5B]
+alias CLS_ObjectiveProp
+model prop_EndPoint5B
+
+[CutsceneProp]
+alias CLS_CutsceneProp
+
+[CutsceneProp2]
+alias CLS_CutsceneProp
+
+[WaterVolume]
+alias CLS_WaterVolume
+type update-,draw-
+
+[Flurp_Machine]
+alias CLS_RestartProp
+
+[Flurp_Sub]
+alias CLS_RestartProp
+badfile Prop_Flurp_Sub
+
+
+[Butterfly]
+alias CLS_CritterFieldButterfly
+
+[Fish_Cod]
+alias CLS_CritterFieldFish
+bHeroReact              = true
+bFlock                  = false
+
+[Barramundi]
+alias Fish_Cod
+model                   = C_Barramundi
+badfile                 = C_Barramundi
+
+[JellyFish]
+alias CLS_CritterFieldJellyFish
+bHeroReact              = true
+bFlock                  = true
+type alpha
+
+[Gerboa]
+alias CLS_CritterFieldHopper
+model                   = C_Gerboa
+badfile                 = C_Gerboa
+idleCount               = 2
+bJumpDust               = false
+jumpDistance            = 0.5
+jumpTurnAmount          = 0.3
+jumpHeight              = 0.3
+jumpTime                = 0.4
+
+[Bat]
+alias CLS_CritterFieldCaveBat
+
+[Sparrow]
+alias CLS_CritterFieldSparrow
+model                   = C_Sparrow
+badfile                 = C_Sparrow
+jumpDistance            = 0.2
+jumpTurnAmount          = 0.3
+jumpHeight              = 0.2
+jumpTime                = 0.4
+
+[Sparrow_Waypoints]
+alias CLS_CritterFieldSparrow
+model                   = C_Sparrow
+badfile                 = C_Sparrow
+jumpDistance            = 0.2
+jumpTurnAmount          = 0.3
+jumpHeight              = 0.2
+jumpTime                = 0.4
+
+[Seagull]
+alias CLS_CritterFieldSeagull
+model                   = C_Seagull
+badfile                 = C_Seagull
+// movement descriptor
+maxSpeed                = 100.0
+yDampeningFactor        = 1.0
+turnSpeed               = 1.0
+maxRoll                 = 0.0
+smoothTime              = 1.0
+
+[Eagle]
+alias CLS_CritterFieldSeagull
+model                   = C_Eagle_01
+badfile                 = C_Eagle_01
+// movement descriptor
+maxSpeed                = 100.0
+yDampeningFactor        = 1.0
+turnSpeed               = 1.0
+maxRoll                 = 0.0
+smoothTime              = 1.0
+maxDrawDist             = 7000
+
+[Firefly]
+alias CLS_CritterFieldFirefly
+
+[Box_Light]
+alias CLS_Crate
+subtype 0
+model prop_%s
+type alpha
+
+[Box_Magno]
+alias CLS_Crate
+subtype 1
+model prop_%s
+
+[Box_BubbleGum]
+alias CLS_Crate
+subtype 2
+model prop_%s
+
+[Box_GustBuster]
+alias CLS_Crate
+subtype 3
+model prop_%s
+
+[RopeBox]
+alias CLS_RopeProp
+MaxDrawDist 5000
+MaxUpdateDist 5000
+
+
+[SmashBonusController]
+alias CLS_SmashBonusController
+
+[Crystal_Pillar]
+alias CLS_PillarLeaning
+model prop_%s
+MaxDrawDist 5000
+MaxUpdateDist 5000
+type alpha
+
+[OmniLightProp]
+alias CLS_OmniLightProp
+
+[TeleportBox]
+alias CLS_TeleportProp
+
+[TeleportSphere]
+alias CLS_TeleportProp
+
+[TeleportPoly]
+alias CLS_TeleportProp
+
+[Ripple]
+alias CLS_Ripple
+type dynamic
+
+/////////////////////////////////////////////////////////////////
+// CLASS: MiniGame Props
+/////////////////////////////////////////////////////////////////
+
+[TutorialObjective]
+alias CLS_Tutorial1AProp
+
+[MiniGame2ASumo]
+alias CLS_MiniGame2ASumo
+
+[MiniGame2ARickshaw]
+alias CLS_MiniGame2ARickshaw
+
+[Rickshaw_Crashed]
+alias CLS_RickshawCrashed
+
+[StaticBlackNinja]
+alias CLS_StaticBlackNinja
+maxDrawDist 5000
+maxUpdateDist 5000
+
+[StaticCannibal]
+alias CLS_StaticCannibal
+maxDrawDist 5000
+maxUpdateDist 5000
+
+[CUTPIRATE01]
+alias CLS_StaticPirate
+maxDrawDist 5000
+maxUpdateDist 5000
+
+[CutPirate01]
+alias CLS_KDProp
+badfile a_staticpirate01
+
+[MiniGame3ARiverRace]
+alias CLS_MiniGame3ARiverRace
+
+[MiniGame3AFrogger]
+alias CLS_MiniGame3AFrogger
+
+[MiniGame3BBoulder]
+alias CLS_MiniGame3BBoulder
+
+[MiniGame3BMineCart]
+alias CLS_MineCartRide
+
+[MiniGame5AJetSki]
+alias CLS_MiniGame5AJetSki
+
+[MiniGame5APirateShooting]
+alias CLS_MiniGame5APirateShooting
+type alpha
+
+[MiniGame5AFishing]
+alias CLS_MiniGame5AFishing
+
+[MiniGame5ABirdChase]
+alias CLS_MiniGame5ABirdChase
+
+[MGFish]
+alias CLS_MGFish
+badfile a_sailFish
+type dynamic
+
+[MiniGame5BGiantSquid]
+alias CLS_MiniGame5BGiantSquid
+
+[MiniGame5BIceCrystal]
+alias CLS_MiniGame5BIceCrystal
+
+[MiniGame6APicturePuzzle]
+alias CLS_MiniGame6APicturePuzzle
+
+[MiniGame6AButtonPress]
+alias CLS_MiniGame6AButtonPress
+
+[MGCalamitus]
+alias CLS_MGCalamitus
+badfile a_MGCalam
+
+[CLS_W6C_Controller]
+type global
+
+[W6C_Controller]
+alias CLS_W6C_Controller
+
+
+/////////////////////////////////////////////////////////////////
+// Moveable Items
+/////////////////////////////////////////////////////////////////
+
+[Table_Flat]
+	alias CLS_MoveableProp
+
+[Trolley]
+	alias CLS_MoveableProp
+	blowable true
+	damping 2.0
+
+[Chair_Woodwork]
+	alias CLS_MoveableProp
+
+[BambooPot]
+	alias CLS_MoveableProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[CRATE_PLASTIC]
+	alias CLS_MoveableProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[CRATE_METAL]
+	alias CLS_KDProp
+	MaxDrawDist 4000
+	MaxUpdateDist 4000
+
+[Crate_Bamboo]
+	alias CLS_MoveableProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[Ladder_Bamboo]
+	alias CLS_MoveableProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+	type alpha
+
+[Box_Reflective]
+	alias CLS_MoveableProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[BUB_Mirror]
+	alias CLS_MoveableProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[PLR_Crate]
+	alias CLS_LightGunLeverProp
+	model prop_PLR_crate
+	badfile prop_PLR_crate
+
+/////////////////////////////////////////////////////////////////
+// Throwable Items
+/////////////////////////////////////////////////////////////////
+
+[NinjaBroom]
+alias CLS_ThrowableProp
+badfile prop_%s
+subtype 0
+MaxDrawDist 3000
+MaxUpdateDist 5000
+[NinjaHat]
+alias CLS_ThrowableProp
+model prop_%s
+subtype 1
+
+[BullyBall]
+alias CLS_ThrowableProp
+badfile prop_%s
+subtype 2
+
+[CannibalBerry]
+alias CLS_ThrowableProp
+badfile prop_%s
+subtype 3
+MaxDrawDist 4000
+MaxUpdateDist 4000
+
+/////////////////////////////////////////////////////////////////
+// Platform Props
+/////////////////////////////////////////////////////////////////
+
+[Platform]
+alias CLS_Platform
+model prop_%s
+maxDrawDist 5000
+bUseGroundColor 0
+
+[DkRoom_Platform]
+alias CLS_Platform
+model prop_%s
+maxDrawDist 5000
+
+[Elevator]
+alias CLS_Platform
+model prop_%s
+maxTilt 0.1
+bRestartOnJimmyDeath true
+StopWhenCollideWithJimmy true
+
+[Raft_Pool]
+alias CLS_Platform
+model prop_%s
+subtype 2
+
+[Treehouse_Lift]
+alias CLS_Platform
+badfile prop_%s
+maxTilt 0.0
+drawshadow false
+
+[Treehouse_PlatAir]
+alias CLS_Platform
+model prop_%s
+subtype 3
+maxTilt 0.0
+materialID none
+
+[Dkroom_FloorFore]
+alias CLS_Platform
+model prop_%s
+maxTilt 0.0
+conveyerMaterial Prop_dkroom_floor
+
+[Dkroom_FloorSide]
+alias CLS_Platform
+model prop_%s
+maxTilt 0.0
+conveyerMaterial Prop_dkroom_floor
+
+[Dkroom_Crumble]
+alias CLS_PlatformCrumbling
+model prop_%s
+RemainingSubObject   m_DkRoom_Crumble
+RemainingCollision c_DkRoom_Crumble
+
+[Platform_Cube]
+alias CLS_Platform
+model prop_%s
+maxDrawDist 5000
+maxTilt 0.0
+
+[Platform_Ladder]
+alias CLS_Platform
+model prop_%s
+maxDrawDist 5000
+maxTilt 0.0
+type alpha
+
+[Piston_Platform1]
+alias CLS_PistonPlatform
+model prop_piston_platform1
+maxTilt 0.0
+
+[Piston_Platform2]
+alias CLS_PistonPlatform
+model prop_piston_platform2
+maxTilt 0.0
+
+
+/////////////////////////////////////////////////////////////////
+// Collectable Items
+/////////////////////////////////////////////////////////////////
+
+[Battery]
+alias CLS_Battery
+maxDrawDistance 4000
+
+[Battery_Big]
+alias CLS_BigBattery
+
+[ToolPart]
+alias CLS_Collectable
+
+[chip_nav]
+alias CLS_GoddardNavChip
+type alpha
+
+[chip_upgrade]
+alias CLS_GoddardUpgradeChip
+type alpha
+
+[BonusItem]
+alias CLS_Collectable
+
+[CostumeUpgrade]
+alias CLS_Collectable
+
+[Candy]
+alias CLS_WhiteCandy
+
+[HealthBonus]
+alias CLS_HealthPickup
+model prop_HealthBonus
+
+[LifeBonus]
+alias CLS_ExtraLifePickup
+// placeholder prop, remove once correct model is available
+model prop_LifeBonus
+
+[Battery_Recharger]
+alias CLS_BatteryCharger
+
+[MovieCameraBonus]
+alias CLS_MovieCamera
+
+/////////////////////////////////////////////////////////////////
+// Characters
+/////////////////////////////////////////////////////////////////
+
+[Jimmy]
+alias CLS_Jimmy
+<W1A>badfile A_Jimmy
+<W2A>badfile A_JimmyJapan
+<W2B>badfile A_JimmyJapan
+<W2C>badfile A_JimmyJapan
+<W3A>badfile A_JimmyJungle
+<W3B>badfile A_JimmyJungle
+<W3C>badfile A_JimmyJungle
+<W5A>badfile A_JimmyPirate
+<W5B>badfile A_JimmyPirate
+<W5C>badfile A_JimmyPirate
+<W6A>badfile A_JimmyTux
+<W6B>badfile A_JimmyTux
+<W6C>badfile A_JimmyTux
+
+[JimmyDuplicate]
+alias CLS_JimmyDuplicate
+<W1A>badfile A_Jimmy
+<W2A>badfile A_JimmyJapan
+<W2B>badfile A_JimmyJapan
+<W2C>badfile A_JimmyJapan
+<W3A>badfile A_JimmyJungle
+<W3B>badfile A_JimmyJungle
+<W3C>badfile A_JimmyJungle
+<W5A>badfile A_JimmyPirate
+<W5B>badfile A_JimmyPirate
+<W5C>badfile A_JimmyPirate
+<W6A>badfile A_JimmyTux
+<W6B>badfile A_JimmyTux
+<W6C>badfile A_JimmyTux
+
+[JimmyBot]
+alias CLS_JimmyBot
+badfile A_JimmyBot
+
+[Goddard]
+alias CLS_Goddard
+
+[Bully01]
+alias CLS_Bully01
+showsunglasses 0
+
+[Bully01_EasyMediumSunglasses]
+alias CLS_Bully01
+showsunglasses 1
+
+[Bully01_EasyMedium]
+alias CLS_Bully01
+showsunglasses 0
+
+[Ninja01]
+alias CLS_BlackNinja
+badfile a_Ninja01
+alertReaction 0
+
+[Ninja03_HardMediumHat]
+alias CLS_Ninja03
+badfile a_Ninja03
+attackpattern 0
+showhat 1
+
+[Ninja03_HardMedium]
+alias CLS_Ninja03
+badfile a_Ninja03
+attackpattern 0
+showhat 0
+
+[Sheen]
+alias CLS_Sheen
+
+[Calamibot]
+alias CLS_Calamibot
+
+[CalamibotMine]
+alias CLS_CalamibotMine
+
+[Calamitus]
+alias CLS_Calamitus
+
+[UltraLord]
+alias CLS_UltraLord
+
+[Onibi]
+alias CLS_Onibi
+
+[Lantern_Onibi]
+alias CLS_OnibiLantern
+maxDrawDist 5000
+maxUpdateDist 5000
+type alpha
+
+[UltralordSpawner]
+alias CLS_UltralordMachine2B
+
+[Sumo]
+alias CLS_Sumo
+
+[Pirate01]
+alias CLS_Pirate
+MaxDrawDist 4000
+MaxUpdateDist 4000
+
+[PirateParrot]
+alias CLS_PirateParrot
+MaxDrawDist 4000
+MaxUpdateDist 4000
+
+
+[PeckingSeagull]
+alias CLS_PeckingSeagull
+
+[Pirate02]
+alias CLS_PirateWaterCannon
+MaxDrawDist 4000
+MaxUpdateDist 4000
+
+[PirateCannon]
+alias CLS_PirateCannon
+MaxDrawDist 4000
+MaxUpdateDist 4000
+
+
+[MGPirateCannon]
+alias CLS_MGPirateCannon
+
+[Cannibal]
+alias CLS_Cannibal
+
+[WitchDoctor]
+alias CLS_WitchDoctor
+
+[LavaDragon]
+alias CLS_LavaDragon
+
+[MGDragon]
+alias CLS_MGDragon
+
+[MsFowlFire]
+alias CLS_MsFowl
+
+[Cindy]
+alias CLS_Cindy
+
+[Humphrey]
+alias CLS_Humphrey
+
+[CannibalCannon]
+alias CLS_CannibalWaterCannon
+
+[KillerWhale]
+alias CLS_KillerWhale
+
+[CuttleFish]
+alias CLS_CuttleFish
+
+[HarpoonGun]
+alias CLS_HarpoonGun
+
+[ScienceBot]
+alias CLS_ScienceBot
+
+[SecurityBot]
+alias CLS_SecurityBot
+
+[SecurityBotSkier]
+alias CLS_SecurityBotSkier
+badfile a_SecurityBotSki
+
+/////////////////////////////////////////////////////////////////
+// Vehicles
+/////////////////////////////////////////////////////////////////
+
+[Rickshaw]
+alias CLS_Rickshaw
+
+[GoddardGokart]
+alias CLS_GoddardGokart
+
+[GoddardRaft]
+alias CLS_GoddardRaft
+
+[RaceCanoe]
+alias CLS_RaceCanoe
+
+[Sub]
+alias CLS_Submarine
+type alpha
+
+[GoddardJetBoard]
+alias CLS_GoddardJetBoard
+acceleration  = 1200.0 // 12 m/s
+drag          = 0.50
+rotationDrag  = 4.00
+rotationSpeed = 10.00
+gravityGround = -980.0
+gravityAir    = -2750
+minGrindSpeed = 1200
+maxGrindSpeed = 1800
+minGrindEntrySpeed = 500
+brakeSpeed = 5.0
+
+[GoddardJetSki]
+alias CLS_GoddardJetSki
+
+/////////////////////////////////////////////////////////////////
+// Effects systems
+/////////////////////////////////////////////////////////////////
+
+[GustParticleSystem]
+alias CLS_GustParticleSystem
+
+[FootDustParticleSystem]
+alias CLS_FootDustParticleSystem
+
+[RocketParticleSystemRelative]
+alias CLS_RocketParticleSystemRelative
+
+[FootGrassParticleSystem]
+alias CLS_FootGrassParticleSystem
+
+[FootGravelParticleSystem]
+alias CLS_FootGravelParticleSystem
+
+[FootWaterParticleSystem]
+alias CLS_FootWaterParticleSystem
+
+[FootRippleParticleSystem]
+alias CLS_FootRippleParticleSystem
+
+[CollectableParticleSystem]
+alias CLS_CollectableParticleSystem
+
+[CollectableEffectParticleSystem]
+alias CLS_CollectableEffectParticleSystem
+
+[FireParticleSystem]
+alias CLS_FireParticleSystem
+
+[FireBreathParticleSystem]
+alias CLS_FireBreathParticleSystem
+
+[MsFowlFireParticleSystem]
+alias CLS_MsFowlFireParticleSystem
+
+[RocketParticleSystem]
+alias CLS_RocketParticleSystem
+
+[LightParticleSystem]
+alias CLS_LightParticleSystem
+
+[GoddardShieldParticleSystem]
+alias CLS_GoddardShieldParticleSystem
+
+[DropShadow]
+alias CLS_DropShadow
+
+[LaserLight]
+alias CLS_LaserLight
+
+[ElectricFenceEffect]
+alias CLS_ElectricFenceEffect
+
+[WaterSprayParticleSystem]
+alias CLS_WaterSprayParticleSystem
+
+[WaterSprayLongParticleSystem]
+alias CLS_WaterSprayLongParticleSystem
+
+[WaterSplashParticleSystem]
+alias CLS_WaterSplashParticleSystem
+
+[SmokePuffParticleSystem]
+alias CLS_SmokePuffParticleSystem
+
+[SquidInkParticleSystem]
+alias CLS_SquidInkParticleSystem
+DrawPriority -1
+
+[BubbleParticleSystem]
+alias CLS_BubbleParticleSystem
+
+[SteamJetPS]
+alias CLS_SteamJetPS
+
+[ScienceSteamTrapPS]
+alias CLS_ScienceSteamTrapPS
+
+[ScienceSteamTrapIdlePS]
+alias CLS_ScienceSteamTrapIdlePS
+
+[MsFowlSteamParticleSystem]
+alias CLS_MsFowlSteamParticleSystem
+
+[LavaSpurtPS]
+alias CLS_LavaSpurtPS
+
+[RocketSmokeParticleSystem]
+alias CLS_RocketSmokeParticleSystem
+
+[SparkParticleSystem]
+alias CLS_SparkParticleSystem
+material fx_LightParticle
+splats 0
+
+[GoopParticleSystem]
+alias CLS_SparkParticleSystem
+material fx_goop
+splats 1
+DrawPriority 2
+
+[Light2DParticleSystem]
+alias CLS_Light2DParticleSystem
+
+/////////////////////////////////////////////////////////////////
+// Projectile Managers
+/////////////////////////////////////////////////////////////////
+
+[LightGun_ProjMgr_01]
+alias CLS_LightGun_ProjMgr_01
+material fx_lightRay
+lifespan 0.3
+
+[LightGun_ProjMgr_02]
+alias CLS_LightGun_ProjMgr_02
+material fx_lightBurst
+lifespan 0.5
+
+[MagneticTurner_ProjMgr_01]
+alias CLS_MagneticTurner_ProjMgr_01
+material fx_MagneticRay
+lifespan 0.6
+
+[MagneticTurner_ProjMgr_02]
+alias CLS_MagneticTurner_ProjMgr_02
+material fx_MagneticRay
+lifespan 1.3
+
+[GustBuster_ProjMgr_01]
+alias CLS_GustBuster_ProjMgr_01
+material fx_LightParticle
+lifespan 0.5
+
+[BubbleGumGun_ProjMgr_01]
+alias CLS_BubbleGumGun_ProjMgr_01
+material fx_gloop
+lifespan 1.0
+
+[GustBuster_ProjMgr_02]
+alias CLS_GustBuster_ProjMgr_02
+material fx_LightParticle
+lifespan 0.5
+
+[CuttleFishInk_ProjMgr_01]
+alias CLS_CuttleFishInk_ProjMgr_01
+material fx_SquidInkParticle
+lifespan 1.5
+
+[VenusTrap_ProjMgr_01]
+alias CLS_VenusTrap_ProjMgr_01
+material FX_FootDustParticle
+lifespan 0.8
+
+[VenusTrap_ProjMgr_02]
+alias CLS_VenusTrap_ProjMgr_01
+material FX_FootDustParticle
+lifespan 1.5
+
+[SleepDust_ProjMgr_01]
+alias CLS_SleepDust_ProjMgr_01
+material FX_FootDustParticle
+lifespan 0.7
+
+[FireBreath_ProjMgr_01]
+alias CLS_FireBreath_ProjMgr_01
+material fx_008
+lifespan 0.5
+
+[SubmarinePulseGun_ProjMgr_01]
+alias CLS_SubmarinePulseGun_ProjMgr_01
+material fx_lightRay
+lifespan 0.5
+
+[SecurityBotLaser_ProjMgr_01]
+alias CLS_SecurityBotLaser_ProjMgr_01
+material fx_lightRay
+lifespan 0.05
+
+[PulseLaser_ProjMgr_01]
+alias CLS_PulseLaser_ProjMgr_01
+material fx_lightRay
+lifespan 0.05
+
+[Calamibot_ProjMgr_01]
+alias CLS_Calamibot_ProjMgr_01
+material fx_lightRay
+lifespan 0.6
+
+[Calamibot_ProjMgr_02]
+alias CLS_Calamibot_ProjMgr_02
+material fx_lightRay
+lifespan 5.0
+
+[JimmyBotGun_ProjMgr_01]
+alias CLS_BubbleGumGun_ProjMgr_01
+material fx_gloop
+lifespan 3.0
+
+/////////////////////////////////////////////////////////////////
+// FrontEnd Props
+/////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////
+// World 1 Props
+/////////////////////////////////////////////////////////////////
+
+// Invention Pieces
+[Book_JetFusion]
+alias CLS_InventionPiece
+subtype 0
+bUseGroundColor 0
+
+[VWRM_VCR]
+alias CLS_InventionPiece
+model prop_VCR
+subtype 1
+
+[VWRM_Projector]
+alias CLS_InventionPiece
+model prop_Projector
+subtype 2
+
+[VWRM_Computer_Case]
+alias CLS_InventionPiece
+model prop_Computer_Case
+subtype 3
+
+[VWRM_BoomBox]
+alias CLS_InventionPiece
+model prop_BoomBox
+subtype 4
+
+// Weapon Pieces
+[LightGun_LightFitting]
+alias CLS_WeaponPart
+model prop_LightFitting
+subtype 0
+
+[LightGun_FoodMixer]
+alias CLS_WeaponPart
+model prop_FoodMixer
+subtype 1
+
+[LightGun_LightBulb]
+alias CLS_WeaponPart
+model prop_LightBulb
+subtype 2
+
+//Props
+[DOOR_LOCK]
+alias CLS_KDProp
+maxDrawDist 4000
+
+[CLS_CurtainProp]
+alias default
+
+[CURTAIN]
+alias CLS_CurtainProp
+material prop_1A_Page_Curtain
+
+[FENCE_DISTANT]
+alias CLS_KDProp
+maxDrawDist 100000
+
+[BKSHELF_LIB]
+alias CLS_KDProp
+materialID CameraFade
+
+[BKSHELF_LIB01]
+alias CLS_KDProp
+materialID CameraFade
+
+[BKSHELF_LIB02]
+alias CLS_KDProp
+materialID CameraFade
+
+[BKSHELF_LIB03]
+alias CLS_KDProp
+materialID CameraFade
+
+[CABINET]
+alias CLS_KDProp
+type alpha
+
+[GOLDFISH_BOWL]
+alias CLS_KDProp
+type alpha
+
+[FOODSERVER_COLD]
+alias CLS_KDProp
+type alpha
+
+[GLASS_BOX]
+alias CLS_KDProp
+type alpha
+
+[GYMNET]
+alias CLS_KDProp
+materialID none
+
+[HAMSTERRUN]
+alias CLS_KDProp
+type alpha
+
+[LIGHT]
+alias CLS_KDProp
+lit 0
+
+[LIGHT_HALL]
+alias CLS_KDProp
+lit 0
+
+[CHAIR_LOUNGE]
+alias BounceProp
+badfile PROP_CHAIR_LOUNGE
+bounceSettings -50, 300, 400, 950		// bounce loss, gain, minVel, maxVel
+
+[GYMSPRINGBOARD]
+alias BounceProp
+badfile PROP_GYMSPRINGBOARD
+bounceSettings -50, 300, 400, 1000		// bounce loss, gain, minVel, maxVel
+
+[ScienceSteamTrap]
+alias CLS_ScienceSteamTrap
+type alpha
+
+[Basketball]
+alias CLS_Basketball
+
+/////////////////////////////////////////////////////////////////
+// World 2 Props
+/////////////////////////////////////////////////////////////////
+
+[HintProp]
+alias CLS_HintProp
+
+[2ADOORS]
+	alias CLS_KDProp
+	maxdrawdist 20000
+
+[APARTMENT01]
+	alias CLS_KDProp
+	materialID none
+	maxScissorDist 5000
+
+[APARTMENT03]
+	alias CLS_KDProp
+	materialID none
+	maxScissorDist 5000
+
+[BAMBOOCLUMP]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+	materialID CameraFade
+
+[BAMBOOSHOOT]
+	alias CLS_KDProp
+	maxDrawDist 2500
+	maxUpdateDist 2500
+
+[BASKET]
+	alias CLS_KDProp
+	maxDrawDist 2500
+	maxUpdateDist 2500
+
+[BASKETBALLHOOP]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	<W1A>maxDrawDist 100000
+	maxUpdateDist 5000
+
+[BROOM]
+	alias CLS_KDProp
+	maxDrawDist 2500
+	maxUpdateDist 2500
+
+[BUSH]
+	alias CLS_KDProp
+	maxDrawDist 4000
+	maxUpdateDist 4000
+
+[BUSH_LONG]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[BUSH02]
+	alias CLS_KDProp
+	maxDrawDist 4000
+	maxUpdateDist 4000
+
+[BUSH_TREE]
+	alias CLS_KDProp
+	maxDrawDist 4000
+	maxUpdateDist 4000
+
+[BUSHWITHFLOWERS]
+	alias CLS_KDProp
+	maxDrawDist 4000
+	maxUpdateDist 4000
+
+[BUSHWITHWALL]
+	alias CLS_KDProp
+	maxDrawDist 4000
+	maxUpdateDist 4000
+
+[CAR_NEUTRON]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[COOKINGPOT]
+	alias CLS_KDProp
+	maxDrawDist 2500
+	maxUpdateDist 2500
+
+[CRATE]
+	alias CLS_KDProp
+	maxDrawDist 4000
+	maxUpdateDist 4000
+
+[DIRECTIONARROW]
+	alias CLS_SignProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+	type alpha
+
+[ELEMBUILDING]
+	alias CLS_KDProp
+	maxScissorDist 5000
+	materialID none
+
+[FENCE_BACKSTOP]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	<W1A>maxDrawDist 100000
+	maxUpdateDist 5000
+
+[FENCE_BAMBOO01]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FENCE_BAMBOO02]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FENCE_BAMBOO02_END]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FENCE_BAMBOO02_MID]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FENCE_BAMBOO03]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FENCE_BAMBOO03_END]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FENCE_BAMBOO03_MID]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FENCE_BAMBOO03_CORNER]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FENCE_BAMBOOEXPLODE]
+	alias CLS_Shatterable
+	model prop_%s
+	maxDrawDist 4000
+	maxUpdateDist 4000
+
+[FENCE_BAMBOOCENTER]
+	alias CLS_BambooCentre
+	model prop_Fence_BambooCenter
+	maxDrawDist 3500
+	maxUpdateDist 3500
+
+[FENCE_GRASS]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FENCE_HIGHWIRE]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FENCE_LOWWIRE]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	<W1A>maxDrawDist 100000
+	maxUpdateDist 5000
+
+[FENCE_LOWWIRE_SHORT]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FENCE_WOOD]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FENCE_STUMP]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FENCE_YARD]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FENCE_YARD_LONG]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FENCE_YARD_SHORT]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FIGHT_SCHOOL_01]
+	alias CLS_KDProp
+	materialID none
+	maxScissorDist 7500
+
+[FIGHT_SCHOOL_02]
+	alias CLS_KDProp
+	materialID none
+	maxScissorDist 7500
+
+[FINISHLINE]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[W3A_RIVERRACE_FINISHLINE]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+	model prop_finishline
+
+[FIRE_HYDRANT]
+	alias CLS_KDProp
+	maxDrawDist 2500
+	<W1A>maxDrawDist 100000
+	maxUpdateDist 2500
+
+[FLAG_JAPAN]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FLAG_JAPAN2]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[FLAGPOLE]
+	alias CLS_KDProp
+	maxDrawDist 7500
+	maxUpdateDist 7500
+
+[FOUNTAIN_OUTDOOR]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+	type alpha
+
+[GARBAGE_BIN]
+	alias CLS_KDProp
+	maxDrawDist 2500
+	<W1A>maxDrawDist 100000
+	maxUpdateDist 2500
+
+[GATE_JAP]
+	alias CLS_KDProp
+	materialID CameraFade
+
+[GOALPOST]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+	<W1A>maxDrawDist 100000
+
+[HAY_BAIL]
+	alias CLS_KDProp
+	maxDrawDist 4500
+	maxUpdateDist 4500
+
+[HAY_BAIL_SHATTER]
+	alias CLS_Shatterable
+	upVel 350.0
+	gravity 1500.0
+	bounce 0.3
+	subtype 0
+	type dynamic
+	model prop_hay_Bail_Shatter
+
+[HOUSE_CINDY]
+	alias CLS_KDProp
+	materialID none
+
+[HOUSE_J01]
+	alias CLS_KDProp
+	materialID none
+
+[HOUSE_J01b]
+	alias CLS_KDProp
+	materialID none
+
+[HOUSE_J02d1]
+	alias CLS_KDProp
+	materialID none
+
+[HOUSE_J02d2]
+	alias CLS_KDProp
+	materialID none
+
+[HOUSE_J02d3]
+	alias CLS_KDProp
+	materialID none
+
+[HOUSE_J02r1]
+	alias CLS_KDProp
+	materialID none
+
+[HOUSE_J02r2]
+	alias CLS_KDProp
+	materialID none
+
+[HOUSE_J02u1]
+	alias CLS_KDProp
+	materialID none
+
+[HOUSE_J03]
+	alias CLS_KDProp
+	materialID none
+
+[HOUSE_J04]
+	alias CLS_KDProp
+	materialID none
+
+[HOUSE_JSHOP]
+	alias CLS_KDProp
+	materialID none
+
+[HOUSE_JSTORE]
+	alias CLS_KDProp
+	materialID none
+
+[HOUSEGEN01]
+	alias CLS_KDProp
+	materialID none
+	maxScissorDist 3500
+
+[HOUSEGEN02]
+	alias CLS_KDProp
+	materialID none
+	maxScissorDist 3500
+
+[HOUSEGEN03]
+	alias CLS_KDProp
+	materialID none
+	maxScissorDist 3500
+
+[HOUSEGEN04]
+	alias CLS_KDProp
+	materialID none
+	maxScissorDist 3500
+
+[JAP_PLANT01]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[JAP_PLANT02]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[JAP_PLANT03]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[JAP_PLANT04]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[KEYENTRY]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[LANTERN_BAMBOO]
+	alias CLS_ParticleSpawnProp
+	MaxDrawDist 4000
+	MaxUpdateDist 4000
+	ref0 r_glow
+	spawntype 1
+	SpawnsPerSecond 10.f
+	sound FlamingTorchLP
+	particlesystem LightParticleSystem
+	color 0.85, 0.85, 0.45, 0.5
+
+[LANTERN_METAL]
+	alias CLS_ParticleSpawnProp
+	MaxDrawDist 3000
+	MaxUpdateDist 3000
+	ref0 r_glow
+	spawntype 1
+	SpawnsPerSecond 10.f
+	sound FlamingTorchLP
+	particlesystem LightParticleSystem
+	color 0.85, 0.85, 0.45, 0.5
+	scale .666
+
+[LANTERN_SHEEN]
+	alias CLS_ParticleSpawnProp
+	MaxDrawDist 3000
+	MaxUpdateDist 3000
+	maxscissordist 3000
+	ref0 r_glow
+	spawntype 1
+	SpawnsPerSecond 10.f
+	sound FlamingTorchLP
+	particlesystem LightParticleSystem
+	color 0.85, 0.85, 0.45, 0.5
+
+[LANTERN_HANGING]
+	alias CLS_ParticleSpawnProp
+	MaxDrawDist 4000
+	MaxUpdateDist 4000
+	ref0 r_glow
+	spawntype 1
+	SpawnsPerSecond 10.f
+	sound FlamingTorchLP
+	particlesystem LightParticleSystem
+	color 0.85, 0.85, 0.45, 0.5
+
+[WATERSPRAY]
+	alias CLS_ParticleSpawnProp
+	CanHandleMissingFiles 1
+	MaxDrawDist 4000
+	MaxUpdateDist 4000
+//	ref0 r_glow
+	spawntype 2
+	SpawnsPerSecond 10.f
+//	sound FlamingTorchLP
+	particlesystem FootDustParticleSystem
+	color 0.8, 0.8, 0.8, 1.0
+
+[LIGHT_STREETGLOW]
+	alias CLS_KDProp
+	maxDrawDist 7500
+	maxUpdateDist 7500
+	lit 0
+	type alpha
+
+[LIGHT_STREET]
+	alias CLS_KDProp
+	maxDrawDist 7500
+	<W1A>maxDrawDist 100000
+	maxUpdateDist 7500
+
+[MAILBOX]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[MAILBOX]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[PARK_BENCH]
+	alias CLS_KDProp
+	maxDrawDist 4000
+	maxUpdateDist 4000
+
+[PATIO_CHAIR]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[PATIO_TABLE]
+	alias CLS_KDProp
+	maxDrawDist 4000
+	maxUpdateDist 4000
+
+[PIPE_HOUSE]
+	alias CLS_KDProp
+	maxDrawDist 4000
+	maxUpdateDist 4000
+
+[RICKSHAW_CRASHED]
+	alias CLS_KDProp
+	maxDrawDist 4500
+	maxUpdateDist 4500
+
+[RICKSHAW_WOOD]
+	alias CLS_KDProp
+	maxDrawDist 4500
+	maxUpdateDist 4500
+
+[ROCKGROUP01]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[ROCKGROUP02]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[SIGN_DIRECTION]
+	alias CLS_SignProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[SIGN_FORSALE]
+	alias CLS_KDProp
+	maxDrawDist 4000
+	maxUpdateDist 4000
+
+[STOP_SIGN]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	<W1A>maxDrawDist 100000
+	maxUpdateDist 5000
+
+[SUMO_RING]
+	alias CLS_KDProp
+	materialID none
+	type prelit,alpha
+	maxScissorDist 7500
+
+[SUMO_RINGSEATS]
+	alias CLS_KDProp
+	materialID none
+	type prelit
+	maxScissorDist 7500
+
+[TEAHOUSE]
+	alias CLS_KDProp
+	materialID none
+	maxScissorDist 7500
+
+[TENNIS_NET]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+	materialID CameraNoCollide
+
+[TETHERBALL]
+	alias CLS_KDProp
+	<W1A>maxDrawDist 100000
+
+[TRACTORTYRE]
+	alias CLS_KDProp
+	maxDrawDist 4500
+	maxUpdateDist 4500
+
+[TREE_BIG]
+	alias CLS_KDProp
+	<W1A>maxDrawDist 100000
+
+[TREE_BUSH]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	<W1A>maxDrawDist 100000
+	maxUpdateDist 5000
+
+[TREE_CHERRY]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[TREE_Japanese]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[TREE_MIDROUND]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	<W1A>maxDrawDist 100000
+	maxUpdateDist 5000
+
+[TREE_PINE]
+	alias CLS_KDProp
+	maxDrawDist 7500
+	maxUpdateDist 7500
+
+[TREE_SCHOOL]
+	alias CLS_KDProp
+	maxDrawDist 7500
+	maxUpdateDist 7500
+
+[TREE_SMALL]
+	alias CLS_KDProp
+	maxDrawDist 6500
+	maxUpdateDist 6500
+
+[TREE_SMLBRANCH]
+	alias CLS_KDProp
+	maxDrawDist 7500
+	<W1A>maxDrawDist 100000
+	maxUpdateDist 7500
+
+[TREE_SPIRAL]
+	alias CLS_KDProp
+	maxDrawDist 4500
+	maxUpdateDist 4500
+
+[WALL_J01]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WALL_J01_CORNER]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WALL_J01_ENDLEFT]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WALL_J01_ENDRIGHT]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WALL_J01_MID]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WALL_J02]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WALL_J02_CORNER]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WALL_J02_ENDLEFT]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WALL_J02_ENDRIGHT]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WALL_J02_MID]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WALL_J03]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WALL_J04]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WALL_J04_CORNER]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WALL_J04_ENDLEFT]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WALL_J04_ENDRIGHT]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WALL_J04_MID]
+	alias CLS_KDProp
+	materialID CameraFade
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+[WORKMAN01]
+	alias CLS_KDProp
+	maxDrawDist 4500
+	maxUpdateDist 4500
+
+[WORKMAN02]
+	alias CLS_KDProp
+	maxDrawDist 4500
+	maxUpdateDist 4500
+
+[WORKMAN03]
+	alias CLS_KDProp
+	maxDrawDist 4500
+	maxUpdateDist 4500
+
+[WORKMAN04]
+	alias CLS_KDProp
+	maxDrawDist 4500
+	maxUpdateDist 4500
+
+//2b
+[JAPAN_TEMPLE_ARCH]
+alias CLS_KDProp
+//maxScissorDist 3000
+//materialID None
+
+[JAPAN_TEMPLE_FLOOR]
+alias CLS_KDProp
+//maxScissorDist 7000
+materialID None
+
+[JAPAN_TEMPLE_STEPS]
+alias CLS_KDProp
+//maxScissorDist 2000
+materialID None
+
+[Jap_Pagoda]
+alias CLS_KDProp
+materialID none
+
+[JUMP_FLOWER]
+alias BounceProp
+badfile Prop_Jump_Flower
+bounceSettings -50, 300, 400, 1200		// bounce loss, gain, minVel, maxVel
+
+
+[MAZE_BRIDGE]
+alias CLS_KDProp
+maxScissorDist  5000
+materialID none
+
+[MAZE]
+alias CLS_KDProp
+maxScissorDist  8000
+materialID none
+
+[MAZE_HEDGE1]
+alias CLS_KDProp
+maxScissorDist  8000
+materialID none
+
+[MAZE_HEDGE2]
+alias CLS_KDProp
+maxScissorDist  8000
+materialID none
+
+[MAZE_HEDGE3]
+alias CLS_KDProp
+maxScissorDist  5000
+materialID none
+
+[MAZE_HEDGE4]
+alias CLS_KDProp
+maxScissorDist  5000
+materialID none
+
+[MAZE_WALLS]
+alias CLS_KDProp
+maxScissorDist  8000
+materialID none
+
+[JAP_ROCKS01]
+alias CLS_KDProp
+
+[Shack_Roof1]
+alias CLS_KDProp
+materialID none
+
+[Shack_Roof2]
+alias CLS_KDProp
+materialID none
+
+[Shack_Glass]
+alias CLS_KDProp
+materialID none
+type alpha
+
+[HallofMirrors]
+alias CLS_KDProp
+materialID none
+
+//Invention pieces
+[ChopLauncher_Bamboo]
+alias CLS_InventionPiece
+subtype 0
+
+[ChopLauncher_Kimono]
+alias CLS_InventionPiece
+subtype 1
+
+[ChopLauncher_Chops]
+alias CLS_InventionPiece
+subtype 2
+
+[ChopLauncher_Cart]
+alias CLS_InventionPiece
+subtype 3
+
+[ChopLauncher_Wheel]
+alias CLS_InventionPiece
+subtype 4
+
+// Weapon Pieces
+[MagTurner_Bamboo]
+alias CLS_WeaponPart
+model prop_%s
+subtype 0
+
+[MagTurner_Antenna]
+alias CLS_WeaponPart
+model prop_%s
+subtype 1
+
+[MagTurner_Magnet]
+alias CLS_WeaponPart
+model prop_%s
+subtype 2
+
+//Invention pieces
+[RoboNinja_Head]
+alias CLS_InventionPiece
+subtype 0
+
+[RoboNinja_Gloves]
+alias CLS_InventionPiece
+subtype 1
+
+[RoboNinja_Pipes]
+alias CLS_InventionPiece
+type alpha-
+subtype 2
+
+[RoboNinja_Cell]
+alias CLS_InventionPiece
+subtype 3
+
+[RoboNinja_Hubcap]
+alias CLS_InventionPiece
+subtype 4
+
+//Subgame - Well puzzle
+[Objective2BWell]
+alias CLS_Well2BObjective
+
+[WaterWheel]
+alias CLS_WellWheel2BProp
+maxDrawDist 4500
+maxUpdateDist 4500
+bUseGroundColor 0
+
+[BambooPipe]
+alias CLS_WellPipe2BProp
+maxDrawDist 4500
+maxUpdateDist 4500
+bUseGroundColor 0
+
+[BambooPipeLong]
+alias CLS_WellPipeLong2BProp
+maxDrawDist 4500
+maxUpdateDist 4500
+bUseGroundColor 0
+
+[Well]
+alias CLS_Well2BProp
+type alpha
+
+[RAFT]
+alias CLS_Platform
+model prop_%s
+
+//Subgame - Hall of mirrors
+[Objective2BMirror]
+alias CLS_Mirror2BObjective
+maxDrawDist 4000
+maxUpdateDist 4000
+
+[MIRROR_METAL]
+alias CLS_Mirror2BProp
+
+[Idol_Gold]
+alias CLS_Collectable
+
+
+[Idol_Gold2C]
+alias CLS_IdolW6C
+
+[Idol_Gold3C]
+alias CLS_IdolW6C
+
+[Idol_Gold5C]
+alias CLS_IdolW6C
+
+/////////////////////////////////////////////////////////////////
+// World 3 Props
+/////////////////////////////////////////////////////////////////
+// W3a Weapon Pieces
+	[GUST_ENGINE]
+	alias CLS_WeaponPart
+	model prop_gust_engine
+	displayEffectsModel true
+	subtype 0
+
+	[GUST_TUBE]
+	alias CLS_WeaponPart
+	model prop_gust_tube
+	subtype 1
+
+	[GUST_LEAVES]
+	alias CLS_WeaponPart
+	model prop_gust_Leaves
+	subtype 2
+
+
+// W3a Invention Pieces
+	[MAG_ORB]
+	alias CLS_InventionPiece
+	subtype 0
+
+	[MAG_SUNLOTION]
+	alias CLS_InventionPiece
+	subtype 1
+
+	[MAG_COCONUT]
+	alias CLS_InventionPiece
+	subtype 2
+
+	[MAG_STICK]
+	alias CLS_InventionPiece
+	subtype 3
+
+	[MAG_DOORKEY]
+	alias CLS_InventionPiece
+	subtype 4
+
+
+// W3b Invention Pieces
+	[LAVA_LIGHTS]
+	alias CLS_InventionPiece
+	subtype 0
+
+	[LAVA_WELDINGMASK]
+	alias CLS_InventionPiece
+	subtype 1
+
+	[LAVA_BOOTS]
+	alias CLS_InventionPiece
+	subtype 2
+
+	[LAVA_ENGINE]
+	alias CLS_InventionPiece
+	subtype 3
+
+	[LAVA_HOSE]
+	alias CLS_InventionPiece
+	subtype 4
+
+//W3a Props
+	[JETTY]
+	alias CLS_KDProp
+	materialID CameraNoCollide
+
+	[Hut_Big]
+	alias CLS_KDProp
+	materialID none
+
+	[Hut_Sml]
+	alias CLS_KDProp
+	materialID none
+
+	[DIVINGBOARD]
+	alias BounceProp
+	badfile PROP_DIVINGBOARD
+	bounceSettings -50, 300, 400, 1200		// bounce loss, gain, minVel, maxVel
+
+	[WALL_SPIKES]
+	alias CLS_WoodenSpike
+	model prop_%s
+	materialID CameraNoCollide
+
+	[ATM]
+	alias CLS_KDProp
+	maxDrawDist 4000
+
+	[Car_Jeep]
+	alias CLS_KDProp
+
+	[Fern_Jungle02]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+	[Fern_Jungle03]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+	[Fern_Jungle04]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+	[Boulder_small]
+	alias CLS_KDProp
+	maxDrawDist 4000
+	maxUpdateDist 4000
+
+	[Statue_Jungle]
+	alias CLS_StatueSteamTrap
+	model prop_Statue_Jungle
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+	[LilyPad]
+	alias CLS_Platform
+	subtype 1
+	drawshadow false
+	maxTilt 0.1
+	model prop_%s
+	maxDrawDist 5000
+//	lit 0
+
+	[Tree_Jungle01]
+	alias CLS_KDProp
+	maxDrawDist 7500
+	maxUpdateDist 7500
+	bUseLOD 0
+
+	[Tree_Palm01]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+	bUseLOD 0
+
+	[Tree_Palm02]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+	bUseLOD 0
+
+	[Tree_Palm03]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+	bUseLOD 0
+
+	[Tree_Stump]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+	bUseLOD 0
+
+	[Tree_SwampArch]
+	alias CLS_KDProp
+	maxDrawDist 7000
+	maxUpdateDist 7000
+	bUseLOD 0
+
+	[Tree_SwampBig]
+	alias CLS_KDProp
+	maxDrawDist 8000
+	maxUpdateDist 8000
+	bUseLOD 0
+
+	[Tree_SwampBroke]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+	bUseLOD 0
+
+	[Tree_SwampSml]
+	alias CLS_KDProp
+	maxDrawDist 6000
+	maxUpdateDist 6000
+	bUseLOD 0
+
+	[Tree_SwampThin]
+	alias CLS_KDProp
+	maxDrawDist 5000
+	maxUpdateDist 5000
+	bUseLOD 0
+
+	[Tree_SwampJump]
+	alias CLS_KDProp
+	maxDrawDist 7000
+
+	[Tree_Venus]
+	alias CLS_VenusTrap
+	hide 0
+	maxDrawDist 5000
+	maxUpdateDist 5000
+
+	[Tree_Venus_Hide]
+	alias CLS_VenusTrap
+	hide 1
+	maxDrawDist 5000
+	maxUpdateDIst 5000
+
+//Treehouse
+	[Treehouse_Tree]
+	alias CLS_KDProp
+//	maxScissorDist 25000
+
+	[Treehouse_TreeMid]
+	alias CLS_KDProp
+//	maxScissorDist 13000
+
+	[Treehouse_TreeMid3]
+	alias CLS_KDProp
+	maxdrawdist 13000
+	materialid none
+
+	[Treehouse_TreeBase]
+	alias CLS_KDProp
+//	maxScissorDist 10000
+
+	[Treehouse_TreeBranch]
+	alias CLS_KDProp
+//	maxScissorDist 16000
+
+//Subgame - Frogger Puzzle
+[Croc]
+alias CLS_Croc
+maxTilt 0.2
+
+[Log]
+alias CLS_Log
+maxTilt 0.1
+
+[CannibalCanoe]
+alias CLS_CanibalCanoe
+maxTilt 0.1
+
+[CanibalCanoeFront]
+alias CLS_CanibalCanoeFront
+
+//Subgame - Bridge/Lever Puzzle
+[Objective3ABridge]
+alias CLS_Bridge3AObjective
+
+[Objective3APool]
+alias CLS_Pond3AController
+
+[Treehouse_Lever]
+alias CLS_BridgeLever3AProp
+
+[TREEHOUSE_SWING]
+alias CLS_Bridge3AProp
+
+[Treehouse_platformjet]
+alias CLS_BridgeJet3AProp
+
+[TREE_MUSHROOM]
+alias BounceProp
+badfile PROP_TREE_MUSHROOM
+bounceSettings -50, 300, 400, 1100		// bounce loss, gain, minVel, maxVel
+
+[BOULDER_GLOW]
+alias CLS_RollingBoulder
+
+[Boulder_Roll]
+alias CLS_MoveableProp
+collisionRadius 0.7
+blowable true
+targetable true
+damping 2.0
+
+[WaterCannonBall]
+alias CLS_WaterCannonBall
+
+[FlyingFox]
+alias CLS_FlyingFox
+
+[FlyingFox_EndPiece]
+alias CLS_KDProp
+model Prop_Battery
+
+[FlyingPlatform]
+alias CLS_FlyingPlatform
+
+[MsFowlFireball]
+alias CLS_MsFowlFireball
+
+[Stalactite]
+alias CLS_Stalactite
+
+[StalactiteSpawner]
+alias CLS_StalactiteSpawner
+
+[Boulder_Fall]
+alias CLS_Stalactite
+model PROP_BOULDER_GLOW
+shatterModel PROP_BOULDER_SHATTER
+subtype 2
+
+[IceStalactite]
+alias CLS_Stalactite
+model PROP_ICE_STALACTITE1
+subtype 1
+MaxDrawDist 5000
+MaxUpdateDist 5000
+
+[Ice_Stalactite1]
+alias CLS_Stalactite
+model PROP_ICE_STALACTITE1
+subtype 1
+MaxDrawDist 5000
+MaxUpdateDist 5000
+
+[SteamTrap]
+alias CLS_SteamTrap
+
+[LavaSpurtTrap]
+alias CLS_LavaSpurtTrap
+
+[PressurePad]
+alias CLS_LeverProp
+badfile prop_%s
+subtype 4
+
+//W3b Props
+[VOLCANO_PIPE]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[VOLCANO_PIPEBEND]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+	[CRYSTAL_PLATFORM]
+	alias CLS_KDProp
+	model prop_%s
+	type alpha
+	maxdrawdist 5000
+
+[DKROOM_PIPESINGLE]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[DKROOM_PIPETWIN]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[DKROOM_PIPETWIN_BEND]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[DKROOM_PIPETWIN_GRATE]
+	alias CLS_KDProp
+	maxDrawDist 3000
+	maxUpdateDist 3000
+
+[MINECART_JUMP]
+	alias CLS_Shatterable
+	model prop_%s
+	maxDrawDist 7500
+	maxUpdateDist 7500
+
+[DKROOM_PILGANTRY]
+	alias CLS_KDProp
+	maxScissorDist 8000
+
+[DKROOM_PILLARSTEPS]
+	alias CLS_KDProp
+	maxScissorDist 4000
+
+[ICEBLOCK]
+	alias CLS_Shatterable
+	type dynamic, alpha
+	materialID none
+	model prop_%s
+	upVel 1000.0
+	life 1.4
+	bounce 0.6
+	gravity 3000.0
+	spinrate 3.5
+
+/////////////////////////////////////////////////////////////////
+// World 5 Props
+/////////////////////////////////////////////////////////////////
+
+//W5a Invention Pieces
+[Winch_Flag]
+alias CLS_InventionPiece
+subtype 0
+
+[Winch_Gloves]
+alias CLS_InventionPiece
+subtype 1
+
+[Winch_Mast]
+alias CLS_InventionPiece
+subtype 2
+
+[Winch_LifeSaver]
+alias CLS_InventionPiece
+subtype 3
+
+[Winch_Cannon]
+alias CLS_InventionPiece
+subtype 4
+
+//W5a Weapon Pieces
+[Bgum_Vending]
+alias CLS_WeaponPart
+subtype 0
+
+[Bgum_Nozzle]
+alias CLS_WeaponPart
+subtype 1
+
+[Bgum_WaterLaser]
+alias CLS_WeaponPart
+subtype 2
+
+//W5a PROPS
+[5aROCK_BIG]
+alias CLS_KDProp
+maxdrawdist 20000
+
+[5aROCK_SMALL]
+alias CLS_KDProp
+maxdrawdist 20000
+
+[BOATPIR01_ARCH]
+alias CLS_KDProp
+maxscissordist 8000
+
+[BOATPIR01_CABIN]
+alias CLS_KDProp
+maxscissordist 8000
+materialID none
+
+[BOATPIR01_DECKDR]
+alias CLS_KDProp
+maxscissordist 8000
+
+[BOATPIR01_DECKLOW]
+alias CLS_KDProp
+materialID None
+maxscissordist 15000
+
+[BOATPIR01_DECKTOP]
+alias CLS_KDProp
+maxscissordist 15000
+
+[BOATPIR01_ENGINE]
+alias CLS_KDProp
+maxscissordist 8000
+
+[BOATPIR01_HULLL]
+alias CLS_KDProp
+maxscissordist 15000
+
+[BOATPIR01_HULLR]
+alias CLS_KDProp
+maxscissordist 15000
+
+[BOATPIR01_MASTL]
+alias CLS_KDProp
+maxscissordist 15000
+
+[BOATPIR01_MASTM]
+alias CLS_KDProp
+maxscissordist 15000
+
+[BOATPIR01_MASTR]
+alias CLS_KDProp
+maxscissordist 15000
+
+[BOATPIR01_RAIL]
+alias CLS_KDProp
+maxscissordist 8000
+
+[BOATPIR01_SAIL]
+alias CLS_KDProp
+maxscissordist 8000
+
+[BOATPIR01_SENGINE]
+alias CLS_KDProp
+maxscissordist 8000
+
+[BOATPIR01_UPDECK]
+alias CLS_KDProp
+maxscissordist 16000
+
+[BOATPIR02_AFTDECK]
+alias CLS_KDProp
+maxscissordist 16000
+
+[BOATPIR02_AFTMAST]
+alias CLS_KDProp
+maxscissordist 15000
+
+[BOATPIR02_FRMAST]
+alias CLS_KDProp
+maxscissordist 15000
+
+[BOATPIR02_FRSAIL]
+alias CLS_KDProp
+maxscissordist 15000
+
+[BOATPIR02_GANTRY]
+alias CLS_KDProp
+maxscissordist 8000
+
+[BOATPIR02_HULL]
+alias CLS_KDProp
+maxscissordist 15000
+materialid none
+
+[BOATPIR02_MAINCABN]
+alias CLS_KDProp
+maxscissordist 16000
+
+[BOATPIR02_MIDMAST]
+alias CLS_KDProp
+maxscissordist 15000
+
+[BOATPIR02_POOP]
+alias CLS_KDProp
+maxscissordist 8000
+
+[BOATPIR02_SAILLL]
+alias CLS_KDProp
+maxscissordist 15000
+
+[BOATPIR02_SAILR]
+alias CLS_KDProp
+maxscissordist 15000
+
+[BOATPIR02_STEERCON]
+alias CLS_KDProp
+maxscissordist 8000
+
+[BOAT_SCHOONER]
+alias CLS_KDProp
+materialID None
+maxscissordist 8000
+
+[BOAT_SCHOONER_PLATFORM]
+alias CLS_Platform
+drawshadow false
+maxTilt 0.0
+materialID None
+model prop_boat_schooner
+maxscissordist 8000
+
+[BOAT_SCHOONER_CAB_PLATFORM]
+alias CLS_Platform
+drawshadow false
+maxTilt 0.0
+materialID None
+model prop_boat_schooner_cab
+maxscissordist 8000
+
+[BOAT_CATAMARAN]
+alias CLS_KDProp
+materialID None
+maxscissordist 8000
+
+[BPIR2_GULLPUZZLE]
+alias CLS_KDProp
+maxscissordist 8000
+
+[BPIR2_PLATFORM]
+alias CLS_KDProp
+maxscissordist 8000
+
+[BPIR2_ROPE_LONG]
+alias CLS_KDProp
+maxscissordist 8000
+
+[BPIR2_ROPE_SHORT]
+alias CLS_KDProp
+maxscissordist 8000
+
+[LIGHTHOUSE]
+alias CLS_KDProp
+badfile  prop_Lighthouse
+type alpha, update+
+maxscissordist 6000
+
+//W5b props
+[Teleport5BPickupController]
+alias CLS_Teleport5BPickup
+
+[BOAT_SHIPWRECK]
+alias CLS_KDProp
+maxscissordist 30000
+maxdrawdist 20000
+
+[SEALAB]
+alias CLS_KDProp
+maxscissordist 10000
+maxdrawdist 25000
+materialid none
+
+[ROCK_SEABED_BIG]
+alias CLS_KDProp
+maxdrawdist 20000
+
+[ROCK_SEABED]
+alias CLS_KDProp
+maxdrawdist 20000
+
+[ROCK_ICE]
+alias CLS_KDProp
+maxdrawdist 20000
+
+
+//W5b Invention Pieces
+[Tube_Spot_Lamp]
+alias CLS_InventionPiece
+subtype 0
+model prop_HLT_SpotLamp
+maxDrawDist 15000
+
+[Tube_Ice_Crystal]
+alias CLS_InventionPiece
+type alpha
+subtype 1
+model prop_HLT_IceCrystal
+maxDrawDist 10000
+maxUpdateDist 10000
+
+[Tube_Metal_Tube]
+alias CLS_InventionPiece
+subtype 2
+model prop_HLT_MetalTube
+maxDrawDist 15000
+
+[Tube_Power_Pack]
+alias CLS_InventionPiece
+subtype 3
+model prop_HLT_PowerPack
+maxDrawDist 15000
+maxUpdateDist 15000
+
+[Tube_Plant_Lashings]
+alias CLS_InventionPiece
+subtype 4
+model prop_HLT_PlantLashings
+
+[ICEBERG]
+alias CLS_KDProp
+model prop_%s
+maxdrawdist  25000
+
+[Buoy]
+alias CLS_Platform
+maxTilt 0.5
+subtype 1
+drawshadow false
+materialID none
+
+[SonicMine]
+alias CLS_Mine
+subtype 0
+
+[BouncingMine]
+alias CLS_Mine
+subtype 1
+
+[Fence_Electric]
+alias CLS_ElectricFence
+model prop_fence_electric
+
+[Fence_Electric_Secondary]
+alias CLS_KDProp
+model prop_gate_electric
+
+[Gate_Electric]
+alias CLS_ElectricFence
+model prop_gate_electric
+
+[Gate_Electric_Secondary]
+alias CLS_KDProp
+model prop_gate_electric
+
+[Gate_ElectricT2]
+alias CLS_ElectricFence
+subtype 1
+
+[Gate_ElectricT2_Secondary]
+alias CLS_KDProp
+model prop_gate_electrict2
+
+[Gate_ElectricT3]
+alias CLS_ElectricFence
+subtype 2
+
+[Gate_ElectricT3_Secondary]
+alias CLS_KDProp
+model prop_gate_electrict3
+
+[Button_GateElecT2]
+alias CLS_LightSwitch
+model prop_%s
+subtype 0
+
+[Button_GateElecT3]
+alias CLS_LightSwitch
+model prop_%s
+subtype 1
+
+[Light_GateElecT3]
+alias CLS_KDProp
+model prop_%s
+
+[Light_Traffic]
+alias CLS_LightSwitch
+model prop_%s
+
+[Objective5BGate]
+alias CLS_Gate5BController
+
+[Rock_IceBerg_Moving]
+alias CLS_IceBergCrusher
+model prop_iceberg_moving
+
+[ICEWALL_BL]
+alias CLS_IceWall
+model prop_%s
+
+[ICEWALL_BR]
+alias CLS_IceWall
+model prop_%s
+
+[ICEWALL_TL]
+alias CLS_IceWall
+model prop_%s
+
+[ICEWALL_TR]
+alias CLS_IceWall
+model prop_%s
+
+[IceWallController]
+alias CLS_IceWallController
+
+[TeleportSpire]
+alias CLS_LightTower
+badfile prop_Teleport_Spire
+maxDrawDist 20000
+maxUpdateDist 20000
+
+[Teleport_Spotlight]
+alias CLS_KDProp
+maxDrawDist 20000
+maxUpdateDist 20000
+
+[TeleportPad]
+alias CLS_KDProp
+model prop_Teleport_Pad
+maxDrawDist 10000
+maxUpdateDist 10000
+
+[Teleport_Pad02]
+alias CLS_TeleportPickupProp
+model prop_Teleport_Pad02
+maxDrawDist 10000
+maxUpdateDist 10000
+type alpha
+
+[PistonRing1]
+alias CLS_KDProp
+model prop_piston_Ring1
+
+[PistonRing2]
+alias CLS_KDProp
+model prop_piston_Ring2
+
+[SteamJet]
+alias CLS_SteamJet
+
+[WaterBomb]
+alias CLS_WaterBomb
+
+[WaterPipeBulge]
+alias CLS_WaterPipeBulge
+
+[WaterValve]
+alias CLS_WaterValve
+
+[ShieldedCog]
+alias CLS_ShieldedCog
+
+[BUB_COGS]
+alias ShieldedCog
+
+[CLS_GumGate]
+alias CLS_KDProp
+type dynamic, alpha
+badfile prop_gate_bubblegum
+
+[GumGate]
+alias CLS_GumGate
+
+[GATE_BUBBLEGUM]
+alias GumGate
+
+[OctopusBody]
+alias CLS_MGOctopus
+badfile prop_%s
+
+[BARREL_FLURPFLOAT]
+alias CLS_FloatingFlurp
+model prop_%s
+
+[Spike_Metal]
+alias CLS_MetalSpike
+badfile prop_%s
+//model prop_%s
+
+[Plank_Pirate]
+alias BounceProp
+badfile prop_plank_pirate
+bounceSettings -100, 400, 400, 1300		// bounce loss, gain, minVel, maxVel
+
+[BARREL_FLURP]
+alias CLS_FlurpBarrel
+model prop_%s
+
+[BubbleSpawner]
+alias CLS_BubbleSpawnerProp
+
+[Barrel_Metal]
+alias CLS_KDProp
+maxDrawDist 3500
+
+/////////////////////////////////////////////////////////////////
+// World 6 Props
+/////////////////////////////////////////////////////////////////
+// W6a invention
+[JimBot_Tracks]
+alias CLS_InventionPiece
+subtype 0
+
+[JimBot_Powercell]
+alias CLS_InventionPiece
+subtype 1
+
+[JimBot_Trashcan]
+alias CLS_InventionPiece
+subtype 2
+
+[JimBot_Cogs]
+alias CLS_InventionPiece
+subtype 3
+
+[JimBot_Motherboard]
+alias CLS_InventionPiece
+subtype 4
+
+[6bwater]
+alias CLS_KDProp
+type alpha
+maxDrawDist 45000
+
+// w6b invention
+[JimBot_Lens]
+alias CLS_InventionPiece
+subtype 0
+
+[JimBot_MetalBeam]
+alias CLS_InventionPiece
+subtype 1
+
+[JimBot_Pipes]
+alias CLS_InventionPiece
+subtype 2
+
+[JimBot_Spotlight]
+alias CLS_InventionPiece
+subtype 3
+
+[JimBot_Spring]
+alias CLS_InventionPiece
+subtype 4
+[PIC_SCRAMBLED]
+alias CLS_SlidingPuzzleProp
+model prop_pic_scrambled
+gridSize	= 3
+//MatOldName prop_pic_scrambled
+//MatNewName prop_pic_scrambled2
+
+//6a props
+[PIC_SCRAMBLEDX4]
+alias CLS_SlidingPuzzleProp
+model prop_pic_scrambledx4
+gridSize	= 4
+
+[FlashSquare]
+alias CLS_FlashSquare
+
+[FlashSquareController]
+alias CLS_FlashSquareController
+
+[Sentry_Spotlight]
+alias CLS_LaserTurret
+badfile prop_%s
+type alpha
+
+[Laser_Floor]
+alias CLS_LaserTurret
+model prop_%s
+type alpha
+subtype 1
+MaxDrawDist 4000
+
+[PulseLaserTurret]
+alias CLS_PulseLaserTurret
+badfile prop_laser_wall
+
+[PopupLaserTurret]
+alias CLS_PopupLaserTurret
+model prop_laser_popup
+
+[ND_Laser]
+alias CLS_PulseLaserTurret
+badfile prop_%s
+
+[ShatterPylon]
+alias CLS_ShatterPylon
+model prop_pillar_laser
+
+[ND_Pylon]
+alias CLS_ShatterPylon
+model prop_%s
+
+[ShatterPylonController]
+alias CLS_ShatterPylonController
+
+[ShuttleCar]
+alias CLS_CableCart
+badfile prop_%s
+
+[ShuttleCarController]
+alias CLS_CableCartController
+
+[ShuttleCarBase]
+alias CLS_KDProp
+model prop_%s
+materialID none
+
+[CarLift_Cogs]
+alias CLS_W6ACarLiftController
+badfile prop_carlift_cogs
+
+[CarLift]
+alias CLS_Platform
+maxTilt 0.0
+model prop_carlift
+
+[SkyLift]
+alias CLS_Platform
+model prop_%s
+drawshadow false
+maxTilt 0.0
+
+[Skylift_Door]
+alias CLS_Gate
+badfile prop_Skylift_Door
+type alpha
+//materialID none
+OpenSound ElectricDoorOpen
+CloseSound ElectricDoorOpen
+
+[Skylift_Door2]
+alias CLS_KDProp
+model prop_%s
+materialID none
+
+[Skylift_Shaft]
+alias CLS_KDProp
+type alpha
+
+[SkyGateController]
+alias CLS_SkyGateController
+
+[SheenMagneticEffect]
+alias CLS_SheenMagneticEffect
+
+[SheenAttackEffect]
+alias CLS_SheenAttackEffect
+
+[NeutronDupe_GlueApplicator]
+alias CLS_WeaponPart
+subtype 0
+model prop_ND_GlueApplicator
+
+[NeutronDupe_Flashlight]
+alias CLS_WeaponPart
+subtype 1
+model prop_ND_FlashLight
+
+[NeutronDupe_LCD]
+alias CLS_WeaponPart
+subtype 2
+model prop_ND_LCD
+
+[6a_fence_electL]
+alias CLS_ElectricFence
+model prop_%s
+subtype 3
+
+[6a_fence_electR]
+alias CLS_OtherElectricFence
+model prop_%s
+MaxDrawDist 6000
+MaxUpdateDist 6000
+
+[CLOUDBASE1]
+alias CLS_KDProp
+model prop_%s
+materialID none
+
+[CLOUDBASE2]
+alias CLS_KDProp
+model prop_%s
+materialID none
+
+[RADARSTATION]
+alias CLS_KDProp
+model prop_%s
+materialID none
+type alpha
+
+[LAB_INCOMPLETE]
+alias CLS_KDProp
+model prop_%s
+materialID none
+
+[COMP_TERMINAL_WIRE]
+alias CLS_KDProp
+materialID none
+
+[Marble_Spikes]
+alias CLS_MetalSpike
+badfile prop_%s
+
+[Marble_Fan]
+alias CLS_MarbleFan
+badfile prop_%s
+
+
+
+// W6b Props
+[TREE_CACTFRAG01]
+	alias CLS_Shatterable
+	model prop_%s
+	upVel 800.0
+	life 2
+	bounce 0.75
+	gravity 1500.0
+	spinrate 3.5
+
+[TREE_CACTFRAG02]
+	alias CLS_Shatterable
+	model prop_%s
+	upVel 800.0
+	life 2
+	bounce 0.75
+	gravity 1500.0
+	spinrate 3.5
+
+[TREE_CACTFRAG03]
+	alias CLS_Shatterable
+	model prop_%s
+	upVel 800.0
+	life 2
+	bounce 0.75
+	gravity 1500.0
+	spinrate 3.5
+
+[ROCK_VALLEY01]
+	alias CLS_Shatterable
+	model prop_%s
+	upVel 1000.0
+	life 2
+	bounce 0.75
+	gravity 1500.0
+	spinrate 3.5
+
+[ROCK_VALLEY02]
+	alias CLS_Shatterable
+	model prop_%s
+	upVel 1000.0
+	life 2
+	bounce 0.75
+	gravity 1500.0
+	spinrate 3.5
+
+[Trap_Moving]
+alias CLS_TrapMoving
+model prop_%s
+
+[GrindRail]
+alias CLS_Shatterable
+model prop_%s
+bUseGroundColor 0
+upVel 800.0
+life 2
+bounce 0.75
+gravity 1500.0
+spinrate 3.5
+
+[GrindRail_Curve]
+alias CLS_Shatterable
+model prop_%s
+bUseGroundColor 0
+upVel 800.0
+life 2
+bounce 0.75
+gravity 1500.0
+spinrate 3.5
+
+[GrindRail_Ramp]
+alias CLS_Shatterable
+model prop_%s
+bUseGroundColor 0
+upVel 800.0
+life 2
+bounce 0.75
+gravity 1500.0
+spinrate 3.5
+
+[GrindRail_Sml]
+alias CLS_Shatterable
+model prop_%s
+bUseGroundColor 0
+upVel 800.0
+life 2
+bounce 0.75
+gravity 1500.0
+spinrate 3.5
+
+[ROCKET]
+alias CLS_KDProp
+maxdrawdist 20000
+
+[ROCKET_CHAIR]
+alias CLS_KDProp
+maxdrawdist 20000
+
+[ROCKET_TRACKS]
+alias CLS_KDProp
+maxdrawdist 20000
+
+[SHUTTLE_SIGN]
+alias CLS_KDProp
+maxdrawdist 20000
+
+// w6c props
+[MAGT_LEVER_YELLOW]
+alias CLS_Platform
+drawshadow false
+maxTilt 0.0
+model prop_%s
+
+[FORCE_FIELD]
+alias CLS_KDProp
+type alpha
+
+[MAGT_LEVER_RED]
+alias CLS_Platform
+maxTilt 0.0
+model prop_%s
+
+[MAGT_LEVER_GREEN]
+alias CLS_Platform
+maxTilt 0.0
+model prop_%s
+
+[MAGT_LEVER_PURPLE]
+alias CLS_Platform
+maxTilt 0.0
+model prop_%s
+
+[MAGT_LEVER]
+alias CLS_Platform
+maxTilt 0.0
+model prop_%s
+
+[ICONHOLDER_CRYSTAL]
+alias CLS_Shatterable
+model prop_%s
+maxDrawDist 5000
+maxUpdateDist 5000
+type drawlast
+
+[ICONHOLDER]
+alias CLS_KDProp
+materialID none
+
+[Gust_Box_Hex]
+alias CLS_MoveableProp
+blowable true
+targetable true
+damping 2.0
+
+[Gust_Box_Circ]
+alias CLS_MoveableProp
+blowable true
+targetable true
+damping 2.0
+
+[Gust_Box_Rect]
+alias CLS_MoveableProp
+blowable true
+targetable true
+damping 2.0
+
+[Gust_Box_Squ]
+alias CLS_MoveableProp
+blowable true
+targetable true
+damping 2.0
+
+[Stage]
+alias CLS_KDProp
+materialID none
+
+[Stage_Centre]
+alias CLS_KDProp
+materialID none
+type alpha
+
+[Mountain01]
+alias CLS_KDProp
+maxDrawDist 45000
+
+[Mountain02]
+alias CLS_KDProp
+maxDrawDist 45000
+
+[RopeRing]
+alias CLS_KDProp
+maxDrawDist 5000
+
+[RopeRing_Sqr]
+alias CLS_KDProp
+maxDrawDist 5000
+
+[Tree_PalmWall2]
+alias CLS_KDProp
+maxDrawDist 5000
+
+[Tree_PalmWall3]
+alias CLS_KDProp
+maxDrawDist 5000
+
+[Tree_PalmWall1]
+alias CLS_KDProp
+maxDrawDist 5000
+
+[Boulder_Big]
+alias CLS_KDProp
+maxDrawDist 5000
+
+[RopeBit_3m]
+alias CLS_KDProp
+maxDrawDist 4000
+
+[MetalRing]
+alias CLS_KDProp
+maxDrawDist 4000
+
+[Wall_PoolEdge_4m]
+alias CLS_KDProp
+maxDrawDist 5000
+
+[ControllerGeneric]
+alias CLS_ControllerGenetic
+
+[Wall_Gate]
+alias CLS_KDProp
+type prelit
+bUseGroundColor 0
+maxDrawDist 30000
+materialID none
+
+
+

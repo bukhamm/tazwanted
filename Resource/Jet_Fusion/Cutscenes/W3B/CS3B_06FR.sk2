@@ -1,0 +1,339 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:53:11 PM"
+  EdPos = -11243.54,137.58,-11272.83
+  EdPitch = -0.450
+  EdYaw = 2.980
+}
+
+[EXTRAS]
+{
+  bWindowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 36306900,0
+    "Goddard_Lips" = 36306900,1
+    "Goddard_Head" = 36306900,2
+    "Goddard_Body" = 36306900,3
+    "Goddard_Pos" = 36306900,4
+    "Goddard_Look" = 36306900,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W3B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS3B_06_P01GOFR.WAV" = 10,125
+  "CS3B_06_P02GOFR.WAV" = 145,110
+  "CS3B_06_P03GOFR.WAV" = 265,86
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_GODDARD_Synker.BAD" = "Goddard","CS3B_06_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -11225.964,-74.408,-11576.922
+        rot = 0.000,-2.243,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Use the PRIMARY FIRE ž button to blow the boulders down the cliff." = "CS3B_06_P01GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 125
+        }
+        "You must hit each Lava Dragon before they catch me." = "CS3B_06_P02GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 145
+          length = 110
+        }
+        "Be careful not to hit me with a boulder!" = "CS3B_06_P03GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 265
+          length = 86
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 361
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 361
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 132
+        }
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 132
+          length = 50
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 182
+          length = 179
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 361
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Use the PRIMARY FIRE ž button to blow the boulders down the cliff.
+      Goddard
+      {
+        d = 162,198,255,255,255,255,255,255,189,189,144,108,255,216,27,0,36,81,117,180,153,
+        d = 162,180,255,234,252,216,198,234,216,234,207,216,144,18,0,36,189,153,144,171,180,
+        d = 225,225,243,243,162,108,90,171,135,117,90,18,144,252,243,234,144,27,90,225,234,
+        d = 153,117,108,207,252,255,252,255,255,255,207,144,255,216,108,81,90,234,255,255,
+        d = 255,255,216,126,162,234,216,216,207,144,81,45,189,153,126,135,144,153,252,255,
+        d = 252,180,54,9,72,45,252,255,216,153,81,18,0,0,0,0,0,0,0,0,0,0,
+      }
+      //You must hit each Lava Dragon before they catch me.
+      Goddard
+      {
+        d = 96,174,222,204,174,132,174,210,252,228,210,192,198,234,174,204,96,6,84,36,36,
+        d = 255,255,255,150,18,12,0,0,0,36,255,255,246,180,66,12,138,144,96,255,255,228,168,
+        d = 174,174,126,108,204,198,120,54,54,144,252,198,150,156,174,54,60,156,162,228,234,
+        d = 216,144,222,228,120,30,12,30,234,255,255,255,255,144,126,255,240,255,54,6,18,
+        d = 30,96,162,156,180,18,6,96,138,48,30,180,156,132,114,108,84,54,6,0,0,0,0,0,
+      }
+      //Be careful not to hit me with a boulder!
+      Goddard
+      {
+        d = 24,42,126,255,198,222,246,144,18,0,30,84,234,240,240,204,180,102,24,30,96,246,
+        d = 255,240,186,234,234,168,132,120,72,6,0,108,210,102,42,66,222,255,255,36,6,12,
+        d = 90,132,228,255,252,252,255,252,156,174,216,255,255,216,255,255,60,30,240,216,
+        d = 108,126,222,246,255,255,255,255,162,84,162,144,168,126,108,78,30,6,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -11342.51,-4.41,-11558.68, -11245.60,-26.88,-11553.72
+    node = -11329.00,-4.50,-11544.00, -11246.00,-26.50,-11554.00
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 361
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

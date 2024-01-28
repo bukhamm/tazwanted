@@ -1,0 +1,551 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:51:32 PM"
+  EdPos = 1710.84,479.39,369.33
+  EdPitch = -0.830
+  EdYaw = -2.660
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 96976812,0
+    "Jimmy_Lips" = 96976812,1
+    "Jimmy_Head" = 96976812,2
+    "Jimmy_Body" = 96976812,3
+    "Jimmy_Pos" = 96976812,4
+    "Jimmy_Look" = 96976812,5
+    "Camera" = -3,0
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 60964836,0
+    "Goddard_Lips" = 60964836,1
+    "Goddard_Head" = 60964836,2
+    "Goddard_Body" = 60964836,3
+    "Goddard_Pos" = 60964836,4
+    "Goddard_Look" = 60964836,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W3A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_Upgrademusic" = 161,178
+  "CS_upgrade_bell" = 339,30
+}
+
+[DYNAMIC_SFX]
+{
+  "CS3A_06_P01JIFR.WAV" = 10,29
+  "CS3A_06_P02GOFR.WAV" = 54,107
+  "CS3A_06_P03GOFR.WAV" = 338,46
+  "CS3A_06_P04JIFR.WAV" = 389,22
+  "CS3A_06_P05JIFR.WAV" = 421,67
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_JIMMY_SYNKER_JUNGLE.BAD" = "Jimmy","CS3A_06_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 1818.555,-99.123,111.270
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "Goddard","CS3A_06_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 1860.318,-103.345,-414.105
+        rot = 0.000,-2.643,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Here you go, boy." = "CS3A_06_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 29
+        }
+        "Great!" = "CS3A_06_P04JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 389
+          length = 22
+        }
+        "Now I just have to find a river to use it on..." = "CS3A_06_P05JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 421
+          length = 67
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 53
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 389
+          length = 110
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 53
+        }
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 389
+          length = 110
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 53
+        }
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 389
+          length = 110
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 499
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Here you go, boy.
+      Jimmy
+      {
+        d = 37,112,112,135,127,225,255,240,210,202,172,120,255,255,157,150,165,90,232,255,
+        d = 255,255,195,120,60,37,7,0,0,
+      }
+      //Great!
+      Jimmy
+      {
+        d = 94,231,178,255,255,255,255,255,255,255,255,255,255,189,126,42,10,0,157,31,0,0,
+        d = 
+      }
+      //Now I just have to find a river to use it on...
+      Jimmy
+      {
+        d = 225,255,180,171,171,255,189,216,189,171,255,189,252,216,255,180,18,27,135,54,
+        d = 63,171,252,234,216,234,234,255,225,207,255,255,255,198,171,225,255,198,234,255,
+        d = 255,234,255,255,255,255,255,135,198,255,207,225,180,126,99,108,99,81,72,54,36,
+        d = 0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Goddard River Raft Upgrade installing." = "CS3A_06_P02GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 54
+          length = 107
+        }
+        "Update complete." = "CS3A_06_P03GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 338
+          length = 46
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 54
+          length = 335
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 54
+          length = 101
+        }
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 155
+          length = 234
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyScratchHead" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 54
+          length = 80
+        }
+        "BodyThinking" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 134
+          length = 200
+        }
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 334
+          length = 50
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 384
+          length = 5
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 54
+          length = 335
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Goddard River Raft Upgrade installing.
+      Goddard
+      {
+        d = 24,30,36,30,66,234,144,132,162,222,156,174,255,255,255,255,255,150,150,192,174,
+        d = 240,255,255,255,162,78,255,255,255,255,186,246,255,168,144,144,138,12,0,0,24,
+        d = 12,0,0,114,186,180,18,6,12,0,0,120,234,222,198,180,174,174,186,192,78,54,36,0,
+        d = 0,0,0,0,0,0,0,0,0,0,120,255,234,255,198,144,255,198,66,0,150,204,174,156,168,
+        d = 180,108,84,114,72,84,42,42,42,42,42,24,12,0,0,0,
+      }
+      //Update complete.
+      Goddard
+      {
+        d = 232,255,232,15,0,0,0,30,37,127,255,255,255,255,225,22,7,60,0,0,0,90,75,232,255,
+        d = 255,255,52,7,15,82,127,255,255,255,172,150,90,60,7,0,0,30,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 1770.46,-20.68,-4.64, 1843.50,-20.94,97.90
+    node = 1767.08,-21.00,-1.17, 1843.08,-21.00,97.83
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 1714.97,-9.00,-295.49, 1888.70,-51.54,-389.99
+    node = 1735.77,-10.54,-272.02, 1888.38,-51.00,-389.44
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_Upgrademusic",""
+    Breaker = 0
+    Lock = 0
+    start = 161
+    length = 178
+  }
+  bar
+  {
+    BarName = "CS_upgrade_bell",""
+    Breaker = 0
+    Lock = 0
+    start = 339
+    length = 30
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 54
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 54
+    length = 335
+  }
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 389
+    length = 110
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

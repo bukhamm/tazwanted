@@ -1,0 +1,33 @@
+mesh a_CannibalcanoeFront
+skeleton a_CannibalcanoeFront
+
+
+anim bindPose
+0,1
+cycle stop
+
+anim idle01
+150-170,1
+cycle loop
+
+//Ranged attacks
+
+anim RangedEntry01
+435-450,1
+cycle stop
+
+anim RangedLoop01
+450-470,1
+cycle loop
+
+anim RangedExit01
+470-490,1
+cycle stop
+
+anim death01
+550-585,1
+cycle stop
+
+
+
+end

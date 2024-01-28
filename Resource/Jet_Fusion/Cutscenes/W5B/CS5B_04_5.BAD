@@ -1,0 +1,6 @@
+mesh cs5b_04_06_HardLightBeam
+skeleton CS5B_04_5
+
+ANIM CUTSCENE
+164-370,1
+CYCLE STOP

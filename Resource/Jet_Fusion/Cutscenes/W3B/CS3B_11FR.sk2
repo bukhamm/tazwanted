@@ -1,0 +1,376 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:53:28 PM"
+  EdPos = 1920.40,-1874.23,-6099.67
+  EdPitch = -0.560
+  EdYaw = 9.640
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 76655664,0
+    "Jimmy_Lips" = 76655664,1
+    "Jimmy_Head" = 76655664,2
+    "Jimmy_Body" = 76655664,3
+    "Jimmy_Pos" = 76655664,4
+    "Jimmy_Look" = 76655664,5
+    "Camera" = -3,0
+  }
+  "minecart"
+  {
+    "minecart_Voice" = 104119084,0
+    "minecart_Lips" = 104119084,1
+    "minecart_Head" = 104119084,2
+    "minecart_Body" = 104119084,3
+    "minecart_Pos" = 104119084,4
+    "minecart_Look" = 104119084,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W3B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS3B_11_P01JIFR.WAV" = 10,100
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_JIMMY_SYNKER_JUNGLE.BAD" = "Jimmy","CS3B_11_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 2184.516,-2237.288,-6489.113
+        rot = 0.000,-2.453,0.000
+      }
+    }
+  }
+  "PROP_MINECART.BAD" = "minecart","CS3B_11_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 2204.137,-2229.286,-6643.858
+        rot = 0.000,-1.160,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "That was better than the Bat Outta Heck ride at Retroland!" = "CS3B_11_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 100
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 130
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 130
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 130
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 130
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //That was better than the Bat Outta Heck ride at Retroland!
+      Jimmy
+      {
+        d = 36,180,225,225,252,234,153,162,255,252,189,171,153,117,126,99,81,207,255,255,
+        d = 162,189,234,207,135,135,225,180,255,255,255,171,171,45,216,180,198,225,180,162,
+        d = 252,225,216,171,255,255,243,135,216,225,126,0,27,72,189,252,207,255,252,126,144,
+        d = 180,144,108,153,252,255,255,252,18,0,54,171,243,234,225,189,234,207,216,162,117,
+        d = 117,99,72,90,108,108,45,9,0,0,0,0,0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,
+    }
+  }
+  "minecart"
+  {
+    "minecart_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "minecart_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "minecart_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "minecart_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "minecart_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 130
+        }
+      }
+    }
+    "minecart_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 0,1,1,1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 2152.36,-2151.30,-6360.88, 2164.34,-2171.38,-6579.64
+    node = 2139.00,-2151.00,-6369.00, 2164.00,-2171.00,-6580.00
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 130
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

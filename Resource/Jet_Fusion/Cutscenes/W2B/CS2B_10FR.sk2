@@ -1,0 +1,382 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "3:20:51 PM"
+  EdPos = -32.40,315.83,934.88
+  EdPitch = -0.210
+  EdYaw = -1.330
+}
+
+[EXTRAS]
+{
+  Windowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jet"
+  {
+    "Jet_Voice" = 97796080,0
+    "Jet_Lips" = 97796080,1
+    "Jet_Head" = 97796080,2
+    "Jet_Body" = 97796080,3
+    "Jet_Pos" = 97796080,4
+    "Jet_Look" = 97796080,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+    "Event_0" = -1,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W2B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_staticinout" = 326,30
+}
+
+[DYNAMIC_SFX]
+{
+  "CS2B_10_P01JFFR.WAV" = 10,57
+  "CS2B_10_P02JFFR.WAV" = 77,73
+  "CS2B_10_P03JFFR.WAV" = 160,51
+  "CS2B_10_P04JFFR.WAV" = 221,47
+  "CS2B_10_P05JFFR.WAV" = 278,42
+  "CS2B_10_P06JFFR.WAV" = 330,16
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_JetFusion_Synker.BAD" = "Jet","CS2B_10_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 179.769,49.606,1226.267
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jet"
+  {
+    "Jet_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Jimmy, you have to be quick..." = "CS2B_10_P01JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 57
+        }
+        "The Ultra-Ninja-Lord has one of the golden idols!" = "CS2B_10_P02JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 77
+          length = 73
+        }
+        "Calamitous has gone to get it from him..." = "CS2B_10_P03JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 160
+          length = 51
+        }
+        "Hurry Jimmy, get into the temple." = "CS2B_10_P04JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 221
+          length = 47
+        }
+        "You have to get that idol." = "CS2B_10_P05JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 278
+          length = 42
+        }
+        "You have to..." = "CS2B_10_P06JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 330
+          length = 16
+        }
+      }
+    }
+    "Jet_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 356
+        }
+      }
+    }
+    "Jet_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 356
+        }
+      }
+    }
+    "Jet_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 356
+        }
+      }
+    }
+    "Jet_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 356
+        }
+      }
+    }
+    "Jet_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Jimmy, you have to be quick...
+      Jet
+      {
+        d = 0,30,165,150,217,255,255,255,255,240,255,255,240,97,45,15,7,0,0,0,0,0,0,0,0,45,
+        d = 180,240,172,202,255,255,255,240,37,15,105,225,172,255,255,150,22,30,75,127,135,
+        d = 255,255,210,135,15,0,15,45,30,7,
+      }
+      //The Ultra-Ninja-Lord has one of the golden idols!
+      Jet
+      {
+        d = 37,172,202,255,255,195,210,180,120,217,165,187,195,255,247,202,187,255,255,150,
+        d = 172,202,187,187,187,172,150,165,157,112,150,172,120,157,75,135,247,255,232,232,
+        d = 165,150,195,97,45,52,217,255,255,255,217,202,165,247,255,255,255,255,255,255,
+        d = 255,255,180,195,97,45,15,45,82,75,67,37,0,
+      }
+      //Calamitous has gone to get it from him...
+      Jet
+      {
+        d = 81,180,207,225,216,255,255,255,255,255,252,243,225,243,171,225,234,207,216,171,
+        d = 99,27,225,255,255,255,252,252,216,243,108,45,81,255,255,198,255,207,36,36,81,
+        d = 135,225,243,189,162,117,72,18,9,0,
+      }
+      //Hurry Jimmy, get into the temple.
+      Jet
+      {
+        d = 7,97,217,255,255,255,202,217,142,105,67,142,105,127,97,127,120,67,22,0,0,30,172,
+        d = 255,195,232,247,225,187,165,142,195,165,22,7,180,180,255,225,255,37,37,105,82,
+        d = 30,0,0,
+      }
+      //You have to get that idol.
+      Jet
+      {
+        d = 115,255,241,178,241,241,255,255,255,105,42,21,178,220,52,31,31,168,255,255,147,
+        d = 10,0,0,126,255,255,255,255,178,231,255,255,255,252,255,220,189,126,84,21,0,
+      }
+      //You have to...
+      Jet
+      {
+        d = 136,255,255,241,255,255,255,255,255,115,10,31,199,255,168,52,
+      }
+    }
+    SubObjs
+    {
+      d = 1,0,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 148.21,154.61,1172.96, 184.97,163.61,1257.48
+    node = 155.95,155.00,1189.15, 185.00,164.00,1257.00
+  }
+}
+
+[EVENT_DATA]
+{
+  "ShowStatic" = "ShowStatic"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "ShowStatic",""
+    Breaker = 0
+    Lock = 0
+    start = 326
+    length = 30
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_staticinout",""
+    Breaker = 0
+    Lock = 0
+    start = 326
+    length = 30
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 356
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

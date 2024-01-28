@@ -1,0 +1,656 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "6/07/2003"
+  Time = "11:52:09 AM"
+  EdPos = -6310.52,-861.81,-109009.59
+  EdPitch = 6.020
+  EdYaw = -46.690
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "jimmy"
+  {
+    "jimmy_Voice" = 97299076,0
+    "jimmy_Lips" = 97299076,1
+    "jimmy_Head" = 97299076,2
+    "jimmy_Body" = 97299076,3
+    "jimmy_Pos" = 97299076,4
+    "jimmy_Look" = 97299076,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+    "Event_0" = -1,0
+  }
+  "lamp"
+  {
+    "lamp_Voice" = 98811892,0
+    "lamp_Lips" = 98811892,1
+    "lamp_Head" = 98811892,2
+    "lamp_Body" = 98811892,3
+    "lamp_Pos" = 98811892,4
+    "lamp_Look" = 98811892,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W5B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_SubPassSlow" = 0,45
+  "CS_SubPassQuick" = 160,30
+  "CS_SubPassMedium" = 190,30
+  "CS_SubPassQuick" = 220,30
+  "CS_SubPassSlow" = 250,72
+  "CS_OctopusRelents" = 322,30
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5B_05_P01JIEN.wav" = 45,22
+  "CS5B_05_P02JIEN.wav" = 77,22
+  "CS5B_05_P03JIEN.wav" = 109,41
+  "CS5B_05_P04JIEN.wav" = 160,44
+  "CS5B_05_P05JIEN.wav" = 322,17
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_SUB.BAD" = "jimmy","CS5B_05_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -8982.580,-1652.266,-99991.712
+        rot = -0.080,-0.436,0.660
+        pos = -9224.836,-1547.266,-101328.176
+        rot = -0.430,0.200,0.000
+        pos = -9238.573,-1541.266,-101415.768
+        rot = 0.100,-0.180,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -8784.533,-1527.846,-102329.872
+        rot = 0.000,0.000,0.000
+        pos = -8292.600,-1522.846,-103527.592
+        rot = 0.000,0.000,0.000
+      }
+      "path_3"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -7683.402,-1630.379,-103621.640
+        rot = 0.000,0.470,0.000
+        pos = -7452.873,-1625.379,-104018.848
+        rot = 0.000,0.000,0.000
+      }
+      "path_4"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -5758.129,-2002.957,-108554.816
+        rot = 0.000,0.000,0.000
+        pos = -6009.254,-1614.957,-110473.296
+        rot = 0.000,0.000,0.000
+        pos = -5375.830,-1111.957,-111394.728
+        rot = 0.000,0.240,0.000
+        pos = -6159.059,-498.957,-111433.080
+        rot = 0.000,0.280,0.000
+        pos = -6678.928,-101.957,-111482.256
+        rot = 0.000,0.210,0.000
+        pos = -7583.688,617.043,-111593.360
+        rot = 0.000,0.000,0.000
+        pos = -8490.556,852.043,-111845.832
+        rot = 0.000,0.000,0.000
+        pos = -9317.575,917.043,-111884.384
+        rot = 2.000,1.000,-0.165
+      }
+    }
+  }
+  "a_HLTSpotLampSynker.BAD" = "lamp","CS5B_05_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -5662.462,-1664.544,-110647.696
+        rot = -0.050,-1.960,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "jimmy"
+  {
+    "jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Hey, Goddard!" = "CS5B_05_P01JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 45
+          length = 22
+        }
+        "Look at that!" = "CS5B_05_P02JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 77
+          length = 22
+        }
+        "That could come in handy..." = "CS5B_05_P03JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 109
+          length = 41
+        }
+        "Let's get it boy!" = "CS5B_05_P04JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 160
+          length = 44
+        }
+        "Aaaaargh!" = "CS5B_05_P05JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 322
+          length = 17
+        }
+      }
+    }
+    "jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 352
+        }
+      }
+    }
+    "jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 45
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 45
+          length = 114
+        }
+        "path_4" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 159
+          length = 193
+        }
+      }
+    }
+    "jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Hey, Goddard!
+      jimmy
+      {
+        d = 31,255,255,178,84,255,168,255,255,255,255,210,220,255,255,94,21,10,0,0,0,0,
+      }
+      //Look at that!
+      jimmy
+      {
+        d = 30,150,187,232,157,75,67,217,45,0,97,217,255,255,135,67,7,0,0,0,0,0,
+      }
+      //That could come in handy...
+      jimmy
+      {
+        d = 22,45,45,75,165,142,135,135,15,7,0,22,120,255,52,7,0,120,255,255,255,255,217,
+        d = 195,255,225,180,157,135,135,120,142,157,82,150,187,210,90,7,0,0,
+      }
+      //Let's get it boy!
+      jimmy
+      {
+        d = 0,0,0,105,189,210,231,255,255,252,255,178,10,52,189,168,252,157,241,255,255,255,
+        d = 255,105,199,147,42,0,0,0,73,220,220,231,231,255,255,255,231,94,10,0,0,0,
+      }
+      //Aaaaargh!
+      jimmy
+      {
+        d = 202,229,255,255,255,255,255,255,243,108,108,13,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+    }
+  }
+  "lamp"
+  {
+    "lamp_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "lamp_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "lamp_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "lamp_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "lamp_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 45
+          length = 174
+        }
+      }
+    }
+    "lamp_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 1.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -9605.32,-1704.34,-101430.17, -9500.26,-1659.34,-101308.45
+    node = -9506.35,-1700.34,-101463.11, -9403.23,-1639.34,-101332.67
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 1.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -6848.50,-1151.54,-106538.91, -6759.59,-1151.54,-106802.28
+    node = -6819.32,-1152.54,-106619.85, -6759.13,-1152.54,-106804.23
+  }
+  camera3
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -5700.53,-1624.72,-110252.88, -5629.95,-1624.72,-110566.91
+    node = -5757.81,-1624.72,-110277.19, -5629.95,-1624.72,-110566.89
+  }
+  camera4
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -5908.37,-1943.34,-108143.00, -5712.82,-1765.34,-109201.78
+    node = -6414.04,-1923.34,-108481.62, -6218.49,-1745.34,-109540.41
+  }
+  camera5
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -6681.04,1308.48,-110929.58, -6481.04,717.48,-110929.58
+    node = -6681.04,1444.48,-110929.58, -6481.04,853.48,-110929.58
+  }
+  camera6
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 10000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -7759.52,149.85,-109678.04, -7573.09,149.85,-109959.78
+    node = -8927.59,809.86,-109263.95, -8741.16,809.86,-109545.68
+  }
+  camera7
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -10023.09,1003.36,-111254.02, -9823.58,1003.00,-111253.55
+    node = -11294.64,1023.36,-110432.81, -9823.58,1003.00,-111253.55
+  }
+}
+
+[EVENT_DATA]
+{
+  "bubbles" = "SubBubbles 0"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "bubbles",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 352
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_SubPassSlow",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 45
+  }
+  bar
+  {
+    BarName = "CS_SubPassQuick",""
+    Breaker = 0
+    Lock = 0
+    start = 160
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_SubPassMedium",""
+    Breaker = 0
+    Lock = 0
+    start = 190
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_SubPassQuick",""
+    Breaker = 0
+    Lock = 0
+    start = 220
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_SubPassSlow",""
+    Breaker = 0
+    Lock = 0
+    start = 250
+    length = 72
+  }
+  bar
+  {
+    BarName = "CS_OctopusRelents",""
+    Breaker = 0
+    Lock = 0
+    start = 322
+    length = 30
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 45
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 45
+    length = 37
+  }
+  bar
+  {
+    BarName = "camera3",""
+    Breaker = 0
+    Lock = 0
+    start = 82
+    length = 78
+  }
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 160
+    length = 59
+  }
+  bar
+  {
+    BarName = "camera5",""
+    Breaker = 0
+    Lock = 0
+    start = 219
+    length = 46
+  }
+  bar
+  {
+    BarName = "camera6",""
+    Breaker = 0
+    Lock = 0
+    start = 265
+    length = 48
+  }
+  bar
+  {
+    BarName = "camera7",""
+    Breaker = 0
+    Lock = 0
+    start = 313
+    length = 39
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

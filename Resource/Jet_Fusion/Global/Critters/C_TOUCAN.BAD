@@ -1,0 +1,31 @@
+skeleton c_Toucan
+mesh c_Toucan
+
+anim bindpose
+0,1
+cycle stop
+
+anim soar
+1-11,1
+cycle loop
+
+anim Take off
+12-47,1
+cycle stop
+\\lift up between frame 25 and 47
+
+anim flying
+48-71,1
+cycle loop
+
+anim land
+73-105,1
+cycle stop
+\\drop down between frame 81 and 101
+
+anim Idle
+106-340,1
+cycle loop
+
+
+//end

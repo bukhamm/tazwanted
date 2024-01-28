@@ -1,0 +1,8 @@
+mesh CS_BBIntro_Brain
+skeleton CS3A_04_0
+
+ANIM CUTSCENE
+127-171,1
+CYCLE STOP
+
+//END

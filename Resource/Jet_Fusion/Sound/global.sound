@@ -1,0 +1,5227 @@
+
+
+// -----------------------------------------------------------------------------
+// setup
+
+name setup
+    Sound = 6bwindjump,looping,6b,
+    Sound = CS1G_02_P41SHEN,2c,
+    Sound = CS1G_02_P42SHEN,2c,
+    Sound = CS1G_02_P43SHEN,2c,
+    Sound = CS1G_02_P44SHEN,2c,
+    Sound = CS1G_22_P26MFEN,3c,
+    Sound = CS1G_22_P27MFEN,3c,
+    Sound = CS1G_22_P28MFEN,3c,
+    Sound = CS1G_22_P29MFEN,3c,
+    Sound = CS1G_23_P32CIEN,5c,
+    Sound = CS1G_23_P33CIEN,5c,
+    Sound = CS1G_23_P34CIEN,5c,
+    Sound = CS1G_23_P35CIEN,5c,
+    Sound = CS1G_23_P36CIEN,5c,
+    Sound = CS1G_23_P37CIEN,5c,
+    Sound = CS1G_90_BCEN,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = CS2C_03_P01SHEN,2c,
+    Sound = CS2C_03_P02SHEN,2c,
+    Sound = CS2C_03_P03SHEN,2c,
+    Sound = CS2C_03_P04SHEN,2c,
+    Sound = CS2C_03_P05SHEN,2c,
+    Sound = CS2C_03_P06SHEN,2c,
+    Sound = CS2C_03_P08SHEN,2c,
+    Sound = CS2C_05_P01SHEN,2c,
+    Sound = CS2C_05_P02SHEN,2c,
+    Sound = CS2C_05_P03SHEN,2c,
+    Sound = CS2C_05_P04SHEN,2c,
+    Sound = CS3C_05_P01MFEN,3c,
+    Sound = CS3C_05_P02MFEN,3c,
+    Sound = CS3C_05_P03MFEN,3c,
+    Sound = CS3C_05_P04MFEN,3c,
+    Sound = CS3C_05_P05MFEN,3c,
+    Sound = CS3C_05_P06MFEN,3c,
+    Sound = CS3C_05_P07MFEN,3c,
+    Sound = CS3C_05_P08MFEN,3c,
+    Sound = CS3C_06_P01MFEN,3c,
+    Sound = CS3C_06_P02MFEN,3c,
+    Sound = CS3C_06_P03MFEN,3c,
+    Sound = CS5A_36_P01PIEN,5a,
+    Sound = CS5A_36_P02PIEN,5a,
+    Sound = CS5A_36_P03PIEN,5a,
+    Sound = CS5A_36_P04PIEN,5a,
+    Sound = CS5C_05_P01CIEN,5c,
+    Sound = CS5C_05_P02CIEN,5c,
+    Sound = CS5C_05_P03CIEN,5c,
+    Sound = CS5C_05_P04CIEN,5c,
+    Sound = CS5C_05_P05CIEN,5c,
+    Sound = CS5C_06_P01CIEN,5c,
+    Sound = CS5C_06_P02CIEN,5c,
+    Sound = CS5C_06_P03CIEN,5c,
+    Sound = CS5C_06_P04CIEN,5c,
+    Sound = CS5C_06_P05CIEN,5c,
+    Sound = CS5C_07_P01CIEN,5c,
+    Sound = CS5C_07_P02CIEN,5c,
+    Sound = CS5C_07_P03CIEN,5c,
+    Sound = CS5C_07_P04CIEN,5c,
+    Sound = CS5C_07_P05CIEN,5c,
+    Sound = CS_chopstickfire,2a,
+    Sound = CS_chopstickimpact,2a,
+    Sound = CS_villageshield,looping,3a,
+    Sound = CS_whoosh3,6b,
+    Sound = FowlSteam,looping,5c,
+    Sound = Frozen,3a,3b,
+    Sound = JbotStep1,6c,
+    Sound = JbotStep2,6c,
+    Sound = Jbotfall,6c,
+    Sound = Jbotfire,6c,
+    Sound = Jbotland,6c,
+    Sound = Jbotmove2,6c,
+    Sound = Jbotretract,6c,
+    Sound = Jbotwhir1,6c,
+    Sound = Jbotwhir2,6c,
+    Sound = alever,common,
+    Sound = battery,common,
+    Sound = burn,3c,
+    Sound = cactusimpact1,6b,
+    Sound = cactusimpact2,6b,
+    Sound = calamlaser,6c,
+    Sound = cannibalhit_1,3a,
+    Sound = cannibalhit_2,3a,
+    Sound = cannibalhit_3,3a,
+    Sound = cannibalhit_4,3a,
+    Sound = cartlp,looping,1a,
+    Sound = checkpoint,
+    Sound = flyingfoxLP,looping,3a,3b,5a,6a,
+    Sound = fowlflylp,looping,3c,6c,
+    Sound = fowlsteam_lp,looping,3c,
+    Sound = frostydefrost,3a,3b,
+    Sound = gantrycreak,looping,3b,3c,
+    Sound = grindrailexplode1,6b,
+    Sound = grindrailexplode2,6b,
+    Sound = gustmeter,looping,3c,
+    Sound = haybailhit,2a,
+    Sound = highwind,looping,6b,
+    Sound = idolglassbreak,6c,
+    Sound = inksquirt,5b,
+    Sound = jetboardhit,6b,
+    Sound = jetboardwhoosh,3b,6b,6c,
+    Sound = jetboost,6b,6c,
+    Sound = jsfx_0001_pulseray,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0002_pulseimpact,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0006_magturner,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0015_lp_gustbuster,looping,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0016_gustbusterhit,
+    Sound = jsfx_0020_bgsplatter,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0021_bgsplatterhit,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0022_bgsplatterhit,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0025_BGslurp,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0026_BGpop,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0040_duplicate,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0042_duplicateaway,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0050_metalcrate,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0051_energycrate,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0101_jnstep,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0102_jnstep,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0103_jnstep,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0104_jnstep,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0105_jnsqueak,1a,2a,2b,2c,5a,6a,6c,
+    Sound = jsfx_0110_jnstepwood,
+    Sound = jsfx_0112_jnstepwood,
+    Sound = jsfx_0113_jnstepwoodpan,1a,2a,2b,2c,3a,3b,3c,5a,5b,6a,6c,
+    Sound = jsfx_0114_jnstepwoodpan,1a,2a,2b,2c,3a,3b,3c,5a,5b,6a,6c,
+    Sound = jsfx_0115_jnstepmetal,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5c,6a,6b,6c,
+    Sound = jsfx_0116_jnstepmetal,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5c,6a,6b,6c,
+    Sound = jsfx_0117_jnstepleaves,2a,2b,3a,3b,3c,
+    Sound = jsfx_0120_jnstepgrass,2a,2b,3a,3b,3c,4a,4b,4c,5a,
+    Sound = jsfx_0121_jnstepgrass,2a,2b,3a,3b,3c,4a,4b,4c,5a,
+    Sound = jsfx_0122_jnstepyuck,1a,
+    Sound = jsfx_0123_jnstepyuck,1a,
+    Sound = jsfx_0125_jnstepsoft,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0126_jnstepsoft,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0130_jnstepwater,2a,2b,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,
+    Sound = jsfx_0131_jnstepwater,2a,2b,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,
+    Sound = jsfx_0135_jnturn,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0145_jnfallsback,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0150_jnjump,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0150_jnknockshead,
+    Sound = jsfx_0150_jnpat,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0151_jnknockshead,1a,2a,2b,2c,3a,3b,3c,5b,5c,6a,6c,
+    Sound = jsfx_0155_jnland,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0156_jnlandwood,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5c,6a,6c,
+    Sound = jsfx_0157_jnlandmetal,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0158_jnlandsoft,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5c,6a,6b,6c,
+    Sound = jsfx_0160_jnsplash,2a,2b,3a,3b,3c,5a,5b,5c,
+    Sound = jsfx_0163_lp_swing,looping,1a,2a,2b,3a,3b,4a,4b,4c,5a,6a,6c,
+    Sound = jsfx_0170_jnshimmy,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5c,6a,6c,
+    Sound = jsfx_0175_jnbounce,1a,2a,2b,2c,3a,3b,3c,5a,5c,6a,6c,
+    Sound = jsfx_0176_jnbounce,1a,2a,2b,2c,3a,3b,3c,5a,5c,6a,6c,
+    Sound = jsfx_0178_jnwhoosh1,1a,2a,2b,2c,3a,3b,5a,5b,5c,6a,6c,
+    Sound = jsfx_0180_stalhit,3c,5b,
+    Sound = jsfx_0200_drag,6b,
+    Sound = jsfx_0200_lp_drag,looping,1a,2a,2b,3a,3b,4a,4b,4c,5a,6a,6c,
+    Sound = jsfx_0205_touchone,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0210_dooropen,1a,2a,2b,2c,3a,3b,5a,5b,5c,6a,6c,
+    Sound = jsfx_0211_doorclose,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0213_elecdoor,2b,6a,6b,6c,
+    Sound = jsfx_0220_boulder,3a,3b,3c,
+    Sound = jsfx_0222_crate,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0225_raftsplash,3a,3b,5a
+    Sound = jsfx_0226_raftland,3a,3b,5a,
+    Sound = jsfx_0227_lp_raft,looping,3a,3b,
+    Sound = jsfx_0228_raftcrash,3a,5a,
+    Sound = jsfx_0229_mechwhir,3a,3b,
+    Sound = jsfx_0230_lp_raftidle,looping,3a,
+    Sound = jsfx_0235_lp_minecart,looping,3b,
+    Sound = jsfx_0236_cartland,3b,
+    Sound = jsfx_0237_cartcrash,3b,
+    Sound = jsfx_0240_sonarbeep,5b,
+    Sound = jsfx_0241_lp_submovement,looping,5b,
+    Sound = jsfx_0242_lp_subgrindrock,looping,5b,
+    Sound = jsfx_0243_lp_subgrindice,looping,5b,
+    Sound = jsfx_0244_lp_subgrindsand,looping,5b,
+    Sound = jsfx_0245_lp_subgrindmisc,looping,5b,
+    Sound = jsfx_0250_drown,2b,3a,3b,5a,5b,5c,
+    Sound = jsfx_0260_lp_jetski,looping,5a,
+    Sound = jsfx_0261_jetskistart,5a,
+    Sound = jsfx_0270_clampgunfire,5a,6c,
+    Sound = jsfx_0271_hitwood,
+    Sound = jsfx_0271_plungerhit,5a,
+    Sound = jsfx_0275_lp_cablecar,looping,6a,6b,
+    Sound = jsfx_0300_bullystep,1a,
+    Sound = jsfx_0301_bullystep,1a,
+    Sound = jsfx_0302_smallstep,2c,
+    Sound = jsfx_0303_enemysteplarge,
+    Sound = jsfx_0303_smallstep,2c,
+    Sound = jsfx_0304_enemystepsoft,1a,2a,2b,2c,3a,3b,3c,5a,5c,6a,6c,
+    Sound = jsfx_0305_enemystepsoft,2a,2b,2c,3a,3b,3c,5a,5c,6a,6c,
+    Sound = jsfx_0306_enemystepmetal,2c,3b,3c,5a,5c,6a,6c,
+    Sound = jsfx_0307_enemystepmetal,2c,3b,3c,5a,5c,6a,6c,
+    Sound = jsfx_0308_enemystepbare,2a,2b,2c,3a,3b,5a,
+    Sound = jsfx_0309_enemystepbare,2a,2b,2c,3a,3b,5a,
+    Sound = jsfx_0310_enemyfall,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0311_enemyfall,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0312_enemyfall,
+    Sound = jsfx_0314_enemyjump,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0315_enemythrow,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0316_enemyswing,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0316_lunge,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0318_jimmyhit,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0319_jimmyhit,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0320_enemyspawn,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0330_bpstep,5a,
+    Sound = jsfx_0331_bpstep,5a,
+    Sound = jsfx_0350_sunglasssmash,1a,2c,
+    Sound = jsfx_0355_rickshawrev,2a,
+    Sound = jsfx_0356_lp_rickshaw,looping,2a,
+    Sound = jsfx_0359_lp_oninib,looping,2a,2b,
+    Sound = jsfx_0360_lanternexplode,2a,2b,
+    Sound = jsfx_0361_lanternspawn,2a,2b,3c,
+    Sound = jsfx_0362_oninibexplode,2a,2b,
+    Sound = jsfx_0364_ninjaalert,2a,2b,
+    Sound = jsfx_0365_ninjaalert,2a,2b,
+    Sound = jsfx_0365a_ninjakarate,2a,2b,
+    Sound = jsfx_0366_ninjaattack,2a,2b,
+    Sound = jsfx_0366_ninjahurt,2a,2b,
+    Sound = jsfx_0366a_ninjaattack,2a,2b,
+    Sound = jsfx_0366a_ninjahurt,2a,2b,
+    Sound = jsfx_0367_ninjaland,2a,2b,2c,3a,3b,3c,
+    Sound = jsfx_0369_crocroll,3a,3b,
+    Sound = jsfx_0370_crocalert,3a,3b,
+    Sound = jsfx_0371_crocsplash,3a,5a,
+    Sound = jsfx_0372_crocbite,3a,3b,5c,
+    Sound = jsfx_0375_blowpipe,3a,3b,
+    Sound = jsfx_0376_canoepaddle,3a,5c,
+    Sound = jsfx_0377_canoepaddle,3a,5c,
+    Sound = jsfx_0384_cannonfire,5a,5b,
+    Sound = jsfx_0385_whalefire,5b,
+    Sound = jsfx_0386_bats,looping,3b,
+    Sound = jsfx_0388_lp_watercannon,looping,3a,5a,
+    Sound = jsfx_0388_piratelaser,5b,
+    Sound = jsfx_0389_laserhit,
+    Sound = jsfx_0390_gullpeck,5a,
+    Sound = jsfx_0391_swordfishyhit,5a,
+    Sound = jsfx_0392_unsheath,5a,
+    Sound = jsfx_0394_lp_venusinflate,3a,3b,3c,
+    Sound = jsfx_0395_venuspop,3a,3b,3c,
+    Sound = jsfx_0396_gullalert1,5a,
+    Sound = jsfx_0397_gullalert2,5a,
+    Sound = jsfx_0398_wetcannonhit,5a,
+    Sound = jsfx_0399_hatspin,2a,2b,
+    Sound = jsfx_0400_overlordstep,2b,2c,
+    Sound = jsfx_0401_overlordstep,2b,2c,
+    Sound = jsfx_0402_overlorddefeated,2b,2c,
+    Sound = jsfx_0403_overlorddestroyed,2a,2b,2c,
+    Sound = jsfx_0404_overlordbounce,2b,2c,
+    Sound = jsfx_0405_overlordbounce,2c,
+    Sound = jsfx_0407_lavadragonstep,3a,3b,3c,
+    Sound = jsfx_0408_lavadragonroar,3a,3b,3c,
+    Sound = jsfx_0409_lavadragonthud,3a,3b,3c,6b,
+    Sound = jsfx_0410_lavadragoncroak,3a,3b,3c,
+    Sound = jsfx_0411_lavadragonfire,3b,3c,
+    Sound = jsfx_0411_lavadragongrowl,3b,3c,
+    Sound = jsfx_0413_sheenstep,2c,
+    Sound = jsfx_0414_sheenstep,2c,
+    Sound = jsfx_0417_Fowlfire,3a,3b,3c,
+    Sound = jsfx_0418_Fowlcharge,3c,
+    Sound = jsfx_0420_skid,2c,
+    Sound = jsfx_0450_cindysplash,5c,
+    Sound = jsfx_0451_cindysurface,5c,
+    Sound = jsfx_0453_whip,5c,
+    Sound = jsfx_0454_lp_cindysqueeze,looping,5c,
+    Sound = jsfx_0455_lp_cindythrash,looping,5c,
+    Sound = jsfx_0480_CBwalkstep,6b,6c,
+    Sound = jsfx_0481_CBwalkstep,6b,6c,
+    Sound = jsfx_0482_CBland,6b,6c,
+    Sound = jsfx_0483_CBrunstep,6b,6c,
+    Sound = jsfx_0484_CBrunstep,6b,6c,
+    Sound = jsfx_0485_CBwhir,6b,6c,
+    Sound = jsfx_0486_CBauton,6b,6c,
+    Sound = jsfx_0487_Cbwhir2,6b,6c,
+    Sound = jsfx_0490_humpbark,5c,
+    Sound = jsfx_0491_lp_humpswim,looping,5c,
+    Sound = jsfx_0492_humpsplash,5c,
+    Sound = jsfx_0493_humpwetexit,5c,
+    Sound = jsfx_0500_collectbat,common,
+    Sound = jsfx_0501_collectbat,
+    Sound = jsfx_0502_collectbat,
+    Sound = jsfx_0507_inventpiece,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0517_gui_select,common,
+    Sound = jsfx_0518_gui_movethru,common,
+    Sound = jsfx_0519_gui_reject,common,
+    Sound = jsfx_0520_leverpull,
+    Sound = jsfx_0521_buttonpress,1a,2a,2b,2c,3c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0541_disappear,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0550_flurpactivate,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0551_objectivegood,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0555_objectivebad,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0557_racelight1,2a,3a,
+    Sound = jsfx_0557_racelight2,2a,3a,
+    Sound = jsfx_0560_collect1,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0600_lp_goddardshield,looping,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0602_gddshielddeflect,1a,2a,2b,2c,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0604_gddexplode,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0605_goddardbark,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0607_goddardstretch,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0620_gddlandhard,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0622_gddmech1,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0623_gddmech2,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0624_gddears,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0624_gddmech3,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0630_lp_gddrun,looping,1a,2a,2b,2c,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0635_gddstep,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0636_gddstep,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0637_gddstep,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0640_gddtransform,
+    Sound = jsfx_0650_lp_gddhover,looping,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0651_gddrocket,1a,2a,2b,2c,3a,3b,3c,4a,4b,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0660_lp_gddkart,looping,2a,
+    Sound = jsfx_0661_gddkartstartup,2a,
+    Sound = jsfx_0662_gddkartaccel,2a,3a,5a,6b,
+    Sound = jsfx_0663_lp_gddkartidle,looping,2a,
+    Sound = jsfx_0664_lp_gravel,looping,2a,
+    Sound = jsfx_0665_lp_skid,looping,2a,6b,
+    Sound = jsfx_0666_lp_jetboard,looping,6b,
+    Sound = jsfx_0667_lp_grind,looping,6b,6c,
+    Sound = jsfx_0670_gddsigh,1a,2a,2b,2c,3a,5b,5c,6a,6c,
+    Sound = jsfx_0671_gddsighmech,1a,2a,2b,2c,5b,5c,6a,6c,
+    Sound = jsfx_0690_gddcurious,1a,2a,2b,2c,3a,3b,5b,5c,6a,6c,
+    Sound = jsfx_0691_gddsnore,1a,2a,2b,2c,5b,5c,6a,6c,
+    Sound = jsfx_0692_gddsurprised,1a,2a,2b,2c,5a,5b,5c,6a,6c,
+    Sound = jsfx_0693_gddgrowl,1a,2a,2b,2c,3a,5b,5c,6a,6c,
+    Sound = jsfx_0695_gdddebris,1a,2a,2b,2c,3a,5a,5b,5c,6a,6c,
+    Sound = jsfx_0696_lp_gddjet,looping,3b,5a,6b,
+    Sound = jsfx_0697_gddhit,5a,6b,
+    Sound = jsfx_0700_ballbounce,1a,
+    Sound = jsfx_0701_ballbounce,1a,
+    Sound = jsfx_0705_fishswallow,5a,
+    Sound = jsfx_0706_fishsplish,5a,
+    Sound = jsfx_0710_sumotaunt,2a,
+    Sound = jsfx_0715_gummed,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0720_helmetkonk,2a,2b,6a,6b,6c,
+    Sound = jsfx_0721_botclank,6a,6b,6c,
+    Sound = jsfx_0722_botheadclang,6a,6b,
+    Sound = jsfx_0730_robotwhir1,6a,6b,6c,
+    Sound = jsfx_0731_robotwhir2,6a,6b,6c,
+    Sound = jsfx_0732_scibotwhir1,6a,6b,
+    Sound = jsfx_0733_lp_botmove,looping,2b,6a,6b,6c,
+    Sound = jsfx_0733_scibotwhir2,6a,6b,
+    Sound = jsfx_0735_botfire,6a,6b,
+    Sound = jsfx_0736_botclank1,6a,6b,
+    Sound = jsfx_0739_botwhir,6a,6b,
+    Sound = jsfx_0740_botwhir,6a,6b,
+    Sound = jsfx_0741_botwhir,6a,6b,6c,
+    Sound = jsfx_0745_botbeep,6a,6b,
+    Sound = jsfx_0747_botmalf,6a,6b,6c,
+    Sound = jsfx_0810_schoolbell,1a,
+    Sound = jsfx_0815_owl,2a,2b,
+    Sound = jsfx_0816_lp_daytimegarden,looping,1a,
+    Sound = jsfx_0817_lp_nightatmos,looping,2a,2b,
+    Sound = jsfx_0818_lp_nightatmos2,looping,2a,2b,
+    Sound = jsfx_0819_lp_drums,looping,2b,
+    Sound = jsfx_0820_lp_forest,looping,1a,3a,3b,
+    Sound = jsfx_0840_lp_alarm,looping,common,
+    Sound = jsfx_0850_lp_torch,looping,2a,2b,2c,3a,3b,3c,
+    Sound = jsfx_0851_lp_waterfall,looping,2b,3a,3b,6b,
+    Sound = jsfx_0852_lp_lake,looping,2b,3a,3b,3c,6b,
+    Sound = jsfx_0856_lp_jungle,looping,3a,3b,
+    Sound = jsfx_0857_lp_jungletoo,looping,3a,3b,
+    Sound = jsfx_0858_lp_lakeshore,looping,2b,3a,5a,5c,
+    Sound = jsfx_0859_lp_gulls,looping,5a,5c,
+    Sound = jsfx_0860_lp_seawash,looping,5a,5c,
+    Sound = jsfx_0861_lp_undersea,looping,5b,
+    Sound = jsfx_0862_lp_undersea,looping,5b,
+    Sound = jsfx_0863_lp_undersea,looping,5b,
+    Sound = jsfx_0865_lp_fountain,looping,2a,2b,
+    Sound = jsfx_0869_creak,5a,
+    Sound = jsfx_0871_lp_computer,looping,6a,6b,6c,
+    Sound = jsfx_0872_lp_computer,looping,6a,6b,6c,
+    Sound = jsfx_0873_lp_computer,looping,6a,6b,6c,
+    Sound = jsfx_0874_lp_desert,looping,6a,6b,
+    Sound = jsfx_0874_lp_desertTWO,looping,6a,6b,
+    Sound = jsfx_0875_lp_hum,looping,2b,6a,6b,6c,
+    Sound = jsfx_0876_lp_tesla,looping,6a,6b,6c,
+    Sound = jsfx_0878_desertbird,6a,6b,6c,
+    Sound = jsfx_0879_desertbird,6a,6b,
+    Sound = jsfx_0880_coyotefugly,6b,
+    Sound = jsfx_0900_lp_steam,looping,1a,2a,3b,3c,
+    Sound = jsfx_0901_plantfire,3a,3b,
+    Sound = jsfx_0902_rumble,3a,3b,3c,
+    Sound = jsfx_0903_lavaspurt,3b,3c,
+    Sound = jsfx_0905_lp_crumble,looping,3b,
+    Sound = jsfx_0906_gantrycollapse,3b,3c,
+    Sound = jsfx_0907_lp_conveyorbelt,3b,3c,
+    Sound = jsfx_0909_lp_boulder,looping,3b,
+    Sound = jsfx_0919_lp_bouy,looping,5a,
+    Sound = jsfx_0925_parrotclue,
+    Sound = jsfx_0928_parrothit,5a,
+    Sound = jsfx_0930_lp_bigdoor,looping,5a,
+    Sound = jsfx_0935_mineexplode,5b,6c,
+    Sound = jsfx_0938_electribarrier,looping,5b,6a,6b,6c,
+    Sound = jsfx_0939_lp_subgrind,
+    Sound = jsfx_0940_lp_hoverplatform,looping,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_0941_lp_cutting,looping,6a,6b,6c,
+    Sound = jsfx_0943_lp_cog,looping,5a,5c,6a,6b,6c,
+    Sound = jsfx_0944_lp_cog,looping,5a,5c,6a,6b,6c,
+    Sound = jsfx_0945_lp_roll,looping,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5c,6a,6b,6c,
+    Sound = jsfx_0946_lp_parrotflap,looping,5a,
+    Sound = jsfx_0950_2ndexplosion,6a,6b,
+    Sound = jsfx_0955_lp_laser,looping,6a,6b,6c,
+    Sound = jsfx_0956_static,common,
+    Sound = jsfx_0958_statuefire,3a,3b,3c,
+    Sound = jsfx_0959_lp_calamhum,looping,common,
+    Sound = jsfx_0959_,6c,
+    Sound = jsfx_095_lp_skibot,looping,6b,
+    Sound = jsfx_0960_lp_calamfly,looping,2c,6c,
+    Sound = jsfx_0961_minibomb,6c,
+    Sound = jsfx_0962_minibombbounce,6c,
+    Sound = jsfx_0963_minibombbounce,6c,
+    Sound = jsfx_0964_lp_reel,looping,5a,
+    Sound = jsfx_0965_chainsnap,5a,
+    Sound = jsfx_0966_clmpsplash,5a,
+    Sound = jsfx_1000_overlordalert1,2b,2c,
+    Sound = jsfx_1001_overlordalert,2b,2c,
+    Sound = jsfx_1002_overlordalert,2b,2c,
+    Sound = jsfx_1003_overlordalert,2b,2c,
+    Sound = jsfx_1004_overlordalert,2b,2c,
+    Sound = jsfx_1005_overlordalert,2c,6a,
+    Sound = jsfx_1006_overlordhurt,2b,2c,
+    Sound = jsfx_1007_overlordhurt,2b,2c,
+    Sound = jsfx_1008_overlordhurt,2c,
+    Sound = jsfx_1009_overlordattack,2c,
+    Sound = jsfx_1010_overlordattack,2c,
+    Sound = jsfx_1011_overlordes,2b,2c,
+    Sound = jsfx_1012_overlordes,2c,
+    Sound = jsfx_1013_overlordes,2b,2c,
+    Sound = jsfx_1014_overlordes,2c,
+    Sound = jsfx_1015_piratealert,5a,
+    Sound = jsfx_1016A_piratealert,5a,
+    Sound = jsfx_1016_piratealert,5a,
+    Sound = jsfx_1017_piratehit,5a,
+    Sound = jsfx_1017_piratehit2,5a,
+    Sound = jsfx_1018_piratetaunt,5a,
+    Sound = jsfx_1019_piratetaunt,5a,
+    Sound = jsfx_1020_bigpirtaehit,5a,
+    Sound = jsfx_1020a_bigpirtaehit,5a,
+    Sound = jsfx_1021_bigpiralert,5a,
+    Sound = jsfx_1022_bigpiralert,5a,
+    Sound = jsfx_1022a_bigpiralert,5a,
+    Sound = jsfx_1023_pigpirtaunt,5a,
+    Sound = jsfx_1023a_pigpirtaunt,5a,
+    Sound = jsfx_1024_bigpirglug,5a,
+    Sound = jsfx_1025_bigpirtriumph,5a,
+    Sound = jsfx_1026_cannibalalert,3a,3b,
+    Sound = jsfx_1027_cannibalalert,3a,3b,
+    Sound = jsfx_1028_cannibalhurt,3a,3b,
+    Sound = jsfx_1029_cannibalhurt,3a,3b,
+    Sound = jsfx_1030_cannibaltaunt,3a,3b,
+    Sound = jsfx_1031_cannibaltaunt,3a,3b,
+    Sound = jsfx_1034_witchhit,3a,3b,3c,
+    Sound = jsfx_1035_witchhit,3a,3b,3c,
+    Sound = jsfx_1036_witchtaunt,3a,3b,3c,
+    Sound = jsfx_1037_witchtaunt,3a,3b,3c,
+    Sound = jsfx_1040_bullyhit,1a,
+    Sound = jsfx_1041_bullyhit,1a,
+    Sound = jsfx_1042_bullytaunt,1a,
+    Sound = jsfx_1043_bullytaunt,1a,
+    Sound = jsfx_1044_bullytaunt,1a,
+    Sound = jsfx_1045_bullytauntball,1a,
+    Sound = jsfx_1046_bullytauntball,1a,
+    Sound = jsfx_1047_bullytaunt,1a,
+    Sound = jsfx_1050_ninjakick,2a,2b,
+    Sound = jsfx_1051_hatninjataunt,2a,2b,
+    Sound = jsfx_1052_hatninjataunt,2a,2b,
+    Sound = jsfx_1053_hatninjaalert,2a,2b,
+    Sound = jsfx_1054_hatninjaalert,2a,2b,
+    Sound = jsfx_1055_hatninjahit,2a,2b,
+    Sound = jsfx_1060_whaleroar,5b,
+    Sound = jsfx_1061_whalealert,5b,
+    Sound = jsfx_1080_jimmyhurt,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_1081_jimmyhurt,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_1082_jimmyhurt,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_1083_jimmygrunt,1a,2a,2b,2c,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_1084_jimmygrunt,1a,2a,2b,2c,3a,5a,5b,5c,6a,6c,
+    Sound = jsfx_1085_jimmygrunt,1a,2a,2b,2c,3a,3b,3c,5a,5b,5c,6a,6c,
+    Sound = jsfx_1086_gddplaydead,1a,2a,2b,2c,3a,3b,3c,5a,5c,6a,6b,6c,
+    Sound = jsfx_PLACEHOLDER,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = jsfx_PLACEHOLDER2,1a,2a,2b,2c,3a,3b,3c,4a,4b,4c,5a,5b,5c,6a,6b,6c,
+    Sound = lp_flaming,looping,3c,
+    Sound = lp_fowlsink,looping,3c,
+    Sound = lp_supergust,looping,common,
+    Sound = mcommandplathit,5b,
+    Sound = ninjahit_1,2a,
+    Sound = ninjahit_2,2a,
+    Sound = ninjahit_3,2a,
+    Sound = ninjahit_4,2a,
+    Sound = ninjahit_5,2a,
+    Sound = octogrowl,5b,
+    Sound = octoswing,5b,
+    Sound = octothrashingLP,looping,5b,
+    Sound = platformlower,6a,6c,
+    Sound = roboninjaLP,looping,2b,
+    Sound = rockimpact,6b,
+    Sound = rockimpact2,6b,
+    Sound = spikeextend,6a,6b,6c,
+    Sound = spikeretract,6a,6b,6c,
+    Sound = subshockwave,5b,
+    Sound = sumofall,2a,
+    Sound = sumohit1,2a,
+    Sound = sumohit2,2a,
+    Sound = sumohit3,2a,
+    Sound = sumohit4,2a,
+    Sound = sumohit5,2a,
+    Sound = type1,2c,6c,
+    Sound = type2,2c,6c,
+    Sound = type3,2c,6c,
+    Sound = ultrapop,2c,5a,
+    Sound = underwaterspike,5b,
+    Sound = underwaterspikeretract,5b,
+    Sound = vortexfunnelLP,looping,1a,
+    Sound = vortexlp,looping,2c,3c,5c,
+    Sound = vpractive_lp,looping,1a,
+    Sound = vpridle_lp,looping,1a,
+    Sound = watergushingLP,looping,5b,5c,
+    Sound = CS_whoosh,common,
+    Sound = mirrorfall,6a,6c,
+    Sound = jsfx_0003_pulsesec,common,
+    Sound = 5csmashtotal,5c,6c,
+    Sound = 5csmash1,5c,6c,
+    Sound = 5csmash2,5c,6c,
+
+// -----------------------------------------------------------------------------
+// PLACEHOLDER
+
+name PLACEHOLDER
+
+//   
+SoundEvent = PLACEHOLDER
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_PLACEHOLDER
+      Chance = 0.90
+    Sound = jsfx_PLACEHOLDER2
+      Chance = 0.10
+
+//   
+SoundEvent = PLACEHOLDER_LOOP
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0840_lp_alarm
+
+// -----------------------------------------------------------------------------
+// Jimmy
+
+name Jimmy
+
+//   
+SoundEvent = JimmyJump
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0150_jnjump
+
+//   
+SoundEvent = BatteryCollect
+    Volume = 153
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0500_collectbat
+      Chance = 1.00
+
+//   
+SoundEvent = InvItemCollect
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = jsfx_0507_inventpiece
+
+//   
+SoundEvent = PlayDeadOrder
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_1086_gddplaydead
+
+//   
+SoundEvent = JimmyHurt
+    Volume = 255
+  Range = 1840
+  Material = 0,MID_NONE
+    Sound = jsfx_0319_jimmyhit
+
+//   
+SoundEvent = JimmyDrag
+    Volume = 255
+  Range = 4000
+  Material = 0,MID_NONE
+    MinPitch = 0.68
+    MaxPitch = 0.68
+    Sound = jsfx_0200_lp_drag
+
+//   
+SoundEvent = Splash
+    Volume = 255
+  Material = 256,MID_WATER_BLUE
+    Sound = jsfx_0160_jnsplash
+  Material = 64,MID_INFESTEDWATER
+    MinPitch = 0.68
+    MaxPitch = 1.09
+    Sound = jsfx_0160_jnsplash
+
+//   
+SoundEvent = QuickTurn
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0135_jnturn
+
+//   
+SoundEvent = SlowTurn
+    Volume = 204
+  Range = 3472
+  Material = 0,MID_NONE
+    MinPitch = 0.75
+    MaxPitch = 0.79
+    Sound = jsfx_0135_jnturn
+
+//   
+SoundEvent = JimmyStep
+  Material = 0,MID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.10
+    Sound = jsfx_0101_jnstep
+      Chance = 0.25
+    Sound = jsfx_0102_jnstep
+      Chance = 0.25
+    Sound = jsfx_0103_jnstep
+      Chance = 0.25
+    Sound = jsfx_0104_jnstep
+      Chance = 0.25
+  Material = 8,MID_SAND
+    MinPitch = 0.88
+    MaxPitch = 1.12
+    Sound = jsfx_0125_jnstepsoft
+      Chance = 0.46
+    Sound = jsfx_0126_jnstepsoft
+      Chance = 0.51
+  Material = 32,MID_MUD
+    MinPitch = 0.44
+    MaxPitch = 0.56
+    Sound = jsfx_0130_jnstepwater
+      Chance = 0.51
+    Sound = jsfx_0131_jnstepwater
+      Chance = 0.46
+  Material = 64,MID_INFESTEDWATER
+    MinPitch = 0.81
+    MaxPitch = 0.93
+    Sound = jsfx_0130_jnstepwater
+      Chance = 0.50
+    Sound = jsfx_0131_jnstepwater
+      Chance = 0.50
+  Material = 256,MID_WATER_BLUE
+    MinPitch = 0.81
+    MaxPitch = 1.10
+    Sound = jsfx_0130_jnstepwater
+      Chance = 0.50
+    Sound = jsfx_0131_jnstepwater
+      Chance = 0.50
+  Material = 1024,MID_WOOD
+    MinPitch = 0.81
+    MaxPitch = 1.12
+    Sound = jsfx_0113_jnstepwoodpan
+      Chance = 0.50
+    Sound = jsfx_0114_jnstepwoodpan
+      Chance = 0.50
+  Material = 16384,MID_GRASS_THIN
+    MinPitch = 0.93
+    MaxPitch = 1.12
+    Sound = jsfx_0120_jnstepgrass
+      Chance = 0.50
+    Sound = jsfx_0121_jnstepgrass
+      Chance = 0.50
+  Material = 32768,MID_GRASS_THICK
+    MinPitch = 0.81
+    MaxPitch = 0.93
+    Sound = jsfx_0121_jnstepgrass
+      Chance = 0.50
+    Sound = jsfx_0120_jnstepgrass
+      Chance = 0.50
+  Material = 131072,MID_TREELEAVES
+    MinPitch = 0.91
+    MaxPitch = 1.08
+    Sound = jsfx_0117_jnstepleaves
+  Material = 2097152,MID_TILES
+    MinPitch = 0.90
+    MaxPitch = 1.09
+    Sound = jsfx_0104_jnstep
+      Chance = 0.20
+    Sound = jsfx_0103_jnstep
+      Chance = 0.20
+    Sound = jsfx_0101_jnstep
+      Chance = 0.20
+    Sound = jsfx_0102_jnstep
+      Chance = 0.20
+    Sound = jsfx_0105_jnsqueak
+      Chance = 0.20
+  Material = 8388608,MID_GRAVEL_PATH
+    MinPitch = 0.68
+    MaxPitch = 0.79
+    Sound = jsfx_0125_jnstepsoft
+      Chance = 0.50
+    Sound = jsfx_0126_jnstepsoft
+      Chance = 0.50
+  Material = 16777216,MID_METAL_PLATE
+    MinPitch = 0.88
+    MaxPitch = 1.11
+    Sound = jsfx_0115_jnstepmetal
+      Chance = 0.50
+    Sound = jsfx_0116_jnstepmetal
+      Chance = 0.50
+  Material = 67108864,MID_BOUNCE
+    MinPitch = 0.68
+    MaxPitch = 0.81
+    Sound = jsfx_0126_jnstepsoft
+  Material = 512,MID_SQUELCHY
+    MinPitch = 0.88
+    MaxPitch = 1.11
+    Sound = jsfx_0122_jnstepyuck
+      Chance = 0.50
+    Sound = jsfx_0123_jnstepyuck
+      Chance = 0.50
+  Material = 268435456,MID_SOFT
+    MinPitch = 0.93
+    MaxPitch = 1.07
+    Sound = jsfx_0125_jnstepsoft
+      Chance = 0.50
+    Sound = jsfx_0126_jnstepsoft
+      Chance = 0.50
+
+//   
+SoundEvent = JimmyLand
+  Range = 5000
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = jsfx_0155_jnland
+  Material = 8,MID_SAND
+    MinPitch = 0.78
+    MaxPitch = 0.81
+    Sound = jsfx_0158_jnlandsoft
+  Material = 64,MID_INFESTEDWATER
+    Sound = jsfx_0160_jnsplash
+  Material = 32,MID_MUD
+    MinPitch = 0.28
+    MaxPitch = 0.40
+    Sound = jsfx_0131_jnstepwater
+  Material = 256,MID_WATER_BLUE
+    MinPitch = 0.68
+    MaxPitch = 0.76
+    Sound = jsfx_0130_jnstepwater
+  Material = 1024,MID_WOOD
+    Sound = jsfx_0156_jnlandwood
+  Material = 16384,MID_GRASS_THIN
+    Sound = jsfx_0158_jnlandsoft
+  Material = 32768,MID_GRASS_THICK
+    Sound = jsfx_0158_jnlandsoft
+  Material = 131072,MID_TREELEAVES
+    Sound = jsfx_0158_jnlandsoft
+  Material = 8388608,MID_GRAVEL_PATH
+    MinPitch = 0.40
+    MaxPitch = 0.46
+    Sound = jsfx_0158_jnlandsoft
+  Material = 16777216,MID_METAL_PLATE
+    Sound = jsfx_0157_jnlandmetal
+  Material = 67108864,MID_BOUNCE
+    Sound = jsfx_0126_jnstepsoft
+      Chance = 0.81
+    Sound = jsfx_0125_jnstepsoft
+      Chance = 0.19
+
+//   
+SoundEvent = JNpat
+    Volume = 255
+  Range = 890
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.05
+    Sound = jsfx_0150_jnpat
+
+//   
+SoundEvent = JimmyDrown
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0250_drown
+
+//   
+SoundEvent = SwingingRopeLP
+    Volume = 255
+  Range = 1721
+  Material = 0,MID_NONE
+    Sound = jsfx_0163_lp_swing
+
+//   
+SoundEvent = JimmyFlip1
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0178_jnwhoosh1
+
+//   
+SoundEvent = JimmyFlip2
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.80
+    MaxPitch = 0.81
+    Sound = jsfx_0178_jnwhoosh1
+
+//   
+SoundEvent = JNTwirl
+    Volume = 204
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 2.00
+    MaxPitch = 1.37
+    Sound = jsfx_0178_jnwhoosh1
+
+//   
+SoundEvent = Gummed
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_0715_gummed
+
+//   
+SoundEvent = JimmyAltDamage
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_1080_jimmyhurt
+      Chance = 0.28
+    Sound = jsfx_1081_jimmyhurt
+      Chance = 0.32
+    Sound = jsfx_1082_jimmyhurt
+      Chance = 0.38
+
+//   
+SoundEvent = JimmyGrunt
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_1083_jimmygrunt
+      Chance = 0.28
+    Sound = jsfx_1084_jimmygrunt
+      Chance = 0.32
+    Sound = jsfx_1085_jimmygrunt
+      Chance = 0.38
+
+//   
+SoundEvent = JimmyBounce
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.89
+    MaxPitch = 1.12
+    Sound = jsfx_0175_jnbounce
+
+//   
+SoundEvent = CartPulPushLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 1.27
+    MaxPitch = 1.29
+    Sound = jsfx_0200_lp_drag
+
+// -----------------------------------------------------------------------------
+// Goddard
+
+name Goddard
+
+//   
+SoundEvent = GddAppear
+    Volume = 102
+  Range = 500
+  Material = 0,MID_NONE
+    Sound = jsfx_0001_pulseray
+
+//   
+SoundEvent = GddBark
+  Range = 950
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = jsfx_0605_goddardbark
+
+//   
+SoundEvent = GddStep
+    Volume = 153
+  Range = 1036
+  Material = 0,MID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.10
+    Sound = jsfx_0635_gddstep
+      Chance = 0.33
+    Sound = jsfx_0636_gddstep
+      Chance = 0.33
+    Sound = jsfx_0637_gddstep
+      Chance = 0.34
+
+//   
+SoundEvent = GddTransform
+    Volume = 255
+  Range = 1869
+  Material = 0,MID_NONE
+    Sound = jsfx_0640_gddtransform
+
+//   
+SoundEvent = GddLand
+    Volume = 204
+  Range = 712
+  Material = 0,MID_NONE
+    Sound = jsfx_0620_gddlandhard
+  Material = 64,MID_INFESTEDWATER
+    Sound = jsfx_0160_jnsplash
+
+//   
+SoundEvent = GddShieldDeflect
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0602_gddshielddeflect
+
+//   
+SoundEvent = GddRunLP
+  Material = 0,MID_NONE
+    Sound = jsfx_0630_lp_gddrun
+
+//   
+SoundEvent = GoddardHoverLP
+  Range = 1107
+    Volume = 153
+  Material = 0,MID_NONE
+    Sound = jsfx_0650_lp_gddhover
+
+//   
+SoundEvent = GddMechNoise
+  Range = 297
+    Volume = 153
+  Material = 0,MID_NONE
+    MinPitch = 0.91
+    MaxPitch = 1.07
+    Sound = jsfx_0622_gddmech1
+
+//   
+SoundEvent = GoddardKartLP
+   Volume = 200
+   Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0660_lp_gddkart
+
+//   
+SoundEvent = GoddardKartStart
+   Volume = 200
+   Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0661_gddkartstartup
+
+//   
+SoundEvent = GoddardKartAccel
+   Volume = 200
+   Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0662_gddkartaccel
+
+//   
+SoundEvent = SkidLP
+   Volume = 200
+   Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0665_lp_skid
+
+//   
+SoundEvent = GoddardKartImpact
+    Range = 5000
+    Volume = 204
+  Material = 0,MID_NONE
+    MinPitch = 0.68
+    MaxPitch = 0.75
+    Sound = jsfx_0051_energycrated
+  Material = 1,MID_WALL
+    MinPitch = 0.40
+    MaxPitch = 0.46
+    Sound = jsfx_0604_gddexplode
+
+//   
+SoundEvent = GoddardKartIdleLP
+  Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0663_lp_gddkartidle
+
+//   
+SoundEvent = GravelLP
+  Range = 5000
+  Material = 8388608,MID_GRAVEL_PATH
+    Sound = jsfx_0664_lp_gravel
+
+//   
+SoundEvent = KartImpactSmall
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.56
+    MaxPitch = 0.65
+    Sound = jsfx_0350_sunglasssmash
+
+//   
+SoundEvent = GddRetract
+    Volume = 255
+  Range = 1098
+  Material = 0,MID_NONE
+    Sound = jsfx_0623_gddmech2
+
+//   
+SoundEvent = GddStretchFwd
+    Volume = 255
+  Range = 1009
+  Material = 0,MID_NONE
+    Sound = jsfx_0607_goddardstretch
+
+//   
+SoundEvent = GddStretchRev
+  Range = 1068
+    Volume = 204
+  Material = 0,MID_NONE
+    MinPitch = 1.32
+    MaxPitch = 1.37
+    Sound = jsfx_0607_goddardstretch
+
+//   
+SoundEvent = GddEars
+  Range = 1039
+    Volume = 204
+  Material = 0,MID_NONE
+    MinPitch = 1.12
+    MaxPitch = 1.36
+    Sound = jsfx_0624_gddears
+
+//   
+SoundEvent = GddMechFast
+  Range = 1009
+    Volume = 204
+  Material = 0,MID_NONE
+    MinPitch = 1.37
+    MaxPitch = 1.12
+    Sound = jsfx_0622_gddmech1
+
+//   
+SoundEvent = GddPlayDead
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0604_gddexplode
+
+//   
+SoundEvent = GddRocket
+    Volume = 255
+  Range = 4679
+  Material = 0,MID_NONE
+    Sound = jsfx_0651_gddrocket
+
+//   
+SoundEvent = GddSigh1
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0671_gddsighmech
+
+//   
+SoundEvent = GddSigh2
+    Volume = 204
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0670_gddsigh
+
+//   
+SoundEvent = GoddardDebris
+  Range = 2000
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = jsfx_0695_gdddebris
+
+//   
+SoundEvent = GoddardGrowl
+    Volume = 255
+  Range = 1454
+  Material = 0,MID_NONE
+    Sound = jsfx_0693_gddgrowl
+
+//   
+SoundEvent = GoddardCurious
+    Volume = 255
+  Range = 1573
+  Material = 0,MID_NONE
+    Sound = jsfx_0690_gddcurious
+
+//   
+SoundEvent = GddSurprised
+    Volume = 255
+  Range = 1573
+  Material = 0,MID_NONE
+    Sound = jsfx_0692_gddsurprised
+
+//   
+SoundEvent = GoddardSnore
+    Volume = 255
+  Range = 1573
+  Material = 0,MID_NONE
+    Sound = jsfx_0691_gddsnore
+
+//   
+SoundEvent = GddShieldLP
+    Volume = 255
+  Range = 1335
+  Material = 0,MID_NONE
+    Sound = jsfx_0600_lp_goddardshield
+
+//   
+SoundEvent = GddBoardLP
+    Volume = 153
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0696_lp_gddjet
+
+//   
+SoundEvent = GoddardJetLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0696_lp_gddjet
+
+//   
+SoundEvent = GoddardCollide
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0697_gddhit
+
+//   
+SoundEvent = BatteryLow
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.79
+    MaxPitch = 0.88
+    Sound = jsfx_0519_gui_reject
+
+//   
+SoundEvent = GddJetSpeed
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jetboost
+
+//   
+SoundEvent = GddJetLandLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0665_lp_skid
+
+//   
+SoundEvent = GddJetBreak
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0697_gddhit
+
+//   
+SoundEvent = GddJetJump
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jetboardwhoosh
+
+//   
+SoundEvent = GoddardJetIdleLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0650_lp_gddhover
+
+// -----------------------------------------------------------------------------
+// JimmyTools
+
+name JimmyTools
+
+//   
+SoundEvent = PulseRayFire
+    Volume = 153
+  Range = 3591
+  Material = 0,MID_NONE
+    Sound = jsfx_0001_pulseray
+
+//   
+SoundEvent = PulseRayDeflect
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0002_pulseimpact
+
+//   
+SoundEvent = PulseRayHit
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 1.00
+    MaxPitch = 1.00
+    Sound = jsfx_0002_pulseimpact
+
+//   
+SoundEvent = PulseRayArc
+  Range = 5000
+    Volume = 255
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.02
+    Sound = jsfx_0003_pulsesec
+
+//   
+SoundEvent = MagTurnerHorizontal
+  Range = 9436
+  Material = 0,MID_NONE
+    MinPitch = 0.80
+    MaxPitch = 0.93
+    Sound = jsfx_0006_magturner
+
+//   
+SoundEvent = MagTurnerVertical
+  Range = 10000
+  Material = 0,MID_NONE
+    MinPitch = 1.06
+    MaxPitch = 1.11
+    Sound = jsfx_0006_magturner
+
+//   
+SoundEvent = GustBusterLP
+  Range = 10000
+  Material = 0,MID_NONE
+    Sound = jsfx_0015_lp_gustbuster
+
+//   
+SoundEvent = GustBusterHit
+    Volume = 153
+  Range = 5036
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 1.12
+    Sound = jsfx_0016_gustbusterhit
+
+//   
+SoundEvent = BGSplatterFire
+  Range = 9585
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.03
+    Sound = jsfx_0020_bgsplatter
+
+//   
+SoundEvent = BGSplatterHit
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 1.12
+    Sound = jsfx_0021_bgsplatterhit
+      Chance = 0.46
+    Sound = jsfx_0022_bgsplatterhit
+      Chance = 0.52
+
+//   
+SoundEvent = FreezeBreezeFire
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0025_freezebreeze
+
+//   
+SoundEvent = FreezeBreezeHit
+    Volume = 255
+  Range = 2464
+  Material = 0,MID_NONE
+    Sound = Frozen
+
+//   
+SoundEvent = FreezeBreezeIce
+  Range = 2786
+  Material = 0,MID_NONE
+    Sound = frostydefrost
+
+//   
+SoundEvent = DuplicateForm
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0040_duplicate
+
+//   
+SoundEvent = DuplicateDissolve
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0042_duplicateaway
+
+//   
+SoundEvent = MagTurnerSingle
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0007_magturner
+
+//   
+SoundEvent = BGSSecFire
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0025_BGslurp
+
+//   
+SoundEvent = RollLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0945_lp_roll
+
+// -----------------------------------------------------------------------------
+// EnemiesCommon
+
+name EnemiesCommon
+
+//   
+SoundEvent = EnemySocked
+  Range = 2500
+  Material = 0,MID_NONE
+    MinPitch = 0.56
+    MaxPitch = 0.64
+    Sound = jsfx_0318_jimmyhit
+
+//   
+SoundEvent = EnemySwingsPunch
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0316_enemyswing
+
+//   
+SoundEvent = EnemyThrows
+  Range = 2000
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 1.09
+    Sound = jsfx_0315_enemythrow
+
+//   
+SoundEvent = EnemyFallLarge
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0310_enemyfall
+
+//   
+SoundEvent = EnemyFallMed
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0311_enemyfall
+
+//   
+SoundEvent = SunglassBreak
+  Range = 1602
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = jsfx_0350_sunglasssmash
+
+//   
+SoundEvent = EnemyLunge
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0316_lunge
+
+//   
+SoundEvent = EnemyJump
+  Range = 2000
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = jsfx_0314_enemyjump
+
+//   
+SoundEvent = CELargeLand
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0367_ninjaland
+
+//   
+SoundEvent = CEMedLand
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0367_ninjaland
+
+//   
+SoundEvent = CEQuickTurn
+    Volume = 255
+  Range = 1217
+  Material = 0,MID_NONE
+    MinPitch = 0.91
+    MaxPitch = 1.10
+    Sound = jsfx_0135_jnturn
+
+//   
+SoundEvent = TouchOne
+  Range = 1306
+    Volume = 204
+  Material = 0,MID_NONE
+    MinPitch = 1.12
+    MaxPitch = 1.12
+    Sound = jsfx_0205_touchone
+
+//   
+SoundEvent = TouchTwoHard
+    Volume = 255
+  Range = 1395
+  Material = 0,MID_NONE
+    MinPitch = 0.77
+    MaxPitch = 1.12
+    Sound = jsfx_0205_touchone
+
+// -----------------------------------------------------------------------------
+// NPC's
+
+name NPC's
+
+//   
+SoundEvent = BallBounce
+  Range = 1300
+    Volume = 255
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 1.12
+    Sound = jsfx_0700_ballbounce
+      Chance = 0.50
+    Sound = jsfx_0701_ballbounce
+      Chance = 0.50
+
+// -----------------------------------------------------------------------------
+// GUI
+
+name GUI
+
+//   
+SoundEvent = MenuMoveThru
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0518_gui_movethru
+
+//   
+SoundEvent = MenuSelect
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0517_gui_select
+
+//   
+SoundEvent = MenuReject
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0519_gui_reject
+
+//   
+SoundEvent = ButtonPress
+    Volume = 255
+  Range = 2344
+  Material = 0,MID_NONE
+    MinPitch = 0.79
+    MaxPitch = 1.11
+    Sound = battery
+
+//   
+SoundEvent = FlurpMachine
+    Volume = 255
+  Range = 2997
+  Material = 0,MID_NONE
+    Sound = jsfx_0550_flurpactivate
+
+//   
+SoundEvent = BattFull
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = CS1G_90_BCEN
+
+//   
+SoundEvent = Checkpoint
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.79
+    MaxPitch = 0.90
+    Sound = jsfx_0560_collect1
+
+// -----------------------------------------------------------------------------
+// Enemy
+
+name Enemy
+
+//   
+SoundEvent = RickshawLP
+  Range = 1756
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = jsfx_0356_lp_rickshaw
+
+//   
+SoundEvent = RickshawIdleLP
+  Range = 1204
+    Volume = 153
+  Material = 0,MID_NONE
+    MinPitch = 0.56
+    MaxPitch = 0.63
+    Sound = jsfx_0356_lp_rickshaw
+
+//   
+SoundEvent = RickshawRev
+    Volume = 255
+  Range = 1686
+  Material = 0,MID_NONE
+    Sound = jsfx_0355_rickshawrev
+
+//   
+SoundEvent = OninibLP
+    Volume = 255
+  Range = 1632
+  Material = 0,MID_NONE
+    Sound = jsfx_0359_lp_oninib
+
+//   
+SoundEvent = OninibExplode
+    Volume = 255
+  Range = 2136
+  Material = 0,MID_NONE
+    Sound = jsfx_0362_oninibexplode
+
+//   
+SoundEvent = NinjaJump
+    Volume = 255
+  Range = 1662
+  Material = 0,MID_NONE
+    MinPitch = 0.52
+    MaxPitch = 0.56
+    Sound = jsfx_0314_enemyjump
+
+//   
+SoundEvent = NinjaLunge
+    Volume = 255
+  Range = 1335
+  Material = 0,MID_NONE
+    MinPitch = 0.68
+    MaxPitch = 0.81
+    Sound = jsfx_0316_lunge
+
+//   
+SoundEvent = NinjaLand
+    Volume = 153
+  Range = 2042
+  Material = 0,MID_NONE
+    MinPitch = 0.65
+    MaxPitch = 0.81
+    Sound = jsfx_0367_ninjaland
+
+//   
+SoundEvent = NinjaSwingsFists
+  Range = 1597
+    Volume = 255
+  Material = 0,MID_NONE
+    MinPitch = 1.37
+    MaxPitch = 1.37
+    Sound = jsfx_0316_enemyswing
+
+//   
+SoundEvent = NinjaAlert
+    Volume = 255
+  Range = 1832
+  Material = 0,MID_NONE
+    Sound = jsfx_0364_ninjaalert
+      Chance = 0.54
+    Sound = jsfx_0365_ninjaalert
+      Chance = 0.46
+
+//   
+SoundEvent = NinjaHurt
+    Volume = 255
+  Range = 1754
+  Material = 0,MID_NONE
+    Sound = jsfx_0366_ninjahurt
+      Chance = 0.50
+    Sound = jsfx_0366a_ninjahurt
+      Chance = 0.50
+
+//   
+SoundEvent = OverlordStep
+    Volume = 255
+  Range = 1306
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.12
+    Sound = jsfx_0400_overlordstep
+      Chance = 0.50
+    Sound = jsfx_0401_overlordstep
+      Chance = 0.50
+
+//   
+SoundEvent = OverlordTaunt
+    Volume = 255
+  Range = 1000
+  Material = 0,MID_NONE
+    MinPitch = 1.12
+    MaxPitch = 2.00
+    Sound = jsfx_1001_overlordalert
+      Chance = 0.17
+    Sound = jsfx_1000_overlordalert1
+      Chance = 0.22
+    Sound = jsfx_1003_overlordalert
+      Chance = 0.20
+    Sound = jsfx_1004_overlordalert
+      Chance = 0.20
+
+//   
+SoundEvent = OverlordBounce
+    Volume = 255
+  Range = 1484
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 1.25
+    Sound = jsfx_0404_overlordbounce
+
+//   
+SoundEvent = OverlordBreak
+    Volume = 255
+  Range = 2047
+  Material = 0,MID_NONE
+    Sound = jsfx_0403_overlorddestroyed
+
+//   
+SoundEvent = OverlordAttack
+    Volume = 255
+  Range = 1000
+  Material = 0,MID_NONE
+    MinPitch = 1.00
+    MaxPitch = 1.10
+    Sound = jsfx_1005_overlordalert
+      Chance = 0.20
+    Sound = jsfx_1004_overlordalert
+      Chance = 0.20
+    Sound = jsfx_1009_overlordattack
+      Chance = 0.20
+    Sound = jsfx_1010_overlordattack
+      Chance = 0.20
+
+//   
+SoundEvent = OverlordLeap
+    Volume = 255
+  Range = 2018
+  Material = 0,MID_NONE
+    MinPitch = 1.37
+    MaxPitch = 1.50
+    Sound = jsfx_0315_enemythrow
+
+//   
+SoundEvent = OverlordRun
+    Volume = 255
+  Range = 1217
+  Material = 0,MID_NONE
+    MinPitch = 1.53
+    MaxPitch = 1.59
+    Sound = jsfx_0401_overlordstep
+      Chance = 0.50
+    Sound = jsfx_0400_overlordstep
+      Chance = 0.50
+
+//   
+SoundEvent = OverlordFlail
+    Volume = 255
+  Range = 1246
+  Material = 0,MID_NONE
+    MinPitch = 1.37
+    MaxPitch = 1.62
+    Sound = jsfx_0400_overlordstep
+      Chance = 0.50
+    Sound = jsfx_0401_overlordstep
+      Chance = 0.50
+
+//   
+SoundEvent = OverlordLand
+    Volume = 255
+  Range = 2255
+  Material = 0,MID_NONE
+    MinPitch = 1.05
+    MaxPitch = 1.10
+    Sound = jsfx_0404_overlordbounce
+
+//   
+SoundEvent = OverlordHurt
+    Volume = 255
+  Range = 1000
+  Material = 0,MID_NONE
+    MinPitch = 1.01
+    MaxPitch = 1.06
+    Sound = jsfx_1006_overlordhurt
+      Chance = 0.33
+    Sound = jsfx_1007_overlordhurt
+      Chance = 0.33
+    Sound = jsfx_1008_overlordhurt
+      Chance = 0.34
+
+//   
+SoundEvent = OverlordRunDown
+    Volume = 255
+  Range = 1187
+  Material = 0,MID_NONE
+    Sound = jsfx_0402_overlorddefeated
+
+//   
+SoundEvent = LavaDragonStep
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 1.00
+    Sound = jsfx_0407_lavadragonstep
+
+//   
+SoundEvent = LavaDragonRun
+    Volume = 255
+  Range = 2136
+  Material = 0,MID_NONE
+    MinPitch = 1.04
+    MaxPitch = 1.12
+    Sound = jsfx_0407_lavadragonstep
+
+//   
+SoundEvent = LavaDragonRoar
+    Volume = 255
+  Range = 2730
+  Material = 0,MID_NONE
+    Sound = jsfx_0408_lavadragonroar
+
+//   
+SoundEvent = LavaDragonCroak
+    Volume = 255
+  Range = 5214
+  Material = 0,MID_NONE
+    Sound = jsfx_0411_lavadragongrowl
+
+//   
+SoundEvent = LavaDragonThud
+    Volume = 255
+  Range = 2964
+  Material = 0,MID_NONE
+    Sound = jsfx_0409_lavadragonthud
+
+//   
+SoundEvent = LavaDragonSwivel
+    Volume = 255
+  Range = 2730
+  Material = 0,MID_NONE
+    MinPitch = 0.92
+    MaxPitch = 0.93
+    Sound = jsfx_0316_lunge
+
+//   
+SoundEvent = CrocAlert
+    Volume = 255
+  Range = 2226
+  Material = 0,MID_NONE
+    Sound = jsfx_0370_crocalert
+
+//   
+SoundEvent = CrocSplash
+    Volume = 255
+  Range = 1721
+  Material = 0,MID_NONE
+    Sound = jsfx_0371_crocsplash
+
+//   
+SoundEvent = CrocRoll
+    Volume = 255
+  Range = 1780
+  Material = 0,MID_NONE
+    Sound = jsfx_0369_crocroll
+
+//   
+SoundEvent = CrocBite
+    Volume = 255
+  Range = 1840
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.07
+    Sound = jsfx_0372_crocbite
+
+//   
+SoundEvent = EnemySpawn
+    Volume = 255
+  Range = 1543
+  Material = 0,MID_NONE
+    Sound = jsfx_0320_enemyspawn
+
+//   
+SoundEvent = EnemyDisappear
+    Volume = 255
+  Range = 801
+  Material = 0,MID_NONE
+    Sound = jsfx_0541_disappear
+
+//   
+SoundEvent = CrocPaddle
+    Volume = 153
+  Range = 1068
+  Material = 0,MID_NONE
+    MinPitch = 0.75
+    MaxPitch = 0.80
+    Sound = jsfx_0376_canoepaddle
+      Chance = 0.40
+    Sound = jsfx_0377_canoepaddle
+      Chance = 0.56
+
+//   
+SoundEvent = LavaDragonFire
+    Volume = 255
+  Range = 1513
+  Material = 0,MID_NONE
+    MinPitch = 1.12
+    MaxPitch = 1.12
+    Sound = jsfx_0411_lavadragonfire
+
+//   
+SoundEvent = LavaDragonDie
+    Volume = 255
+  Range = 7464
+  Material = 0,MID_NONE
+    Sound = jsfx_0410_lavadragoncroak
+
+//   
+SoundEvent = Ultrabounce
+    Volume = 255
+  Range = 2552
+  Material = 0,MID_NONE
+    Sound = jsfx_0405_overlordbounce
+
+//   
+SoundEvent = Ultradestroyed
+    Volume = 255
+  Range = 1300
+  Material = 0,MID_NONE
+    Sound = jsfx_1012_overlordes
+      Chance = 0.25
+    Sound = jsfx_1011_overlordes
+      Chance = 0.25
+    Sound = jsfx_1013_overlordes
+      Chance = 0.25
+    Sound = jsfx_1014_overlordes
+      Chance = 0.25
+
+// -----------------------------------------------------------------------------
+// InteractiveScenery
+
+name InteractiveScenery
+
+//   
+SoundEvent = LanternSpawn
+    Volume = 255
+  Range = 2644
+  Material = 0,MID_NONE
+    Sound = jsfx_0361_lanternspawn
+
+//   
+SoundEvent = ExplodingLantern
+  Range = 2644
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = jsfx_0360_lanternexplode
+
+//   
+SoundEvent = CrateShatter
+    Volume = 153
+  Range = 1464
+  Material = 0,MID_NONE
+    Sound = jsfx_0222_crate
+
+//   
+SoundEvent = DoorOpen
+    Volume = 255
+  Range = 1810
+  Material = 0,MID_NONE
+    Sound = jsfx_0210_dooropen
+
+//   
+SoundEvent = DoorClose
+    Volume = 255
+  Range = 1513
+  Material = 0,MID_NONE
+    Sound = jsfx_0211_doorclose
+
+//   
+SoundEvent = PillarCrumbleLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0905_lp_crumble
+
+//   
+SoundEvent = RollingBoulderLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0909_lp_boulder
+
+//   
+SoundEvent = LavaSpurt
+    Volume = 255
+  Range = 1424
+  Material = 0,MID_NONE
+    Sound = jsfx_0903_lavaspurt
+
+//   
+SoundEvent = ConveyorLP
+    Volume = 255
+  Range = 1513
+  Material = 0,MID_NONE
+    Sound = jsfx_0907_lp_conveyorbelt
+
+//   
+SoundEvent = GantryCrumble
+    Volume = 255
+  Range = 3412
+  Material = 0,MID_NONE
+    Sound = jsfx_0906_gantrycollapse
+
+//   
+SoundEvent = BatsLP
+    Volume = 255
+  Range = 2200
+  Material = 0,MID_NONE
+    Sound = jsfx_0386_bats
+
+//   
+SoundEvent = BouyDunkLP
+    Volume = 255
+  Range = 1632
+  Material = 0,MID_NONE
+    Sound = jsfx_0919_lp_bouy
+
+//   
+SoundEvent = MovingDoorLP
+    Volume = 255
+  Range = 1454
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 0.93
+    Sound = jsfx_0930_lp_bigdoor
+
+//   
+SoundEvent = ClampGunFire
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0270_clampgunfire
+
+//   
+SoundEvent = ReelLP
+    Volume = 255
+  Range = 2196
+  Material = 0,MID_NONE
+    Sound = jsfx_0964_lp_reel
+
+//   
+SoundEvent = PlungerHit
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0271_plungerhit
+
+//   
+SoundEvent = HoverPlatformLP
+    Volume = 204
+  Range = 1602
+  Material = 0,MID_NONE
+    MinPitch = 0.75
+    MaxPitch = 0.89
+    Sound = jsfx_0940_lp_hoverplatform
+
+//   
+SoundEvent = CogsSpinLP
+    Volume = 255
+  Range = 1600
+  Material = 0,MID_NONE
+    Sound = jsfx_0943_lp_cog
+      Chance = 0.50
+    Sound = jsfx_0944_lp_cog
+      Chance = 0.50
+
+//   
+SoundEvent = 6aGate
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0517_gui_select
+
+//   
+SoundEvent = StalactiteHit
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0180_stalhit
+
+// -----------------------------------------------------------------------------
+// SoundProps
+
+name SoundProps
+
+//   
+SoundEvent = EnvOwl
+    Volume = 255
+  Range = 1500
+  Material = 0,MID_NONE
+    Sound = jsfx_0815_owl
+      Chance = 0.17
+    Sound = jsfx_PLACEHOLDER
+      Chance = 0.83
+
+//   
+SoundEvent = EnvNight1LP
+    Volume = 255
+  Range = 1800
+  Material = 0,MID_NONE
+    Sound = jsfx_0818_lp_nightatmos2
+
+//   
+SoundEvent = EnvNight2LP
+    Volume = 255
+  Range = 1800
+  Material = 0,MID_NONE
+    Sound = jsfx_0817_lp_nightatmos
+
+//   
+SoundEvent = DayBirdChirpLP
+    Volume = 255
+  Range = 1600
+  Material = 0,MID_NONE
+    Sound = jsfx_0820_lp_forest
+
+//   
+SoundEvent = DayGardenLP
+    Volume = 255
+  Range = 1600
+  Material = 0,MID_NONE
+    MinPitch = 0.75
+    MaxPitch = 0.81
+    Sound = jsfx_0816_lp_daytimegarden
+
+//   
+SoundEvent = JapanDrumsLP
+    Volume = 255
+  Range = 1543
+  Material = 0,MID_NONE
+    Sound = jsfx_0819_lp_drums
+
+//   
+SoundEvent = SchoolBell
+    Volume = 255
+  Range = 1573
+  Material = 0,MID_NONE
+    Sound = jsfx_0810_schoolbell
+
+//   
+SoundEvent = Rumble
+    Volume = 255
+  Range = 1500
+  Material = 0,MID_NONE
+    Sound = jsfx_0902_rumble
+
+//   
+SoundEvent = LavaLP
+    Volume = 255
+  Range = 1750
+  Material = 0,MID_NONE
+    MinPitch = 0.32
+    MaxPitch = 0.56
+    Sound = jsfx_0852_lp_lake
+
+//   
+SoundEvent = JungleOneLP
+    Volume = 255
+  Range = 1513
+  Material = 0,MID_NONE
+    Sound = jsfx_0856_lp_jungle
+
+//   
+SoundEvent = JungleTwoLP
+    Volume = 255
+  Range = 1513
+  Material = 0,MID_NONE
+    Sound = jsfx_0857_lp_jungletoo
+
+//   
+SoundEvent = JungleBird
+    Volume = 255
+  Range = 1500
+  Material = 0,MID_NONE
+    Sound = jsfx_PLACEHOLDER
+
+//   
+SoundEvent = DocksLP
+    Volume = 255
+  Range = 1500
+  Material = 0,MID_NONE
+    Sound = jsfx_0858_lp_lakeshore
+
+//   
+SoundEvent = SeagullsLP
+    Volume = 255
+  Range = 1500
+  Material = 0,MID_NONE
+    Sound = jsfx_0859_lp_gulls
+
+//   
+SoundEvent = BubblesOneLP
+    Volume = 255
+  Range = 1500
+  Material = 0,MID_NONE
+    Sound = jsfx_PLACEHOLDER
+
+//   
+SoundEvent = ComputerBankOneLP
+    Volume = 255
+  Range = 1500
+  Material = 0,MID_NONE
+    Sound = jsfx_0872_lp_computer
+      Chance = 0.56
+    Sound = jsfx_0871_lp_computer
+      Chance = 0.40
+
+//   
+SoundEvent = ComputerBankTwoLP
+    Volume = 255
+  Range = 1500
+  Material = 0,MID_NONE
+    Sound = jsfx_0873_lp_computer
+
+//   
+SoundEvent = ChemicalLP
+  Material = 0,MID_NONE
+    Sound = jsfx_0102_jnstep
+
+//   
+SoundEvent = FlamingTorchLP
+    Volume = 255
+  Range = 1691
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.07
+    Sound = jsfx_0850_lp_torch
+
+//   
+SoundEvent = LakeLP
+    Volume = 255
+  Range = 1810
+  Material = 0,MID_NONE
+    MinPitch = 0.91
+    MaxPitch = 1.06
+    Sound = jsfx_0852_lp_lake
+
+//   
+SoundEvent = WaterfallLP
+    Volume = 255
+  Range = 1899
+  Material = 0,MID_NONE
+    Sound = jsfx_0851_lp_waterfall
+
+//   
+SoundEvent = SteamLP
+    Volume = 153
+  Range = 1513
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 1.12
+    Sound = jsfx_0900_lp_steam
+
+//   
+SoundEvent = LakeShoreLP
+    Volume = 255
+  Range = 1513
+  Material = 0,MID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.06
+    Sound = jsfx_0858_lp_lakeshore
+
+//   
+SoundEvent = SeaWashLP
+    Volume = 255
+  Range = 1840
+  Material = 0,MID_NONE
+    Sound = jsfx_0860_lp_seawash
+
+//   
+SoundEvent = FountainLP
+    Volume = 255
+  Range = 1543
+  Material = 0,MID_NONE
+    Sound = jsfx_0865_lp_fountain
+
+//   
+SoundEvent = UnderwaterOneLP
+    Volume = 255
+  Range = 3200
+  Material = 0,MID_NONE
+    Sound = jsfx_0861_lp_undersea
+
+//   
+SoundEvent = UnderwaterTwoLP
+    Volume = 255
+  Range = 3200
+  Material = 0,MID_NONE
+    Sound = jsfx_0862_lp_undersea
+
+//   
+SoundEvent = HumLP
+    Volume = 255
+  Range = 1500
+  Material = 0,MID_NONE
+    Sound = jsfx_0875_lp_hum
+
+//   
+SoundEvent = ElecLP
+    Volume = 255
+  Range = 1500
+  Material = 0,MID_NONE
+    Sound = jsfx_0876_lp_tesla
+
+//   
+SoundEvent = WindLP
+    Volume = 204
+  Range = 1500
+  Material = 0,MID_NONE
+    MinPitch = 0.68
+    MaxPitch = 1.12
+    Sound = jsfx_0874_lp_desert
+
+//   
+SoundEvent = DesertBird
+    Volume = 255
+  Range = 1500
+  Material = 0,MID_NONE
+    Sound = jsfx_0878_desertbird
+      Chance = 0.50
+    Sound = jsfx_0879_desertbird
+      Chance = 0.50
+
+//   
+SoundEvent = CoyoteHowl
+  Range = 2000
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = jsfx_0880_coyotefugly
+
+//   
+SoundEvent = UnderwaterThreeLP
+    Volume = 255
+  Range = 3200
+  Material = 0,MID_NONE
+    Sound = jsfx_0863_lp_undersea
+
+//   
+SoundEvent = CreakingWood
+    Volume = 255
+  Range = 1600
+  Material = 0,MID_NONE
+    MinPitch = 0.46
+    MaxPitch = 1.12
+    Sound = jsfx_0869_creak
+
+//   
+SoundEvent = WindTwoLP
+    Volume = 255
+  Range = 2464
+  Material = 0,MID_NONE
+    Sound = highwind
+
+// -----------------------------------------------------------------------------
+// JimmyAnimations
+
+name JimmyAnimations
+
+//   
+SoundEvent = JimmyKnockDown
+  Range = 5000
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = jsfx_0145_jnfallsback
+
+//   
+SoundEvent = Climb
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.63
+    MaxPitch = 0.80
+    Sound = jsfx_0125_jnstepsoft
+      Chance = 0.50
+    Sound = jsfx_0126_jnstepsoft
+      Chance = 0.50
+
+//   
+SoundEvent = JNSoftStep
+    Volume = 153
+  Range = 4154
+  Material = 0,MID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.11
+    Sound = jsfx_0103_jnstep
+  Material = 16384,MID_GRASS_THIN
+    Sound = jsfx_0120_jnstepgrass
+  Material = 32768,MID_GRASS_THICK
+    MinPitch = 0.93
+    MaxPitch = 0.93
+    Sound = jsfx_0121_jnstepgrass
+  Material = 131072,MID_TREELEAVES
+    MinPitch = 0.68
+    MaxPitch = 0.79
+    Sound = jsfx_0121_jnstepgrass
+  Material = 2097152,MID_TILES
+    MinPitch = 0.93
+    MaxPitch = 1.07
+    Sound = jsfx_0101_jnstep
+      Chance = 0.28
+    Sound = jsfx_0101_jnstep
+      Chance = 0.40
+    Sound = jsfx_0105_jnsqueak
+      Chance = 0.28
+  Material = 16777216,MID_METAL_PLATE
+    Sound = jsfx_0115_jnstepmetal
+  Material = 256,MID_WATER_BLUE
+    Sound = jsfx_0131_jnstepwater
+  Material = 268435456,MID_SOFT
+    MinPitch = 0.93
+    MaxPitch = 1.09
+    Sound = jsfx_0126_jnstepsoft
+      Chance = 0.50
+    Sound = jsfx_0125_jnstepsoft
+      Chance = 0.50
+
+//   
+SoundEvent = Rope
+    Volume = 204
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0170_jnshimmy
+
+//   
+SoundEvent = JimmyShimmy
+    Volume = 153
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 1.12
+    MaxPitch = 1.27
+    Sound = jsfx_0170_jnshimmy
+
+//   
+SoundEvent = Grab
+    Volume = 153
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 1.36
+    MaxPitch = 1.37
+    Sound = jsfx_0205_touchone
+
+//   
+SoundEvent = HeadKnock
+    Volume = 102
+  Range = 1840
+  Material = 0,MID_NONE
+    Sound = jsfx_0151_jnknockshead
+
+// -----------------------------------------------------------------------------
+// Cannibal
+
+name Cannibal
+
+//   
+SoundEvent = CannibalStep
+    Volume = 255
+  Range = 1395
+  Material = 0,MID_NONE
+    MinPitch = 0.50
+    MaxPitch = 0.50
+    Sound = jsfx_0308_enemystepbare
+      Chance = 0.50
+    Sound = jsfx_0309_enemystepbare
+      Chance = 0.50
+
+//   
+SoundEvent = BlowPipe
+    Volume = 255
+  Range = 2679
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 1.09
+    Sound = jsfx_0375_blowpipe
+
+//   
+SoundEvent = CannonMove
+    Volume = 255
+  Range = 1068
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.05
+    Sound = jsfx_0229_mechwhir
+
+//   
+SoundEvent = CanoePaddle
+    Volume = 255
+  Range = 1536
+  Material = 0,MID_NONE
+    MinPitch = 0.92
+    MaxPitch = 1.06
+    Sound = jsfx_0376_canoepaddle
+      Chance = 0.50
+    Sound = jsfx_0377_canoepaddle
+      Chance = 0.50
+
+//   
+SoundEvent = CannibalFire
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0417_Fowlfire
+
+//   
+SoundEvent = CannibalHit
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_1028_cannibalhurt
+      Chance = 0.50
+    Sound = jsfx_1029_cannibalhurt
+      Chance = 0.50
+
+//   
+SoundEvent = CannibalTaunt
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_1030_cannibaltaunt
+      Chance = 0.50
+    Sound = jsfx_1031_cannibaltaunt
+      Chance = 0.50
+
+//   
+SoundEvent = CannibalAlert
+    Volume = 255
+  Range = 2374
+  Material = 0,MID_NONE
+    Sound = jsfx_1026_cannibalalert
+      Chance = 0.50
+    Sound = jsfx_1027_cannibalalert
+      Chance = 0.50
+
+// -----------------------------------------------------------------------------
+// Sheen
+
+name Sheen
+
+//   
+SoundEvent = SheenStep
+    Volume = 255
+  Range = 1395
+  Material = 1024,MID_WOOD
+    MinPitch = 0.90
+    MaxPitch = 1.11
+    Sound = jsfx_0414_sheenstep
+      Chance = 0.46
+    Sound = jsfx_0413_sheenstep
+      Chance = 0.51
+  Material = 0,MID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.11
+    Sound = jsfx_0413_sheenstep
+      Chance = 0.50
+    Sound = jsfx_0414_sheenstep
+      Chance = 0.50
+
+//   
+SoundEvent = MaskFall
+    Volume = 153
+  Range = 1363
+  Material = 0,MID_NONE
+    Sound = jsfx_0350_sunglasssmash
+
+//   
+SoundEvent = SheenTaunts
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = CS2C_03_P01SHEN
+      Chance = 0.10
+    Sound = CS2C_03_P02SHEN
+      Chance = 0.10
+    Sound = CS2C_03_P03SHEN
+      Chance = 0.10
+    Sound = CS2C_03_P04SHEN
+      Chance = 0.10
+    Sound = CS2C_03_P05SHEN
+      Chance = 0.10
+    Sound = CS2C_03_P06SHEN
+      Chance = 0.10
+    Sound = CS2C_03_P08SHEN
+      Chance = 0.10
+    Sound = CS2C_05_P01SHEN
+      Chance = 0.10
+    Sound = CS2C_05_P02SHEN
+      Chance = 0.05
+    Sound = CS2C_05_P04SHEN
+      Chance = 0.05
+    Sound = CS2C_05_P03SHEN
+      Chance = 0.08
+
+//   
+SoundEvent = SheenHit
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = CS1G_02_P41SHEN
+      Chance = 0.25
+    Sound = CS1G_02_P42SHEN
+      Chance = 0.25
+    Sound = CS1G_02_P43SHEN
+      Chance = 0.25
+    Sound = CS1G_02_P44SHEN
+      Chance = 0.25
+
+//   
+SoundEvent = SheenHoverLP
+    Volume = 255
+  Range = 1536
+  Material = 0,MID_NONE
+    MinPitch = 1.20
+    MaxPitch = 1.22
+    Sound = jsfx_0960_lp_calamfly
+
+// -----------------------------------------------------------------------------
+// Boulder
+
+name Boulder
+
+//   
+SoundEvent = BoulderLand
+    Volume = 255
+  Range = 3620
+  Material = 0,MID_NONE
+    MinPitch = 0.91
+    MaxPitch = 0.93
+    Sound = jsfx_0220_boulder
+
+//   
+SoundEvent = BoulderHits
+    Volume = 255
+  Range = 3680
+  Material = 0,MID_NONE
+    MinPitch = 1.37
+    MaxPitch = 1.37
+    Sound = jsfx_0220_boulder
+
+// -----------------------------------------------------------------------------
+// Raft
+
+name Raft
+
+//   
+SoundEvent = RaftMotionLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0227_lp_raft
+
+//   
+SoundEvent = RaftLand
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = jsfx_0225_raftsplash
+
+//   
+SoundEvent = RaftSplash
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0225_raftsplash
+
+//   
+SoundEvent = RaftCrash
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = jsfx_0228_raftcrash
+
+//   
+SoundEvent = RaftIdleLP
+    Volume = 255
+  Range = 2136
+  Material = 0,MID_NONE
+    Sound = jsfx_0230_lp_raftidle
+
+// -----------------------------------------------------------------------------
+// Enemy
+
+name Enemy
+
+//   
+SoundEvent = BullySteps
+    Volume = 255
+  Range = 1468
+  Material = 0,MID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.08
+    Sound = jsfx_0300_bullystep
+      Chance = 0.50
+    Sound = jsfx_0301_bullystep
+      Chance = 0.50
+
+//   
+SoundEvent = NinjaSteps
+    Volume = 255
+  Range = 1068
+  Material = 0,MID_NONE
+    MinPitch = 1.04
+    MaxPitch = 1.12
+    Sound = jsfx_0308_enemystepbare
+      Chance = 0.50
+    Sound = jsfx_0309_enemystepbare
+      Chance = 0.50
+
+//   
+SoundEvent = SoftBullyStep
+    Volume = 153
+  Range = 920
+  Material = 0,MID_NONE
+    MinPitch = 0.50
+    MaxPitch = 0.50
+    Sound = jsfx_0300_bullystep
+      Chance = 0.50
+    Sound = jsfx_0301_bullystep
+      Chance = 0.50
+
+//   
+SoundEvent = Ninja2Steps
+    Volume = 255
+  Range = 1395
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.06
+    Sound = jsfx_0304_enemystepsoft
+      Chance = 0.46
+    Sound = jsfx_0305_enemystepsoft
+      Chance = 0.51
+
+//   
+SoundEvent = WitchDrTaunt
+    Volume = 255
+  Range = 1988
+  Material = 0,MID_NONE
+    Sound = jsfx_1036_witchtaunt
+      Chance = 0.50
+    Sound = jsfx_1037_witchtaunt
+      Chance = 0.50
+
+//   
+SoundEvent = WithcDrHit
+    Volume = 255
+  Range = 2047
+  Material = 0,MID_NONE
+    Sound = jsfx_1034_witchhit
+      Chance = 0.50
+    Sound = jsfx_1035_witchhit
+      Chance = 0.50
+
+//   
+SoundEvent = EnemyFallSkittles
+    Volume = 255
+  Range = 3027
+  Material = 0,MID_NONE
+    Sound = jsfx_0312_enemyfall
+
+//   
+SoundEvent = SumoBounce
+    Volume = 255
+  Range = 3000
+  Material = 0,MID_NONE
+    Sound = sumofall
+
+//   
+SoundEvent = SumoDefeated
+    Volume = 204
+  Range = 2285
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 0.81
+    Sound = jsfx_0311_enemyfall
+
+//   
+SoundEvent = PlantFire
+    Volume = 255
+  Range = 1899
+  Material = 0,MID_NONE
+    Sound = jsfx_0901_plantfire
+
+//   
+SoundEvent = PlantBite
+    Volume = 255
+  Range = 1869
+  Material = 0,MID_NONE
+    MinPitch = 1.08
+    MaxPitch = 1.12
+    Sound = jsfx_0372_crocbite
+
+//   
+SoundEvent = SumoExtra
+    Volume = 255
+  Range = 1988
+  Material = 0,MID_NONE
+    MinPitch = 0.56
+    MaxPitch = 0.56
+    Sound = jsfx_0316_lunge
+
+//   
+SoundEvent = WaterCannonLP
+    Volume = 255
+  Range = 1958
+  Material = 0,MID_NONE
+    Sound = jsfx_0388_lp_watercannon
+
+//   
+SoundEvent = PlantExpandLP
+    Volume = 255
+  Range = 1899
+  Material = 0,MID_NONE
+    Sound = jsfx_0394_lp_venusinflate
+
+//   
+SoundEvent = PlantPop
+    Volume = 255
+  Range = 1869
+  Material = 0,MID_NONE
+    Sound = jsfx_0395_venuspop
+
+//   
+SoundEvent = HatNinjaClunk
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0720_helmetkonk
+
+//   
+SoundEvent = HatNinjaKick
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_1050_ninjakick
+
+//   
+SoundEvent = HatNinjaAlert
+    Volume = 255
+  Range = 3500
+  Material = 0,MID_NONE
+    Sound = jsfx_1053_hatninjaalert
+      Chance = 0.50
+    Sound = jsfx_1054_hatninjaalert
+      Chance = 0.50
+
+//   
+SoundEvent = HatNinjaTaunt
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_1051_hatninjataunt
+      Chance = 0.50
+    Sound = jsfx_1052_hatninjataunt
+      Chance = 0.50
+
+//   
+SoundEvent = HatNinjaHit
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_1055_hatninjahit
+
+//   
+SoundEvent = BullyHit
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_1040_bullyhit
+      Chance = 0.50
+    Sound = jsfx_1041_bullyhit
+      Chance = 0.50
+
+//   
+SoundEvent = BullyALert
+    Volume = 255
+  Range = 1536
+  Material = 0,MID_NONE
+    Sound = jsfx_1042_bullytaunt
+      Chance = 0.50
+    Sound = jsfx_1043_bullytaunt
+      Chance = 0.50
+
+//   
+SoundEvent = BulltTaunt
+    Volume = 255
+  Range = 1464
+  Material = 0,MID_NONE
+    Sound = jsfx_1047_bullytaunt
+      Chance = 0.50
+    Sound = jsfx_1044_bullytaunt
+      Chance = 0.50
+
+//   
+SoundEvent = BullyBallTaunt
+    Volume = 255
+  Range = 1571
+  Material = 0,MID_NONE
+    Sound = jsfx_1045_bullytauntball
+      Chance = 0.50
+    Sound = jsfx_1046_bullytauntball
+      Chance = 0.50
+
+//   
+SoundEvent = SumoTaunt
+    Volume = 255
+  Range = 2071
+  Material = 0,MID_NONE
+    Sound = jsfx_0710_sumotaunt
+
+//   
+SoundEvent = Ninja1Karate
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0365a_ninjakarate
+
+//   
+SoundEvent = Ninja1taunt
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0366_ninjaattack
+      Chance = 0.50
+    Sound = jsfx_0366a_ninjaattack
+      Chance = 0.50
+
+// -----------------------------------------------------------------------------
+// MrsFowl
+
+name MrsFowl
+
+//   
+SoundEvent = FowlStep
+    Volume = 255
+  Range = 2107
+  Material = 0,MID_NONE
+    MinPitch = 0.88
+    MaxPitch = 1.00
+    Sound = jsfx_0304_enemystepsoft
+      Chance = 0.50
+    Sound = jsfx_0305_enemystepsoft
+      Chance = 0.50
+  Material = 16777216,MID_METAL_PLATE
+    MinPitch = 0.93
+    MaxPitch = 1.06
+    Sound = jsfx_0306_enemystepmetal
+      Chance = 0.50
+    Sound = jsfx_0307_enemystepmetal
+      Chance = 0.50
+  Material = 1024,MID_WOOD
+    Sound = jsfx_0413_sheenstep
+      Chance = 0.50
+    Sound = jsfx_0414_sheenstep
+      Chance = 0.50
+
+//   
+SoundEvent = FowlFire
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0417_Fowlfire
+
+//   
+SoundEvent = FowlCharge
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0418_Fowlcharge
+
+//   
+SoundEvent = FowlTaunt
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = CS3C_05_P01MFEN
+      Chance = 0.10
+    Sound = CS3C_05_P02MFEN
+      Chance = 0.10
+    Sound = CS3C_05_P03MFEN
+      Chance = 0.10
+    Sound = CS3C_05_P04MFEN
+      Chance = 0.10
+    Sound = CS3C_05_P05MFEN
+      Chance = 0.10
+    Sound = CS3C_05_P06MFEN
+      Chance = 0.10
+    Sound = CS3C_05_P07MFEN
+      Chance = 0.10
+    Sound = CS3C_05_P08MFEN
+      Chance = 0.10
+//    Sound = CS3C_06_P01MFEN
+//      Chance = 0.10
+//    Sound = CS3C_06_P02MFEN
+//      Chance = 0.05
+    Sound = CS3C_06_P03MFEN
+      Chance = 0.05
+
+//   
+SoundEvent = FowlHit
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = CS1G_22_P26MFEN
+      Chance = 0.25
+    Sound = CS1G_22_P27MFEN
+      Chance = 0.25
+    Sound = CS1G_22_P28MFEN
+      Chance = 0.25
+    Sound = CS1G_22_P29MFEN
+      Chance = 0.25
+
+// -----------------------------------------------------------------------------
+// PirateS
+
+name PirateS
+
+//   
+SoundEvent = PirateStepMetal
+    Volume = 255
+  Range = 1662
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 0.93
+    Sound = jsfx_0307_enemystepmetal
+
+//   
+SoundEvent = CannonFire
+    Volume = 255
+  Range = 2036
+  Material = 0,MID_NONE
+    MinPitch = 1.27
+    MaxPitch = 1.28
+    Sound = jsfx_0384_cannonfire
+
+//   
+SoundEvent = CannonLoad
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_PLACEHOLDER
+
+//   
+SoundEvent = LaserFire
+    Volume = 153
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 1.52
+    MaxPitch = 1.58
+    Sound = jsfx_0388_piratelaser
+
+//   
+SoundEvent = CannonHit
+    Volume = 204
+  Range = 1513
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 1.09
+    Sound = jsfx_0398_wetcannonhit
+
+//   
+SoundEvent = LaserHitsJimmy
+    Volume = 153
+  Range = 1810
+  Material = 0,MID_NONE
+    MinPitch = 1.32
+    MaxPitch = 1.37
+    Sound = jsfx_0389_laserhit
+
+//   
+SoundEvent = PirateMutterings
+    Volume = 255
+  Range = 1958
+  Material = 0,MID_NONE
+    Sound = jsfx_1015_piratealert
+      Chance = 0.34
+    Sound = jsfx_1016_piratealert
+      Chance = 0.34
+    Sound = jsfx_1016A_piratealert
+      Chance = 0.28
+
+//   
+SoundEvent = WaterHit
+    Volume = 204
+  Range = 1899
+  Material = 0,MID_NONE
+    MinPitch = 0.88
+    MaxPitch = 0.93
+    Sound = jsfx_0160_jnsplash
+
+//   
+SoundEvent = CannonballWhistle
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_PLACEHOLDER
+
+//   
+SoundEvent = ParrotClue
+    Volume = 255
+  Range = 2464
+  Material = 0,MID_NONE
+    Sound = jsfx_0928_parrothit
+
+//   
+SoundEvent = ParrotCollect
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0560_collect1
+
+//   
+SoundEvent = FishSurface
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0706_fishsplish
+
+//   
+SoundEvent = FishSwallow
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0705_fishswallow
+
+//   
+SoundEvent = SwordSheath
+    Volume = 255
+  Range = 886
+  Material = 0,MID_NONE
+    Sound = jsfx_0392_unsheath
+
+//   
+SoundEvent = ParrotHit
+    Volume = 255
+  Range = 1513
+  Material = 0,MID_NONE
+    MinPitch = 1.31
+    MaxPitch = 1.37
+    Sound = jsfx_0928_parrothit
+
+//   
+SoundEvent = PirateHit
+    Volume = 255
+  Range = 1800
+  Material = 0,MID_NONE
+    Sound = jsfx_1017_piratehit
+      Chance = 0.50
+    Sound = jsfx_1017_piratehit2
+      Chance = 0.50
+
+//   
+SoundEvent = PirateAttack
+    Volume = 255
+  Range = 1800
+  Material = 0,MID_NONE
+    Sound = jsfx_1018_piratetaunt
+      Chance = 0.50
+    Sound = jsfx_1019_piratetaunt
+      Chance = 0.50
+
+//   
+SoundEvent = PirateSkid
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0420_skid
+
+//   
+SoundEvent = FishyHit
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0391_swordfishyhit
+
+//   
+SoundEvent = PirateSwordSwing
+    Volume = 204
+  Range = 2000
+  Material = 0,MID_NONE
+    MinPitch = 1.37
+    MaxPitch = 1.61
+    Sound = jsfx_0316_enemyswing
+
+//   
+SoundEvent = ParrotFlapLP
+    Volume = 255
+  Range = 2214
+  Material = 0,MID_NONE
+    Sound = jsfx_0946_lp_parrotflap
+
+// -----------------------------------------------------------------------------
+// MineCart
+
+name MineCart
+
+//   
+SoundEvent = MineCartLP
+    Volume = 255
+  Range = 6511
+  Material = 0,MID_NONE
+    Sound = jsfx_0235_lp_minecart
+
+//   
+SoundEvent = CartCrash
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0237_cartcrash
+
+//   
+SoundEvent = CartJump
+    Volume = 255
+  Range = 4473
+  Material = 0,MID_NONE
+    MinPitch = 0.77
+    MaxPitch = 0.79
+    Sound = jsfx_0150_jnjump
+
+//   
+SoundEvent = CartLand
+    Volume = 255
+  Range = 4215
+  Material = 0,MID_NONE
+    Sound = jsfx_0236_cartland
+
+//   
+SoundEvent = LightChange
+    Volume = 153
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 1.00
+    MaxPitch = 1.05
+    Sound = jsfx_0557_racelight1
+
+// -----------------------------------------------------------------------------
+// Seagulls
+
+name Seagulls
+
+//   
+SoundEvent = SeagullPeck
+    Volume = 255
+  Range = 1382
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 1.09
+    Sound = jsfx_0390_gullpeck
+
+//   
+SoundEvent = SeagullAlert
+    Volume = 255
+  Range = 1663
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.05
+    Sound = jsfx_0396_gullalert1
+      Chance = 0.50
+    Sound = jsfx_0397_gullalert2
+      Chance = 0.50
+
+// -----------------------------------------------------------------------------
+// PipeMG
+
+name PipeMG
+
+//   
+SoundEvent = PipeX
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0915_pipeX
+
+//   
+SoundEvent = PipeO
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0916_pipeO
+
+//   
+SoundEvent = PipeSquare
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0917_pipeSq
+
+//   
+SoundEvent = PipeTriangle
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0918_pipeTr
+
+// -----------------------------------------------------------------------------
+// Submarine
+
+name Submarine
+
+//   
+SoundEvent = 5aWinchLP
+    Volume = 255
+  Range = 1513
+  Material = 0,MID_NONE
+    Sound = jsfx_0930_lp_bigdoor
+
+//   
+SoundEvent = SubMoveLP
+    Volume = 255
+  Range = 2433
+  Material = 0,MID_NONE
+    Sound = jsfx_0241_lp_submovement
+
+//   
+SoundEvent = SubFires
+    Volume = 255
+  Range = 2763
+  Material = 0,MID_NONE
+    Sound = jsfx_0388_piratelaser
+
+//   
+SoundEvent = SubHit
+    Volume = 255
+  Range = 3500
+  Material = 0,MID_NONE
+    MinPitch = 0.77
+    MaxPitch = 0.81
+    Sound = jsfx_0384_cannonfire
+
+//   
+SoundEvent = MineExplodes
+    Volume = 255
+  Range = 10000
+  Material = 0,MID_NONE
+    Sound = jsfx_0935_mineexplode
+
+//   
+SoundEvent = BarrierLP
+    Volume = 255
+  Range = 2061
+  Material = 0,MID_NONE
+    MinPitch = 0.91
+    MaxPitch = 1.12
+    Sound = jsfx_0938_electribarrier
+
+//   
+SoundEvent = SonarBlip
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0240_sonarbeep
+
+//   
+SoundEvent = SubGrind
+    Volume = 255
+  Range = 5000
+  Material = 65536,MID_ROCK
+    Sound = jsfx_0242_lp_subgrindrock
+
+//   
+SoundEvent = SubGrindSand
+    Volume = 255
+  Range = 5000
+  Material = 8,MID_SAND
+    MinPitch = 0.63
+    MaxPitch = 0.76
+    Sound = jsfx_0244_lp_subgrindsand
+
+//   
+SoundEvent = SubGrindIce
+    Volume = 255
+  Range = 5000
+  Material = 4,MID_ICE
+    Sound = jsfx_0243_lp_subgrindice
+
+//   
+SoundEvent = SubGrindMisc
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0245_lp_subgrindmisc
+
+// -----------------------------------------------------------------------------
+// Jetski
+
+name Jetski
+
+//   
+SoundEvent = JetskiLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0260_lp_jetski
+
+//   
+SoundEvent = JetskiCrash
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0228_raftcrash
+
+//   
+SoundEvent = JetskiRev
+    Volume = 153
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 1.60
+    MaxPitch = 1.61
+    Sound = jsfx_0261_jetskistart
+
+//   
+SoundEvent = JetskiStart
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0261_jetskistart
+
+// -----------------------------------------------------------------------------
+// BigPirate
+
+name BigPirate
+
+//   
+SoundEvent = BigPirateStep
+    Volume = 255
+  Range = 1573
+  Material = 0,MID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.09
+    Sound = jsfx_0330_bpstep
+      Chance = 0.50
+    Sound = jsfx_0331_bpstep
+      Chance = 0.50
+
+//   
+SoundEvent = PirateLand
+    Volume = 255
+  Range = 1424
+  Material = 0,MID_NONE
+    Sound = jsfx_0367_ninjaland
+
+//   
+SoundEvent = BigPirateMutters
+    Volume = 255
+  Range = 1691
+  Material = 0,MID_NONE
+    Sound = jsfx_1021_bigpiralert
+      Chance = 0.40
+    Sound = jsfx_1022_bigpiralert
+      Chance = 0.40
+    Sound = jsfx_1022a_bigpiralert
+      Chance = 0.20
+
+//   
+SoundEvent = BigPirateAttack
+    Volume = 255
+  Range = 1691
+  Material = 0,MID_NONE
+    Sound = jsfx_1023_pigpirtaunt
+      Chance = 0.28
+    Sound = jsfx_1025_bigpirtriumph
+      Chance = 0.25
+    Sound = jsfx_1023a_pigpirtaunt
+      Chance = 0.45
+
+//   
+SoundEvent = BigPirateHit
+    Volume = 255
+  Range = 1721
+  Material = 0,MID_NONE
+    Sound = jsfx_1020_bigpirtaehit
+      Chance = 0.50
+    Sound = jsfx_1020a_bigpirtaehit
+      Chance = 0.50
+
+//   
+SoundEvent = Gulp
+    Volume = 255
+  Range = 1571
+  Material = 0,MID_NONE
+    Sound = jsfx_1024_bigpirglug
+
+// -----------------------------------------------------------------------------
+// CINDYHUMPHREY
+
+name CINDYHUMPHREY
+
+//   
+SoundEvent = CindySplash
+    Volume = 255
+  Range = 2226
+  Material = 0,MID_NONE
+    Sound = jsfx_0450_cindysplash
+
+//   
+SoundEvent = CindySurface
+    Volume = 255
+  Range = 2344
+  Material = 0,MID_NONE
+    Sound = jsfx_0451_cindysurface
+
+//   
+SoundEvent = CindyTentacleLP
+    Volume = 255
+  Range = 2255
+  Material = 0,MID_NONE
+    Sound = jsfx_0454_lp_cindysqueeze
+
+//   
+SoundEvent = CindyLunge
+    Volume = 255
+  Range = 2374
+  Material = 0,MID_NONE
+    Sound = jsfx_0316_enemyswing
+
+//   
+SoundEvent = HumphreyStep
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    MinPitch = 0.77
+    MaxPitch = 0.81
+    Sound = jsfx_0635_gddstep
+      Chance = 0.50
+    Sound = jsfx_0637_gddstep
+      Chance = 0.50
+
+//   
+SoundEvent = HumphreyBark
+    Volume = 255
+  Range = 2506
+  Material = 0,MID_NONE
+    Sound = jsfx_0490_humpbark
+
+//   
+SoundEvent = HumphreyGrowl
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    MinPitch = 0.79
+    MaxPitch = 0.81
+    Sound = jsfx_0693_gddgrowl
+
+//   
+SoundEvent = HumphreyHurt
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0670_gddsigh
+
+//   
+SoundEvent = HunpreyAlert
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0692_gddsurprised
+
+//   
+SoundEvent = HumphreySwimLP
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0491_lp_humpswim
+
+//   
+SoundEvent = HumpBite
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0372_crocbite
+
+//   
+SoundEvent = HumpSplash
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0492_humpsplash
+
+//   
+SoundEvent = HumpExitWater
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0493_humpwetexit
+
+//   
+SoundEvent = CindyTaunt
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = CS5C_05_P01CIEN
+      Chance = 0.10
+    Sound = CS5C_05_P02CIEN
+      Chance = 0.10
+    Sound = CS5C_05_P03CIEN
+      Chance = 0.10
+    Sound = CS5C_05_P04CIEN
+      Chance = 0.10
+    Sound = CS5C_05_P05CIEN
+      Chance = 0.10
+    Sound = CS5C_06_P01CIEN
+      Chance = 0.05
+    Sound = CS5C_06_P02CIEN
+      Chance = 0.05
+    Sound = CS5C_06_P03CIEN
+      Chance = 0.05
+    Sound = CS5C_06_P04CIEN
+      Chance = 0.05
+    Sound = CS5C_06_P05CIEN
+      Chance = 0.05
+    Sound = CS5C_07_P01CIEN
+      Chance = 0.05
+    Sound = CS5C_07_P02CIEN
+      Chance = 0.05
+    Sound = CS5C_07_P03CIEN
+      Chance = 0.05
+    Sound = CS5C_07_P04CIEN
+      Chance = 0.05
+    Sound = CS5C_07_P05CIEN
+      Chance = 0.05
+
+//   
+SoundEvent = CindyHit
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = CS1G_23_P32CIEN
+      Chance = 0.14
+    Sound = CS1G_23_P33CIEN
+      Chance = 0.14
+    Sound = CS1G_23_P34CIEN
+      Chance = 0.14
+    Sound = CS1G_23_P35CIEN
+      Chance = 0.14
+    Sound = CS1G_23_P36CIEN
+      Chance = 0.14
+    Sound = CS1G_23_P37CIEN
+      Chance = 0.25
+
+//   
+SoundEvent = CindyWhip
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0453_whip
+
+//   
+SoundEvent = CindyThrashLP
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = jsfx_0455_lp_cindythrash
+
+// -----------------------------------------------------------------------------
+// CALAMIBOT
+
+name CALAMIBOT
+
+//   
+SoundEvent = CalamStep
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0480_CBwalkstep
+      Chance = 0.50
+    Sound = jsfx_0481_CBwalkstep
+      Chance = 0.50
+
+//   
+SoundEvent = CalamLand
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0482_CBland
+
+//   
+SoundEvent = CalamFire1
+    Volume = 255
+  Range = 5321
+  Material = 0,MID_NONE
+    Sound = calamlaser
+
+//   
+SoundEvent = CalamWeaponLP
+    Volume = 153
+  Range = 2000
+  Material = 0,MID_NONE
+    MinPitch = 1.37
+    MaxPitch = 1.55
+    Sound = jsfx_0938_electribarrier
+
+//   
+SoundEvent = CalamHumLP
+    Volume = 102
+  Range = 1036
+  Material = 0,MID_NONE
+    Sound = jsfx_0959_lp_calamhum
+
+//   
+SoundEvent = CalamSquish
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 0.89
+    Sound = jsfx_0721_botclank
+
+//   
+SoundEvent = CalamAuton
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0486_CBauton
+
+//   
+SoundEvent = CalamFlyLP
+    Volume = 153
+  Range = 1500
+  Material = 0,MID_NONE
+    Sound = jsfx_0960_lp_calamfly
+
+//   
+SoundEvent = CalamLeap
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.80
+    MaxPitch = 0.90
+    Sound = jsfx_0314_enemyjump
+
+//   
+SoundEvent = CalamMoveWhir
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0485_CBwhir
+
+//   
+SoundEvent = CalamWhir2
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0487_Cbwhir2
+
+//   
+SoundEvent = CalamRun
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0483_CBrunstep
+      Chance = 0.50
+    Sound = jsfx_0484_CBrunstep
+      Chance = 0.50
+
+//   
+SoundEvent = CalamWhirSlow
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.66
+    MaxPitch = 0.67
+    Sound = jsfx_0487_Cbwhir2
+
+// -----------------------------------------------------------------------------
+// BOTS
+
+name BOTS
+
+//   
+SoundEvent = SecBotRollLP
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.09
+    Sound = jsfx_0733_lp_botmove
+
+//   
+SoundEvent = SecBotAlert
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_1005_overlordalert
+
+//   
+SoundEvent = SecBotTaunt
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_1010_overlordattack
+
+//   
+SoundEvent = SecBotHit
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_1012_overlordes
+
+//   
+SoundEvent = SecBotFire
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_0735_botfire
+
+//   
+SoundEvent = SecBotWhir1
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.09
+    Sound = jsfx_0730_robotwhir1
+
+//   
+SoundEvent = SecBotWhir2
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.08
+    Sound = jsfx_0731_robotwhir2
+
+//   
+SoundEvent = SecBotWhir3
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    MinPitch = 0.68
+    MaxPitch = 0.79
+    Sound = jsfx_0731_robotwhir2
+
+//   
+SoundEvent = SecBotExplode
+    Volume = 255
+  Range = 2800
+  Material = 0,MID_NONE
+    Sound = jsfx_0935_mineexplode
+
+//   
+SoundEvent = SciBotRollLP
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    MinPitch = 0.78
+    MaxPitch = 0.90
+    Sound = jsfx_0733_lp_botmove
+
+//   
+SoundEvent = SciBotAlert
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_1000_overlordalert1
+
+//   
+SoundEvent = SciBotTaunt
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_1009_overlordattack
+
+//   
+SoundEvent = SciBotHit
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_1013_overlordes
+
+//   
+SoundEvent = SciBotWhir
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_0732_scibotwhir1
+
+//   
+SoundEvent = SciBotWhir2
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_0733_scibotwhir2
+
+//   
+SoundEvent = SciBotExplode
+    Volume = 255
+  Range = 2800
+  Material = 0,MID_NONE
+    MinPitch = 1.12
+    MaxPitch = 1.12
+    Sound = jsfx_0950_2ndexplosion
+
+//   
+SoundEvent = WhirQuicker
+    Volume = 204
+  Range = 2500
+  Material = 0,MID_NONE
+    MinPitch = 1.12
+    MaxPitch = 1.12
+    Sound = jsfx_0730_robotwhir1
+
+//   
+SoundEvent = SlowWhir
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    MinPitch = 0.68
+    MaxPitch = 0.80
+    Sound = jsfx_0731_robotwhir2
+
+//   
+SoundEvent = BotDebris
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_0720_helmetkonk
+
+//   
+SoundEvent = BotExtra
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    MinPitch = 0.75
+    MaxPitch = 0.81
+    Sound = jsfx_0604_gddexplode
+
+//   
+SoundEvent = BotClank
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_0736_botclank1
+
+//   
+SoundEvent = BotMalfunct
+    Volume = 255
+  Range = 4000
+  Material = 0,MID_NONE
+    Sound = jsfx_0747_botmalf
+
+//   
+SoundEvent = BotWhirWhiz
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_0739_botwhir
+      Chance = 0.50
+    Sound = jsfx_0741_botwhir
+      Chance = 0.50
+
+//   
+SoundEvent = BotBeepWhir
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_0740_botwhir
+
+//   
+SoundEvent = BotBeep
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_0745_botbeep
+
+//   
+SoundEvent = BotDebris2
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 0.81
+    Sound = jsfx_0695_gdddebris
+
+//   
+SoundEvent = BotFall
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_0721_botclank
+
+//   
+SoundEvent = BotHeadClang
+    Volume = 255
+  Range = 2510
+  Material = 0,MID_NONE
+    Sound = jsfx_0722_botheadclang
+
+// -----------------------------------------------------------------------------
+// KillerWhale
+
+name KillerWhale
+
+//   
+SoundEvent = WhaleAlert
+    Volume = 255
+  Range = 2997
+  Material = 0,MID_NONE
+    Sound = jsfx_1061_whalealert
+
+//   
+SoundEvent = WhaleHit
+    Volume = 255
+  Range = 3561
+  Material = 0,MID_NONE
+    Sound = jsfx_1060_whaleroar
+
+//   
+SoundEvent = WhaleFire
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0385_whalefire
+
+// -----------------------------------------------------------------------------
+// RESEARCHLAB
+
+name RESEARCHLAB
+
+//   
+SoundEvent = LaserTurretLP
+    Volume = 100
+  Range = 1286
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 1.12
+    Sound = jsfx_0955_lp_turretlaser
+      Chance = 0.30
+    Sound = laserlp2
+      Chance = 0.35
+    Sound = laserlp3
+      Chance = 0.35
+
+//   
+SoundEvent = LaserCutLP
+    Volume = 255
+  Range = 1000
+  Material = 0,MID_NONE
+    Sound = jsfx_0941_lp_cutting
+
+//   
+SoundEvent = ObjectCorrect
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0551_objectivegood
+
+//   
+SoundEvent = ObjectWrong
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0555_objectivebad
+
+//   
+SoundEvent = LightRetract
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    MinPitch = 1.11
+    MaxPitch = 1.12
+    Sound = jsfx_0740_botwhir
+
+//   
+SoundEvent = CableCarLP
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = jsfx_0275_lp_cablecar
+
+// -----------------------------------------------------------------------------
+// DOWNHILL
+
+name DOWNHILL
+
+//   
+SoundEvent = GrindLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0667_lp_grind
+
+//   
+SoundEvent = SkiBotLP
+    Volume = 255
+  Range = 3107
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.02
+    Sound = jsfx_095_lp_skibot
+
+//   
+SoundEvent = SkiBot2
+  Range = 2750
+  Material = 0,MID_NONE
+    Sound = jsfx_0409_lavadragonthud
+
+//   
+SoundEvent = SkiBotTurn
+    Volume = 255
+  Range = 2857
+  Material = 0,MID_NONE
+    Sound = jsfx_0200_drag
+
+// -----------------------------------------------------------------------------
+// BitsAndBobs
+
+name BitsAndBobs
+
+//   
+SoundEvent = RaceLight1
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0557_racelight1
+
+//   
+SoundEvent = RaceLightGo
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0557_racelight2
+
+//   
+SoundEvent = Collect1
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0560_collect1
+
+//   
+SoundEvent = CollectTwo
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.80
+    MaxPitch = 0.81
+    Sound = jsfx_0560_collect1
+
+//   
+SoundEvent = SpinningHat
+    Volume = 255
+  Range = 2482
+  Material = 0,MID_NONE
+    Sound = jsfx_0399_hatspin
+
+//   
+SoundEvent = BGSSecPop
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0026_BGpop
+
+//   
+SoundEvent = Static
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0956_static
+
+//   
+SoundEvent = StaticLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_PLACEHOLDER
+
+//   
+SoundEvent = StatueFire
+    Volume = 255
+  Range = 1607
+  Material = 0,MID_NONE
+    Sound = jsfx_0958_statuefire
+
+//   
+SoundEvent = CrateMetalSmash
+    Volume = 255
+  Range = 2300
+  Material = 0,MID_NONE
+    Sound = jsfx_0050_metalcrate
+
+//   
+SoundEvent = CrateEnergySmash
+  Range = 2300
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = jsfx_0051_energycrate
+
+//   
+SoundEvent = CrateWoodSmash
+    Volume = 40
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0222_crate
+
+//   
+SoundEvent = SmashObject
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.79
+    MaxPitch = 0.81
+    Sound = jsfx_0051_energycrate
+
+//   
+SoundEvent = ShieldDown6c
+    Volume = 255
+  Range = 2200
+  Material = 0,MID_NONE
+    Sound = jsfx_0959_shielddown
+
+//   
+SoundEvent = CalamDeflect
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 1.37
+    MaxPitch = 1.37
+    Sound = jsfx_0959_shielddown
+
+//   
+SoundEvent = CalamShieldLP
+    Volume = 255
+  Range = 1464
+  Material = 0,MID_NONE
+    Sound = jsfx_0876_lp_tesla
+
+//   
+SoundEvent = Explosion
+    Volume = 255
+  Range = 4000
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.12
+    Sound = jsfx_0961_minibomb
+
+//   
+SoundEvent = BombBounce
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.11
+    Sound = jsfx_0962_minibombbounce
+      Chance = 0.46
+    Sound = jsfx_0963_minibombbounce
+      Chance = 0.54
+
+//   
+SoundEvent = ClampSnap
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0965_chainsnap
+
+//   
+SoundEvent = ClampSplash
+    Volume = 255
+  Range = 4500
+  Material = 0,MID_NONE
+    Sound = jsfx_0966_clmpsplash
+
+//   
+SoundEvent = Lever
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = alever
+
+//   
+SoundEvent = FowlSinkLP
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = lp_fowlsink
+
+//   
+SoundEvent = GustMeterLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = gustmeter
+
+//   
+SoundEvent = Grill
+  Range = 5000
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = jsfx_0361_lanternspawn
+
+//   
+SoundEvent = SuperGustLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = lp_supergust
+
+//   
+SoundEvent = FlamingLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = lp_flaming
+
+//   
+SoundEvent = CreakyWoodOne
+    Volume = 255
+  Range = 2107
+  Material = 0,MID_NONE
+    MinPitch = 0.66
+    MaxPitch = 0.68
+    Sound = jsfx_0869_creak
+
+//   
+SoundEvent = CreakyWoodTwo
+    Volume = 255
+  Range = 1964
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.11
+    Sound = jsfx_0869_creak
+
+//   
+SoundEvent = SumoHit
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = sumohit1
+      Chance = 0.20
+    Sound = sumohit2
+      Chance = 0.20
+    Sound = sumohit3
+      Chance = 0.20
+    Sound = sumohit4
+      Chance = 0.20
+    Sound = sumohit5
+      Chance = 0.20
+
+//   
+SoundEvent = RacingNinjaHit
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = ninjahit_1
+      Chance = 0.20
+    Sound = ninjahit_2
+      Chance = 0.20
+    Sound = ninjahit_3
+      Chance = 0.20
+    Sound = ninjahit_4
+      Chance = 0.20
+    Sound = ninjahit_5
+      Chance = 0.20
+
+//   
+SoundEvent = RacingCannibalHit
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = cannibalhit_1
+      Chance = 0.25
+    Sound = cannibalhit_2
+      Chance = 0.25
+    Sound = cannibalhit_3
+      Chance = 0.25
+    Sound = cannibalhit_4
+      Chance = 0.25
+
+//   
+SoundEvent = HaybailHit
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.92
+    MaxPitch = 1.06
+    Sound = haybailhit
+
+//   
+SoundEvent = AlarmLP
+    Volume = 255
+  Range = 2679
+  Material = 0,MID_NONE
+    Sound = jsfx_0840_lp_alarm
+
+//   
+SoundEvent = ElevatorLP
+    Volume = 102
+  Range = 1429
+  Material = 0,MID_NONE
+    MinPitch = 1.57
+    MaxPitch = 1.60
+    Sound = jsfx_0940_lp_hoverplatform
+
+//   
+SoundEvent = ElectricDoorOpen
+    Volume = 255
+  Range = 1786
+  Material = 0,MID_NONE
+    Sound = jsfx_0213_elecdoor
+
+// -----------------------------------------------------------------------------
+// CUTSCENEONLY
+
+name CUTSCENEONLY
+
+//   
+SoundEvent = CSJimmyStep1
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0101_jnstep
+
+//   
+SoundEvent = CSJimmyStep2
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0102_jnstep
+
+//   
+SoundEvent = CSJimmyStep3
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0103_jnstep
+
+//   
+SoundEvent = CSJimmySneakerSqueak
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0105_jnsqueak
+
+//   
+SoundEvent = CSJimmyLand
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0155_jnland
+
+//   
+SoundEvent = CSJimmyStepMetal1
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0116_jnstepmetal
+
+//   
+SoundEvent = CSJimmyStepMetal2
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0115_jnstepmetal
+
+//   
+SoundEvent = CSJimmyLandMetal
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0156_jnlandwood
+
+//   
+SoundEvent = CSJimmyStepWood1
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0113_jnstepwoodpan
+
+//   
+SoundEvent = CSJimmyStepWood2
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0114_jnstepwoodpan
+
+//   
+SoundEvent = CSJimmyLandWood
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0156_jnlandwood
+
+//   
+SoundEvent = CSJimmyClapSlap
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_PLACEHOLDER
+
+//   
+SoundEvent = CSJimmySoftStep1
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0304_enemystepsoft
+
+//   
+SoundEvent = CSJimmySoftStep2
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0305_enemystepsoft
+
+//   
+SoundEvent = CSGoddardStep1
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_PLACEHOLDER
+
+//   
+SoundEvent = CSGoddardStep2
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_PLACEHOLDER
+
+//   
+SoundEvent = CSGoddardEarTwirl
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_PLACEHOLDER
+
+//   
+SoundEvent = CSGoddardStretch
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_PLACEHOLDER
+
+//   
+SoundEvent = LifePreserverHit
+    Volume = 102
+  Range = 3250
+  Material = 0,MID_NONE
+    MinPitch = 1.37
+    MaxPitch = 1.51
+    Sound = jsfx_0391_swordfishyhit
+
+// -----------------------------------------------------------------------------
+// JimmyBot
+
+name JimmyBot
+
+//   
+SoundEvent = JbotStep
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = JbotStep1
+      Chance = 0.50
+    Sound = JbotStep2
+      Chance = 0.50
+
+//   
+SoundEvent = JbotLand
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = Jbotland
+
+//   
+SoundEvent = JbotFall
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = Jbotfall
+
+//   
+SoundEvent = JbotFire
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = Jbotfire
+
+//   
+SoundEvent = JbotWhir1
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = Jbotwhir1
+
+//   
+SoundEvent = JbotWhir2
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = Jbotwhir2
+
+//   
+SoundEvent = JbotSlinky
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = Jbotretract
+
+//   
+SoundEvent = JbotMove
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = Jbotmove2
+
+//   
+SoundEvent = JbotDeath
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 0.81
+    Sound = Jbotmove
+
+SoundEvent = JbotWhoosh
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 1.26
+    MaxPitch = 1.30
+    Sound = jetboost
+
+// -----------------------------------------------------------------------------
+// AlphaBetaStragglers
+
+name AlphaBetaStragglers
+
+//   
+SoundEvent = SubShockwave
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = subshockwave
+
+//   
+SoundEvent = GumJump
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0175_jnbounce
+
+//   
+SoundEvent = GumLand
+    Volume = 204
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.46
+    MaxPitch = 0.54
+    Sound = jsfx_0176_jnbounce
+
+//   
+SoundEvent = 5bSpikeUp
+    Volume = 255
+  Range = 2643
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.06
+    Sound = underwaterspike
+
+//   
+SoundEvent = 5bSpikeDown
+  Range = 3321
+  Material = 0,MID_NONE
+    Sound = underwaterspikeretract
+
+//   
+SoundEvent = W6SpikeUp
+    Volume = 255
+  Range = 1500
+  Material = 0,MID_NONE
+    Sound = spikeextend
+
+//   
+SoundEvent = W6SpikeDown
+  Range = 1500
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = spikeretract
+
+//   
+SoundEvent = 3cFlamesRollout
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    MinPitch = 0.56
+    MaxPitch = 0.56
+    Sound = jsfx_0411_lavadragonfire
+
+//   
+SoundEvent = 3cFlamesiHit
+    Volume = 255
+  Range = 2600
+  Material = 0,MID_NONE
+    Sound = burn
+
+//   
+SoundEvent = JetBoardAirLP
+    Volume = 255
+  Range = 2143
+  Material = 0,MID_NONE
+    MinPitch = 0.97
+    MaxPitch = 1.1
+    Sound = 6bwindjump
+      Chance = 0.5
+    Sound = mtwindlp
+      Chance = 0.5
+
+//   
+SoundEvent = MenuType
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.06
+    Sound = type1
+      Chance = 0.32
+    Sound = type2
+      Chance = 0.34
+    Sound = type3
+      Chance = 0.34
+
+//   
+SoundEvent = SubShieldLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0600_lp_goddardshield
+
+//   
+SoundEvent = ShatterOne
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.68
+    MaxPitch = 0.76
+    Sound = jsfx_0051_energycrate
+
+//   
+SoundEvent = ShatterTwo
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.55
+    MaxPitch = 0.56
+    Sound = jsfx_0051_energycrate
+
+//   
+SoundEvent = StalactiteFallLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = lp_flaming
+
+//   
+SoundEvent = EnergyFenceLP
+    Volume = 220
+  Range = 900
+  Material = 0,MID_NONE
+    MinPitch = 0.95
+    MaxPitch = 1.05
+    Sound = elecfence1
+      Chance = 0.5
+    Sound = elecfence2
+      Chance = 0.5
+
+//   
+SoundEvent = LastMinuteOneLP
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = FowlSteam
+
+//   
+SoundEvent = LastMinuteTwoLP
+    Volume = 255
+  Range = 3000
+  Material = 0,MID_NONE
+    Sound = octothrashingLP
+
+//   
+SoundEvent = LastMinuteThreeLP
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = fowlflylp
+
+//   
+SoundEvent = TooLateOne
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = mcommandplathit
+
+//   
+SoundEvent = TooLateTwo
+    Volume = 255
+  Range = 3464
+  Material = 0,MID_NONE
+    Sound = octogrowl
+
+//   
+SoundEvent = TooLateThree
+    Volume = 255
+  Range = 3071
+  Material = 0,MID_NONE
+    Sound = octoswing
+
+//   
+SoundEvent = TooLateFour
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    MinPitch = 1.12
+    MaxPitch = 1.12
+    Sound = jsfx_0492_humpsplash
+
+//   
+SoundEvent = LateSoundPropOneLP
+    Volume = 255
+  Range = 2000
+  Material = 0,MID_NONE
+    Sound = vpridle_lp
+
+//   
+SoundEvent = LateSoundPropTwoLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_PLACEHOLDER
+
+//   
+SoundEvent = SoundEffectOne
+    Volume = 255
+  Range = 2464
+  Material = 0,MID_NONE
+    Sound = inksquirt
+
+//   
+SoundEvent = SoundEffectTwo
+    Volume = 255
+  Range = 2071
+  Material = 0,MID_NONE
+    Sound = CS5A_36_P01PIEN
+      Chance = 0.25
+    Sound = CS5A_36_P02PIEN
+      Chance = 0.25
+    Sound = CS5A_36_P03PIEN
+      Chance = 0.25
+    Sound = CS5A_36_P04PIEN
+      Chance = 0.25
+
+//   
+SoundEvent = SoundEffectThree
+    Volume = 255
+  Range = 2893
+  Material = 0,MID_NONE
+    Sound = jsfx_0220_boulder
+
+//   
+SoundEvent = SoundEffectFive
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.06
+    Sound = cactusimpact1
+      Chance = 0.50
+    Sound = cactusimpact2
+      Chance = 0.50
+
+//   
+SoundEvent = SoundEffectSix
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.06
+    Sound = grindrailexplode1
+      Chance = 0.50
+    Sound = grindrailexplode2
+      Chance = 0.50
+
+//   
+SoundEvent = SoundEffectSeven
+    Volume = 255
+  Range = 8000  
+  Material = 0,MID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.04
+    Sound = rockimpact
+      Chance = 0.50
+    Sound = rockimpact2
+      Chance = 0.50
+
+//   
+SoundEvent = SoundEffectNine
+    Volume = 255
+  Range = 10000
+  Material = 0,MID_NONE
+    Sound = jetboardwhoosh
+
+//   
+SoundEvent = SoundEffectTen
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jetboardhit
+
+//   
+SoundEvent = LoopOneLP
+    Volume = 255
+  Range = 1964
+  Material = 0,MID_NONE
+    Sound = gantrycreak
+
+//   
+SoundEvent = LoopTwoLP
+    Volume = 240
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = 6bwindjump
+
+//   
+SoundEvent = LoopThreeLP
+    Volume = 240
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = vortexfunnelLP
+
+//   
+SoundEvent = LoopFourLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = vpractive_lp
+
+//   
+SoundEvent = FlyingFoxLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = flyingfoxLP
+
+//   
+SoundEvent = FowlSteamLP
+    Volume = 255
+  Range = 6500
+  Material = 0,MID_NONE
+    Sound = fowlsteam_lp
+
+//   
+SoundEvent = LoopFiveLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0101_jnstep
+
+//   
+SoundEvent = LoopSixLP
+    Volume = 255
+  Range = 2286
+  Material = 0,MID_NONE
+    Sound = jsfx_0955_lp_turretlaser
+
+//   
+SoundEvent = LoopSevenLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0101_jnstep
+
+//   
+SoundEvent = SoundEffectEleven
+    Volume = 204
+  Range = 2679
+  Material = 0,MID_NONE
+    MinPitch = 0.92
+    MaxPitch = 1.04
+    Sound = jsfx_0302_smallstep
+      Chance = 0.50
+    Sound = jsfx_0303_smallstep
+      Chance = 0.50
+  Material = 1024,MID_WOOD
+    MinPitch = 1.00
+    MaxPitch = 1.12
+    Sound = jsfx_0413_sheenstep
+      Chance = 0.50
+    Sound = jsfx_0414_sheenstep
+      Chance = 0.50
+  Material = 16777216,MID_METAL_PLATE
+    MinPitch = 1.06
+    MaxPitch = 1.12
+    Sound = jsfx_0306_enemystepmetal
+      Chance = 0.50
+    Sound = jsfx_0307_enemystepmetal
+      Chance = 0.50
+
+//   
+SoundEvent = SoundEffectTwelve
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0101_jnstep
+
+//   
+SoundEvent = CartLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = cartlp
+
+// -----------------------------------------------------------------------------
+// EndOfLine
+
+name EndOfLine
+
+//   
+SoundEvent = ChopstickLaunch
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = CS_chopstickfire
+
+//   
+SoundEvent = ChopstickHit
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = CS_chopstickimpact
+
+//   
+SoundEvent = RoboNinjaLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = roboninjaLP
+
+//   
+SoundEvent = Whoosh02
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = CS_whoosh3
+
+//   
+SoundEvent = Whoosh01
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = CS_whoosh
+
+//   
+SoundEvent = UltraPop
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 1.12
+    MaxPitch = 1.12
+    Sound = ultrapop
+
+//   
+SoundEvent = VortexLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = vortexlp
+
+//   
+SoundEvent = 3aShieldLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = CS_villageshield
+
+//   
+SoundEvent = PDAButton
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.68
+    MaxPitch = 0.68
+    Sound = jsfx_0518_gui_movethru
+
+//   
+SoundEvent = SheenButton
+    Volume = 255
+  Material = 0,MID_NONE
+    MinPitch = 0.79
+    MaxPitch = 0.81
+    Sound = jsfx_0518_gui_movethru
+
+//   
+SoundEvent = SubSplash1
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.46
+    MaxPitch = 0.56
+    Sound = jsfx_0160_jnsplash
+
+//   
+SoundEvent = 5cWaterFillLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = watergushingLP
+
+//   
+SoundEvent = JimmyTinker
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.68
+    MaxPitch = 0.68
+    Sound = ultrapop
+
+//   
+SoundEvent = 5bTubeLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = 5btubelp
+
+//   
+SoundEvent = 5bGushingWaterLP
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.68
+    MaxPitch = 0.68
+    Sound = watergushingLP
+
+//   
+SoundEvent = CindySwim
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0376_canoepaddle
+      Chance = 0.50
+    Sound = jsfx_0377_canoepaddle
+      Chance = 0.50
+
+//   
+SoundEvent = LaserTwoLP
+    Volume = 204
+  Range = 3036
+  Material = 0,MID_NONE
+    MinPitch = 1.12
+    MaxPitch = 1.34
+    Sound = jsfx_0955_lp_turretlaser
+
+//   
+SoundEvent = 6cBlockFall
+    Volume = 255
+  Range = 2500
+  Material = 0,MID_NONE
+    Sound = platformlower
+
+//   
+SoundEvent = 6cGlassBreak
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = idolglassbreak
+
+//   
+SoundEvent = StragglerOne
+    Volume = 255
+  Range = 3536
+  Material = 0,MID_NONE
+    Sound = 5csmashtotal
+
+//   
+SoundEvent = StragglerTwo
+    Volume = 255
+  Range = 3643
+  Material = 0,MID_NONE
+    MinPitch = 0.91
+    MaxPitch = 1.10
+    Sound = 5csmash2
+      Chance = 0.50
+    Sound = 5csmash1
+      Chance = 0.50
+
+//   
+SoundEvent = StragglerThree
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = CS_whoosh3
+
+//   
+SoundEvent = Riserfall
+    Volume = 255
+  Range = 1857
+  Material = 0,MID_NONE
+    Sound = mirrorfall
+
+//   
+SoundEvent = CalamPunch
+    Volume = 158
+  Range = 2500
+  Material = 0,MID_NONE
+    MinPitch = 1.26
+    MaxPitch = 1.26
+    Sound = jsfx_0961_minibomb
+
+//   
+SoundEvent = SheenAttack
+    Volume = 255
+  Range = 2357
+  Material = 0,MID_NONE
+    MinPitch = 1.59
+    MaxPitch = 1.62
+    Sound = jsfx_0320_enemyspawn
+
+//   
+SoundEvent = SheenCloseAttack
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 0.81
+    Sound = jetboardwhoosh
+
+//   
+SoundEvent = SheenBotWhacked
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jetboardhit
+
+//   
+SoundEvent = SheenElevatorLP
+    Volume = 255
+  Range = 1964
+  Material = 0,MID_NONE
+    MinPitch = 0.58
+    MaxPitch = 0.60
+    Sound = jsfx_0940_lp_hoverplatform
+
+//   
+SoundEvent = FFSOne
+  Range = 5000
+    Volume = 255
+  Material = 0,MID_NONE
+    Sound = calamspin
+
+//   
+SoundEvent = FFSTwo
+    Volume = 255
+  Range = 3000
+  Material = 0,MID_NONE
+    MinPitch = 0.81
+    MaxPitch = 0.81
+    Sound = jsfx_0721_botclank
+
+// MsFowl powerup taunt
+SoundEvent = FFSThree
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = CS3C_06_P01MFEN
+      Chance = 0.70
+    Sound = CS3C_06_P02MFEN
+      Chance = 0.30
+
+//   
+SoundEvent = FFSFour
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0320_enemyspawn
+
+//   
+SoundEvent = FFSFive
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0320_enemyspawn
+
+//   
+SoundEvent = FFSSix
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0320_enemyspawn
+
+//   
+SoundEvent = FFSSeven
+    Volume = 255
+  Range = 5000
+  Material = 0,MID_NONE
+    Sound = jsfx_0320_enemyspawn
+
+SoundEvent = GustBlockMoveLP
+    Volume = 255
+  Range = 3857
+  Material = 0,MID_NONE
+    MinPitch = 0.84
+    MaxPitch = 0.85
+    Sound = jsfx_0667_lp_grind

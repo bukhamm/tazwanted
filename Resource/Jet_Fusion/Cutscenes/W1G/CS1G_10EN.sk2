@@ -1,0 +1,327 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "JAIMEHOE"
+  Date = "15/06/2003"
+  Time = "3:55:37 PM"
+  EdPos = 2870.51,239.05,527.47
+  EdPitch = -0.290
+  EdYaw = -0.970
+}
+
+[EXTRAS]
+{
+  Windowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 110767804,0
+    "Goddard_Lips" = 110767804,1
+    "Goddard_Head" = 110767804,2
+    "Goddard_Body" = 110767804,3
+    "Goddard_Pos" = 110767804,4
+    "Goddard_Look" = 110767804,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W1A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1G_10_P01GOEN.wav" = 15,61
+  "CS1G_10_P02GOEN.wav" = 85,74
+  "CS1G_10_P03GOEN.wav" = 165,74
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_GODDARD_Synker.BAD" = "Goddard","CS1G_10_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 3280.822,131.666,717.383
+        rot = 0.000,-1.760,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Storage device found..." = "CS1G_10_P01GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 15
+          length = 61
+        }
+        "These boxes can hold bonuses." = "CS1G_10_P02GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 85
+          length = 74
+        }
+        "One of your tools will open the box." = "CS1G_10_P03GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 165
+          length = 74
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 252
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 252
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyThinking" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 200
+        }
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 200
+          length = 52
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 252
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Storage device found...
+      Goddard
+      {
+        d = 36,132,132,162,174,60,12,210,255,255,255,255,255,240,216,114,42,90,84,12,30,174,
+        d = 234,96,36,54,156,150,108,102,108,132,204,186,84,96,102,102,114,42,36,6,90,162,
+        d = 150,156,162,126,102,96,90,96,90,90,84,96,102,78,72,42,18,
+      }
+      //These boxes can hold bonuses.
+      Goddard
+      {
+        d = 9,31,94,243,255,198,157,198,180,135,139,108,49,31,90,198,148,157,90,103,31,4,
+        d = 45,135,99,144,166,153,121,112,171,18,4,67,126,99,117,148,63,31,94,202,252,229,
+        d = 175,175,193,180,148,90,90,40,58,157,148,180,198,198,193,184,108,108,117,63,108,
+        d = 144,112,99,81,63,63,54,49,81,
+      }
+      //One of your tools will open the box.
+      Goddard
+      {
+        d = 9,72,126,148,148,148,175,157,220,216,117,90,130,193,255,252,216,193,76,9,0,81,
+        d = 40,22,166,180,225,211,162,166,184,171,175,139,103,90,31,103,166,166,153,45,9,
+        d = 27,157,198,220,103,13,27,126,175,184,184,157,121,85,54,153,153,153,112,90,63,
+        d = 40,9,0,0,0,4,36,81,99,112,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 40.000
+    ToFOV = 40.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 3077.09,188.67,711.44, 3270.04,185.67,717.66
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 252
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

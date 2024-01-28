@@ -1,0 +1,8 @@
+mesh prop_Gate_Icebars
+skeleton CS5B_18_2
+
+ANIM OPEN
+0-49,1
+CYCLE STOP
+
+//END

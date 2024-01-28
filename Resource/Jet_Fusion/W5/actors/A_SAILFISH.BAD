@@ -1,0 +1,31 @@
+mesh a_Sailfish.mdl
+skeleton a_Sailfish.anm
+
+anim bindPose
+0,1
+cycle stop
+
+anim swim01
+15-45,1
+cycle loop
+
+anim jump01
+60-90,1
+cycle stop
+
+anim swallow
+SoundEvent FishSwallow 262
+260-279,1
+cycle stop
+
+//straining to get away as Jimmy reels him in
+anim reel
+100-120,1 
+cycle loop
+
+anim rear_up
+SoundEvent FishSurface 177
+170-235,1 
+cycle stop
+
+//end

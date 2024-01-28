@@ -1,0 +1,8 @@
+mesh a_sub
+skeleton CS5B_09_2
+
+ANIM SWIM01
+10-33,1
+CYCLE LOOP
+
+//END

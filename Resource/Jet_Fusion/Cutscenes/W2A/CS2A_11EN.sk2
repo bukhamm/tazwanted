@@ -1,0 +1,1379 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "24/06/2003"
+  Time = "2:35:00 PM"
+  EdPos = -6123.07,215.52,-5156.93
+  EdPitch = -0.795
+  EdYaw = 7.241
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+    "Camera" = -3,0
+    "Ninja_Voice" = 103333864,0
+    "Jimmy_Voice" = 104558920,0
+    "Goddard_Voice" = 107657992,0
+    "SoundFX" = -2,0
+  }
+  "Ninja"
+  {
+    "Ninja_Voice" = 103333864,0
+    "Ninja_Lips" = 103333864,1
+    "Ninja_Head" = 103333864,2
+    "Ninja_Body" = 103333864,3
+    "Ninja_Pos" = 103333864,4
+    "Ninja_Look" = 103333864,5
+    "Camera" = -3,0
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 104558920,0
+    "Jimmy_Lips" = 104558920,1
+    "Jimmy_Head" = 104558920,2
+    "Jimmy_Body" = 104558920,3
+    "Jimmy_Pos" = 104558920,4
+    "Jimmy_Look" = 104558920,5
+    "Camera" = -3,0
+    "Ninja_Voice" = 103333864,0
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 107657992,0
+    "Goddard_Lips" = 107657992,1
+    "Goddard_Head" = 107657992,2
+    "Goddard_Body" = 107657992,3
+    "Goddard_Pos" = 107657992,4
+    "Goddard_Look" = 107657992,5
+    "Camera" = -3,0
+  }
+  "Rickshaw"
+  {
+    "Rickshaw_Voice" = 115947204,0
+    "Rickshaw_Lips" = 115947204,1
+    "Rickshaw_Head" = 115947204,2
+    "Rickshaw_Body" = 115947204,3
+    "Rickshaw_Pos" = 115947204,4
+    "Rickshaw_Look" = 115947204,5
+    "Camera" = -3,0
+    "Event_0" = -1,0
+  }
+  "ninRickshaw"
+  {
+    "ninRickshaw_Voice" = 72548268,0
+    "ninRickshaw_Lips" = 72548268,1
+    "ninRickshaw_Head" = 72548268,2
+    "ninRickshaw_Body" = 72548268,3
+    "ninRickshaw_Pos" = 72548268,4
+    "ninRickshaw_Look" = 72548268,5
+    "Camera" = -3,0
+    "Event_0" = -1,0
+  }
+  "Wheel"
+  {
+    "Wheel_Voice" = 112230400,0
+    "Wheel_Lips" = 112230400,1
+    "Wheel_Head" = 112230400,2
+    "Wheel_Body" = 112230400,3
+    "Wheel_Pos" = 112230400,4
+    "Wheel_Look" = 112230400,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W2A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_skid" = 0,62
+  "CS_ninjacrash1" = 62,47
+  "CS_ninjakartalarm2a" = 109,13
+  "CS_ninjakartalarm2a" = 122,13
+  "CS_ninjakartalarm2a" = 135,17
+  "CS_ninjakartalarmoff2a" = 152,20
+}
+
+[DYNAMIC_SFX]
+{
+  "CS2A_11_P01NIEN.wav" = 172,44
+  "CS2A_11_P02NIEN.wav" = 226,54
+  "CS2A_11_P03NIEN.wav" = 290,57
+  "CS2A_11_P04GOEN.wav" = 357,22
+  "CS2A_11_P05JIEN.wav" = 405,117
+  "CS2A_11_P06NIEN.wav" = 532,23
+  "CS2A_11_P07NIEN.wav" = 565,66
+  "CS2A_11_P08JIEN.wav" = 641,16
+  "CS2A_11_P09GOEN.wav" = 667,15
+}
+
+[ACTOR_DATA]
+{
+  Count = 6
+  "A_NINJA03Synker.BAD" = "Ninja","CS2A_11_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -6027.042,-34.540,-5024.594
+        rot = 0.000,0.410,0.000
+      }
+    }
+  }
+  "A_JIMMY_SYNKER_JAPAN.BAD" = "Jimmy","CS2A_11_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -5770.564,-34.540,-5183.510
+        rot = 0.000,-2.290,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -6346.875,-36.540,-4867.832
+        rot = 0.000,0.456,0.000
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "Goddard","CS2A_11_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -6424.844,-34.540,-4943.703
+        rot = 0.000,1.210,0.000
+      }
+    }
+  }
+  "A_Rickshaw.bad" = "Rickshaw","CS2A_11_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -6176.447,3.000,-4786.960
+        rot = 1.340,0.000,1.630
+      }
+    }
+  }
+  "A_Rickshaw.bad" = "ninRickshaw","CS2A_11_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -4937.282,-36.810,-6186.460
+        rot = 0.060,0.000,0.000
+        pos = -5208.216,-36.540,-5154.282
+        rot = 0.000,0.000,0.000
+        pos = -5946.000,-1.000,-4756.000
+        rot = 0.000,0.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 3,0.000,0.000,0.530,0.769,1.000,1.000,
+        pos = -5946.000,0.000,-4756.000
+        rot = 0.170,-1.740,0.310
+        pos = -6059.000,153.000,-4736.000
+        rot = 1.571,0.177,1.695
+      }
+      "pathbounce1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -6059.000,153.000,-4736.000
+        rot = 1.520,0.150,1.520
+        pos = -6230.170,116.900,-4949.233
+        rot = 1.410,1.460,1.520
+      }
+      "pathbounce2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 3,0.000,0.000,0.400,0.047,1.000,1.000,
+        pos = -6207.759,105.800,-4924.914
+        rot = 1.050,1.230,1.600
+        pos = -6250.000,30.000,-4828.000
+        rot = 1.360,0.100,1.620
+      }
+      "pathstop"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -6250.035,36.000,-4826.604
+        rot = 1.350,0.240,1.616
+      }
+    }
+  }
+  "A_Wheel.BAD" = "Wheel","CS2A_11_5.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -6397.437,19.460,-4845.602
+        rot = 0.000,0.000,0.000
+        pos = -6409.386,-10.000,-4858.488
+        rot = 0.000,0.000,0.000
+        pos = -6436.470,18.000,-4894.236
+        rot = 0.000,0.000,0.000
+        pos = -6459.294,-9.000,-4912.904
+        rot = 0.000,0.000,0.000
+        pos = -6494.296,10.000,-4933.661
+        rot = 0.000,0.000,0.000
+        pos = -6517.392,-9.000,-4953.150
+        rot = 0.000,0.000,0.000
+        pos = -6545.637,5.000,-4971.660
+        rot = 0.000,0.000,0.000
+        pos = -6586.680,-11.000,-4999.332
+        rot = 0.000,0.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -6592.436,-9.000,-5004.889
+        rot = 0.000,-1.010,0.000
+        pos = -6808.778,-9.000,-5138.745
+        rot = 0.500,-0.890,0.010
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Ninja"
+  {
+    "Ninja_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "No!" = "CS2A_11_P01NIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 172
+          length = 44
+        }
+        "My wheels!" = "CS2A_11_P02NIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 226
+          length = 54
+        }
+        "Useless piece of junk..." = "CS2A_11_P03NIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 290
+          length = 57
+        }
+        "Take it." = "CS2A_11_P06NIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 532
+          length = 23
+        }
+        "I sure can't use it anymore." = "CS2A_11_P07NIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 565
+          length = 66
+        }
+      }
+    }
+    "Ninja_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsAngry" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 172
+          length = 233
+        }
+        "LipsAngry" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 532
+          length = 109
+        }
+      }
+    }
+    "Ninja_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ninja_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyAngry" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 172
+          length = 70
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 242
+          length = 48
+        }
+        "BodyNo" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 290
+          length = 70
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 360
+          length = 45
+        }
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 532
+          length = 65
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 597
+          length = 44
+        }
+      }
+    }
+    "Ninja_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 172
+          length = 469
+        }
+      }
+    }
+    "Ninja_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //No!
+      Ninja
+      {
+        d = 0,27,108,202,243,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,
+        d = 255,255,255,255,255,255,255,255,255,255,255,255,255,229,243,243,189,162,148,94,
+        d = 40,13,0,0,
+      }
+      //My wheels!
+      Ninja
+      {
+        d = 13,135,202,175,243,255,255,255,243,229,255,243,243,243,229,243,229,255,255,255,
+        d = 255,255,202,216,216,255,255,255,255,255,255,255,255,255,255,255,255,202,243,229,
+        d = 121,27,13,40,121,67,67,94,94,81,40,13,0,0,
+      }
+      //Useless piece of junk...
+      Ninja
+      {
+        d = 0,13,94,81,162,255,255,255,255,255,255,243,216,202,175,216,255,255,255,216,229,
+        d = 216,94,13,0,67,121,255,255,255,255,202,162,94,121,229,243,255,162,81,40,27,255,
+        d = 255,255,255,255,255,216,108,40,0,54,135,40,0,0,
+      }
+      //Take it.
+      Ninja
+      {
+        d = 148,216,255,255,255,255,255,121,13,54,121,255,255,229,121,13,0,40,175,67,27,0,
+        d = 0,
+      }
+      //I sure can't use it anymore.
+      Ninja
+      {
+        d = 144,255,252,252,228,240,180,204,255,255,240,255,216,216,228,180,24,0,48,156,228,
+        d = 255,255,216,156,96,12,48,96,96,168,216,255,255,228,156,132,180,252,84,12,60,36,
+        d = 0,0,168,192,228,252,216,216,180,180,180,216,228,204,168,156,156,96,24,12,24,0,
+        d = 0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,0,1,
+    }
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Hmm... that engine could be exactly what I need." = "CS2A_11_P05JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 405
+          length = 117
+        }
+        "Great!" = "CS2A_11_P08JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 641
+          length = 16
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 405
+          length = 287
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 405
+          length = 287
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyScratchHead" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 405
+          length = 90
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 495
+          length = 146
+        }
+        "BodyHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 641
+          length = 51
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 121
+          length = 520
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 641
+          length = 51
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Hmm... that engine could be exactly what I need.
+      Jimmy
+      {
+        d = 0,6,6,12,222,240,210,222,234,222,204,222,150,72,36,18,6,12,6,6,6,0,0,6,0,0,0,
+        d = 60,156,168,138,150,186,162,210,198,174,6,6,0,0,0,0,18,72,168,186,156,174,216,
+        d = 138,84,108,66,60,66,102,138,84,30,60,186,126,102,42,156,210,180,156,144,138,114,
+        d = 36,30,72,90,90,102,126,204,240,192,66,0,0,30,96,192,132,234,255,174,240,252,168,
+        d = 144,234,255,255,150,132,222,255,255,174,168,132,114,78,48,36,24,6,6,0,0,0,
+      }
+      //Great!
+      Jimmy
+      {
+        d = 63,157,255,255,255,255,255,255,210,73,0,0,84,42,10,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Bark, bark bark!" = "CS2A_11_P04GOEN.wav"
+        {
+          Breaker = 0
+          Lock = 1
+          start = 357
+          length = 22
+        }
+        "Bark bark!" = "CS2A_11_P09GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 667
+          length = 15
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 172
+          length = 233
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 532
+          length = 160
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 172
+          length = 233
+        }
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 532
+          length = 160
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 172
+          length = 167
+        }
+        "BodyPoint" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 339
+          length = 66
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 532
+          length = 131
+        }
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 663
+          length = 29
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 172
+          length = 233
+        }
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 532
+          length = 160
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Bark, bark bark!
+      Goddard
+      {
+        d = 210,255,255,210,42,6,0,18,228,255,255,246,84,6,6,192,255,255,255,114,6,30,
+      }
+      //Bark bark!
+      Goddard
+      {
+        d = 210,255,255,210,48,6,0,12,210,255,255,255,102,6,30,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Rickshaw"
+  {
+    "Rickshaw_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Rickshaw_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Rickshaw_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Rickshaw_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Rickshaw_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 172
+          length = 520
+        }
+      }
+    }
+    "Rickshaw_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 0,0,1,1,
+    }
+  }
+  "ninRickshaw"
+  {
+    "ninRickshaw_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "ninRickshaw_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "ninRickshaw_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "ninRickshaw_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "ninRickshaw_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 62
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 62
+          length = 13
+        }
+        "pathbounce1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 75
+          length = 8
+        }
+        "pathbounce2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 83
+          length = 16
+        }
+        "pathstop" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 99
+          length = 73
+        }
+      }
+    }
+    "ninRickshaw_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 0,1,1,1,
+    }
+  }
+  "Wheel"
+  {
+    "Wheel_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Wheel_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Wheel_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Wheel_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "bindpose" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 109
+          length = 63
+        }
+      }
+    }
+    "Wheel_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 109
+          length = 41
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 150
+          length = 22
+        }
+      }
+    }
+    "Wheel_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -5902.27,91.46,-5167.39, -6025.00,66.00,-5055.00
+    node = -5890.00,91.00,-5145.00, -6024.93,66.00,-5055.04
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -5830.74,36.46,-5057.22, -5786.84,36.46,-5194.98
+    node = -5803.98,36.00,-5056.46, -5786.35,36.00,-5194.75
+  }
+  camera3
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -5890.00,91.00,-5145.00, -6025.00,66.00,-5055.00
+    node = -6121.85,91.00,-5103.94, -6298.36,43.00,-5013.39
+  }
+  Camera4
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -5057.00,164.00,-4423.00, -4935.61,144.50,-6180.18
+    node = -5057.00,184.00,-4423.00, -5535.00,99.00,-4991.00
+  }
+  Camera5
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 3,0.000,0.000,0.268,0.814,1.000,1.000,
+    node = -5057.00,184.00,-4423.00, -5535.00,99.00,-4991.00
+    node = -5254.00,204.00,-4593.00, -5778.00,119.00,-4802.00
+  }
+  Camera6
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -5254.00,204.00,-4593.00, -5774.42,119.00,-4809.15
+    node = -5254.00,204.00,-4593.00, -5778.00,113.00,-4802.00
+    node = -5254.00,204.00,-4593.00, -5782.14,129.00,-4806.78
+    node = -5254.00,204.00,-4593.00, -5780.42,123.00,-4805.76
+    node = -5254.00,204.00,-4593.00, -5778.00,124.00,-4802.00
+  }
+  Camera7
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -5254.00,204.00,-4593.00, -5778.00,119.00,-4802.00
+  }
+  Camera8
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -6193.82,63.46,-5060.34, -6364.03,30.46,-4934.07
+    node = -6190.42,63.00,-5048.70, -6364.32,30.00,-4934.04
+  }
+  Camera9
+  {
+    Enabled = 1
+    FromFOV = 30.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = -5892.25,43.08,-5276.04, -6386.00,43.08,-4868.10
+  }
+}
+
+[EVENT_DATA]
+{
+  "Rickshawsmoke1" = "RickshawSmoke 4"
+  "Rickshawsmoke2" = "RickshawSmoke 3"
+  "Rickshawtrail" = "RickshawTrail 4"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "Rickshawtrail",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 63
+  }
+  bar
+  {
+    BarName = "Rickshawsmoke1",""
+    Breaker = 0
+    Lock = 0
+    start = 63
+    length = 109
+  }
+  bar
+  {
+    BarName = "Rickshawsmoke2",""
+    Breaker = 0
+    Lock = 0
+    start = 172
+    length = 520
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_skid",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 62
+  }
+  bar
+  {
+    BarName = "CS_ninjacrash1",""
+    Breaker = 0
+    Lock = 0
+    start = 62
+    length = 47
+  }
+  bar
+  {
+    BarName = "CS_ninjakartalarm2a",""
+    Breaker = 0
+    Lock = 0
+    start = 109
+    length = 13
+  }
+  bar
+  {
+    BarName = "CS_ninjakartalarm2a",""
+    Breaker = 0
+    Lock = 0
+    start = 122
+    length = 13
+  }
+  bar
+  {
+    BarName = "CS_ninjakartalarm2a",""
+    Breaker = 0
+    Lock = 0
+    start = 135
+    length = 17
+  }
+  bar
+  {
+    BarName = "CS_ninjakartalarmoff2a",""
+    Breaker = 0
+    Lock = 0
+    start = 152
+    length = 20
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "Camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 48
+  }
+  bar
+  {
+    BarName = "Camera5",""
+    Breaker = 0
+    Lock = 0
+    start = 48
+    length = 15
+  }
+  bar
+  {
+    BarName = "Camera6",""
+    Breaker = 0
+    Lock = 0
+    start = 63
+    length = 4
+  }
+  bar
+  {
+    BarName = "Camera6",""
+    Breaker = 0
+    Lock = 0
+    start = 67
+    length = 5
+  }
+  bar
+  {
+    BarName = "Camera7",""
+    Breaker = 0
+    Lock = 0
+    start = 72
+    length = 10
+  }
+  bar
+  {
+    BarName = "Camera6",""
+    Breaker = 0
+    Lock = 0
+    start = 82
+    length = 4
+  }
+  bar
+  {
+    BarName = "Camera6",""
+    Breaker = 0
+    Lock = 0
+    start = 86
+    length = 3
+  }
+  bar
+  {
+    BarName = "Camera7",""
+    Breaker = 0
+    Lock = 0
+    start = 89
+    length = 20
+  }
+  bar
+  {
+    BarName = "Camera9",""
+    Breaker = 0
+    Lock = 0
+    start = 109
+    length = 63
+  }
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 172
+    length = 185
+  }
+  bar
+  {
+    BarName = "camera3",""
+    Breaker = 0
+    Lock = 0
+    start = 357
+    length = 48
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 405
+    length = 127
+  }
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 532
+    length = 109
+  }
+  bar
+  {
+    BarName = "Camera8",""
+    Breaker = 0
+    Lock = 0
+    start = 641
+    length = 51
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

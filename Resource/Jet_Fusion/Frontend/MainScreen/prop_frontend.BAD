@@ -1,0 +1,10 @@
+mesh prop_frontend
+skeleton prop_frontend
+
+anim down
+1-45,1
+cycle stop
+
+anim radar
+70-99,1
+cycle loop

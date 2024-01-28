@@ -1,0 +1,1075 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:51:29 PM"
+  EdPos = 60015.60,967.90,4973.38
+  EdPitch = -0.310
+  EdYaw = -12.310
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 65762360,0
+    "Jimmy_Lips" = 65762360,1
+    "Jimmy_Head" = 65762360,2
+    "Jimmy_Body" = 65762360,3
+    "Jimmy_Pos" = 65762360,4
+    "Jimmy_Look" = 65762360,5
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 65856344,0
+    "Goddard_Lips" = 65856344,1
+    "Goddard_Head" = 65856344,2
+    "Goddard_Body" = 65856344,3
+    "Goddard_Pos" = 65856344,4
+    "Goddard_Look" = 65856344,5
+  }
+  "CAN01"
+  {
+    "CAN01_Voice" = 49790876,0
+    "CAN01_Lips" = 49790876,1
+    "CAN01_Head" = 49790876,2
+    "CAN01_Body" = 49790876,3
+    "CAN01_Pos" = 49790876,4
+    "CAN01_Look" = 49790876,5
+  }
+  "witch"
+  {
+    "witch_Voice" = 98972560,0
+    "witch_Lips" = 98972560,1
+    "witch_Head" = 98972560,2
+    "witch_Body" = 98972560,3
+    "witch_Pos" = 98972560,4
+    "witch_Look" = 98972560,5
+  }
+  "Boulderrain"
+  {
+    "Boulderrain_Voice" = 113352628,0
+    "Boulderrain_Lips" = 113352628,1
+    "Boulderrain_Head" = 113352628,2
+    "Boulderrain_Body" = 113352628,3
+    "Boulderrain_Pos" = 113352628,4
+    "Boulderrain_Look" = 113352628,5
+    "SoundFX" = -2,0
+  }
+  "magneticshield"
+  {
+    "magneticshield_Voice" = 113487012,0
+    "magneticshield_Lips" = 113487012,1
+    "magneticshield_Head" = 113487012,2
+    "magneticshield_Body" = 113487012,3
+    "magneticshield_Pos" = 113487012,4
+    "magneticshield_Look" = 113487012,5
+    "SoundFX" = -2,0
+    "Event_0" = -1,0
+  }
+  "Cannibal01"
+  {
+    "Cannibal01_Voice" = 72630188,0
+    "Cannibal01_Lips" = 72630188,1
+    "Cannibal01_Head" = 72630188,2
+    "Cannibal01_Body" = 72630188,3
+    "Cannibal01_Pos" = 72630188,4
+    "Cannibal01_Look" = 72630188,5
+  }
+  "Cannibal02"
+  {
+    "Cannibal02_Voice" = 103017372,0
+    "Cannibal02_Lips" = 103017372,1
+    "Cannibal02_Head" = 103017372,2
+    "Cannibal02_Body" = 103017372,3
+    "Cannibal02_Pos" = 103017372,4
+    "Cannibal02_Look" = 103017372,5
+  }
+  "Cannibal03"
+  {
+    "Cannibal03_Voice" = 103070316,0
+    "Cannibal03_Lips" = 103070316,1
+    "Cannibal03_Head" = 103070316,2
+    "Cannibal03_Body" = 103070316,3
+    "Cannibal03_Pos" = 103070316,4
+    "Cannibal03_Look" = 103070316,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 1,"cs3A_05_camera.mcd"
+  WorldFile = (null)
+  Level = W3A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_villageshield" = 0,58
+  "CS_rockhitsshield" = 58,30
+  "CS_rockhitsshield" = 88,20
+  "CS_rockhitsshield" = 108,17
+  "CS_rockhitsshield" = 125,14
+  "CS_rockhitsshield" = 139,34
+  "CS_rockhitsshield" = 173,30
+  "CS_villageshieldfails" = 462,44
+  "CS_rocksfalltoearth" = 506,129
+}
+
+[DYNAMIC_SFX]
+{
+}
+
+[ACTOR_DATA]
+{
+  Count = 9
+  "cs3A_05_01_Jimmy.bad" = "Jimmy","CS3A_05_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs3A_05_02_Goddard.bad" = "Goddard","CS3A_05_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs3A_05_03_CAN01.bad" = "CAN01","CS3A_05_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs3A_05_04_witch.bad" = "witch","CS3A_05_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs3A_05_05_BoulderRain.bad" = "Boulderrain","CS3A_05_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs3A_05_06_MagneticShield.bad" = "magneticshield","CS3A_05_5.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_CANNIBAL_Synker.BAD" = "Cannibal01","CS3A_05_6.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 60161.508,765.755,5689.186
+        rot = 0.000,0.000,0.000
+        pos = 59770.052,751.755,5312.328
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_CANNIBAL_Synker.BAD" = "Cannibal02","CS3A_05_6.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 60006.584,737.028,5838.581
+        rot = 0.000,0.000,0.000
+        pos = 59681.584,725.279,5504.871
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_CANNIBAL_Synker.BAD" = "Cannibal03","CS3A_05_6.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 59989.136,749.253,5678.192
+        rot = 0.000,0.000,0.000
+        pos = 59613.608,732.253,5271.006
+        rot = 0.000,-0.150,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 529
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 529
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 529
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 529
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "CAN01"
+  {
+    "CAN01_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "CAN01_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "CAN01_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "CAN01_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 444
+        }
+      }
+    }
+    "CAN01_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 448
+        }
+      }
+    }
+    "CAN01_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "witch"
+  {
+    "witch_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "witch_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "witch_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "witch_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 565
+          length = 70
+        }
+      }
+    }
+    "witch_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 565
+          length = 74
+        }
+      }
+    }
+    "witch_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Boulderrain"
+  {
+    "Boulderrain_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Boulderrain_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Boulderrain_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Boulderrain_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 635
+        }
+      }
+    }
+    "Boulderrain_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 640
+        }
+      }
+    }
+    "Boulderrain_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,
+    }
+  }
+  "magneticshield"
+  {
+    "magneticshield_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "magneticshield_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "magneticshield_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "magneticshield_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 491
+        }
+      }
+    }
+    "magneticshield_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 491
+        }
+      }
+    }
+    "magneticshield_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Cannibal01"
+  {
+    "Cannibal01_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal01_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal01_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal01_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "run01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 646
+          length = 74
+        }
+      }
+    }
+    "Cannibal01_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 646
+          length = 74
+        }
+      }
+    }
+    "Cannibal01_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Cannibal02"
+  {
+    "Cannibal02_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal02_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal02_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal02_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "run01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 640
+          length = 80
+        }
+      }
+    }
+    "Cannibal02_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 640
+          length = 80
+        }
+      }
+    }
+    "Cannibal02_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Cannibal03"
+  {
+    "Cannibal03_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal03_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal03_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal03_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "run01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 636
+          length = 84
+        }
+      }
+    }
+    "Cannibal03_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 636
+          length = 84
+        }
+      }
+    }
+    "Cannibal03_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+}
+
+[EVENT_DATA]
+{
+  "Shield" = "playsound 3aShieldLP"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "Shield",""
+    Breaker = 0
+    Lock = 0
+    start = 58
+    length = 404
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_villageshield",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 58
+  }
+  bar
+  {
+    BarName = "CS_rockhitsshield",""
+    Breaker = 0
+    Lock = 0
+    start = 58
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_rockhitsshield",""
+    Breaker = 0
+    Lock = 0
+    start = 88
+    length = 20
+  }
+  bar
+  {
+    BarName = "CS_rockhitsshield",""
+    Breaker = 0
+    Lock = 0
+    start = 108
+    length = 17
+  }
+  bar
+  {
+    BarName = "CS_rockhitsshield",""
+    Breaker = 0
+    Lock = 0
+    start = 125
+    length = 14
+  }
+  bar
+  {
+    BarName = "CS_rockhitsshield",""
+    Breaker = 0
+    Lock = 0
+    start = 139
+    length = 34
+  }
+  bar
+  {
+    BarName = "CS_rockhitsshield",""
+    Breaker = 0
+    Lock = 0
+    start = 173
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_villageshieldfails",""
+    Breaker = 0
+    Lock = 0
+    start = 462
+    length = 44
+  }
+  bar
+  {
+    BarName = "CS_rocksfalltoearth",""
+    Breaker = 0
+    Lock = 0
+    start = 506
+    length = 129
+  }
+}
+
+[CAMERA]
+{
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

@@ -1,0 +1,6 @@
+mesh A_ChipNavSynker
+skeleton CS1G_05_1
+
+ANIM BINDPOSE
+0-1,1
+CYCLE STOP

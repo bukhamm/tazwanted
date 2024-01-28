@@ -1,0 +1,10 @@
+mesh cs5b_04_06_HardLightBeam
+skeleton cs5b_04_06_HardLightBeam
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+164-370,1
+cycle stop

@@ -1,0 +1,10 @@
+mesh a_JetFusion_No_Legs
+skeleton CS3A_01_04_Jet
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+931-1300,1
+cycle stop

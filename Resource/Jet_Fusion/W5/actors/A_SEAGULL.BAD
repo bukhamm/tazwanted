@@ -1,0 +1,40 @@
+mesh a_Seagull.mdl
+skeleton a_Seagull.anm
+
+anim bindPose
+0,1
+cycle stop
+
+anim walkL
+20-42,1
+cycle loop
+
+anim walkR
+60-82,1
+cycle loop
+
+anim PeckL01
+SoundEvent SeagullPeck 106
+SoundEvent SeagullPeck 101
+SoundEvent SeagullPeck 95
+90-115,1
+cycle loop
+
+anim PeckR01
+SoundEvent SeagullPeck 136
+SoundEvent SeagullPeck 131
+SoundEvent SeagullPeck 125
+120-145,1
+cycle loop
+
+anim Idle01
+300-385,1
+cycle loop
+
+anim Idle02
+150-215,1
+cycle loop
+
+anim Idle03
+250-293,1
+cycle loop

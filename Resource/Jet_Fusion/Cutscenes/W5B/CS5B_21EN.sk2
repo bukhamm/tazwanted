@@ -1,0 +1,855 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "JAIMEHOE"
+  Date = "17/06/2003"
+  Time = "1:54:29 PM"
+  EdPos = 49285.48,-11711.36,-56879.62
+  EdPitch = -0.480
+  EdYaw = -4.420
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "submarine"
+  {
+    "submarine_Voice" = 97320960,0
+    "submarine_Lips" = 97320960,1
+    "submarine_Head" = 97320960,2
+    "submarine_Body" = 97320960,3
+    "submarine_Pos" = 97320960,4
+    "submarine_Look" = 97320960,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+    "Event_0" = -1,0
+  }
+  "jimmy"
+  {
+    "jimmy_Voice" = 42279836,0
+    "jimmy_Lips" = 42279836,1
+    "jimmy_Head" = 42279836,2
+    "jimmy_Body" = 42279836,3
+    "jimmy_Pos" = 42279836,4
+    "jimmy_Look" = 42279836,5
+    "Camera" = -3,0
+  }
+  "goddard"
+  {
+    "goddard_Voice" = 106493728,0
+    "goddard_Lips" = 106493728,1
+    "goddard_Head" = 106493728,2
+    "goddard_Body" = 106493728,3
+    "goddard_Pos" = 106493728,4
+    "Camera" = -3,0
+  }
+  "plant1"
+  {
+    "plant1_Voice" = 107964956,0
+    "plant1_Lips" = 107964956,1
+    "plant1_Head" = 107964956,2
+    "plant1_Body" = 107964956,3
+    "plant1_Pos" = 107964956,4
+    "plant1_Look" = 107964956,5
+    "Camera" = -3,0
+  }
+  "plant2"
+  {
+    "plant2_Voice" = 108130308,0
+    "plant2_Lips" = 108130308,1
+    "plant2_Head" = 108130308,2
+    "plant2_Body" = 108130308,3
+    "plant2_Pos" = 108130308,4
+    "plant2_Look" = 108130308,5
+    "Camera" = -3,0
+  }
+  "plant3"
+  {
+    "plant3_Voice" = 108180808,0
+    "plant3_Lips" = 108180808,1
+    "plant3_Head" = 108180808,2
+    "plant3_Body" = 108180808,3
+    "plant3_Pos" = 108180808,4
+    "plant3_Look" = 108180808,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W5B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_submove" = 0,192
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5B_21_P01JIEN.wav" = 10,44
+  "CS5B_21_P02JIEN.wav" = 64,73
+  "CS5B_21_P03JIEN.wav" = 147,45
+}
+
+[ACTOR_DATA]
+{
+  Count = 6
+  "A_SUBSYNKER.BAD" = "submarine","CS5B_21_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 49014.500,-11763.000,-56983.000
+        rot = 0.000,1.400,0.000
+      }
+    }
+  }
+  "A_JIMMY_SYNKER_PIRATE.BAD" = "jimmy","CS5B_21_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 49021.940,-11793.744,-57011.156
+        rot = 0.000,1.840,0.000
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "goddard","CS5B_21_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 48983.684,-11799.281,-56956.988
+        rot = 0.000,1.590,0.000
+      }
+    }
+  }
+  "a_HLTPlantLashingsSynker.BAD" = "plant1","CS5B_21_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 51323.708,-12737.699,-59195.588
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "a_HLTPlantLashingsSynker.BAD" = "plant2","CS5B_21_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 51709.700,-12727.911,-57529.084
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "a_HLTPlantLashingsSynker.BAD" = "plant3","CS5B_21_5.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 52102.068,-12742.468,-56096.004
+        rot = 0.000,-0.003,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "submarine"
+  {
+    "submarine_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "submarine_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "submarine_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "submarine_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 192
+        }
+      }
+    }
+    "submarine_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 192
+        }
+      }
+    }
+    "submarine_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 0,1,1,1,1,1,1,1,1,1,1,1,0,
+    }
+  }
+  "jimmy"
+  {
+    "jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "We did it, Goddard!" = "CS5B_21_P01JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 44
+        }
+        "Now we can use some of the plants as lashing cable." = "CS5B_21_P02JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 64
+          length = 73
+        }
+        "I'm sure it'll come in handy..." = "CS5B_21_P03JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 147
+          length = 45
+        }
+      }
+    }
+    "jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 10
+          length = 44
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 64
+          length = 73
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 147
+          length = 45
+        }
+      }
+    }
+    "jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 30
+        }
+        "HeadBlinkHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 30
+          length = 30
+        }
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 60
+          length = 132
+        }
+      }
+    }
+    "jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 155
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 155
+          length = 37
+        }
+      }
+    }
+    "jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 192
+        }
+      }
+    }
+    "jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //We did it, Goddard!
+      jimmy
+      {
+        d = 48,144,240,255,255,255,255,255,255,216,180,180,36,0,0,36,255,255,240,252,204,
+        d = 192,144,60,12,0,36,204,228,228,216,204,96,180,216,180,84,24,0,0,0,0,0,0,
+      }
+      //Now we can use some of the plants as lashing cable.
+      jimmy
+      {
+        d = 117,180,198,198,171,126,198,225,255,225,108,27,108,255,255,255,255,180,216,198,
+        d = 189,243,234,255,255,198,135,216,63,9,27,117,255,255,234,198,126,144,144,36,81,
+        d = 126,99,108,108,117,171,234,255,255,255,255,180,255,255,171,207,234,198,72,99,
+        d = 225,252,234,117,90,153,126,54,18,0,0,0,
+      }
+      //I'm sure it'll come in handy...
+      jimmy
+      {
+        d = 10,52,199,220,255,252,157,157,241,241,199,255,255,255,255,199,189,210,115,84,
+        d = 10,105,252,241,189,189,168,189,189,147,178,255,255,255,255,241,255,115,115,136,
+        d = 126,136,73,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "goddard"
+  {
+    "goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadCurious" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 50
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 50
+          length = 142
+        }
+      }
+    }
+    "goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 50
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 50
+          length = 142
+        }
+      }
+    }
+    "goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 192
+        }
+      }
+    }
+    "goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "plant1"
+  {
+    "plant1_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant1_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant1_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant1_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant1_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 60
+          length = 132
+        }
+      }
+    }
+    "plant1_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "plant2"
+  {
+    "plant2_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant2_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant2_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant2_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant2_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 60
+          length = 132
+        }
+      }
+    }
+    "plant2_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "plant3"
+  {
+    "plant3_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant3_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant3_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant3_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant3_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 60
+          length = 132
+        }
+      }
+    }
+    "plant3_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 49131.38,-11721.29,-56968.84, 49053.69,-11728.29,-56981.17
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 49111.20,-11645.69,-56992.60, 49375.50,-11705.69,-57060.72
+  }
+}
+
+[EVENT_DATA]
+{
+  "underwater" = "playsound SubMoveLP"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "underwater",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 192
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_submove",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 192
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 60
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 60
+    length = 132
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

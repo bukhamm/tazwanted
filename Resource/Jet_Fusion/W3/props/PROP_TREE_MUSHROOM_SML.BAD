@@ -1,0 +1,11 @@
+mesh Prop_Tree_Mushroom_Sml
+skeleton Prop_Tree_Mushroom_Sml
+
+anim bindPose
+0,1
+cycle stop
+
+anim idle01
+10-40,1
+cycle loop
+

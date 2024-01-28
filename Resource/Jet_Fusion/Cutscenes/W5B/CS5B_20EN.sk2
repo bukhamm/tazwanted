@@ -1,0 +1,1396 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "JAIMEHOE"
+  Date = "17/06/2003"
+  Time = "1:52:35 PM"
+  EdPos = 46352.28,-10616.48,-56414.76
+  EdPitch = -0.970
+  EdYaw = -8.000
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "submarine"
+  {
+    "submarine_Voice" = 96204468,0
+    "submarine_Lips" = 96204468,1
+    "submarine_Head" = 96204468,2
+    "submarine_Body" = 96204468,3
+    "submarine_Pos" = 96204468,4
+    "submarine_Look" = 96204468,5
+    "Camera" = -3,0
+  }
+  "goddard"
+  {
+    "goddard_Voice" = 97648640,0
+    "goddard_Lips" = 97648640,1
+    "goddard_Head" = 97648640,2
+    "goddard_Body" = 97648640,3
+    "goddard_Pos" = 97648640,4
+    "goddard_Look" = 97648640,5
+    "Camera" = -3,0
+  }
+  "jimmy"
+  {
+    "jimmy_Voice" = 171155588,0
+    "jimmy_Lips" = 171155588,1
+    "jimmy_Head" = 171155588,2
+    "jimmy_Body" = 171155588,3
+    "jimmy_Pos" = 171155588,4
+    "jimmy_Look" = 171155588,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+    "Event_0" = -1,0
+  }
+  "stalactite1"
+  {
+    "stalactite1_Voice" = 109574040,0
+    "stalactite1_Lips" = 109574040,1
+    "stalactite1_Head" = 109574040,2
+    "stalactite1_Body" = 109574040,3
+    "stalactite1_Pos" = 109574040,4
+    "stalactite1_Look" = 109574040,5
+    "Camera" = -3,0
+  }
+  "stalactite2"
+  {
+    "stalactite2_Voice" = 112735272,0
+    "stalactite2_Lips" = 112735272,1
+    "stalactite2_Head" = 112735272,2
+    "stalactite2_Body" = 112735272,3
+    "stalactite2_Pos" = 112735272,4
+    "stalactite2_Look" = 112735272,5
+    "Camera" = -3,0
+  }
+  "stalactite3"
+  {
+    "stalactite3_Voice" = 112785536,0
+    "stalactite3_Lips" = 112785536,1
+    "stalactite3_Head" = 112785536,2
+    "stalactite3_Body" = 112785536,3
+    "stalactite3_Pos" = 112785536,4
+    "stalactite3_Look" = 112785536,5
+    "Camera" = -3,0
+  }
+  "plant1"
+  {
+    "plant1_Voice" = 145539072,0
+    "plant1_Lips" = 145539072,1
+    "plant1_Head" = 145539072,2
+    "plant1_Body" = 145539072,3
+    "plant1_Pos" = 145539072,4
+    "plant1_Look" = 145539072,5
+    "Camera" = -3,0
+  }
+  "plant2"
+  {
+    "plant2_Voice" = 141950976,0
+    "plant2_Lips" = 141950976,1
+    "plant2_Head" = 141950976,2
+    "plant2_Body" = 141950976,3
+    "plant2_Pos" = 141950976,4
+    "plant2_Look" = 141950976,5
+    "Camera" = -3,0
+  }
+  "plant3"
+  {
+    "plant3_Voice" = 97697700,0
+    "plant3_Lips" = 97697700,1
+    "plant3_Head" = 97697700,2
+    "plant3_Body" = 97697700,3
+    "plant3_Pos" = 97697700,4
+    "plant3_Look" = 97697700,5
+    "Camera" = -3,0
+  }
+  "stalactite4"
+  {
+    "stalactite4_Voice" = 109428720,0
+    "stalactite4_Lips" = 109428720,1
+    "stalactite4_Head" = 109428720,2
+    "stalactite4_Body" = 109428720,3
+    "stalactite4_Pos" = 109428720,4
+    "stalactite4_Look" = 109428720,5
+    "Camera" = -3,0
+  }
+  "stalactite5"
+  {
+    "stalactite5_Voice" = 49232740,0
+    "stalactite5_Lips" = 49232740,1
+    "stalactite5_Head" = 49232740,2
+    "stalactite5_Body" = 49232740,3
+    "stalactite5_Pos" = 49232740,4
+    "stalactite5_Look" = 49232740,5
+    "Camera" = -3,0
+  }
+  "stalactite6"
+  {
+    "stalactite6_Voice" = 160364068,0
+    "stalactite6_Lips" = 160364068,1
+    "stalactite6_Head" = 160364068,2
+    "stalactite6_Body" = 160364068,3
+    "stalactite6_Pos" = 160364068,4
+    "stalactite6_Look" = 160364068,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W5B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_submove" = 0,97
+  "CS_pillarcollapse" = 97,107
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5B_20_P01JIEN.wav" = 10,87
+  "CS5B_20_P02JIEN.wav" = 107,48
+  "CS5B_20_P03JIEN.wav" = 164,35
+}
+
+[ACTOR_DATA]
+{
+  Count = 12
+  "A_SUBsynker.BAD" = "submarine","CS5B_20_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 48944.060,-11762.697,-57229.192
+        rot = 0.000,1.400,0.000
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "goddard","CS5B_20_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 49035.932,-11773.536,-57250.156
+        rot = 0.030,-1.513,0.100
+      }
+    }
+  }
+  "A_JIMMY_SYNKER_PIRATE.BAD" = "jimmy","CS5B_20_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 48950.680,-11770.859,-57216.032
+        rot = 0.000,-0.420,0.000
+      }
+    }
+  }
+  "a_Ice_Stalactite1Synker.bad" = "stalactite1","CS5B_20_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 49985.036,-11023.104,-57677.060
+        rot = 0.000,0.000,0.000
+        pos = 49985.036,-11788.104,-57677.060
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "a_Ice_Stalactite1Synker.bad" = "stalactite2","CS5B_20_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 52952.084,-10701.332,-56743.060
+        rot = 0.000,0.000,0.000
+        pos = 52952.084,-11896.332,-56743.060
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "a_Ice_Stalactite1Synker.bad" = "stalactite3","CS5B_20_5.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 51972.232,-10870.894,-56767.508
+        rot = 0.000,0.000,0.000
+        pos = 51972.232,-10865.894,-56767.508
+        rot = 0.000,0.000,0.000
+        pos = 51972.232,-12260.894,-56767.508
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_Ice_Plantsynker.BAD" = "plant1","CS5B_20_6.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 51674.348,-12703.861,-57551.280
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_Ice_Plantsynker.BAD" = "plant2","CS5B_20_7.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 52049.296,-12745.271,-56043.540
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_Ice_Plantsynker.BAD" = "plant3","CS5B_20_8.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 51529.752,-12729.140,-59117.704
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "a_Ice_Stalactite1Synker.bad" = "stalactite4","CS5B_20_9.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 53614.032,-12188.652,-57629.264
+        rot = 0.000,0.000,0.000
+        pos = 53614.032,-12483.652,-57629.264
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "a_Ice_Stalactite1Synker.bad" = "stalactite5","CS5B_20_10.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 54495.292,-11393.348,-57427.708
+        rot = 0.000,0.000,0.000
+        pos = 54495.292,-11788.348,-57427.708
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "a_Ice_Stalactite1Synker.bad" = "stalactite6","CS5B_20_11.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 49456.688,-11472.113,-57455.552
+        rot = 0.000,0.000,0.000
+        pos = 49438.852,-11574.113,-57427.444
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "submarine"
+  {
+    "submarine_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "submarine_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "submarine_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "submarine_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 204
+        }
+      }
+    }
+    "submarine_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 204
+        }
+      }
+    }
+    "submarine_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 0,1,1,1,1,1,1,1,1,1,1,1,0,
+    }
+  }
+  "goddard"
+  {
+    "goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 97
+        }
+      }
+    }
+    "goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 204
+        }
+      }
+    }
+    "goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "jimmy"
+  {
+    "jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Those Fybacabel plants sure do grow back quick, Goddard." = "CS5B_20_P01JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 87
+        }
+        "The ice is about to fall again!" = "CS5B_20_P02JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 107
+          length = 48
+        }
+        "Let's get ready!" = "CS5B_20_P03JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 164
+          length = 35
+        }
+      }
+    }
+    "jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 10
+          length = 87
+        }
+      }
+    }
+    "jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadSurprised" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 30
+        }
+        "HeadBlinkSurprised" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 30
+          length = 30
+        }
+        "HeadSurprised" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 60
+          length = 37
+        }
+      }
+    }
+    "jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "specialidle02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 97
+        }
+      }
+    }
+    "jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 204
+        }
+      }
+    }
+    "jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Those Fybacabel plants sure do grow back quick, Goddard.
+      jimmy
+      {
+        d = 45,195,202,255,195,75,127,45,0,7,195,180,180,217,135,157,90,45,52,195,210,255,
+        d = 210,232,240,157,135,15,30,45,172,217,210,202,142,37,75,195,210,187,127,120,142,
+        d = 195,240,232,97,90,247,240,172,90,105,210,255,255,135,105,240,255,217,135,7,0,
+        d = 7,52,37,120,180,172,112,0,7,0,30,127,157,172,195,105,127,142,135,127,45,7,0,
+      }
+      //The ice is about to fall again!
+      jimmy
+      {
+        d = 97,232,180,210,195,187,127,75,120,105,120,112,127,90,52,217,210,210,60,15,112,
+        d = 135,60,15,22,247,255,255,255,142,165,172,135,105,127,187,202,127,127,120,172,
+        d = 52,7,0,0,0,0,0,
+      }
+      //Let's get ready!
+      jimmy
+      {
+        d = 18,0,9,90,252,255,81,36,189,63,18,180,243,180,144,252,255,255,255,255,255,225,
+        d = 99,180,216,255,207,36,9,0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "stalactite1"
+  {
+    "stalactite1_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite1_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite1_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite1_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "FallEntree" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 107
+        }
+      }
+    }
+    "stalactite1_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 107
+        }
+      }
+    }
+    "stalactite1_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "stalactite2"
+  {
+    "stalactite2_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite2_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite2_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite2_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "FallEntree" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 107
+        }
+      }
+    }
+    "stalactite2_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 107
+        }
+      }
+    }
+    "stalactite2_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "stalactite3"
+  {
+    "stalactite3_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite3_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite3_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite3_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "FallEntree" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 107
+        }
+      }
+    }
+    "stalactite3_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 107
+        }
+      }
+    }
+    "stalactite3_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "plant1"
+  {
+    "plant1_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant1_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant1_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant1_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant1_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 107
+        }
+      }
+    }
+    "plant1_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,
+    }
+  }
+  "plant2"
+  {
+    "plant2_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant2_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant2_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant2_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant2_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 107
+        }
+      }
+    }
+    "plant2_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,
+    }
+  }
+  "plant3"
+  {
+    "plant3_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant3_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant3_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant3_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plant3_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 107
+        }
+      }
+    }
+    "plant3_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,
+    }
+  }
+  "stalactite4"
+  {
+    "stalactite4_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite4_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite4_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite4_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "FallEntree" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 107
+        }
+      }
+    }
+    "stalactite4_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 107
+        }
+      }
+    }
+    "stalactite4_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "stalactite5"
+  {
+    "stalactite5_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite5_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite5_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite5_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "FallEntree" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 107
+        }
+      }
+    }
+    "stalactite5_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 107
+        }
+      }
+    }
+    "stalactite5_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "stalactite6"
+  {
+    "stalactite6_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite6_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite6_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "stalactite6_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "FallEntree" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 107
+        }
+      }
+    }
+    "stalactite6_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 107
+        }
+      }
+    }
+    "stalactite6_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 48881.67,-11714.04,-57289.70, 48972.92,-11699.04,-57221.60
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 49089.26,-11679.95,-57220.02, 49211.14,-11679.95,-57236.90
+    node = 49089.26,-11679.95,-57220.02, 49211.14,-11699.95,-57236.90
+  }
+}
+
+[EVENT_DATA]
+{
+  "underwater" = "playsound SubMoveLP"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "underwater",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 204
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_submove",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 97
+  }
+  bar
+  {
+    BarName = "CS_pillarcollapse",""
+    Breaker = 0
+    Lock = 0
+    start = 97
+    length = 107
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 97
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 97
+    length = 107
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

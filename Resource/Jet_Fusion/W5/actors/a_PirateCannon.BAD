@@ -1,0 +1,66 @@
+mesh a_PirateCannon
+skeleton a_PirateCannon
+
+
+anim bindPose
+0,1
+cycle stop
+
+//Movement
+
+anim TurnRight01
+10-25,1
+cycle stop
+
+anim TurningRight01
+25-35,1
+cycle loop
+
+anim TurnLeft01
+45-60,1
+cycle stop
+
+anim TurningLeft01
+60-70,1
+cycle loop
+
+anim idle01
+100-220,1
+cycle loop
+
+anim idle02
+220-545,1
+cycle stop
+
+anim idle03
+560-670,1
+cycle stop
+
+anim alert01
+80-95,1
+cycle stop
+
+//Ranged attacks
+
+anim RangedEntry01
+680-695,1
+cycle stop
+
+anim RangedLoop01
+860-890,1
+event fire 875
+cycle loop
+
+anim RangedExit01
+710-725,1
+cycle stop
+
+anim Dismount01
+725-770,1
+cycle stop
+
+anim Mount01
+780-825,1
+cycle stop
+
+//end

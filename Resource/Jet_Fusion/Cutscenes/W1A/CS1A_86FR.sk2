@@ -1,0 +1,316 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:32:43 PM"
+  EdPos = 3239.76,74.62,1249.38
+  EdPitch = 0.050
+  EdYaw = -3.160
+}
+
+[EXTRAS]
+{
+  Windowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+    "Camera" = -3,0
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 62853396,0
+    "Goddard_Lips" = 62853396,1
+    "Goddard_Head" = 62853396,2
+    "Goddard_Body" = 62853396,3
+    "Goddard_Pos" = 62853396,4
+    "Goddard_Look" = 62853396,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W1A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1A_86_P01GOFR.WAV" = 10,114
+  "CS1A_86_P02GOFR.WAV" = 134,98
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_GODDARD_synker.BAD" = "Goddard","CS1A_86_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 3252.150,10.666,666.037
+        rot = 0.000,-2.030,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "The NEXT TOOL BUTTON ‰ will scroll through your tools." = "CS1A_86_P01GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 114
+        }
+        "To change to your radar, do this now." = "CS1A_86_P02GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 134
+          length = 98
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "lipsneutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 241
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 241
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyAngry" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 150
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 150
+          length = 91
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 241
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //The NEXT TOOL BUTTON ‰ will scroll through your tools.
+      Goddard
+      {
+        d = 0,30,72,126,174,132,162,222,228,222,192,180,198,72,6,0,90,204,204,96,0,54,114,
+        d = 96,234,255,255,255,255,255,228,168,102,72,90,156,114,78,30,0,66,192,222,210,156,
+        d = 84,6,0,0,0,0,0,0,0,0,0,0,0,6,72,150,240,192,198,156,132,84,138,192,186,42,6,54,
+        d = 255,255,240,216,252,216,222,210,198,234,120,72,42,66,216,255,255,228,186,204,
+        d = 255,255,246,192,198,78,12,66,126,144,255,255,255,255,174,120,108,78,60,60,54,
+        d = 
+      }
+      //To change to your radar, do this now.
+      Goddard
+      {
+        d = 108,120,255,255,255,156,36,60,180,216,180,246,186,180,198,216,222,240,126,126,
+        d = 126,6,78,90,204,240,255,222,198,186,168,174,144,150,168,240,240,252,255,204,168,
+        d = 162,174,120,138,126,126,126,84,78,102,114,84,12,0,0,0,0,0,0,0,0,0,0,0,18,24,18,
+        d = 180,252,216,255,246,174,168,186,255,255,255,210,96,120,114,24,132,186,168,132,
+        d = 138,132,108,90,78,66,60,66,42,24,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  Camera_1
+  {
+    Enabled = 1
+    FromFOV = 40.000
+    ToFOV = 40.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 3074.06,84.67,684.06, 3196.63,60.67,684.23
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "Camera_1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 241
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

@@ -1,0 +1,632 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "3:20:49 PM"
+  EdPos = 145.52,229.71,1132.29
+  EdPitch = -0.300
+  EdYaw = -6.190
+}
+
+[EXTRAS]
+{
+  Windowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jet"
+  {
+    "Jet_Voice" = 97796080,0
+    "Jet_Lips" = 97796080,1
+    "Jet_Head" = 97796080,2
+    "Jet_Body" = 97796080,3
+    "Jet_Pos" = 97796080,4
+    "Jet_Look" = 97796080,5
+    "Camera" = -3,0
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 56377284,0
+    "Jimmy_Lips" = 56377284,1
+    "Jimmy_Head" = 56377284,2
+    "Jimmy_Body" = 56377284,3
+    "Jimmy_Pos" = 56377284,4
+    "Jimmy_Look" = 56377284,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W2B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS2B_09_P01JFFR.WAV" = 10,29
+  "CS2B_09_P02JFFR.WAV" = 49,29
+  "CS2B_09_P03JFFR.WAV" = 88,37
+  "CS2B_09_P04JFFR.WAV" = 135,30
+  "CS2B_09_P05JFFR.WAV" = 175,120
+  "CS2B_09_P06JFFR.WAV" = 305,66
+  "CS2B_09_P07JIFR.WAV" = 381,73
+  "CS2B_09_P08JFFR.WAV" = 466,11
+  "CS2B_09_P09JFFR.WAV" = 487,18
+  "CS2B_09_P10JFFR.WAV" = 515,65
+  "CS2B_09_P11JFFR.WAV" = 590,37
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_JetFusion_Synker.BAD" = "Jet","CS2B_09_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 342.108,49.606,1602.629
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_JIMMY_SYNKER_JAPAN.BAD" = "Jimmy","CS2B_09_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 242.326,49.606,901.050
+        rot = 0.000,-2.700,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jet"
+  {
+    "Jet_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Jet calling Jimmy." = "CS2B_09_P01JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 29
+        }
+        "Jet calling Jimmy!" = "CS2B_09_P02JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 49
+          length = 29
+        }
+        "There isn't much time." = "CS2B_09_P03JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 88
+          length = 37
+        }
+        "I've just remembered..." = "CS2B_09_P04JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 135
+          length = 30
+        }
+        "There should be a light beam in the Hall of Mirrors that opens the door to the gardens!" = "CS2B_09_P05JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 175
+          length = 120
+        }
+        "You see you have to move the mirrors so that..." = "CS2B_09_P06JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 305
+          length = 66
+        }
+        "Oh." = "CS2B_09_P08JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 466
+          length = 11
+        }
+        "OK," = "CS2B_09_P09JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 487
+          length = 18
+        }
+        "I'll let you know if I think of anything else." = "CS2B_09_P10JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 515
+          length = 65
+        }
+        "Fusion out!" = "CS2B_09_P11JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 590
+          length = 37
+        }
+      }
+    }
+    "Jet_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 381
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 466
+          length = 171
+        }
+      }
+    }
+    "Jet_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 381
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 466
+          length = 171
+        }
+      }
+    }
+    "Jet_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 381
+        }
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 466
+          length = 171
+        }
+      }
+    }
+    "Jet_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 381
+        }
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 466
+          length = 171
+        }
+      }
+    }
+    "Jet_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Jet calling Jimmy.
+      Jet
+      {
+        d = 9,117,135,255,255,162,18,0,90,255,255,255,216,216,225,255,171,108,234,234,255,
+        d = 234,252,144,117,90,45,9,0,
+      }
+      //Jet calling Jimmy!
+      Jet
+      {
+        d = 7,82,157,255,217,97,7,7,105,187,255,255,150,165,157,180,120,90,180,187,210,165,
+        d = 195,172,120,75,22,0,0,
+      }
+      //There isn't much time.
+      Jet
+      {
+        d = 0,99,180,216,255,255,225,171,207,198,225,234,243,255,255,255,243,135,36,243,252,
+        d = 45,153,216,255,255,255,255,255,243,180,126,81,45,9,0,0,
+      }
+      //I've just remembered...
+      Jet
+      {
+        d = 72,171,225,216,108,36,36,255,225,255,207,225,225,255,180,225,255,255,255,252,
+        d = 216,252,255,162,171,117,45,9,0,0,
+      }
+      //There should be a light beam in the Hall of Mirrors that opens the door to the gardens!
+      Jet
+      {
+        d = 30,225,217,172,157,217,225,255,187,232,135,127,97,217,255,202,240,172,187,165,
+        d = 172,202,247,255,187,195,97,15,0,0,172,255,195,225,210,210,187,135,187,165,157,
+        d = 97,105,135,255,217,202,180,165,240,165,127,112,210,255,255,210,202,157,172,195,
+        d = 195,202,150,120,112,45,30,105,127,127,172,240,240,157,45,90,150,255,210,97,90,
+        d = 157,97,37,45,180,255,247,232,255,255,180,150,105,135,142,60,7,15,105,255,255,
+        d = 255,255,255,255,202,90,112,112,52,15,15,75,60,105,67,7,0,
+      }
+      //You see you have to move the mirrors so that...
+      Jet
+      {
+        d = 54,234,252,255,255,255,216,255,225,180,54,18,9,9,9,0,9,0,99,234,255,255,243,255,
+        d = 255,90,18,180,255,255,255,255,255,255,255,255,162,144,144,234,255,255,255,255,
+        d = 255,225,198,234,252,234,255,243,180,135,216,255,255,225,243,216,153,225,207,90,
+        d = 27,0,
+      }
+      //Oh.
+      Jet
+      {
+        d = 52,255,255,255,210,157,75,22,0,0,0,
+      }
+      //OK,
+      Jet
+      {
+        d = 18,90,99,135,72,18,108,189,243,225,255,255,255,255,255,225,54,0,
+      }
+      //I'll let you know if I think of anything else.
+      Jet
+      {
+        d = 37,82,105,135,180,232,210,255,255,217,240,247,180,172,255,255,105,105,255,217,
+        d = 255,255,255,255,255,202,75,105,255,225,165,22,45,187,195,180,37,75,165,112,142,
+        d = 187,240,232,172,82,37,142,195,150,165,135,112,97,82,22,15,45,127,142,120,120,
+        d = 45,7,0,
+      }
+      //Fusion out!
+      Jet
+      {
+        d = 0,7,90,195,255,255,255,255,255,180,225,195,202,165,180,210,172,150,112,45,45,
+        d = 105,202,240,255,240,105,7,0,0,37,135,157,112,30,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,0,
+    }
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Uh Jet... I've just finished that..." = "CS2B_09_P07JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 381
+          length = 73
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 105
+          length = 34
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 381
+          length = 85
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 105
+          length = 34
+        }
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 381
+          length = 30
+        }
+        "HeadSad" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 411
+          length = 55
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyHello" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 105
+          length = 34
+        }
+        "BodyScratchHead" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 381
+          length = 85
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 105
+          length = 34
+        }
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 381
+          length = 85
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Uh Jet... I've just finished that...
+      Jimmy
+      {
+        d = 142,217,225,217,232,255,240,172,142,67,112,210,255,255,255,255,225,7,0,0,0,0,
+        d = 0,0,0,0,0,0,0,0,0,0,60,127,120,105,180,217,247,187,225,165,240,240,217,135,45,
+        d = 15,105,217,255,255,232,165,225,67,0,82,195,105,67,15,0,7,0,0,0,0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 323.20,158.61,1548.59, 356.98,162.61,1670.18
+    node = 325.78,159.00,1562.21, 357.00,163.00,1670.00
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 179.96,132.61,965.40, 246.93,130.61,919.86
+    node = 193.10,133.00,955.58, 247.00,131.00,920.00
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 381
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 381
+    length = 85
+  }
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 466
+    length = 171
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

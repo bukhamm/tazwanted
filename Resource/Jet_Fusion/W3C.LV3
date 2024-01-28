@@ -1,0 +1,2432 @@
+[HEADER]
+{
+// MapEd 1.3.6 Data File version 3
+// Copyright Krome Studios
+// Saved by [DYO]   Date: 9/07/2003   Time: 11:42:20 AM
+}
+
+[BOUNDING_REGION]
+{
+  WorldMinMax = -4255.557,-2876.447,-5986.620,11398.393,5907.744,17564.622
+}
+
+[SWAP_GROUP_INFO]
+{
+  NumSwapGroups = 0
+  NumDescriptors = 0
+  NumInstances = 0
+}
+
+[SOUNDPROP]
+{
+  pos = -5, -757, 3748
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *Rumble,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,,,,,
+  minDelay = 2.000
+  maxDelay = 8.000
+  bActive = 1,true
+  ID = 1,blank
+  dummySphere
+  {
+    pos = -6,-737,3752
+    radius = 1500.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = -2726, -6, -3070
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *Rumble,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,,,,,
+  minDelay = 5.000
+  maxDelay = 20.000
+  bActive = 1,true
+  ID = 2,blank
+  dummySphere
+  {
+    pos = -2726,14,-3066
+    radius = 1500.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = 2958, 95, -1785
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *Rumble,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,,,,,
+  minDelay = 5.000
+  maxDelay = 20.000
+  bActive = 1,true
+  ID = 3,blank
+  dummySphere
+  {
+    pos = 2958,115,-1782
+    radius = 1500.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = 17, 23, -1696
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *Rumble,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,,,,,
+  minDelay = 5.000
+  maxDelay = 20.000
+  bActive = 1,true
+  ID = 4,blank
+  dummySphere
+  {
+    pos = 16,43,-1693
+    radius = 1500.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = 1234, -626, -3813
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *LavaLP,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,,,,,
+  minDelay = 0.000
+  maxDelay = 0.000
+  bActive = 1,true
+  ID = 5,blank
+  dummySphere
+  {
+    pos = 1245,-606,-3805
+    radius = 1750.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = 2150, -509, -1220
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *LavaLP,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,,,,,
+  minDelay = 0.000
+  maxDelay = 0.000
+  bActive = 1,true
+  ID = 6,blank
+  dummySphere
+  {
+    pos = 2162,-489,-1213
+    radius = 1750.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = -67, -735, 420
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *LavaLP,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,,,,,
+  minDelay = 0.000
+  maxDelay = 0.000
+  bActive = 1,true
+  ID = 7,blank
+  dummySphere
+  {
+    pos = -55,-715,428
+    radius = 1750.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = -1590, -628, -3643
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *LavaLP,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,,,,,
+  minDelay = 0.000
+  maxDelay = 0.000
+  bActive = 1,true
+  ID = 8,blank
+  dummySphere
+  {
+    pos = -1578,-608,-3636
+    radius = 1750.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = -2422, -552, -991
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *LavaLP,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,,,,,
+  minDelay = 0.000
+  maxDelay = 0.000
+  bActive = 1,true
+  ID = 9,blank
+  dummySphere
+  {
+    pos = -2410,-532,-983
+    radius = 1750.00
+  }
+// User: ???
+}
+
+[TRIGGERBOX]
+{
+  pos = -197, -172, 468
+  zone = 1
+  ID = 10,FlurpyTrigger
+  triggerbox
+  {
+    pos = 15,-96,778
+    yaw = 0.00
+    width = 501.00
+    height = 230.00
+    depth = 297.75
+    pitch = 0.00
+  }
+  bActive = 1,true
+  OnEnter
+  {
+    TargetID = 152,Flurpy
+    Message = Activate
+  }
+  OnExit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  TriggerTargetID = 0,none
+  PlayOnceID = -1
+  PlayOnce = 0,false
+// User: ???
+}
+
+[OBJECTIVEINVENTION]
+{
+  pos = -949, -155, 290
+  zone = 1
+  ID = 11,blank
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  triggersphere
+  {
+    pos = -749,-55,490
+    radius = 400.00
+  }
+// User: ???
+}
+
+[FALLDIETRIGGERBOX]
+{
+  pos = 146, -1919, -501
+  zone = 1
+  ID = 12,DEATH
+  triggerbox
+  {
+    pos = 29,-1547,-1829
+    yaw = 0.00
+    width = 10000.00
+    height = 400.00
+    depth = 10000.00
+    pitch = 0.00
+  }
+  bActive = 1,true
+// User: ???
+}
+
+[JIMMY]
+{
+  pos = 33, -175, 730
+  zone = 0
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 13,blank
+  CameraPos
+  {
+    pos = 12,109,1345
+    radius = 100.00
+  }
+// User: ???
+}
+
+[GODDARD]
+{
+  pos = -181, -176, 682
+  zone = 0
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 14,blank
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 209, -804, 3385
+  zone = 1
+  ID = 15,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -204, -804, 3497
+  zone = 1
+  ID = 16,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -97, -804, 3604
+  zone = 1
+  ID = 17,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 120, -804, 3392
+  zone = 1
+  ID = 18,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -689, -793, 5149
+  zone = 0
+  ID = 19,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 750, -793, 5354
+  zone = 0
+  ID = 20,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -782, -793, 4550
+  zone = 0
+  ID = 21,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 906, -793, 4659
+  zone = 0
+  ID = 22,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 2097, -50, 532
+  zone = 0
+  ID = 23,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 2516, -13, 93
+  zone = 0
+  ID = 24,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -1843, -28, -4022
+  zone = 0
+  ID = 25,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -2529, -43, -3272
+  zone = 0
+  ID = 26,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -2092, 50, 262
+  zone = 0
+  ID = 27,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -2741, 34, -647
+  zone = 0
+  ID = 28,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -785, -793, 5147
+  zone = 0
+  ID = 29,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 916, -793, 4450
+  zone = 0
+  ID = 30,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 854, -793, 5127
+  zone = 0
+  ID = 31,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -902, -793, 5157
+  zone = 0
+  ID = 32,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 916, -793, 4557
+  zone = 0
+  ID = 33,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 788, -793, 4659
+  zone = 0
+  ID = 34,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -790, -793, 5045
+  zone = 0
+  ID = 35,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -152, -793, 5296
+  zone = 0
+  ID = 36,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -655, -793, 4518
+  zone = 0
+  ID = 37,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -792, -793, 4421
+  zone = 0
+  ID = 38,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 1456, -22, -153
+  zone = 0
+  ID = 39,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 1008, -29, -607
+  zone = 0
+  ID = 40,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 628, -29, -979
+  zone = 0
+  ID = 41,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 1488, 35, -1779
+  zone = 0
+  ID = 42,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 936, -24, -1785
+  zone = 0
+  ID = 43,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 561, -34, -2472
+  zone = 0
+  ID = 44,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 873, -82, -2907
+  zone = 0
+  ID = 45,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 1188, -103, -3367
+  zone = 0
+  ID = 46,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -536, -29, -2476
+  zone = 0
+  ID = 47,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -846, -29, -2922
+  zone = 0
+  ID = 48,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -1204, -29, -3413
+  zone = 0
+  ID = 49,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -679, -27, -1104
+  zone = 0
+  ID = 50,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -1056, 30, -714
+  zone = 0
+  ID = 51,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -1427, 59, -340
+  zone = 0
+  ID = 52,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = -2972, -24, -1914
+  zone = 0
+  ID = 53,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 2976, 61, -1145
+  zone = 0
+  ID = 54,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 3003, 72, -1814
+  zone = 0
+  ID = 55,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY]
+{
+  pos = 2005, 61, -1785
+  zone = 0
+  ID = 56,blank
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  bActive = 1,true
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY_BIG]
+{
+  pos = 802, -812, 4547
+  zone = 1
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+// User: ???
+}
+
+[BATTERY_BIG]
+{
+  pos = -580, 402, -464
+  zone = 1
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+// User: ???
+}
+
+[HEALTHBONUS]
+{
+  pos = -1400, -51, -3678
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 59,blank
+// User: ???
+}
+
+[HEALTHBONUS]
+{
+  pos = 2271, 29, -804
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 60,blank
+// User: ???
+}
+
+[HEALTHBONUS]
+{
+  pos = 2815, 12, -570
+  zone = 0
+  rot = 0.000, 0.270, -0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 61,blank
+// User: ???
+}
+
+[HEALTHBONUS]
+{
+  pos = -2241, -43, -1534
+  zone = 0
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 62,blank
+// User: ???
+}
+
+[HEALTHBONUS]
+{
+  pos = -16, -77, -3606
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 63,blank
+// User: ???
+}
+
+[HEALTHBONUS]
+{
+  pos = 1393, -127, -3396
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 64,blank
+// User: ???
+}
+
+[HEALTHBONUS]
+{
+  pos = 964, -828, 5143
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 65,blank
+// User: ???
+}
+
+[LIFEBONUS]
+{
+  pos = 865, -796, 5354
+  zone = 0
+  rot = 0.000, 0.640, -0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 66,blank
+// User: ???
+}
+
+[CANDY]
+{
+  pos = 979, -824, 5356
+  zone = 0
+  rot = 0.000, -0.800, -0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 67,blank
+// User: ???
+}
+
+[CANDY]
+{
+  pos = 1663, 29, -1021
+  zone = 0
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 68,blank
+// User: ???
+}
+
+[CANDY]
+{
+  pos = 1763, -37, 163
+  zone = 0
+  rot = 0.000, 0.870, -0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 69,blank
+// User: ???
+}
+
+[CANDY]
+{
+  pos = -2788, -53, -1842
+  zone = 0
+  rot = 0.000, 0.275, -0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 70,blank
+// User: ???
+}
+
+[CANDY]
+{
+  pos = 1199, -110, -3761
+  zone = 0
+  rot = 0.000, -1.098, -0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 71,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -264, -844, 5289
+  zone = 0
+  rot = 0.000, -1.553, -0.000
+  ID = 72,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 753, -844, 5241
+  zone = 0
+  rot = 0.000, -1.533, -0.000
+  ID = 73,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 858, -844, 5347
+  zone = 0
+  rot = 0.000, 1.630, 0.000
+  ID = 74,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 973, -844, 5352
+  zone = 0
+  rot = 0.000, 1.620, 0.000
+  ID = 75,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 979, -844, 5137
+  zone = 0
+  rot = 0.000, 1.620, 0.000
+  ID = 76,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -2790, -75, -1842
+  zone = 0
+  rot = 0.000, 0.000, 0.000
+  ID = 77,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -2788, -75, -1739
+  zone = 0
+  rot = 0.000, 1.530, -0.000
+  ID = 78,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -1406, -67, -3682
+  zone = 0
+  rot = 0.000, 0.960, -0.000
+  ID = 79,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -1760, 27, 63
+  zone = 0
+  rot = 0.000, -0.793, -0.000
+  ID = 80,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 976, -844, 5245
+  zone = 0
+  rot = 0.000, 1.640, 0.000
+  ID = 81,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -894, -844, 5267
+  zone = 0
+  rot = 0.000, 1.516, -0.000
+  ID = 82,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -899, -844, 5159
+  zone = 0
+  rot = 0.000, 3.120, 0.000
+  ID = 83,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -782, -844, 5263
+  zone = 0
+  rot = 0.000, -1.563, -0.000
+  ID = 84,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 860, -844, 5243
+  zone = 0
+  rot = 0.000, -3.123, 0.000
+  ID = 85,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 864, -844, 5130
+  zone = 0
+  rot = 0.000, 1.620, 0.000
+  ID = 86,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 796, -844, 4658
+  zone = 0
+  rot = 0.000, -1.503, -0.000
+  ID = 87,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 684, -844, 4654
+  zone = 0
+  rot = 0.000, -1.503, -0.000
+  ID = 88,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 800, -844, 4552
+  zone = 0
+  rot = 0.000, -1.563, -0.000
+  ID = 89,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 912, -844, 4559
+  zone = 0
+  rot = 0.000, -1.543, -0.000
+  ID = 90,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -905, -844, 5051
+  zone = 0
+  rot = 0.000, 1.510, -0.000
+  ID = 91,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -795, -844, 5041
+  zone = 0
+  rot = 0.000, 3.070, 0.000
+  ID = 92,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -687, -844, 5032
+  zone = 0
+  rot = 0.000, -1.653, 0.000
+  ID = 93,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -559, -844, 4522
+  zone = 0
+  rot = 0.000, -1.653, 0.000
+  ID = 94,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -674, -844, 5252
+  zone = 0
+  rot = 0.000, -1.653, 0.000
+  ID = 95,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -786, -844, 4426
+  zone = 0
+  rot = 0.000, 3.030, 0.000
+  ID = 96,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -758, -844, 4647
+  zone = 0
+  rot = 0.000, -1.693, 0.000
+  ID = 97,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -157, -844, 5293
+  zone = 0
+  rot = 0.000, -3.113, 0.000
+  ID = 98,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -48, -844, 5296
+  zone = 0
+  rot = 0.000, -1.553, -0.000
+  ID = 99,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -571, -844, 4412
+  zone = 0
+  rot = 0.000, -1.633, 0.000
+  ID = 100,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -539, -844, 4629
+  zone = 0
+  rot = 0.000, 3.110, 0.000
+  ID = 101,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -662, -844, 4526
+  zone = 0
+  rot = 0.000, -0.133, -0.000
+  ID = 102,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -678, -844, 4416
+  zone = 0
+  rot = 0.000, 1.527, -0.000
+  ID = 103,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -648, -844, 4637
+  zone = 0
+  rot = 0.000, -0.133, -0.000
+  ID = 104,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 758, -844, 5130
+  zone = 0
+  rot = 0.000, -0.013, -0.000
+  ID = 105,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 803, -844, 4445
+  zone = 0
+  rot = 0.000, 0.007, -0.000
+  ID = 106,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -1259, -67, -3605
+  zone = 0
+  rot = 0.000, 0.090, -0.000
+  ID = 107,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -1371, -67, -3530
+  zone = 0
+  rot = 0.000, 2.400, 0.000
+  ID = 108,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -2670, -75, -1837
+  zone = 0
+  rot = 0.000, 1.560, -0.000
+  ID = 109,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -2669, -75, -1731
+  zone = 0
+  rot = 0.000, 3.090, 0.000
+  ID = 110,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -1705, 26, -78
+  zone = 0
+  rot = 0.000, 0.870, -0.000
+  ID = 111,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -1622, 26, 7
+  zone = 0
+  rot = 0.000, 0.720, -0.000
+  ID = 112,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -1579, 25, -122
+  zone = 0
+  rot = 0.000, 0.960, -0.000
+  ID = 113,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 690, -844, 4546
+  zone = 0
+  rot = 0.000, -3.073, 0.000
+  ID = 114,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 697, -844, 4440
+  zone = 0
+  rot = 0.000, -1.553, -0.000
+  ID = 115,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 213, -844, 3487
+  zone = 0
+  rot = 0.000, 0.027, -0.000
+  ID = 116,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -204, -844, 3388
+  zone = 0
+  rot = 0.000, 1.567, -0.000
+  ID = 117,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -203, -844, 3607
+  zone = 0
+  rot = 0.000, -3.133, 0.000
+  ID = 118,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 221, -844, 3590
+  zone = 0
+  rot = 0.000, -1.593, 0.000
+  ID = 119,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 114, -844, 3593
+  zone = 0
+  rot = 0.000, 3.100, 0.000
+  ID = 120,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 111, -844, 3486
+  zone = 0
+  rot = 0.000, -1.613, 0.000
+  ID = 121,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 106, -844, 3384
+  zone = 0
+  rot = 0.000, -1.553, -0.000
+  ID = 122,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -99, -844, 3493
+  zone = 0
+  rot = 0.000, -1.593, 0.000
+  ID = 123,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 7, -844, 3490
+  zone = 0
+  rot = 0.000, 3.100, 0.000
+  ID = 124,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -102, -844, 3388
+  zone = 0
+  rot = 0.000, -3.133, 0.000
+  ID = 125,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 8, -844, 3599
+  zone = 0
+  rot = 0.000, -1.593, 0.000
+  ID = 126,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -97, -844, 3603
+  zone = 0
+  rot = 0.000, -1.593, 0.000
+  ID = 127,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 212, -844, 3383
+  zone = 0
+  rot = 0.000, -1.573, 0.000
+  ID = 128,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -206, -844, 3494
+  zone = 0
+  rot = 0.000, -1.623, 0.000
+  ID = 129,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 2, -843, 3384
+  zone = 0
+  rot = 0.000, -0.011, -0.000
+  ID = 130,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 748, -844, 5344
+  zone = 0
+  rot = 0.000, -0.013, -0.000
+  ID = 131,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 909, -844, 4664
+  zone = 0
+  rot = 0.000, 0.067, -0.000
+  ID = 132,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 913, -844, 4449
+  zone = 0
+  rot = 0.000, 0.027, -0.000
+  ID = 133,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -683, -844, 5145
+  zone = 0
+  rot = 0.000, 3.070, 0.000
+  ID = 134,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -791, -844, 5152
+  zone = 0
+  rot = 0.000, -0.053, -0.000
+  ID = 135,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = -771, -844, 4539
+  zone = 0
+  rot = 0.000, -1.653, 0.000
+  ID = 136,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 1767, -68, 167
+  zone = 0
+  rot = 0.000, -0.553, -0.000
+  ID = 137,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 1623, -68, 174
+  zone = 0
+  rot = 0.000, -1.053, -0.000
+  ID = 138,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 1699, -68, 73
+  zone = 0
+  rot = 0.000, 0.847, -0.000
+  ID = 139,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 1791, -68, 8
+  zone = 0
+  rot = 0.000, -0.603, -0.000
+  ID = 140,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 2509, 28, -1806
+  zone = 0
+  rot = 0.000, -1.053, -0.000
+  ID = 141,blank
+// User: ???
+}
+
+[BOX_GUSTBUSTER]
+{
+  pos = 2686, 8, -1809
+  zone = 0
+  rot = 0.000, 0.147, -0.000
+  ID = 142,blank
+// User: ???
+}
+
+[BOX_LIGHT]
+{
+  pos = 2838, -10, -764
+  zone = 0
+  rot = 0.000, -0.864, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 143,blank
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+// User: ???
+}
+
+[BOX_LIGHT]
+{
+  pos = 2742, -37, -408
+  zone = 0
+  rot = 0.000, -0.684, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 144,blank
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+// User: ???
+}
+
+[BOX_LIGHT]
+{
+  pos = 2820, -25, -569
+  zone = 0
+  rot = 0.000, 0.306, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 145,blank
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+// User: ???
+}
+
+[BOX_MAGNO]
+{
+  pos = 1394, -140, -3396
+  zone = 0
+  rot = 0.000, 1.406, -0.000
+  ID = 146,blank
+// User: ???
+}
+
+[BOX_MAGNO]
+{
+  pos = -2318, -67, -1964
+  zone = 0
+  rot = 0.000, 2.640, 0.000
+  ID = 147,blank
+// User: ???
+}
+
+[BOX_MAGNO]
+{
+  pos = -2253, -67, -1759
+  zone = 0
+  rot = 0.000, 1.590, 0.000
+  ID = 148,blank
+// User: ???
+}
+
+[BOX_MAGNO]
+{
+  pos = 1196, -142, -3762
+  zone = 0
+  rot = 0.000, 0.386, -0.000
+  ID = 149,blank
+// User: ???
+}
+
+[BOX_MAGNO]
+{
+  pos = 1512, -143, -3627
+  zone = 0
+  rot = 0.000, 2.430, 0.000
+  ID = 150,blank
+// User: ???
+}
+
+[BOX_MAGNO]
+{
+  pos = -2235, -67, -1548
+  zone = 0
+  rot = 0.000, 0.000, 0.000
+  ID = 151,blank
+// User: ???
+}
+
+[FLURP_MACHINE]
+{
+  pos = 267, -174, 517
+  zone = 1
+  rot = 0.000, -1.571, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 152,Flurpy
+  CameraPos
+  {
+    pos = 67,24,1110
+    radius = 100.00
+  }
+// User: ???
+}
+
+[PLATFORM]
+{
+  pos = 1952, -83, -909
+  zone = 1
+  rot = 0.000, 0.000, -0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 153,PlatDown
+  waypoints
+  {
+  }
+  CreateCircle = 1,true
+  CircleRadius = 2.800
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 1,true
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[PLATFORM]
+{
+  pos = -782, -83, -475
+  zone = 1
+  rot = 0.000, 1.836, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 154,PlatUp
+  waypoints
+  {
+    waypoint = -782, -83, -475
+    waypoint = -783, 268, -517
+    waypoint = -385, 268, -418
+    waypoint = -386, -112, -416
+    waypoint = -385, 268, -418
+    waypoint = -783, 268, -517
+    waypoint = -782, -82, -475
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 1,true
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[PLATFORM]
+{
+  pos = 694, -116, -3586
+  zone = 1
+  rot = 0.000, -0.000, -0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 155,Health3
+  waypoints
+  {
+    waypoint = 694, -116, -3586
+    waypoint = 326, -130, -3604
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 1,true
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[PLATFORM]
+{
+  pos = -19, -138, -3606
+  zone = 1
+  rot = 0.000, 0.002, -0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 156,Health1
+  waypoints
+  {
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 1,true
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[PLATFORM]
+{
+  pos = -638, -130, -3599
+  zone = 1
+  rot = 0.000, -0.000, -0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 157,Health2
+  waypoints
+  {
+    waypoint = -638, -130, -3599
+    waypoint = -321, -116, -3594
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 1,true
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[WATERVOLUME]
+{
+  pos = 560, -180, -2130
+  rot = 0.000, -0.520, -0.000
+  scale = 377.326, 200.000, 522.250
+// User: ???
+}
+
+[WATERVOLUME]
+{
+  pos = -657, -179, -1723
+  rot = 0.000, 0.060, -0.000
+  scale = 342.223, 200.000, 522.250
+// User: ???
+}
+
+[WATERVOLUME]
+{
+  pos = 214, -179, -1072
+  rot = 0.000, -2.080, 0.000
+  scale = 377.326, 200.000, 522.250
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = -1461, -1895, -1352
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 4.000, 4.000, 4.000
+  onTime = 3.000
+  offTime = 15.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = 280, -1930, -370
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 5.000, 5.000, 5.000
+  onTime = 4.000
+  offTime = 19.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = 1870, -1885, -940
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 3.000, 3.000, 3.000
+  onTime = 2.000
+  offTime = 16.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = 2482, -1930, -3080
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 5.000, 5.000, 5.000
+  onTime = 5.000
+  offTime = 23.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = 26, -1850, -4357
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 2.000, 2.000, 2.000
+  onTime = 2.000
+  offTime = 14.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = -521, -1850, -3074
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 2.000, 2.000, 2.000
+  onTime = 2.000
+  offTime = 12.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = 697, -1850, -3147
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 2.000, 2.000, 2.000
+  onTime = 2.000
+  offTime = 17.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = 976, -1885, -775
+  zone = 1
+  rot = 0.000, 1.400, -0.000
+  scale = 3.000, 2.000, 3.000
+  onTime = 3.000
+  offTime = 9.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = -1366, -1885, -2455
+  zone = 1
+  rot = 0.000, 1.400, -0.000
+  scale = 3.000, 3.000, 3.000
+  onTime = 2.000
+  offTime = 7.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = -681, -1895, 1317
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 4.000, 4.000, 4.000
+  onTime = 3.000
+  offTime = 15.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = -3279, -1895, -2733
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 4.000, 4.000, 4.000
+  onTime = 3.000
+  offTime = 15.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = -906, -1895, -4362
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 4.000, 4.000, 4.000
+  onTime = 3.000
+  offTime = 15.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = 1172, -1895, -4458
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 4.000, 4.000, 4.000
+  onTime = 3.000
+  offTime = 15.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = 1409, -1895, -2369
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 4.000, 4.000, 4.000
+  onTime = 3.000
+  offTime = 15.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = 3529, -1895, -1484
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 4.000, 4.000, 4.000
+  onTime = 3.000
+  offTime = 15.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = 2107, -1895, 659
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 4.000, 4.000, 4.000
+  onTime = 3.000
+  offTime = 15.000
+  bActive = 1,true
+// User: ???
+}
+
+[LAVASPURTTRAP]
+{
+  pos = 772, -1895, 1410
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 4.000, 4.000, 4.000
+  onTime = 3.000
+  offTime = 15.000
+  bActive = 1,true
+// User: ???
+}
+
+[MSFOWLFIRE]
+{
+  pos = 12, -60, -1725
+  zone = 0
+  rot = 0.000, 3.142, 0.000
+  scale = 1.000, 1.000, 1.000
+// User: ???
+}
+
+[STALACTITESPAWNER]
+{
+  pos = 78, 1416, -1760
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 179,blank
+  type = 0,Stalactite
+  fMinRadius = 0.000
+  fMaxRadius = 750.000
+  fMinSpawnDelay = 0.000
+  fMaxSpawnDelay = 1.500
+  fSpawnDuration = 8.000
+// User: ???
+}
+
+[WATERGRATE]
+{
+  pos = 553, -67, -2110
+  zone = 8388609
+  rot = 0.000, 2.515, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 180,Grate1
+// User: ???
+}
+
+[WATERGRATE]
+{
+  pos = -661, -67, -1724
+  zone = 8388609
+  rot = 0.000, -0.005, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 181,Grate3
+// User: ???
+}
+
+[WATERGRATE]
+{
+  pos = 209, -67, -1083
+  zone = 8388609
+  rot = 0.000, -1.886, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 182,Grate2
+// User: ???
+}
+
+[LEVER_GUST3C]
+{
+  pos = -2024, -67, -1789
+  zone = 1
+  rot = 0.000, -1.641, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 181,Grate3
+    Message = Open
+  }
+  ID = 183,blank
+  bActive = 1,true
+  MultipleHit = 1,true
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_GUST3C]
+{
+  pos = 1400, -144, -3789
+  zone = 1
+  rot = 0.000, -2.563, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 180,Grate1
+    Message = Open
+  }
+  ID = 184,blank
+  bActive = 1,true
+  MultipleHit = 1,true
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_GUST3C]
+{
+  pos = 1410, -68, 160
+  zone = 1
+  rot = 0.000, 1.129, -0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 182,Grate2
+    Message = Open
+  }
+  ID = 185,blank
+  bActive = 1,true
+  MultipleHit = 1,true
+  bRestart = 1,true
+// User: ???
+}
+
+[LIGHT_VOLCANO]
+{
+  pos = -655, -496, 5777
+  zone = 1
+  rot = 0.000, 0.175, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 186,blank
+// User: ???
+}
+
+[LIGHT_VOLCANO]
+{
+  pos = -1560, -493, 4827
+  zone = 1
+  rot = 0.000, 1.540, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 187,blank
+// User: ???
+}
+
+[LIGHT_VOLCANO]
+{
+  pos = 739, -482, 5789
+  zone = 1
+  rot = 0.000, -0.220, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 188,blank
+// User: ???
+}
+
+[LIGHT_VOLCANO]
+{
+  pos = 1534, -471, 4842
+  zone = 1
+  rot = 0.000, -1.620, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 189,blank
+// User: ???
+}
+
+[LIGHT_VOLCANO]
+{
+  pos = 313, -543, 3256
+  zone = 1
+  rot = 0.000, -1.545, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 190,blank
+// User: ???
+}
+
+[LIGHT_VOLCANO]
+{
+  pos = -282, -525, 3145
+  zone = 1
+  rot = 0.000, 1.573, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 191,blank
+// User: ???
+}

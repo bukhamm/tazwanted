@@ -1,0 +1,6 @@
+mesh a_LeverGustsynker
+skeleton a_LeverGustsynker
+
+anim bindpose
+0-1,1
+cycle stop

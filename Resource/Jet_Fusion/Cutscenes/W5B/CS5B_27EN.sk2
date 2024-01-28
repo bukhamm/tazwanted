@@ -1,0 +1,451 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "JAIMEHOE"
+  Date = "15/06/2003"
+  Time = "8:23:33 PM"
+  EdPos = 1547.03,8372.33,2785.66
+  EdPitch = -1.250
+  EdYaw = 15.060
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "jet"
+  {
+    "jet_Voice" = 74490556,0
+    "jet_Lips" = 74490556,1
+    "jet_Head" = 74490556,2
+    "jet_Body" = 74490556,3
+    "jet_Pos" = 74490556,4
+    "jet_Look" = 74490556,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W5B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5B_27_P01JFEN.wav" = 10,28
+  "CS5B_27_P02JFEN.wav" = 48,50
+  "CS5B_27_P03JFEN.wav" = 108,58
+  "CS5B_27_P04JFEN.wav" = 176,58
+  "CS5B_27_P05JFEN.wav" = 244,39
+  "CS5B_27_P06JFEN.wav" = 293,23
+  "CS5B_27_P07JFEN.wav" = 326,27
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_JetFusion_Synker.BAD" = "jet","CS5B_27_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 1482.000,7795.000,2664.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "jet"
+  {
+    "jet_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Jimmy, where are you?" = "CS5B_27_P01JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 28
+        }
+        "You had better be close to getting the idol..." = "CS5B_27_P02JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 48
+          length = 50
+        }
+        "Calamitous is preparing his submarine..." = "CS5B_27_P03JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 108
+          length = 58
+        }
+        "He says he knows exactly where the idol is," = "CS5B_27_P04JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 176
+          length = 58
+        }
+        "and he's on his way there now!" = "CS5B_27_P05JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 244
+          length = 39
+        }
+        "Hurry, Jimmy!" = "CS5B_27_P06JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 293
+          length = 23
+        }
+        "Jet...out." = "CS5B_27_P07JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 326
+          length = 27
+        }
+      }
+    }
+    "jet_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 10
+          length = 28
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 48
+          length = 50
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 108
+          length = 58
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 176
+          length = 58
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 244
+          length = 39
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 293
+          length = 23
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 326
+          length = 27
+        }
+      }
+    }
+    "jet_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "headIdle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 200
+        }
+        "HeadIdle02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 200
+          length = 35
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 235
+          length = 118
+        }
+      }
+    }
+    "jet_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 60
+        }
+        "BodyNeutral02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 60
+          length = 135
+        }
+        "BodyNeutral02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 195
+          length = 135
+        }
+        "BodyScratch01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 330
+          length = 23
+        }
+      }
+    }
+    "jet_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 353
+        }
+      }
+    }
+    "jet_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Jimmy, where are you?
+      jet
+      {
+        d = 63,199,252,255,255,252,255,252,241,199,210,255,241,255,255,255,255,255,255,255,
+        d = 255,231,147,126,94,63,10,0,
+      }
+      //You had better be close to getting the idol...
+      jet
+      {
+        d = 97,255,180,112,37,135,255,255,187,157,187,165,135,157,120,30,22,75,90,255,255,
+        d = 255,150,142,97,120,105,45,90,217,187,105,22,97,217,232,255,240,217,202,217,202,
+        d = 232,202,195,187,97,82,45,7,
+      }
+      //Calamitous is preparing his submarine...
+      jet
+      {
+        d = 63,189,207,225,255,255,255,255,234,216,225,216,153,180,135,180,180,36,36,207,
+        d = 171,36,36,117,255,255,216,243,225,225,255,216,198,216,225,198,180,180,207,162,
+        d = 144,243,255,255,225,216,255,255,255,255,255,255,198,117,90,63,27,9,
+      }
+      //He says he knows exactly where the idol is,
+      jet
+      {
+        d = 112,195,157,180,247,247,165,195,210,255,255,217,172,247,172,120,135,157,67,60,
+        d = 187,165,157,187,247,255,255,172,37,15,97,150,165,135,187,240,225,187,67,142,157,
+        d = 187,180,210,195,217,187,225,157,157,127,105,75,75,75,75,82,120,
+      }
+      //and he's on his way there now!
+      jet
+      {
+        d = 178,178,241,255,252,178,231,255,255,210,231,199,168,189,189,210,231,255,199,157,
+        d = 210,255,255,255,255,255,255,255,255,255,255,255,255,241,231,178,147,115,42,
+      }
+      //Hurry, Jimmy!
+      jet
+      {
+        d = 36,198,255,255,255,255,255,243,225,117,63,126,171,189,189,108,126,117,54,36,0,
+        d = 9,0,
+      }
+      //Jet...out.
+      jet
+      {
+        d = 0,82,135,202,255,240,180,15,0,0,0,0,0,0,45,255,255,255,255,105,7,0,0,0,15,15,
+        d = 0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 1501.00,7980.00,2557.00, 1496.00,7980.00,2625.00
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 353
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

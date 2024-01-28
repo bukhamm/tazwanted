@@ -1,0 +1,115 @@
+mesh a_LavaDragon
+skeleton a_LavaDragon
+
+anim bindpose
+0,1
+cycle loop
+
+anim walk01
+SoundEvent LavaDragonStep 51
+SoundEvent LavaDragonStep 70
+50-89,1
+cycle loop
+
+anim idle01 
+101-160,1
+cycle loop
+
+anim idle02 
+SoundEvent LavaDragonRoar 167
+160-213,1
+cycle stop
+
+anim idle03 
+220-339,1
+cycle stop
+
+anim alert
+400-415,1
+cycle stop
+
+anim QuickTurn01
+430-445,1
+cycle stop
+
+anim run
+SoundEvent LavaDragonRun 515
+SoundEvent LavaDragonRun 501
+500-530,1
+cycle loop
+
+anim AttackIdle01
+550-580,1
+cycle loop
+
+anim AttackIdle02
+600-676,1
+cycle stop
+
+anim Melee01
+SoundEvent EnemySwingsPunch 718
+700-740,1
+cycle stop
+
+anim Melee02
+SoundEvent LavaDragonSwivel 758
+750-783,1
+cycle stop
+
+anim ChargeEntry01
+800-819,1
+cycle stop
+
+anim ChargeLoop01
+SoundEvent LavaDragonRun 820
+SoundEvent LavaDragonRun 835
+820-850,1
+cycle loop
+
+anim ChargeExit01
+SoundEvent LavaDragonStep 854
+851-871,1
+cycle stop
+
+//anim ChargeCrash01
+//,1
+//cycle stop
+
+anim flinch01
+SoundEvent LavaDragonRoar 1335
+1300-1395,1
+cycle stop
+
+anim flinch02
+1410-1530,1
+cycle stop
+
+anim DeathEntry01
+SoundEvent LavaDragonCroak 1072
+SoundEvent EnemyFallLarge 1115
+SoundEvent LavaDragonThud 1071
+1070-1137,1
+cycle stop
+
+anim DeathLoop01
+1145-1175,1
+cycle loop
+
+anim rangedGet01
+1190-1205,1
+cycle stop
+
+anim rangedShow01
+1205-1235,1
+cycle loop
+
+anim rangedThrow01
+SoundEvent LavaDragonFire 1244
+1235-1295,1
+cycle stop
+
+anim Gum01
+1600-1700,1
+cycle loop
+
+//end

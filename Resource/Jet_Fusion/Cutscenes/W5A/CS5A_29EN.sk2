@@ -1,0 +1,730 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "JAIMEHOE"
+  Date = "15/06/2003"
+  Time = "7:43:17 PM"
+  EdPos = -12331.86,260.05,-4362.05
+  EdPitch = -0.130
+  EdYaw = -0.160
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Pirate"
+  {
+    "Pirate_Voice" = 75953572,0
+    "Pirate_Lips" = 75953572,1
+    "Pirate_Head" = 75953572,2
+    "Pirate_Body" = 75953572,3
+    "Pirate_Pos" = 75953572,4
+    "Pirate_Look" = 75953572,5
+    "Camera" = -3,0
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 76003960,0
+    "Jimmy_Lips" = 76003960,1
+    "Jimmy_Head" = 76003960,2
+    "Jimmy_Body" = 76003960,3
+    "Jimmy_Pos" = 76003960,4
+    "Jimmy_Look" = 76003960,5
+    "Camera" = -3,0
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 190052808,0
+    "Goddard_Lips" = 190052808,1
+    "Goddard_Head" = 190052808,2
+    "Goddard_Body" = 190052808,3
+    "Goddard_Pos" = 190052808,4
+    "Goddard_Look" = 190052808,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W5A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5A_29_P01PIEN.wav" = 33,35
+  "CS5A_29_P02PIEN.wav" = 78,65
+  "CS5A_29_P03PIEN.wav" = 158,76
+  "CS5A_29_P04PIEN.wav" = 244,46
+  "CS5A_29_P05JIEN.wav" = 300,20
+  "CS5A_29_P06JIEN.wav" = 330,56
+}
+
+[ACTOR_DATA]
+{
+  Count = 3
+  "a_Pirate01_Synker.bad" = "Pirate","CS5A_29_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -12108.833,161.974,-3879.703
+        rot = 0.000,-1.210,0.000
+      }
+    }
+  }
+  "A_JIMMY_SYNKER_PIRATE.BAD" = "Jimmy","CS5A_29_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -12444.201,163.025,-3913.923
+        rot = 0.000,0.000,0.000
+        pos = -12347.799,167.025,-3901.701
+        rot = 0.000,0.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -12348.000,168.000,-3902.000
+        rot = 0.000,1.540,0.000
+      }
+      "path_3"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -12348.000,168.000,-3902.000
+        rot = 0.000,1.110,0.000
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "Goddard","CS5A_29_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -12271.008,164.173,-3811.306
+        rot = 0.000,0.000,0.000
+        pos = -12271.008,169.173,-3811.306
+        rot = 0.000,0.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -12493.413,162.121,-3870.571
+        rot = 0.000,0.000,0.000
+        pos = -12271.000,163.000,-3811.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Pirate"
+  {
+    "Pirate_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Ye wouldn't believe it..." = "CS5A_29_P01PIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 33
+          length = 35
+        }
+        "All me birds have escaped again..." = "CS5A_29_P02PIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 78
+          length = 65
+        }
+        "Could ye do an old salty dog a favor" = "CS5A_29_P03PIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 158
+          length = 76
+        }
+        "and get them back for me?" = "CS5A_29_P04PIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 244
+          length = 46
+        }
+      }
+    }
+    "Pirate_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsSad" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 399
+        }
+      }
+    }
+    "Pirate_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadSad" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 399
+        }
+      }
+    }
+    "Pirate_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodySad" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 77
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 77
+          length = 81
+        }
+        "BodyPoint" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 158
+          length = 76
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 234
+          length = 165
+        }
+      }
+    }
+    "Pirate_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 399
+        }
+      }
+    }
+    "Pirate_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Ye wouldn't believe it...
+      Pirate
+      {
+        d = 13,108,255,255,255,202,175,162,229,216,148,121,175,202,189,189,216,162,216,255,
+        d = 255,255,255,135,108,229,255,54,13,0,0,94,27,0,0,
+      }
+      //All me birds have escaped again...
+      Pirate
+      {
+        d = 115,220,255,255,255,255,255,168,105,136,147,231,168,63,31,31,126,231,231,231,
+        d = 199,178,178,178,136,73,42,94,73,94,178,220,84,115,147,84,94,94,10,0,105,220,252,
+        d = 105,21,0,0,21,147,241,126,73,231,252,231,189,147,105,115,94,84,73,42,10,0,
+      }
+      //Could ye do an old salty dog a favor
+      Pirate
+      {
+        d = 36,132,204,192,180,60,156,228,204,84,72,180,255,216,240,216,255,255,255,180,240,
+        d = 255,255,255,240,228,168,96,132,156,192,132,96,156,252,255,255,240,120,12,0,0,
+        d = 60,192,216,180,48,168,216,240,216,255,240,36,24,192,255,72,24,24,84,252,255,252,
+        d = 204,84,108,192,204,204,192,156,144,60,0,0,
+      }
+      //and get them back for me?
+      Pirate
+      {
+        d = 33,247,255,255,181,115,49,255,255,165,16,0,0,148,255,198,198,115,66,66,255,255,
+        d = 255,115,0,0,0,49,181,181,132,181,181,214,255,255,255,231,214,165,165,148,99,66,
+        d = 0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,0,
+    }
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "C'mon Goddard." = "CS5A_29_P05JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 300
+          length = 20
+        }
+        "We've got more birds to catch!" = "CS5A_29_P06JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 330
+          length = 56
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 114
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 300
+          length = 100
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 114
+        }
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 300
+          length = 30
+        }
+        "HeadBlink" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 330
+          length = 30
+        }
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 360
+          length = 40
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "walk" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 63
+        }
+        "BodyScratchHead" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 63
+          length = 51
+        }
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 300
+          length = 30
+        }
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 330
+          length = 70
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 63
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 63
+          length = 237
+        }
+        "path_3" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 300
+          length = 100
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //C'mon Goddard.
+      Jimmy
+      {
+        d = 126,234,117,225,255,255,180,180,171,135,234,144,216,189,171,255,117,18,9,0,
+      }
+      //We've got more birds to catch!
+      Jimmy
+      {
+        d = 135,255,255,112,60,90,60,247,157,157,135,7,82,255,255,255,247,255,165,150,127,
+        d = 225,240,247,255,225,157,112,180,7,97,210,97,7,112,217,217,97,82,37,7,0,22,157,
+        d = 127,67,60,7,0,0,0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 114
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 114
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "walk01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 114
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 114
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  Camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 1000000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = -12662.97,343.54,-4261.03, -12058.72,243.54,-3843.19
+    node = -12503.92,344.00,-4153.04, -11988.00,244.00,-3796.00
+  }
+  Camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 1000000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -12239.95,276.86,-3953.88, -12074.58,276.86,-3818.36
+    node = -12251.48,277.00,-3930.80, -12075.00,277.00,-3818.00
+  }
+  Camera4
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 1000000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -12243.56,254.18,-4009.48, -12331.60,254.18,-3878.94
+    node = -12253.00,254.00,-4017.00, -12332.00,254.00,-3879.00
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "Camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 78
+  }
+  bar
+  {
+    BarName = "Camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 78
+    length = 222
+  }
+  bar
+  {
+    BarName = "Camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 300
+    length = 99
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

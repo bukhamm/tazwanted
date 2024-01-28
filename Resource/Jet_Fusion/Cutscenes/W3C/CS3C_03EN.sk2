@@ -1,0 +1,1267 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "26/06/2003"
+  Time = "1:46:09 PM"
+  EdPos = -16250.64,278.81,7250.87
+  EdPitch = -0.370
+  EdYaw = 6.760
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 55451072,0
+    "Jimmy_Lips" = 55451072,1
+    "Jimmy_Head" = 55451072,2
+    "Jimmy_Body" = 55451072,3
+    "Jimmy_Pos" = 55451072,4
+    "Jimmy_Look" = 55451072,5
+    "Event_0" = -1,0
+    "Event_1" = -1,1
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 89453756,0
+    "Goddard_Lips" = 89453756,1
+    "Goddard_Head" = 89453756,2
+    "Goddard_Body" = 89453756,3
+    "Goddard_Pos" = 89453756,4
+    "Goddard_Look" = 89453756,5
+  }
+  "Calamitous"
+  {
+    "Calamitous_Voice" = 89764648,0
+    "Calamitous_Lips" = 89764648,1
+    "Calamitous_Head" = 89764648,2
+    "Calamitous_Body" = 89764648,3
+    "Calamitous_Pos" = 89764648,4
+    "Calamitous_Look" = 89764648,5
+    "SoundFX" = -2,0
+    "Event_2" = -1,2
+  }
+  "Portal"
+  {
+    "Portal_Voice" = 90239920,0
+    "Portal_Lips" = 90239920,1
+    "Portal_Head" = 90239920,2
+    "Portal_Body" = 90239920,3
+    "Portal_Pos" = 90239920,4
+    "Portal_Look" = 90239920,5
+  }
+  "Comm"
+  {
+    "Comm_Voice" = 90567976,0
+    "Comm_Lips" = 90567976,1
+    "Comm_Head" = 90567976,2
+    "Comm_Body" = 90567976,3
+    "Comm_Pos" = 90567976,4
+    "Comm_Look" = 90567976,5
+  }
+  "Commbig"
+  {
+    "Commbig_Voice" = 90781976,0
+    "Commbig_Lips" = 90781976,1
+    "Commbig_Head" = 90781976,2
+    "Commbig_Body" = 90781976,3
+    "Commbig_Pos" = 90781976,4
+    "Commbig_Look" = 90781976,5
+  }
+  "Teleporta"
+  {
+    "Teleporta_Voice" = 91023504,0
+    "Teleporta_Lips" = 91023504,1
+    "Teleporta_Head" = 91023504,2
+    "Teleporta_Body" = 91023504,3
+    "Teleporta_Pos" = 91023504,4
+    "Teleporta_Look" = 91023504,5
+  }
+  "Jet"
+  {
+    "Jet_Voice" = 63045148,0
+    "Jet_Lips" = 63045148,1
+    "Jet_Head" = 63045148,2
+    "Jet_Body" = 63045148,3
+    "Jet_Pos" = 63045148,4
+    "Jet_Look" = 63045148,5
+  }
+  "Idol"
+  {
+    "Idol_Voice" = 76431184,0
+    "Idol_Lips" = 76431184,1
+    "Idol_Head" = 76431184,2
+    "Idol_Body" = 76431184,3
+    "Idol_Pos" = 76431184,4
+    "Idol_Look" = 76431184,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 1,"cs3C_03_camera.mcd"
+  WorldFile = (null)
+  Level = W3C.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_calamshove" = 189,20
+  "CS_bodyfall" = 209,30
+  "CS_calambutton" = 390,30
+  "CS_calambutton" = 433,30
+  "CS_idoldropped" = 492,30
+  "CS_Vortexsuck" = 658,30
+}
+
+[DYNAMIC_SFX]
+{
+  "CS3C_03_P01PCEN.wav" = 199,69
+  "CS3C_03_P02PCEN.wav" = 279,65
+  "CS3C_03_P03PCEN.wav" = 356,36
+  "CS3C_03_P04PCEN.wav" = 413,30
+  "CS3C_03_P05PCEN.wav" = 486,36
+  "CS3C_03_P06PCEN.wav" = 599,63
+  "CS3C_03_P07JFEN.wav" = 710,27
+  "CS3C_03_P08JFEN.wav" = 741,37
+  "CS3C_03_P09JFEN.wav" = 789,80
+  "CS3C_03_P10JFEN.wav" = 887,87
+  "CS3C_03_P11JFEN.wav" = 981,68
+  "CS3C_03_P12JFEN.wav" = 1057,60
+  "CS3C_03_P13JIEN.wav" = 1133,32
+  "CS3C_03_P14JIEN.wav" = 1174,70
+}
+
+[ACTOR_DATA]
+{
+  Count = 9
+  "cs3C_03_01_Jimmy.bad" = "Jimmy","CS3C_03_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs3C_03_02_Goddard.bad" = "Goddard","CS3C_03_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs3C_03_03_ProfCalamitus.bad" = "Calamitous","CS3C_03_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS3c_03_04_Portal.bad" = "Portal","CS3C_03_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS3c_03_05_Comm.bad" = "Comm","CS3C_03_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS3c_03_06_Comm_big.bad" = "Commbig","CS3C_03_5.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS3c_03_07_Teleporta.bad" = "Teleporta","CS3C_03_6.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS3c_03_08_jet.bad" = "Jet","CS3C_03_7.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS3c_03_09_Idle.bad" = "Idol","CS3C_03_8.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "C'mon, Goddard." = "CS3C_03_P13JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 1133
+          length = 32
+        }
+        "Let's get that last idol!" = "CS3C_03_P14JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 1174
+          length = 70
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1239
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1244
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //C'mon, Goddard.
+      Jimmy
+      {
+        d = 126,198,162,255,255,162,126,171,255,198,108,99,126,117,144,117,108,99,255,255,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,
+      }
+      //Let's get that last idol!
+      Jimmy
+      {
+        d = 0,30,165,225,255,255,45,0,22,90,172,180,127,172,255,255,195,22,0,0,7,255,217,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,135,157,135,7,30,157,165,135,225,255,225,157,255,
+        d = 0,255,0,0,112,0,0,165,0,0,195,0,0,135,0,0,22,0,112,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,0,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1239
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1244
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Calamitous"
+  {
+    "Calamitous_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "This one is mine, Neutron!" = "CS3C_03_P01PCEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 199
+          length = 69
+        }
+        "My great machine will..." = "CS3C_03_P02PCEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 279
+          length = 65
+        }
+        "I will be able to..." = "CS3C_03_P03PCEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 356
+          length = 36
+        }
+        "But now I must..." = "CS3C_03_P04PCEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 413
+          length = 30
+        }
+        "Aaaargh!" = "CS3C_03_P05PCEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 486
+          length = 36
+        }
+        "Blast you, Neutron!" = "CS3C_03_P06PCEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 599
+          length = 63
+        }
+      }
+    }
+    "Calamitous_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Calamitous_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Calamitous_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 699
+        }
+      }
+    }
+    "Calamitous_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 699
+        }
+      }
+    }
+    "Calamitous_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //This one is mine, Neutron!
+      Calamitous
+      {
+        d = 199,255,136,255,252,255,199,105,63,210,241,220,84,157,157,178,126,189,136,136,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,168,189,199,199,178,241,168,231,220,168,189,157,
+        d = 94,0,0,84,0,63,0,0,63,0,73,0,0,84,0,105,0,0,126,0,0,136,
+      }
+      //My great machine will...
+      Calamitous
+      {
+        d = 82,247,255,255,255,255,255,214,66,99,66,33,132,255,255,255,247,33,0,0,214,165,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,148,231,198,255,255,255,214,247,255,255,255,
+        d = 255,0,0,231,0,0,214,0,0,115,0,0,115,0,0,165,
+      }
+      //I will be able to...
+      Calamitous
+      {
+        d = 255,255,255,255,181,198,231,247,198,148,181,181,247,255,255,255,255,49,148,231,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,181,
+      }
+      //But now I must...
+      Calamitous
+      {
+        d = 168,136,10,0,0,84,231,255,255,255,255,255,252,189,63,84,168,199,115,189,42,0,
+        d = 0,0,0,0,0,0,0,0,
+      }
+      //Aaaargh!
+      Calamitous
+      {
+        d = 0,10,31,94,147,178,199,255,255,255,255,255,255,255,252,252,255,252,252,241,220,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+      }
+      //Blast you, Neutron!
+      Calamitous
+      {
+        d = 18,54,45,72,90,108,108,99,126,144,135,153,216,234,255,255,255,255,171,54,207,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,153,162,36,0,63,108,144,117,63,45,27,36,45,45,45,
+        d = 0,81,0,135,0,0,198,0,0,171,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,
+    }
+  }
+  "Portal"
+  {
+    "Portal_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Portal_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Portal_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Portal_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 438
+          length = 256
+        }
+      }
+    }
+    "Portal_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 438
+          length = 256
+        }
+      }
+    }
+    "Portal_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,
+    }
+  }
+  "Comm"
+  {
+    "Comm_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Comm_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Comm_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Comm_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 742
+          length = 497
+        }
+      }
+    }
+    "Comm_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 742
+          length = 497
+        }
+      }
+    }
+    "Comm_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Commbig"
+  {
+    "Commbig_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Commbig_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Commbig_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Commbig_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 785
+          length = 333
+        }
+      }
+    }
+    "Commbig_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 785
+          length = 335
+        }
+      }
+    }
+    "Commbig_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Teleporta"
+  {
+    "Teleporta_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Teleporta_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Teleporta_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Teleporta_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 699
+        }
+      }
+    }
+    "Teleporta_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 699
+        }
+      }
+    }
+    "Teleporta_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,
+    }
+  }
+  "Jet"
+  {
+    "Jet_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Well done, Jimmy!" = "CS3C_03_P07JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 710
+          length = 27
+        }
+        "You've got the second idol!" = "CS3C_03_P08JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 741
+          length = 37
+        }
+        "Just one more to go and maybe we can fix this whole mess." = "CS3C_03_P09JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 789
+          length = 80
+        }
+        "You have to make your way to the resting place of the third idol." = "CS3C_03_P10JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 887
+          length = 87
+        }
+        "It's in a submersed laboratory off the coast." = "CS3C_03_P11JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 981
+          length = 68
+        }
+        "That's all. Gotta Jet!" = "CS3C_03_P12JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 1057
+          length = 60
+        }
+      }
+    }
+    "Jet_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jet_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jet_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 785
+          length = 333
+        }
+      }
+    }
+    "Jet_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 787
+          length = 333
+        }
+      }
+    }
+    "Jet_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Well done, Jimmy!
+      Jet
+      {
+        d = 18,117,252,255,255,255,255,171,162,234,255,252,216,144,135,81,81,189,153,207,
+        d = 0,0,0,0,0,0,0,
+      }
+      //You've got the second idol!
+      Jet
+      {
+        d = 42,144,186,84,30,6,42,162,246,255,144,6,6,108,132,216,216,192,168,192,150,30,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+      }
+      //Just one more to go and maybe we can fix this whole mess.
+      Jet
+      {
+        d = 60,180,255,157,247,15,37,52,90,120,255,255,255,255,255,255,255,210,225,255,157,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,210,67,30,142,240,255,255,255,232,225,187,225,247,
+        d = 0,255,0,0,255,0,0,210,0,0,240,0,0,255,0,0,240,0,0,232,0,0,232,187,67,135,217,
+        d = 120,0,22,15,
+      }
+      //You have to make your way to the resting place of the third idol.
+      Jet
+      {
+        d = 67,195,255,225,150,180,247,255,255,240,75,7,82,225,255,255,255,232,210,60,37,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,82,217,180,172,202,187,210,225,195,210,247,75,82,
+        d = 0,165,0,0,90,0,165,0,0,210,0,0,195,0,0,165,0,0,225,0,0,232,0,255,180,165,7,75,
+        d = 187,0,217,0,172,0,45,0,37,52,
+      }
+      //It's in a submersed laboratory off the coast.
+      Jet
+      {
+        d = 108,210,48,42,162,198,198,168,150,168,180,204,162,120,114,114,198,255,255,255,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,234,168,144,0,18,36,96,150,186,186,192,186,84,132,
+        d = 0,168,0,0,36,0,0,72,0,54,0,0,108,0,0,120,0,0,132,
+      }
+      //That's all. Gotta Jet!
+      Jet
+      {
+        d = 4,36,67,99,81,13,94,112,157,148,162,189,207,171,135,94,40,4,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,117,180,255,255,108,157,139,
+        d = 0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,
+    }
+  }
+  "Idol"
+  {
+    "Idol_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Idol_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Idol_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Idol_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1239
+        }
+      }
+    }
+    "Idol_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1239
+        }
+      }
+    }
+    "Idol_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+}
+
+[EVENT_DATA]
+{
+  "Shoot" = "Shoot"
+  "Showtool" = "ShowTool"
+  "Vortex" = "playsound VortexLP"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "Showtool",""
+    Breaker = 0
+    Lock = 0
+    start = 476
+    length = 22
+  }
+}
+
+[EVENT_1]
+{
+  bar
+  {
+    BarName = "Shoot",""
+    Breaker = 0
+    Lock = 0
+    start = 485
+    length = 4
+  }
+}
+
+[EVENT_2]
+{
+  bar
+  {
+    BarName = "Vortex",""
+    Breaker = 0
+    Lock = 0
+    start = 439
+    length = 256
+  }
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_calamshove",""
+    Breaker = 0
+    Lock = 0
+    start = 189
+    length = 20
+  }
+  bar
+  {
+    BarName = "CS_bodyfall",""
+    Breaker = 0
+    Lock = 0
+    start = 209
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_calambutton",""
+    Breaker = 0
+    Lock = 0
+    start = 390
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_calambutton",""
+    Breaker = 0
+    Lock = 0
+    start = 433
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_idoldropped",""
+    Breaker = 0
+    Lock = 0
+    start = 492
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_Vortexsuck",""
+    Breaker = 0
+    Lock = 0
+    start = 658
+    length = 30
+  }
+}
+
+[CAMERA]
+{
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

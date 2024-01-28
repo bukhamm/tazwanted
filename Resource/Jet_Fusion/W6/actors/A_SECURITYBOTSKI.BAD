@@ -1,0 +1,53 @@
+mesh a_SecurityBotSki
+skeleton a_SecurityBotSki
+
+Anim bindpose 
+0,1
+cycle stop
+
+anim idle01
+10-30,1
+cycle loop
+
+anim Run01
+50-65,1
+cycle loop
+
+anim TurnRight01
+SoundEvent SkiBotTurn 65
+65-75,1
+cycle stop
+
+anim TurningRight01
+75-90,1
+cycle loop
+
+anim TurnLeft01
+SoundEvent SkiBotTurn 100
+SoundEvent SkiBotTurn 100
+100-110,1
+cycle stop
+
+anim TurningLeft01
+110-125,1
+cycle loop
+
+anim BargeRight01
+SoundEvent BotBeepWhir 140
+SoundEvent SkiBotTurn 141
+140-160,1
+cycle stop
+
+anim BargeLeft01
+SoundEvent BotBeep 171
+SoundEvent SkiBotTurn 170
+170-190,1
+cycle stop
+
+anim death01
+SoundEvent BotDebris2 206
+SoundEvent SkiBot2 203
+200-240,1
+cycle stop
+
+end

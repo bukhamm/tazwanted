@@ -1,0 +1,987 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "14/07/2003"
+  Time = "2:51:27 PM"
+  EdPos = -47026.10,64268.52,-61646.19
+  EdPitch = -0.780
+  EdYaw = 10.420
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 94859236,0
+    "Jimmy_Lips" = 94859236,1
+    "Jimmy_Head" = 94859236,2
+    "Jimmy_Body" = 94859236,3
+    "Jimmy_Pos" = 94859236,4
+    "Jimmy_Look" = 94859236,5
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 92239880,0
+    "Goddard_Lips" = 92239880,1
+    "Goddard_Head" = 92239880,2
+    "Goddard_Body" = 92239880,3
+    "Goddard_Pos" = 92239880,4
+    "Goddard_Look" = 92239880,5
+  }
+  "Sub"
+  {
+    "Sub_Voice" = 165064660,0
+    "Sub_Lips" = 165064660,1
+    "Sub_Head" = 165064660,2
+    "Sub_Body" = 165064660,3
+    "Sub_Pos" = 165064660,4
+    "Sub_Look" = 165064660,5
+    "Event_1" = -1,1
+  }
+  "LabHatch"
+  {
+    "LabHatch_Voice" = 165707776,0
+    "LabHatch_Lips" = 165707776,1
+    "LabHatch_Head" = 165707776,2
+    "LabHatch_Body" = 165707776,3
+    "LabHatch_Pos" = 165707776,4
+    "LabHatch_Look" = 165707776,5
+    "SoundFX" = -2,0
+  }
+  "EntranceTunnel"
+  {
+    "EntranceTunnel_Voice" = 165789288,0
+    "EntranceTunnel_Lips" = 165789288,1
+    "EntranceTunnel_Head" = 165789288,2
+    "EntranceTunnel_Body" = 165789288,3
+    "EntranceTunnel_Pos" = 165789288,4
+    "EntranceTunnel_Look" = 165789288,5
+  }
+  "Hardlightbeam"
+  {
+    "Hardlightbeam_Voice" = 165866496,0
+    "Hardlightbeam_Lips" = 165866496,1
+    "Hardlightbeam_Head" = 165866496,2
+    "Hardlightbeam_Body" = 165866496,3
+    "Hardlightbeam_Pos" = 165866496,4
+    "Hardlightbeam_Look" = 165866496,5
+    "Event_0" = -1,0
+  }
+  "Waterburst"
+  {
+    "Waterburst_Voice" = 166067704,0
+    "Waterburst_Lips" = 166067704,1
+    "Waterburst_Head" = 166067704,2
+    "Waterburst_Body" = 166067704,3
+    "Waterburst_Pos" = 166067704,4
+    "Waterburst_Look" = 166067704,5
+    "Event_0" = -1,0
+  }
+  "waterdrop"
+  {
+    "waterdrop_Voice" = 166294216,0
+    "waterdrop_Lips" = 166294216,1
+    "waterdrop_Head" = 166294216,2
+    "waterdrop_Body" = 166294216,3
+    "waterdrop_Pos" = 166294216,4
+    "waterdrop_Look" = 166294216,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 1,"cs5b_04_camera.mcd"
+  WorldFile = (null)
+  Level = W5B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_metalthud" = 477,34
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5B_04_P01JIEN.WAV" = 190,20
+  "CS5B_04_P02JIEN.WAV" = 224,41
+  "CS5B_04_P03JIEN.WAV" = 338,17
+  "CS5B_04_P04JIEN.WAV" = 380,38
+}
+
+[ACTOR_DATA]
+{
+  Count = 8
+  "cs5b_04_01_Jimmy.bad" = "Jimmy","CS5B_04_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs5b_04_02_Goddard.bad" = "Goddard","CS5B_04_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -19.555,0.000,-54.107
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs5b_04_03_Sub.bad" = "Sub","CS5B_04_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,-83.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs5b_04_04_LaBHatch.bad" = "LabHatch","CS5B_04_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs5b_04_05_EntranceTunnel.bad" = "EntranceTunnel","CS5B_04_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs5b_04_06_HardLightBeam.bad" = "Hardlightbeam","CS5B_04_5.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs5b_04_07_WaterBurst.bad" = "Waterburst","CS5B_04_6.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs5b_04_08_waterDrop.bad" = "waterdrop","CS5B_04_7.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "See, boy!" = "CS5B_04_P01JIEN.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 190
+          length = 20
+        }
+        "I told you it would work." = "CS5B_04_P02JIEN.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 224
+          length = 41
+        }
+        "Uh oh!" = "CS5B_04_P03JIEN.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 338
+          length = 17
+        }
+        "Aaaaarrrgghhh!" = "CS5B_04_P04JIEN.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 380
+          length = 38
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 540
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 540
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //See, boy!
+      Jimmy
+      {
+        d = 27,126,189,243,255,207,162,255,255,255,255,255,255,255,255,171,171,144,18,9,
+      }
+      //I told you it would work.
+      Jimmy
+      {
+        d = 27,198,255,153,126,63,27,189,243,255,255,255,255,144,81,216,255,255,255,198,255,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,252,153,180,189,
+      }
+      //Uh oh!
+      Jimmy
+      {
+        d = 36,174,168,36,30,240,255,255,162,210,102,6,0,0,0,0,0,
+      }
+      //Aaaaarrrgghhh!
+      Jimmy
+      {
+        d = 189,216,229,255,255,255,255,255,255,202,175,229,255,243,255,255,255,255,255,255,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,255,255,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 540
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 540
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Sub"
+  {
+    "Sub_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Sub_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Sub_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Sub_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 280
+        }
+      }
+    }
+    "Sub_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 280
+        }
+      }
+    }
+    "Sub_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,1,1,1,1,1,
+    }
+  }
+  "LabHatch"
+  {
+    "LabHatch_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "LabHatch_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "LabHatch_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "LabHatch_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 164
+          length = 376
+        }
+      }
+    }
+    "LabHatch_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 164
+          length = 376
+        }
+      }
+    }
+    "LabHatch_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "EntranceTunnel"
+  {
+    "EntranceTunnel_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "EntranceTunnel_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "EntranceTunnel_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "EntranceTunnel_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 360
+          length = 180
+        }
+      }
+    }
+    "EntranceTunnel_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 360
+          length = 180
+        }
+      }
+    }
+    "EntranceTunnel_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Hardlightbeam"
+  {
+    "Hardlightbeam_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Hardlightbeam_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Hardlightbeam_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Hardlightbeam_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 154
+          length = 206
+        }
+      }
+    }
+    "Hardlightbeam_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 154
+          length = 206
+        }
+      }
+    }
+    "Hardlightbeam_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Waterburst"
+  {
+    "Waterburst_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Waterburst_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Waterburst_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Waterburst_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 360
+          length = 180
+        }
+      }
+    }
+    "Waterburst_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 360
+          length = 180
+        }
+      }
+    }
+    "Waterburst_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "waterdrop"
+  {
+    "waterdrop_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "waterdrop_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "waterdrop_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "waterdrop_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 313
+          length = 47
+        }
+      }
+    }
+    "waterdrop_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 313
+          length = 47
+        }
+      }
+    }
+    "waterdrop_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+}
+
+[EVENT_DATA]
+{
+  "Bubbles" = "SubBubbles 2"
+  "GushingWater" = "playsound 5bGushingWaterLP"
+  "Sub" = "playsound SubMoveLP"
+  "Tube" = "playsound 5bTubeLP"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "Sub",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 152
+  }
+  bar
+  {
+    BarName = "Tube",""
+    Breaker = 0
+    Lock = 0
+    start = 154
+    length = 206
+  }
+  bar
+  {
+    BarName = "GushingWater",""
+    Breaker = 0
+    Lock = 0
+    start = 381
+    length = 88
+  }
+}
+
+[EVENT_1]
+{
+  bar
+  {
+    BarName = "Bubbles",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 280
+  }
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_metalthud",""
+    Breaker = 0
+    Lock = 0
+    start = 477
+    length = 34
+  }
+}
+
+[CAMERA]
+{
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

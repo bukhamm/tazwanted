@@ -1,0 +1,8 @@
+mesh plate_01
+skeleton CS2A_02_6
+
+ANIM CUTSCENE
+170-900,1
+CYCLE STOP
+
+//END

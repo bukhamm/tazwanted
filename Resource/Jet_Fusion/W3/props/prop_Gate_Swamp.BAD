@@ -1,0 +1,6 @@
+mesh prop_gate_swamp
+skeleton prop_gate_swamp
+
+anim open
+10-39,1
+cycle stop

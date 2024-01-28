@@ -1,0 +1,29 @@
+mesh prop_LightGun
+skeleton prop_LightGun
+
+
+anim TakeOut01
+//grow in size
+10-11,1
+cycle stop
+
+anim PutAway01
+30-31,1
+cycle stop
+
+anim Fire01
+70-85,1
+cycle stop
+
+anim Fire02
+50-69,1
+cycle stop
+
+anim Idle01
+102-132,1
+cycle loop
+
+
+
+
+//end

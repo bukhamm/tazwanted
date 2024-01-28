@@ -1,0 +1,10 @@
+mesh a_Goddard
+skeleton cs5B_08_02_Goddard
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+261-525,1
+cycle stop

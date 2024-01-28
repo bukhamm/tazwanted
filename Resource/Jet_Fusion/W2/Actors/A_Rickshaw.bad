@@ -1,0 +1,44 @@
+mesh a_rickshaw
+skeleton a_rickshaw
+
+
+anim bindpose
+0,1
+cycle loop
+
+
+
+anim idle
+5-15,1
+cycle loop
+
+anim checkMirror
+20-45,1
+cycle stop
+
+anim turnRight
+50-65,1
+cycle stop
+
+anim turningRight
+70-80,1
+cycle loop
+
+
+anim turnLeft
+85-100,1
+cycle stop
+
+anim turningLeft
+105-115,1
+cycle loop
+
+anim lose
+120-310,1
+cycle loop
+
+
+anim Win
+320-410,1
+cycle loop
+//end

@@ -1,0 +1,462 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:38:01 PM"
+  EdPos = 3148.88,184.44,673.77
+  EdPitch = -0.160
+  EdYaw = -1.110
+}
+
+[EXTRAS]
+{
+  Windowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 110767804,0
+    "Goddard_Lips" = 110767804,1
+    "Goddard_Head" = 110767804,2
+    "Goddard_Body" = 110767804,3
+    "Goddard_Pos" = 110767804,4
+    "Goddard_Look" = 110767804,5
+    "Camera" = -3,0
+  }
+  "Candy"
+  {
+    "Candy_Voice" = 100384768,0
+    "Candy_Lips" = 100384768,1
+    "Candy_Head" = 100384768,2
+    "Candy_Body" = 100384768,3
+    "Candy_Pos" = 100384768,4
+    "Candy_Look" = 100384768,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W1A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1G_08_P01GOFR.WAV" = 15,43
+  "CS1G_08_P02GOFR.WAV" = 75,78
+  "CS1G_08_P03GOFR.WAV" = 165,79
+  "CS1G_08_P04GOFR.WAV" = 255,88
+  "CS1G_08_P05GOFR.WAV" = 352,89
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_GODDARD_Synker.BAD" = "Goddard","CS1G_08_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 3280.064,126.666,712.412
+        rot = 0.000,-1.890,0.000
+      }
+    }
+  }
+  "A_CandySynker.BAD" = "Candy","CS1G_08_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 3273.925,178.666,734.922
+        rot = 0.000,0.940,-0.850
+        pos = 3273.925,176.666,734.922
+        rot = 0.000,-0.080,-0.910
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Analyzing pickup." = "CS1G_08_P01GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 15
+          length = 43
+        }
+        "Pickup identified as 'White Candy'." = "CS1G_08_P02GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 75
+          length = 78
+        }
+        "There are 100 Candies to collect." = "CS1G_08_P03GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 165
+          length = 79
+        }
+        "Candy can be used to buy images." = "CS1G_08_P04GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 255
+          length = 88
+        }
+        "To buy images, go to the gallery." = "CS1G_08_P05GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 352
+          length = 89
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 441
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 441
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 140
+        }
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 140
+          length = 50
+        }
+        "BodyThinking" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 190
+          length = 200
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 390
+          length = 51
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 153
+          length = 288
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Analyzing pickup.
+      Goddard
+      {
+        d = 153,180,198,255,255,255,255,255,255,255,255,252,225,198,255,255,207,108,135,225,
+        d = 243,234,255,255,153,9,18,144,255,234,18,0,27,255,216,144,108,45,9,0,0,0,9,
+      }
+      //Pickup identified as 'White Candy'.
+      Goddard
+      {
+        d = 84,255,255,48,12,0,12,138,228,168,186,150,12,0,12,48,24,36,192,144,114,78,168,
+        d = 255,234,198,240,252,96,6,6,126,192,186,120,114,120,186,222,132,144,114,6,114,
+        d = 150,168,216,132,138,138,30,90,126,252,168,168,168,246,162,42,6,30,0,0,0,72,48,
+        d = 96,204,204,210,222,204,255,255,150,192,192,
+      }
+      //There are 100 Candies to collect.
+      Goddard
+      {
+        d = 67,172,255,255,255,255,255,172,135,172,202,210,202,180,165,187,240,255,225,180,
+        d = 210,255,255,225,225,255,255,255,255,240,225,247,247,255,172,255,255,255,142,165,
+        d = 105,30,60,60,195,187,202,202,232,255,187,165,217,210,187,232,172,150,210,22,0,
+        d = 105,247,157,15,22,90,240,232,240,255,255,180,142,90,15,7,0,0,
+      }
+      //Candy can be used to buy images.
+      Goddard
+      {
+        d = 52,120,247,202,195,240,255,255,255,187,255,255,255,202,202,217,187,82,7,45,172,
+        d = 180,157,180,255,202,105,247,240,240,217,225,217,255,255,255,255,232,165,150,232,
+        d = 60,0,60,180,255,67,45,150,172,187,157,112,120,210,255,202,135,142,180,255,255,
+        d = 255,255,225,187,75,45,127,180,112,142,97,97,67,37,30,75,120,67,0,0,0,0,0,0,0,
+        d = 0,
+      }
+      //To buy images, go to the gallery.
+      Goddard
+      {
+        d = 114,198,255,174,132,102,162,246,222,186,174,198,216,234,204,90,18,0,0,102,240,
+        d = 255,255,234,240,204,78,24,132,120,204,192,180,174,150,150,138,144,132,24,0,0,
+        d = 0,0,0,0,0,0,0,0,0,6,24,12,114,255,255,255,255,255,252,255,240,108,30,102,240,
+        d = 255,132,174,255,162,132,150,255,162,138,168,204,180,180,138,186,156,150,138,120,
+        d = 132,90,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Candy"
+  {
+    "Candy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Candy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Candy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Candy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Candy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 153
+        }
+      }
+    }
+    "Candy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 40.000
+    ToFOV = 40.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 3123.93,188.67,713.84, 3265.88,175.67,730.35
+    node = 3110.72,196.67,715.36, 3265.88,183.67,730.35
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 441
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

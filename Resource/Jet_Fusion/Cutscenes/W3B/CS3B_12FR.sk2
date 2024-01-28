@@ -1,0 +1,367 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:53:31 PM"
+  EdPos = -8100.72,1493.43,-12492.14
+  EdPitch = -0.560
+  EdYaw = 6.100
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Minecart"
+  {
+    "Minecart_Voice" = 78086124,0
+    "Minecart_Lips" = 78086124,1
+    "Minecart_Head" = 78086124,2
+    "Minecart_Body" = 78086124,3
+    "Minecart_Pos" = 78086124,4
+    "Minecart_Look" = 78086124,5
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 79560704,0
+    "Jimmy_Lips" = 79560704,1
+    "Jimmy_Head" = 79560704,2
+    "Jimmy_Body" = 79560704,3
+    "Jimmy_Pos" = 79560704,4
+    "Jimmy_Look" = 79560704,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W3B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS3B_12_P01JIFR.WAV" = 10,47
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "PROP_MINECART.BAD" = "Minecart","CS3B_12_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -8258.138,1193.445,-11923.135
+        rot = -0.390,-1.173,-0.010
+      }
+    }
+  }
+  "A_JIMMY_SYNKER_JUNGLE.BAD" = "Jimmy","CS3B_12_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -8257.581,1194.327,-11923.323
+        rot = -0.390,-1.093,-0.010
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Minecart"
+  {
+    "Minecart_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Minecart_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Minecart_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Minecart_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "roll" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 60
+        }
+      }
+    }
+    "Minecart_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 60
+        }
+      }
+    }
+    "Minecart_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 0,1,0,0,0,0,
+    }
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Here we go again!" = "CS3B_12_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 47
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "MineCartLoop" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 65
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 65
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Here we go again!
+      Jimmy
+      {
+        d = 0,12,216,240,228,216,216,228,240,204,216,240,216,255,255,192,144,120,180,216,
+        d = 255,255,255,255,204,228,84,96,255,255,255,252,240,216,255,255,255,252,252,216,
+        d = 204,84,48,72,36,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 3,0.000,0.000,0.496,0.042,1.000,1.000,
+    node = -8406.00,1412.00,-12060.00, -8274.88,1328.27,-11985.86
+    node = -7480.00,1026.00,-11596.00, -7201.00,713.00,-11072.00
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 65
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

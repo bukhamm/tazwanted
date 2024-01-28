@@ -1,0 +1,746 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "3:20:25 PM"
+  EdPos = -38.60,465.84,32.31
+  EdPitch = -1.350
+  EdYaw = 0.010
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 78043588,0
+    "Jimmy_Lips" = 78043588,1
+    "Jimmy_Head" = 78043588,2
+    "Jimmy_Body" = 78043588,3
+    "Jimmy_Pos" = 78043588,4
+    "Jimmy_Look" = 78043588,5
+    "SoundFX" = -2,0
+  }
+  "Comm"
+  {
+    "Comm_Voice" = 107806640,0
+    "Comm_Lips" = 107806640,1
+    "Comm_Head" = 107806640,2
+    "Comm_Body" = 107806640,3
+    "Comm_Pos" = 107806640,4
+    "Comm_Look" = 107806640,5
+  }
+  "Doors"
+  {
+    "Doors_Voice" = 78607468,0
+    "Doors_Lips" = 78607468,1
+    "Doors_Head" = 78607468,2
+    "Doors_Body" = 78607468,3
+    "Doors_Pos" = 78607468,4
+    "Doors_Look" = 78607468,5
+  }
+  "Jet"
+  {
+    "Jet_Voice" = 108115048,0
+    "Jet_Lips" = 108115048,1
+    "Jet_Head" = 108115048,2
+    "Jet_Body" = 108115048,3
+    "Jet_Pos" = 108115048,4
+    "Jet_Look" = 108115048,5
+  }
+  "CommBig"
+  {
+    "CommBig_Voice" = 108641752,0
+    "CommBig_Lips" = 108641752,1
+    "CommBig_Head" = 108641752,2
+    "CommBig_Body" = 108641752,3
+    "CommBig_Pos" = 108641752,4
+    "CommBig_Look" = 108641752,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 1,"cs2B_01_camera.mcd"
+  WorldFile = (null)
+  Level = W2B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_2bdoorcreak" = 15,34
+  "CS_2bdoorcreakclose" = 49,18
+  "CS_2bdoorslam" = 67,41
+}
+
+[DYNAMIC_SFX]
+{
+  "CS2B_01_P01JFFR.WAV" = 84,60
+  "CS2B_01_P02JFFR.WAV" = 155,78
+  "CS2B_01_P03JFFR.WAV" = 236,54
+  "CS2B_01_P04JFFR.WAV" = 305,74
+  "CS2B_01_P05JFFR.WAV" = 388,135
+  "CS2B_01_P06JFFR.WAV" = 524,94
+  "CS2B_01_P07JFFR.WAV" = 629,19
+}
+
+[ACTOR_DATA]
+{
+  Count = 5
+  "cs2B_01_01_Jimmy.bad" = "Jimmy","CS2B_01_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs2B_01_02_Comm.BAD" = "Comm","CS2B_01_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs2B_01_03_Doors.BAD" = "Doors","CS2B_01_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs2B_01_04_Jet.BAD" = "Jet","CS2B_01_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs2B_01_05_CommBig.BAD" = "CommBig","CS2B_01_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 11.111,139.000,200.086
+        rot = 0.000,-0.014,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 380
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 382
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Comm"
+  {
+    "Comm_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Comm_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Comm_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Comm_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 380
+        }
+      }
+    }
+    "Comm_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 380
+        }
+      }
+    }
+    "Comm_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Doors"
+  {
+    "Doors_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Doors_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Doors_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Doors_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 380
+        }
+      }
+    }
+    "Doors_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 380
+        }
+      }
+    }
+    "Doors_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Jet"
+  {
+    "Jet_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Jimmy! Great work!" = "CS2B_01_P01JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 84
+          length = 60
+        }
+        "This is the Ultra-Ninja-Lord's secret compound." = "CS2B_01_P02JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 155
+          length = 78
+        }
+        "He's one of Calamitous' henchmen." = "CS2B_01_P03JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 236
+          length = 54
+        }
+        "I've uploaded a map of the area into your Comm." = "CS2B_01_P04JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 305
+          length = 74
+        }
+        "Now be careful, the Ultra-Ninja-Lord has guards patrolling everywhere." = "CS2B_01_P05JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 388
+          length = 135
+        }
+        "You need to find a way into the temple to retrieve the idol." = "CS2B_01_P06JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 524
+          length = 94
+        }
+        "Good luck." = "CS2B_01_P07JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 629
+          length = 19
+        }
+      }
+    }
+    "Jet_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jet_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jet_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 381
+          length = 273
+        }
+      }
+    }
+    "Jet_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 381
+          length = 273
+        }
+      }
+    }
+    "Jet_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Jimmy! Great work!
+      Jet
+      {
+        d = 30,120,195,225,195,180,240,202,210,225,240,135,15,0,0,7,15,45,120,232,255,255,
+        d = 255,217,165,82,112,157,240,255,202,180,150,97,67,15,0,22,67,67,52,15,0,0,181,
+        d = 1,0,182,1,182,1,181,1,183,1,183,1,0,184,0,
+      }
+      //This is the Ultra-Ninja-Lord's secret compound.
+      Jet
+      {
+        d = 60,255,255,240,255,255,180,180,202,142,120,255,247,255,255,255,255,225,127,45,
+        d = 217,180,247,225,255,255,255,225,225,255,247,165,172,255,217,255,255,255,240,255,
+        d = 202,217,210,135,172,255,255,255,255,202,255,135,30,45,120,225,127,30,7,97,172,
+        d = 255,255,255,255,202,187,67,30,142,127,127,120,90,90,52,22,15,
+      }
+      //He's one of Calamitous' henchmen.
+      Jet
+      {
+        d = 37,172,255,255,240,232,135,225,225,255,225,247,217,150,37,7,97,187,232,195,232,
+        d = 255,247,240,240,247,255,195,187,210,165,187,172,142,135,142,180,157,120,202,232,
+        d = 225,255,172,180,232,112,90,195,112,67,22,7,0,
+      }
+      //I've uploaded a map of the area into your Comm.
+      Jet
+      {
+        d = 42,120,120,108,132,102,144,255,255,48,0,18,132,138,240,255,255,162,162,132,138,
+        d = 144,120,132,162,162,162,174,168,234,102,6,24,138,60,60,102,210,198,216,204,186,
+        d = 138,150,210,144,168,192,162,114,102,120,84,60,138,186,180,138,114,66,6,18,60,
+        d = 120,174,174,168,174,168,144,132,90,60,12,
+      }
+      //Now be careful, the Ultra-Ninja-Lord has guards patrolling everywhere.
+      Jet
+      {
+        d = 84,90,108,138,96,72,96,186,216,198,96,36,102,192,228,246,216,228,180,78,54,30,
+        d = 42,78,42,0,0,0,0,0,0,0,0,0,0,0,0,0,84,156,168,198,204,240,255,144,42,114,108,
+        d = 156,180,186,222,228,186,174,168,234,114,108,180,168,174,162,144,150,150,192,186,
+        d = 162,90,144,132,120,108,96,66,24,18,42,150,240,255,255,255,255,222,198,162,90,
+        d = 42,18,0,90,114,30,120,138,96,240,234,210,198,174,180,180,198,192,216,255,228,
+        d = 150,138,174,174,162,138,156,138,90,66,54,30,12,6,6,0,0,0,0,0,0,0,0,0,
+      }
+      //You need to find a way into the temple to retrieve the idol.
+      Jet
+      {
+        d = 78,162,204,174,186,228,255,255,255,255,255,156,168,138,84,60,66,126,186,180,192,
+        d = 180,192,222,186,255,255,186,210,246,168,168,192,180,156,174,42,114,180,96,174,
+        d = 90,24,0,78,126,216,198,168,156,18,6,84,108,114,66,120,156,132,150,156,102,12,
+        d = 66,144,156,108,180,174,174,162,138,102,90,186,186,216,144,186,192,162,132,156,
+        d = 162,90,60,18,0,90,60,18,0,85,2,
+      }
+      //Good luck.
+      Jet
+      {
+        d = 22,142,255,255,255,172,225,247,202,255,202,157,90,22,0,0,22,15,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,
+    }
+  }
+  "CommBig"
+  {
+    "CommBig_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "CommBig_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "CommBig_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "CommBig_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 381
+          length = 273
+        }
+      }
+    }
+    "CommBig_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 381
+          length = 273
+        }
+      }
+    }
+    "CommBig_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_2bdoorcreak",""
+    Breaker = 0
+    Lock = 0
+    start = 15
+    length = 34
+  }
+  bar
+  {
+    BarName = "CS_2bdoorcreakclose",""
+    Breaker = 0
+    Lock = 0
+    start = 49
+    length = 18
+  }
+  bar
+  {
+    BarName = "CS_2bdoorslam",""
+    Breaker = 0
+    Lock = 0
+    start = 67
+    length = 41
+  }
+}
+
+[CAMERA]
+{
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

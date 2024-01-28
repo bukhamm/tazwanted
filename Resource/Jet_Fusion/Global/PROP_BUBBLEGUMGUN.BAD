@@ -1,0 +1,30 @@
+mesh Prop_BubbleGumGun
+skeleton Prop_BubbleGumGun
+
+
+//anim Shoot01
+//10-25,1
+//cycle stop
+
+anim TakeOut01
+10-10,1
+cycle stop
+
+anim PutAway01
+10-10,1
+cycle stop
+
+anim Fire01
+10-25,1
+cycle stop
+
+anim Fire02
+30-39,1
+cycle stop
+
+anim Idle01
+10-10,1
+cycle loop
+
+
+//end

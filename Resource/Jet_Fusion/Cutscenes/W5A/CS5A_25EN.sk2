@@ -1,0 +1,661 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "JAIMEHOE"
+  Date = "15/06/2003"
+  Time = "7:39:44 PM"
+  EdPos = 7104.28,-319.80,1645.88
+  EdPitch = -0.510
+  EdYaw = 2.620
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "jet"
+  {
+    "jet_Voice" = 73152276,0
+    "jet_Lips" = 73152276,1
+    "jet_Head" = 73152276,2
+    "jet_Body" = 73152276,3
+    "jet_Pos" = 73152276,4
+    "jet_Look" = 73152276,5
+    "Camera" = -3,0
+  }
+  "jimmy"
+  {
+    "jimmy_Voice" = 123067616,0
+    "jimmy_Lips" = 123067616,1
+    "jimmy_Head" = 123067616,2
+    "jimmy_Body" = 123067616,3
+    "jimmy_Pos" = 123067616,4
+    "jimmy_Look" = 123067616,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W5A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5A_25_P01JFEN.wav" = 10,29
+  "CS5A_25_P02JFEN.wav" = 49,42
+  "CS5A_25_P03JIEN.wav" = 101,32
+  "CS5A_25_P04JIEN.wav" = 143,52
+  "CS5A_25_P05JIEN.wav" = 205,31
+  "CS5A_25_P06JIEN.wav" = 246,64
+  "CS5A_25_P07JIEN.wav" = 320,99
+  "CS5A_25_P08JFEN.wav" = 429,48
+  "CS5A_25_P09JFEN.wav" = 487,51
+  "CS5A_25_P10JFEN.wav" = 548,37
+  "CS5A_25_P11JFEN.wav" = 595,58
+  "CS5A_25_P12JFEN.wav" = 663,22
+  "CS5A_25_P13JFEN.wav" = 695,48
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_JetFusion_Synker.BAD" = "jet","CS5A_25_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 6983.824,-491.807,1419.103
+        rot = 0.000,2.030,0.000
+      }
+    }
+  }
+  "A_JIMMY_SYNKER_PIRATE.BAD" = "jimmy","CS5A_25_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 6962.320,-493.571,1571.323
+        rot = 0.000,0.920,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "jet"
+  {
+    "jet_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Hows' it going, Jimmy!" = "CS5A_25_P01JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 29
+        }
+        "Are you getting closer to the idol?" = "CS5A_25_P02JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 49
+          length = 42
+        }
+        "Hmm... you know what..." = "CS5A_25_P08JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 429
+          length = 48
+        }
+        "If I know my quark physics..." = "CS5A_25_P09JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 487
+          length = 51
+        }
+        "That might just work!" = "CS5A_25_P10JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 548
+          length = 37
+        }
+        "Even more reason to stop Calamitous." = "CS5A_25_P11JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 595
+          length = 58
+        }
+        "Hurry Jimmy..." = "CS5A_25_P12JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 663
+          length = 22
+        }
+        "You're the real world's only hope." = "CS5A_25_P13JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 695
+          length = 48
+        }
+      }
+    }
+    "jet_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 101
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 429
+          length = 324
+        }
+      }
+    }
+    "jet_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 101
+        }
+        "HeadHappy01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 429
+          length = 324
+        }
+      }
+    }
+    "jet_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 101
+        }
+        "BodyNeutral02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 429
+          length = 324
+        }
+      }
+    }
+    "jet_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 101
+        }
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 429
+          length = 324
+        }
+      }
+    }
+    "jet_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Hows' it going, Jimmy!
+      jet
+      {
+        d = 45,189,252,225,171,162,198,99,72,180,255,255,255,225,255,234,162,135,189,225,
+        d = 255,243,255,255,255,255,255,72,9,
+      }
+      //Are you getting closer to the idol?
+      jet
+      {
+        d = 72,171,252,255,216,99,135,255,180,108,189,180,54,72,117,252,207,234,216,255,234,
+        d = 153,216,135,225,189,207,255,255,255,216,255,255,255,255,216,180,255,207,171,117,
+        d = 9,
+      }
+      //Hmm... you know what...
+      jet
+      {
+        d = 6,132,204,222,210,174,150,162,186,210,174,132,54,24,24,18,12,6,0,0,0,0,0,0,0,
+        d = 6,114,132,138,144,198,186,210,228,228,252,255,255,255,255,255,255,162,18,18,18,
+        d = 6,0,
+      }
+      //If I know my quark physics...
+      jet
+      {
+        d = 97,90,30,75,187,255,232,225,247,255,255,202,210,255,255,255,255,247,225,172,150,
+        d = 45,67,112,60,225,255,255,240,240,45,67,60,60,37,67,255,255,255,225,157,165,157,
+        d = 165,67,15,112,157,150,135,45,
+      }
+      //That might just work!
+      jet
+      {
+        d = 15,67,120,142,210,210,210,240,255,255,240,247,150,30,105,180,210,195,157,157,
+        d = 22,90,142,172,210,240,255,225,255,187,97,30,7,67,97,60,7,
+      }
+      //Even more reason to stop Calamitous.
+      jet
+      {
+        d = 42,204,255,255,150,138,186,255,255,255,255,255,255,255,210,150,162,156,234,210,
+        d = 126,162,114,150,144,108,132,144,90,0,120,255,240,198,126,18,0,60,102,114,96,114,
+        d = 150,144,114,114,102,144,108,60,48,36,36,102,114,102,60,18,
+      }
+      //Hurry Jimmy...
+      jet
+      {
+        d = 31,115,231,255,255,255,220,255,255,178,115,168,189,210,255,231,255,252,255,255,
+        d = 126,10,
+      }
+      //You're the real world's only hope.
+      jet
+      {
+        d = 90,172,240,225,172,180,255,247,180,187,247,255,225,217,210,210,195,232,255,255,
+        d = 255,225,240,150,112,202,135,60,75,225,255,255,255,255,255,255,255,255,255,255,
+        d = 217,180,97,15,0,15,15,7,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,
+    }
+  }
+  "jimmy"
+  {
+    "jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Yes, Sir!" = "CS5A_25_P03JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 101
+          length = 32
+        }
+        "I'm getting closer to the submarine." = "CS5A_25_P04JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 143
+          length = 52
+        }
+        "I've been thinking..." = "CS5A_25_P05JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 205
+          length = 31
+        }
+        "If these idols are so powerful..." = "CS5A_25_P06JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 246
+          length = 64
+        }
+        "maybe I could use them to return Retroville back to normal!" = "CS5A_25_P07JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 320
+          length = 99
+        }
+      }
+    }
+    "jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 101
+          length = 328
+        }
+      }
+    }
+    "jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 101
+          length = 42
+        }
+        "HeadBlinkHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 143
+          length = 30
+        }
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 173
+          length = 154
+        }
+        "HeadBlinkHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 327
+          length = 30
+        }
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 357
+          length = 72
+        }
+      }
+    }
+    "jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 101
+          length = 30
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 131
+          length = 298
+        }
+      }
+    }
+    "jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 101
+          length = 328
+        }
+      }
+    }
+    "jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Yes, Sir!
+      jimmy
+      {
+        d = 0,7,30,30,30,112,165,187,195,217,165,255,142,180,142,180,172,180,120,157,232,
+        d = 247,255,255,255,150,37,22,22,15,0,0,
+      }
+      //I'm getting closer to the submarine.
+      jimmy
+      {
+        d = 0,63,162,198,255,234,255,255,135,207,255,153,135,216,255,207,108,126,225,255,
+        d = 255,255,198,108,171,234,207,189,189,153,144,171,180,198,198,255,234,108,189,255,
+        d = 207,162,144,117,99,117,135,153,180,36,0,0,
+      }
+      //I've been thinking...
+      jimmy
+      {
+        d = 127,120,142,202,202,195,187,202,112,112,75,165,195,255,255,180,60,60,150,225,
+        d = 255,232,150,45,67,75,60,60,75,30,0,
+      }
+      //If these idols are so powerful...
+      jimmy
+      {
+        d = 36,84,54,6,6,6,48,144,222,144,216,204,132,96,102,66,180,174,174,150,132,60,96,
+        d = 90,60,66,84,90,72,78,132,132,96,192,216,228,144,216,198,174,78,6,18,108,150,255,
+        d = 255,255,255,174,216,150,48,12,24,30,114,198,204,72,0,0,0,0,
+      }
+      //maybe I could use them to return Retroville back to normal!
+      jimmy
+      {
+        d = 180,255,255,255,195,195,180,180,217,157,180,217,187,157,180,180,135,60,45,150,
+        d = 172,172,135,180,225,195,195,210,157,112,67,255,255,172,187,202,60,82,172,75,0,
+        d = 105,142,202,210,195,210,210,210,225,247,247,255,255,112,0,7,75,135,180,180,142,
+        d = 60,45,120,172,180,202,172,150,142,112,165,120,60,0,0,120,225,247,195,187,255,
+        d = 255,255,210,165,225,120,75,52,15,0,0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 7066.26,-295.62,1459.94, 6998.54,-302.62,1442.30
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 7041.75,-403.08,1538.83, 6994.28,-407.08,1548.16
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 101
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 101
+    length = 328
+  }
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 429
+    length = 324
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

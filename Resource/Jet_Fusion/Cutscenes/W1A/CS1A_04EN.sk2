@@ -1,0 +1,2487 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "11:26:00 AM"
+  EdPos = -1678.08,132.49,-723.70
+  EdPitch = -0.030
+  EdYaw = 0.060
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+    "Event_7" = -1,7
+  }
+  "JN"
+  {
+    "JN_Voice" = 92422088,0
+    "JN_Lips" = 92422088,1
+    "JN_Head" = 92422088,2
+    "JN_Body" = 92422088,3
+    "JN_Pos" = 92422088,4
+    "JN_Look" = 92422088,5
+    "SoundFX" = -2,0
+    "Event_0" = -1,0
+    "Event_4" = -1,4
+    "Event_5" = -1,5
+    "Event_6" = -1,6
+  }
+  "NIN1"
+  {
+    "NIN1_Voice" = 117009552,0
+    "NIN1_Lips" = 117009552,1
+    "NIN1_Head" = 117009552,2
+    "NIN1_Body" = 117009552,3
+    "NIN1_Pos" = 117009552,4
+    "NIN1_Look" = 117009552,5
+  }
+  "NIN2"
+  {
+    "NIN2_Voice" = 117291244,0
+    "NIN2_Lips" = 117291244,1
+    "NIN2_Head" = 117291244,2
+    "NIN2_Body" = 117291244,3
+    "NIN2_Pos" = 117291244,4
+    "NIN2_Look" = 117291244,5
+  }
+  "PIR1"
+  {
+    "PIR1_Voice" = 117538816,0
+    "PIR1_Lips" = 117538816,1
+    "PIR1_Head" = 117538816,2
+    "PIR1_Body" = 117538816,3
+    "PIR1_Pos" = 117538816,4
+    "PIR1_Look" = 117538816,5
+  }
+  "PIR2"
+  {
+    "PIR2_Voice" = 118095812,0
+    "PIR2_Lips" = 118095812,1
+    "PIR2_Head" = 118095812,2
+    "PIR2_Body" = 118095812,3
+    "PIR2_Pos" = 118095812,4
+    "PIR2_Look" = 118095812,5
+  }
+  "BUL"
+  {
+    "BUL_Voice" = 62936592,0
+    "BUL_Lips" = 62936592,1
+    "BUL_Head" = 62936592,2
+    "BUL_Body" = 62936592,3
+    "BUL_Pos" = 62936592,4
+    "BUL_Look" = 62936592,5
+  }
+  "CIN"
+  {
+    "CIN_Voice" = 58293092,0
+    "CIN_Lips" = 58293092,1
+    "CIN_Head" = 58293092,2
+    "CIN_Body" = 58293092,3
+    "CIN_Pos" = 58293092,4
+    "CIN_Look" = 58293092,5
+  }
+  "SH"
+  {
+    "SH_Voice" = 117433996,0
+    "SH_Lips" = 117433996,1
+    "SH_Head" = 117433996,2
+    "SH_Body" = 117433996,3
+    "SH_Pos" = 117433996,4
+    "SH_Look" = 117433996,5
+  }
+  "MF"
+  {
+    "MF_Voice" = 121940564,0
+    "MF_Lips" = 121940564,1
+    "MF_Head" = 121940564,2
+    "MF_Body" = 121940564,3
+    "MF_Pos" = 121940564,4
+    "MF_Look" = 121940564,5
+  }
+  "Repsm"
+  {
+    "Repsm_Voice" = 120791788,0
+    "Repsm_Lips" = 120791788,1
+    "Repsm_Head" = 120791788,2
+    "Repsm_Body" = 120791788,3
+    "Repsm_Pos" = 120791788,4
+    "Repsm_Look" = 120791788,5
+    "Event_3" = -1,3
+  }
+  "RepBig"
+  {
+    "RepBig_Voice" = 120733696,0
+    "RepBig_Lips" = 120733696,1
+    "RepBig_Head" = 120733696,2
+    "RepBig_Body" = 120733696,3
+    "RepBig_Pos" = 120733696,4
+    "RepBig_Look" = 120733696,5
+  }
+  "Funnel"
+  {
+    "Funnel_Voice" = 103776192,0
+    "Funnel_Lips" = 103776192,1
+    "Funnel_Head" = 103776192,2
+    "Funnel_Body" = 103776192,3
+    "Funnel_Pos" = 103776192,4
+    "Funnel_Look" = 103776192,5
+  }
+  "Funinside"
+  {
+    "Funinside_Voice" = 79364020,0
+    "Funinside_Lips" = 79364020,1
+    "Funinside_Head" = 79364020,2
+    "Funinside_Body" = 79364020,3
+    "Funinside_Pos" = 79364020,4
+    "Funinside_Look" = 79364020,5
+  }
+  "funpart1"
+  {
+    "funpart1_Voice" = 100909100,0
+    "funpart1_Lips" = 100909100,1
+    "funpart1_Head" = 100909100,2
+    "funpart1_Body" = 100909100,3
+    "funpart1_Pos" = 100909100,4
+    "funpart1_Look" = 100909100,5
+    "Event_0" = -1,0
+    "Event_1" = -1,1
+    "Event_2" = -1,2
+  }
+  "funpart2"
+  {
+    "funpart2_Voice" = 106150572,0
+    "funpart2_Lips" = 106150572,1
+    "funpart2_Head" = 106150572,2
+    "funpart2_Body" = 106150572,3
+    "funpart2_Pos" = 106150572,4
+    "funpart2_Look" = 106150572,5
+  }
+  "funpart3"
+  {
+    "funpart3_Voice" = 106359400,0
+    "funpart3_Lips" = 106359400,1
+    "funpart3_Head" = 106359400,2
+    "funpart3_Body" = 106359400,3
+    "funpart3_Pos" = 106359400,4
+    "funpart3_Look" = 106359400,5
+  }
+  "Element"
+  {
+    "Element_Voice" = 75168612,0
+    "Element_Lips" = 75168612,1
+    "Element_Head" = 75168612,2
+    "Element_Body" = 75168612,3
+    "Element_Pos" = 75168612,4
+    "Element_Look" = 75168612,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 1,"cs1A_04_Camera.mcd"
+  WorldFile = (null)
+  Level = W1A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_2c_Calamitousland" = 1792,14
+  "CS_vpr_transform" = 1806,151
+  "CS_enemyappears" = 2005,8
+  "CS_enemyappears" = 2013,6
+  "CS_enemyappears" = 2019,5
+  "CS_enemyappears" = 2024,30
+  "CS_pirateswing" = 2115,28
+  "CS_piratesmack" = 2159,26
+  "CS_zap" = 2187,22
+  "CS_zap" = 2220,23
+  "CS_zap" = 2255,20
+  "CS_zap" = 2288,22
+  "CS_zap" = 2368,17
+  "CS_zap" = 2391,21
+  "CS_zap" = 2419,30
+  "CS_zap" = 2460,24
+  "CS_vwr_debrissmall" = 2484,30
+  "CS_vwr_debrissmall2" = 2658,53
+  "CS_1abookpull" = 2829,55
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1A_04_P01MFEN.wav" = 190,31
+  "CS1A_04_P02SHEN.wav" = 226,69
+  "CS1A_04_P03SHEN.wav" = 316,48
+  "CS1A_04_P04SHEN.wav" = 377,126
+  "CS1A_04_P05SHEN.wav" = 520,33
+  "CS1A_04_P06SHEN.wav" = 562,43
+  "CS1A_04_P07SHEN.wav" = 614,70
+  "CS1A_04_P08SHEN.wav" = 697,55
+  "CS1A_04_P09SHEN.wav" = 755,67
+  "CS1A_04_P10MFEN.wav" = 842,28
+  "CS1A_04_P11SHEN.wav" = 874,71
+  "CS1A_04_P12SHEN.wav" = 965,20
+  "CS1A_04_P13MFEN.wav" = 990,60
+  "CS1A_04_P14CIEN.wav" = 1060,56
+  "CS1A_04_P15MFEN.wav" = 1141,71
+  "CS1A_04_P16JIEN.wav" = 1227,30
+  "CS1A_04_P17MFEN.wav" = 1270,75
+  "CS1A_04_P18JIEN.wav" = 1358,123
+  "CS1A_04_P19MFEN.wav" = 1483,94
+  "CS1A_04_P20JIEN.wav" = 1595,66
+  "CS1A_04_P21JIEN.wav" = 1669,113
+  "CS1A_04_P22JIEN.wav" = 1795,87
+  "CS1A_04_P23JIEN.wav" = 1889,129
+  "CS1A_04_P24JIEN.wav" = 2023,157
+  "CS1A_04_P25JIEN.wav" = 2182,142
+  "CS1A_04_P26JIEN.wav" = 2332,138
+  "CS1A_04_P27JIEN.wav" = 2475,73
+  "CS1A_04_P28CIEN.wav" = 2565,68
+  "CS1A_04_P29JIEN.wav" = 2750,36
+}
+
+[ACTOR_DATA]
+{
+  Count = 17
+  "cs1A_04_01_Jimmy.bad" = "JN","CS1A_04_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs1A_04_02_Ninja03.bad" = "NIN1","CS1A_04_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs1A_04_03_Ninja01.bad" = "NIN2","CS1A_04_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs1A_04_04_Pirate01.bad" = "PIR1","CS1A_04_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs1A_04_05_Pirate02.bad" = "PIR2","CS1A_04_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs1A_04_06_Bully.bad" = "BUL","CS1A_04_5.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs1A_04_07_CindyPlain.bad" = "CIN","CS1A_04_6.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs1A_04_12_Sheen.bad" = "SH","CS1A_04_7.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs1A_04_13_MsFowl.bad" = "MF","CS1A_04_8.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs1A_04_15_RepMacSmall.bad" = "Repsm","CS1A_04_9.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs1A_04_16_RepMacBig.bad" = "RepBig","CS1A_04_10.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS1a_04_08_Funnel.bad" = "Funnel","CS1A_04_11.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs1A_04_14_FunnelInside.bad" = "Funinside","CS1A_04_12.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS1a_04_09_Fun_Part01.bad" = "funpart1","CS1A_04_13.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS1a_04_10_Fun_Part02.bad" = "funpart2","CS1A_04_14.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS1a_04_11_Fun_Part03.bad" = "funpart3","CS1A_04_15.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs1A_04_17_ElemOutside.bad" = "Element","CS1A_04_16.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "JN"
+  {
+    "JN_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Sure Miss Fowl!" = "CS1A_04_P16JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 1227
+          length = 30
+        }
+        "Well, I made this invention, which in a way, reads it for you." = "CS1A_04_P18JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 1358
+          length = 123
+        }
+        "Just wait until you see this in action Miss Fowl." = "CS1A_04_P20JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 1595
+          length = 66
+        }
+        "I give you Jet Fusion in the Land of Confusion!" = "CS1A_04_P21JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 1669
+          length = 113
+        }
+        "Brought to life by the Virtual World Reproduction Machine!" = "CS1A_04_P22JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 1795
+          length = 87
+        }
+        "First, this ingenious invention transforms the text into a digital format." = "CS1A_04_P23JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 1889
+          length = 129
+        }
+        "Then it projects a three-dimensional light image using the character database that was created." = "CS1A_04_P24JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 2023
+          length = 157
+        }
+        "This brings life to the book all in glorious sixteen to nine enhanced widescreen!" = "CS1A_04_P25JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 2182
+          length = 142
+        }
+        "With this invention, gone are the days of waiting for movie adaptations of books!" = "CS1A_04_P26JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 2332
+          length = 138
+        }
+        "Gone are the days of reading!" = "CS1A_04_P27JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 2475
+          length = 73
+        }
+        "It's not my fault!" = "CS1A_04_P29JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 2750
+          length = 36
+        }
+      }
+    }
+    "JN_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "JN_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "JN_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 2890
+        }
+      }
+    }
+    "JN_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 2890
+        }
+      }
+    }
+    "JN_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Sure Miss Fowl!
+      JN
+      {
+        d = 60,192,228,255,216,255,255,255,228,228,255,252,240,168,180,24,12,216,255,255,
+        d = 0,0,0,0,0,0,0,0,0,0,
+      }
+      //Well, I made this invention, which in a way, reads it for you.
+      JN
+      {
+        d = 126,126,180,255,252,180,255,255,255,255,243,234,234,216,189,189,255,255,255,225,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,180,0,0,171,0,0,255,0,0,126,0,0,135,0,0,162,0,0,255,0,0,243,0,0,135,0,
+        d = 0,126,0,0,0,0,144,0,0,0,0,216,0,0,0,0,255,0,0,0,0,255,0,0,0,0,255,0,0,0,0,198,
+        d = 0,0,
+      }
+      //Just wait until you see this in action Miss Fowl.
+      JN
+      {
+        d = 198,189,99,252,234,207,81,117,255,255,243,180,255,99,9,153,162,225,255,171,255,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,216,0,
+      }
+      //I give you Jet Fusion in the Land of Confusion!
+      JN
+      {
+        d = 75,60,67,75,67,105,82,15,82,90,112,157,180,127,75,22,30,67,60,67,105,127,150,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,150,0,0,180,0,0,157,0,0,112,0,0,67,0,0,60,0,45,0,0,37,0,67,0,0,142,0,
+        d = 0,202,0,0,0,0,247,0,0,0,0,255,0,0,0,0,217,0,0,0,
+      }
+      //Brought to life by the Virtual World Reproduction Machine!
+      JN
+      {
+        d = 144,255,255,255,171,27,81,216,234,252,255,255,216,198,162,153,198,27,9,0,63,252,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,216,0,0,255,0,0,144,0,0,162,0,0,171,0,0,180,0,0,207,0,0,225,
+      }
+      //First, this ingenious invention transforms the text into a digital format.
+      JN
+      {
+        d = 0,7,37,135,247,187,165,135,127,120,165,82,37,45,37,120,210,255,210,135,187,210,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,255,0,0,255,0,0,255,0,0,255,0,0,255,0,0,82,0,0,232,0,0,255,0,0,255,0,
+        d = 0,240,0,0,0,0,255,0,0,0,0,255,0,0,0,0,225,0,0,0,0,180,0,0,0,0,195,0,0,0,0,210,
+        d = 0,0,0,0,0,172,
+      }
+      //Then it projects a three-dimensional light image using the character database that was created.
+      JN
+      {
+        d = 9,90,144,207,243,243,255,252,198,180,171,99,72,9,0,9,63,162,144,171,99,45,126,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,207,0,0,198,0,0,189,0,0,108,0,0,9,0,54,0,0,207,0,0,126,0,0,153,0,0,99,
+        d = 0,72,0,0,0,0,18,0,0,9,0,0,36,0,0,0,0,18,0,0,243,0,0,0,0,255,0,0,0,0,255,0,0,0,
+        d = 0,255,0,0,0,0,0,0,171,0,0,0,0,0,0,117,0,0,0,0,0,0,234,0,0,0,0,0,0,0,
+      }
+      //This brings life to the book all in glorious sixteen to nine enhanced widescreen!
+      JN
+      {
+        d = 54,255,255,225,189,36,0,99,243,198,207,234,225,153,99,126,255,252,189,234,216,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,225,0,0,54,0,0,54,0,45,0,0,144,0,0,252,0,0,207,0,0,243,0,0,243,0,0,180,
+        d = 0,0,0,144,0,0,0,0,243,0,0,0,0,255,0,0,0,0,234,0,0,0,0,198,0,0,0,0,126,0,0,0,0,
+        d = 117,0,0,0,0,0,0,0,0,0,0,45,0,0,0,72,0,0,
+      }
+      //With this invention, gone are the days of waiting for movie adaptations of books!
+      JN
+      {
+        d = 112,202,202,195,232,217,157,30,0,15,187,240,135,142,150,172,217,225,255,210,120,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,142,0,0,210,0,0,187,0,0,165,0,0,210,0,0,120,0,0,75,0,0,127,0,0,142,0,
+        d = 0,172,0,0,0,0,135,0,0,0,0,165,0,0,0,0,172,0,0,0,0,150,0,0,0,0,142,0,0,0,0,172,
+        d = 0,0,0,0,0,165,0,0,0,0,0,0,142,0,0,0,
+      }
+      //Gone are the days of reading!
+      JN
+      {
+        d = 108,207,207,180,207,162,234,255,255,255,234,255,255,255,255,207,153,207,243,252,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,252,0,0,255,0,0,216,0,0,126,
+      }
+      //It's not my fault!
+      JN
+      {
+        d = 82,52,60,105,105,82,180,202,247,195,240,240,232,82,105,255,225,217,105,22,30,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "NIN1"
+  {
+    "NIN1_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "NIN1_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "NIN1_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "NIN1_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 1880
+          length = 310
+        }
+      }
+    }
+    "NIN1_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 1880
+          length = 310
+        }
+      }
+    }
+    "NIN1_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "NIN2"
+  {
+    "NIN2_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "NIN2_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "NIN2_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "NIN2_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 1880
+          length = 310
+        }
+      }
+    }
+    "NIN2_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 1880
+          length = 310
+        }
+      }
+    }
+    "NIN2_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "PIR1"
+  {
+    "PIR1_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "PIR1_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "PIR1_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "PIR1_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 1880
+          length = 310
+        }
+      }
+    }
+    "PIR1_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 1880
+          length = 310
+        }
+      }
+    }
+    "PIR1_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,
+    }
+  }
+  "PIR2"
+  {
+    "PIR2_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "PIR2_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "PIR2_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "PIR2_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 1880
+          length = 310
+        }
+      }
+    }
+    "PIR2_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 1880
+          length = 310
+        }
+      }
+    }
+    "PIR2_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,
+    }
+  }
+  "BUL"
+  {
+    "BUL_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "BUL_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "BUL_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "BUL_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 1058
+          length = 1597
+        }
+      }
+    }
+    "BUL_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 1056
+          length = 1599
+        }
+      }
+    }
+    "BUL_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,
+    }
+  }
+  "CIN"
+  {
+    "CIN_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Nice going Ultra Dork!" = "CS1A_04_P14CIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 1060
+          length = 56
+        }
+        "Gone is your invention, Nerdtron!" = "CS1A_04_P28CIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 2565
+          length = 68
+        }
+      }
+    }
+    "CIN_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "CIN_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "CIN_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 1058
+          length = 1597
+        }
+      }
+    }
+    "CIN_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 1058
+          length = 1597
+        }
+      }
+    }
+    "CIN_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Nice going Ultra Dork!
+      CIN
+      {
+        d = 144,255,255,255,225,198,207,234,162,90,45,36,36,0,0,45,243,255,255,255,189,234,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+      }
+      //Gone is your invention, Nerdtron!
+      CIN
+      {
+        d = 63,189,255,255,225,198,255,255,207,126,144,189,162,108,99,108,135,198,234,171,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,180,0,0,198,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "SH"
+  {
+    "SH_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Sorry Miss. Fowl, but that's what they said!" = "CS1A_04_P02SHEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 226
+          length = 69
+        }
+        "So anyway" = "CS1A_04_P03SHEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 316
+          length = 48
+        }
+        "then Ultra Lord shot at the king Fluboidagus with his Super Uber Floober Shooter," = "CS1A_04_P04SHEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 377
+          length = 126
+        }
+        "and he dived out of the way" = "CS1A_04_P05SHEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 520
+          length = 33
+        }
+        "and it bounced off his throne" = "CS1A_04_P06SHEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 562
+          length = 43
+        }
+        "and Ultra Lord dived out of the way of the rebound" = "CS1A_04_P07SHEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 614
+          length = 70
+        }
+        "and it bounded around the room going" = "CS1A_04_P08SHEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 697
+          length = 55
+        }
+        "BLAM!! BLAM!! BLAM!! BLAM!! BLAM!! BLAM!! BLAM!!" = "CS1A_04_P09SHEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 755
+          length = 67
+        }
+        "Hehe, umm, and then he won." = "CS1A_04_P11SHEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 874
+          length = 71
+        }
+        "The End!" = "CS1A_04_P12SHEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 965
+          length = 20
+        }
+      }
+    }
+    "SH_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "SH_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "SH_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 225
+          length = 905
+        }
+      }
+    }
+    "SH_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 225
+          length = 905
+        }
+      }
+    }
+    "SH_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Sorry Miss. Fowl, but that's what they said!
+      SH
+      {
+        d = 0,12,24,24,48,216,255,255,240,240,240,192,96,120,216,132,120,120,12,0,120,228,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,204,0,0,204,
+      }
+      //So anyway
+      SH
+      {
+        d = 0,30,60,105,105,90,75,45,45,60,75,60,90,105,210,255,255,255,255,255,105,0,0,0,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+      }
+      //then Ultra Lord shot at the king Fluboidagus with his Super Uber Floober Shooter,
+      SH
+      {
+        d = 31,210,241,220,157,42,10,0,0,115,255,255,255,84,0,136,115,168,136,157,252,255,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,241,0,0,147,0,0,0,0,0,0,0,0,0,0,21,0,0,147,0,0,168,0,0,147,0,0,252,0,
+        d = 0,241,0,0,0,0,220,0,0,0,0,136,0,0,0,0,10,0,0,10,0,0,0,0,136,0,0,0,0,210,0,0,0,
+        d = 
+      }
+      //and he dived out of the way
+      SH
+      {
+        d = 117,255,255,214,253,234,214,78,39,175,255,255,255,214,39,78,253,255,255,255,255,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,
+      }
+      //and it bounced off of his throne
+      SH
+      {
+        d = 108,243,216,189,229,255,54,13,0,54,255,255,255,243,202,67,0,0,13,162,255,255,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+      }
+      //and Ultra Lord dived out of the way of the rebound
+      SH
+      {
+        d = 105,165,180,180,165,180,75,0,0,0,180,255,255,255,255,15,30,135,210,150,120,255,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,255,0,0,225,0,
+      }
+      //and it bounded around the room going
+      SH
+      {
+        d = 105,210,225,210,60,240,240,150,15,0,0,255,255,255,225,240,180,60,75,225,255,120,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+      }
+      //BLAM!! BLAM!! BLAM!! BLAM!! BLAM!! BLAM!! BLAM!!
+      SH
+      {
+        d = 175,255,255,255,214,156,255,255,117,255,255,175,19,214,255,253,19,39,255,255,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,253,0,0,39,
+      }
+      //Hehe, umm, and then he won.
+      SH
+      {
+        d = 0,0,0,0,0,0,16,66,82,33,33,16,0,0,33,99,132,148,132,132,148,115,99,82,66,33,16,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,0,
+      }
+      //The End!
+      SH
+      {
+        d = 0,27,255,255,255,189,54,162,255,255,255,255,216,216,162,135,54,27,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,
+    }
+  }
+  "MF"
+  {
+    "MF_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Sheen!" = "CS1A_04_P01MFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 190
+          length = 31
+        }
+        "SHEEN!" = "CS1A_04_P10MFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 842
+          length = 28
+        }
+        "Thank you Sheen" = "CS1A_04_P13MFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 990
+          length = 60
+        }
+        "Would you like to go next Jimmy?" = "CS1A_04_P15MFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 1141
+          length = 71
+        }
+        "So what book did you read Jimmy?" = "CS1A_04_P17MFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 1270
+          length = 75
+        }
+        "That wasn't the assignment!" = "CS1A_04_P19MFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 1483
+          length = 94
+        }
+      }
+    }
+    "MF_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "MF_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "MF_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1672
+        }
+      }
+    }
+    "MF_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1672
+        }
+      }
+    }
+    "MF_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Sheen!
+      MF
+      {
+        d = 0,75,105,135,135,90,105,165,255,255,255,255,255,255,255,150,135,165,165,135,60,
+        d = 0,0,0,0,0,0,0,0,0,0,
+      }
+      //SHEEN!
+      MF
+      {
+        d = 0,97,214,255,255,255,255,255,255,255,255,255,255,255,255,234,234,214,156,175,
+        d = 0,0,0,0,0,0,0,0,
+      }
+      //Thank you Sheen
+      MF
+      {
+        d = 0,30,210,150,180,255,255,240,255,255,135,45,30,0,15,60,120,180,255,225,255,255,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+      }
+      //Would you like to go next Jimmy?
+      MF
+      {
+        d = 0,0,52,127,150,120,150,37,30,60,67,82,105,90,127,255,247,225,45,0,0,0,105,195,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,22,0,0,30,
+      }
+      //So what book did you read Jimmy?
+      MF
+      {
+        d = 6,36,120,90,204,156,180,198,204,255,255,168,255,234,114,18,18,42,36,54,255,255,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,255,0,0,255,0,0,126,0,0,6,
+      }
+      //That wasn't the assignment!
+      MF
+      {
+        d = 22,90,45,75,67,90,75,7,0,0,15,52,105,105,187,217,255,210,127,75,60,30,22,60,90,
+        d = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        d = 0,0,0,0,120,0,0,120,0,0,82,0,0,22,0,45,0,0,30,0,0,0,0,0,0,0,60,0,0,127,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,
+    }
+  }
+  "Repsm"
+  {
+    "Repsm_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Repsm_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Repsm_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Repsm_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 2890
+        }
+      }
+    }
+    "Repsm_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 2890
+        }
+      }
+    }
+    "Repsm_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,0,1,1,1,1,1,
+    }
+  }
+  "RepBig"
+  {
+    "RepBig_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "RepBig_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "RepBig_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "RepBig_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 1881
+          length = 295
+        }
+      }
+    }
+    "RepBig_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 1881
+          length = 298
+        }
+      }
+    }
+    "RepBig_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,
+    }
+  }
+  "Funnel"
+  {
+    "Funnel_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Funnel_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Funnel_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Funnel_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 2890
+        }
+      }
+    }
+    "Funnel_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 2890
+        }
+      }
+    }
+    "Funnel_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Funinside"
+  {
+    "Funinside_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Funinside_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Funinside_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Funinside_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 2819
+          length = 71
+        }
+      }
+    }
+    "Funinside_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 2819
+          length = 71
+        }
+      }
+    }
+    "Funinside_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "funpart1"
+  {
+    "funpart1_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "funpart1_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "funpart1_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "funpart1_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 2640
+          length = 250
+        }
+      }
+    }
+    "funpart1_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 2640
+          length = 250
+        }
+      }
+    }
+    "funpart1_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "funpart2"
+  {
+    "funpart2_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "funpart2_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "funpart2_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "funpart2_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 2500
+          length = 390
+        }
+      }
+    }
+    "funpart2_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 2500
+          length = 390
+        }
+      }
+    }
+    "funpart2_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "funpart3"
+  {
+    "funpart3_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "funpart3_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "funpart3_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "funpart3_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 2640
+          length = 250
+        }
+      }
+    }
+    "funpart3_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 2640
+          length = 250
+        }
+      }
+    }
+    "funpart3_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Element"
+  {
+    "Element_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Element_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Element_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Element_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 2742
+          length = 81
+        }
+      }
+    }
+    "Element_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 2742
+          length = 81
+        }
+      }
+    }
+    "Element_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+}
+
+[EVENT_DATA]
+{
+  "Cartpulpush" = "playsound CartLP"
+  "clap" = "playsound TouchTwoHard"
+  "disablelight" = "DisableSubObject 9 m_prop_Lightglow"
+  "Disablezone" = "DisableZone"
+  "DoorClose" = "playsound DoorClose"
+  "DoorOpen" = "playsound DoorOpen"
+  "enablelight" = "EnableSubObject  9 m_prop_Lightglow"
+  "Funnel" = "playsound LoopThreeLP"
+  "Particle13" = "Particle 13"
+  "Particle14" = "Particle 14"
+  "Particle15" = "Particle 15"
+  "Sparks" = "Sparks 9"
+  "VPidle" = "playsound LoopFourLP"
+  "VPidle2" = "playsound LateSoundPropOneLP"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "Cartpulpush",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 83
+  }
+  bar
+  {
+    BarName = "Cartpulpush",""
+    Breaker = 0
+    Lock = 0
+    start = 83
+    length = 97
+  }
+  bar
+  {
+    BarName = "Cartpulpush",""
+    Breaker = 0
+    Lock = 0
+    start = 1270
+    length = 176
+  }
+  bar
+  {
+    BarName = "VPidle",""
+    Breaker = 0
+    Lock = 0
+    start = 1856
+    length = 322
+  }
+  bar
+  {
+    BarName = "VPidle2",""
+    Breaker = 0
+    Lock = 0
+    start = 2178
+    length = 282
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+  bar
+  {
+    BarName = "enablelight",""
+    Breaker = 0
+    Lock = 0
+    start = 1792
+    length = 668
+  }
+  bar
+  {
+    BarName = "disablelight",""
+    Breaker = 0
+    Lock = 0
+    start = 2460
+    length = 430
+  }
+}
+
+[EVENT_4]
+{
+  bar
+  {
+    BarName = "Sparks",""
+    Breaker = 0
+    Lock = 0
+    start = 2187
+    length = 11
+  }
+  bar
+  {
+    BarName = "Sparks",""
+    Breaker = 0
+    Lock = 0
+    start = 2220
+    length = 12
+  }
+  bar
+  {
+    BarName = "Sparks",""
+    Breaker = 0
+    Lock = 0
+    start = 2255
+    length = 13
+  }
+  bar
+  {
+    BarName = "Sparks",""
+    Breaker = 0
+    Lock = 0
+    start = 2288
+    length = 12
+  }
+  bar
+  {
+    BarName = "Sparks",""
+    Breaker = 0
+    Lock = 0
+    start = 2368
+    length = 15
+  }
+  bar
+  {
+    BarName = "Sparks",""
+    Breaker = 0
+    Lock = 0
+    start = 2391
+    length = 17
+  }
+  bar
+  {
+    BarName = "Sparks",""
+    Breaker = 0
+    Lock = 0
+    start = 2419
+    length = 30
+  }
+  bar
+  {
+    BarName = "Sparks",""
+    Breaker = 0
+    Lock = 0
+    start = 2460
+    length = 282
+  }
+  bar
+  {
+    BarName = "Funnel",""
+    Breaker = 0
+    Lock = 0
+    start = 2742
+    length = 148
+  }
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+  bar
+  {
+    BarName = "clap",""
+    Breaker = 0
+    Lock = 0
+    start = 1019
+    length = 4
+  }
+}
+
+[EVENT_7]
+{
+  bar
+  {
+    BarName = "Disablezone",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 2890
+  }
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_2c_Calamitousland",""
+    Breaker = 0
+    Lock = 0
+    start = 1792
+    length = 14
+  }
+  bar
+  {
+    BarName = "CS_vpr_transform",""
+    Breaker = 0
+    Lock = 0
+    start = 1806
+    length = 151
+  }
+  bar
+  {
+    BarName = "CS_enemyappears",""
+    Breaker = 0
+    Lock = 0
+    start = 2005
+    length = 8
+  }
+  bar
+  {
+    BarName = "CS_enemyappears",""
+    Breaker = 0
+    Lock = 0
+    start = 2013
+    length = 6
+  }
+  bar
+  {
+    BarName = "CS_enemyappears",""
+    Breaker = 0
+    Lock = 0
+    start = 2019
+    length = 5
+  }
+  bar
+  {
+    BarName = "CS_enemyappears",""
+    Breaker = 0
+    Lock = 0
+    start = 2024
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_pirateswing",""
+    Breaker = 0
+    Lock = 0
+    start = 2115
+    length = 28
+  }
+  bar
+  {
+    BarName = "CS_piratesmack",""
+    Breaker = 0
+    Lock = 0
+    start = 2159
+    length = 26
+  }
+  bar
+  {
+    BarName = "CS_zap",""
+    Breaker = 0
+    Lock = 0
+    start = 2187
+    length = 22
+  }
+  bar
+  {
+    BarName = "CS_zap",""
+    Breaker = 0
+    Lock = 0
+    start = 2220
+    length = 23
+  }
+  bar
+  {
+    BarName = "CS_zap",""
+    Breaker = 0
+    Lock = 0
+    start = 2255
+    length = 20
+  }
+  bar
+  {
+    BarName = "CS_zap",""
+    Breaker = 0
+    Lock = 0
+    start = 2288
+    length = 22
+  }
+  bar
+  {
+    BarName = "CS_zap",""
+    Breaker = 0
+    Lock = 0
+    start = 2368
+    length = 17
+  }
+  bar
+  {
+    BarName = "CS_zap",""
+    Breaker = 0
+    Lock = 0
+    start = 2391
+    length = 21
+  }
+  bar
+  {
+    BarName = "CS_zap",""
+    Breaker = 0
+    Lock = 0
+    start = 2419
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_zap",""
+    Breaker = 0
+    Lock = 0
+    start = 2460
+    length = 24
+  }
+  bar
+  {
+    BarName = "CS_vwr_debrissmall",""
+    Breaker = 0
+    Lock = 0
+    start = 2484
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_vwr_debrissmall2",""
+    Breaker = 0
+    Lock = 0
+    start = 2658
+    length = 53
+  }
+  bar
+  {
+    BarName = "CS_1abookpull",""
+    Breaker = 0
+    Lock = 0
+    start = 2829
+    length = 55
+  }
+}
+
+[CAMERA]
+{
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

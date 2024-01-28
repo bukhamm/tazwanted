@@ -1,0 +1,1689 @@
+
+[UserInterface]
+{
+  position 0.0 0.0 0.0
+  MainMenuScreen
+  {
+    id Scr_MainMenu
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    NoisyButtonGroup
+    {
+      id Btns_MainMenu
+      position 320.0 160.0 0.0
+      rotation 0.0 0.0 0.0
+      JimmyButton
+      {
+        id MainMenu_NewGame
+        position 0.0 0.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 180.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 135 TEXT_SCREEN_MAINMENU_NEW_GAME
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument NewGameScreen
+        }
+      }
+      JimmyButton
+      {
+        id MainMenu_LoadGame
+        position 0.0 40.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 190.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 136 TEXT_SCREEN_MAINMENU_LOAD_GAME
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument LoadGameScreen
+        }
+      }
+      JimmyButton
+      {
+        id MainMenu_Options
+        position 0.0 80.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 150.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 137 TEXT_SCREEN_MAINMENU_OPTIONS
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_Options
+        }
+      }
+      JimmyButton
+      {
+        id MainMenu_Extras
+        position 0.0 120.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 130.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 138 TEXT_SCREEN_MAINMENU_EXTRAS
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_Extras
+        }
+      }
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+      PromptText
+      {
+        id UpDown
+        position 65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 5 TEXT_MENU_SELECT
+      }
+    }
+    OnUpPressed
+    {
+      target Btns_MainMenu
+      message SelectPrevious
+    }
+    OnDownPressed
+    {
+      target Btns_MainMenu
+      message SelectNext
+    }
+    OnSelectPressed
+    {
+      target Btns_MainMenu
+      message Activate
+    }
+  }
+  UIScreen
+  {
+    id Scr_Extras
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    NoisyButtonGroup
+    {
+      id Btns_Extras
+      position 320.0 160.0 0.0
+      rotation 0.0 0.0 0.0
+      JimmyButton
+      {
+        id Extras_Gallery
+        position 0.0 0.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 140.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 140 TEXT_SCREEN_EXTRAS_GALLERY
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_Gallery
+        }
+      }
+      JimmyButton
+      {
+        id Extras_Movies
+        position 0.0 40.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 140.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 141 TEXT_SCREEN_EXTRAS_MOVIES
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_Movies
+        }
+      }
+      JimmyButton
+      {
+        id Extras_Trailers
+        position 0.0 80.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 150.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 142 TEXT_SCREEN_EXTRAS_TRAILERS
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_Trailers
+        }
+      }
+      JimmyButton
+      {
+        id Extras_Credits
+        position 0.0 120.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 150.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 144 TEXT_SCREEN_EXTRAS_CREDITS
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_Credits
+        }
+      }
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 15 TEXT_MENU_BACK
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+      PromptText
+      {
+        id UpDown
+        position 220.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 5 TEXT_MENU_SELECT
+      }
+    }
+    OnUpPressed
+    {
+      target Btns_Extras
+      message SelectPrevious
+    }
+    OnDownPressed
+    {
+      target Btns_Extras
+      message SelectNext
+    }
+    OnSelectPressed
+    {
+      target Btns_Extras
+      message Activate
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  UIScreen
+  {
+    id Scr_Trailers
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    NoisyButtonGroup
+    {
+      id Btns_Trailers
+      position 320.0 130.0 0.0
+      rotation 0.0 0.0 0.0
+      JimmyButton
+      {
+        id Trailers_1
+        position 0.0 0.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 470.0
+          height 60.0
+          scale 0.9
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 25 TEXT_TRAILER_ONE
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_Trailer_1
+        }
+      }
+      JimmyButton
+      {
+        id Trailers_2
+        position 0.0 60.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 470.0
+          height 60.0
+          scale 0.9
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 26 TEXT_TRAILER_TWO
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_Trailer_2
+        }
+      }
+      JimmyButton
+      {
+        id Trailers_3
+        position 0.0 120.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 470.0
+          height 60.0
+          scale 0.9
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 27 TEXT_TRAILER_THREE
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_Trailer_3
+        }
+      }
+      JimmyButton
+      {
+        id Trailers_4
+        position 0.0 180.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 470.0
+          height 60.0
+          scale 0.9
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 28 TEXT_TRAILER_FOUR
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_HomeVideo
+        }
+      }
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 15 TEXT_MENU_BACK
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+      PromptText
+      {
+        id UpDown
+        position 220.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 5 TEXT_MENU_SELECT
+      }
+    }
+    OnUpPressed
+    {
+      target Btns_Trailers
+      message SelectPrevious
+    }
+    OnDownPressed
+    {
+      target Btns_Trailers
+      message SelectNext
+    }
+    OnSelectPressed
+    {
+      target Btns_Trailers
+      message Activate
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  LanguageScreen
+  {
+    id Scr_Language
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    UIText
+    {
+      id Title
+      position 320.0 90.0 0.0
+      colour 0.2 0.9 0.2 1.0
+      rotation 0.0 0.0 0.0
+      width 424.0
+      height 66.0
+      alignment middle centre
+      font Font_Blackwolf
+      stringId 120 TEXT_SCREEN_LANGUAGE_TITLE
+    }
+    NoisyButtonGroup
+    {
+      id Btns_Language
+      position 320.0 256.0 0.0
+      rotation 0.0 0.0 0.0
+      JimmyButton
+      {
+        id English
+        position 0.0 0.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 140.0
+          height 40.0
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 121 TEXT_SCREEN_LANGUAGE_ENGLISH
+        }
+      }
+      JimmyButton
+      {
+        id French
+        position 0.0 40.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 140.0
+          height 40.0
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 122 TEXT_SCREEN_LANGUAGE_FRENCH
+        }
+      }
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+      PromptText
+      {
+        id UpDown
+        position 65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 5 TEXT_MENU_SELECT
+      }
+    }
+    OnUpPressed
+    {
+      target Btns_Language
+      message SelectPrevious
+    }
+    OnDownPressed
+    {
+      target Btns_Language
+      message SelectNext
+    }
+  }
+  CopyrightScreen
+  {
+    id Scr_Copyright
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    UIText
+    {
+      id Text_Copyright
+      position 320.0 50.0 0.0
+      colour 0.2 0.9 0.2 1.0
+      rotation 0.0 0.0 0.0
+      width 560.0
+      height 130.0
+      scale 0.75
+      alignment top centre
+      font Font_Blackwolf
+      stringId 125 TEXT_SCREEN_COPYRIGHT_MSG
+    }
+    UIText
+    {
+      id Text_Copyright2
+      position 320.0 190.0 0.0
+      colour 0.2 0.9 0.2 1.0
+      rotation 0.0 0.0 0.0
+      width 560.0
+      height 80.0
+      scale 0.75
+      alignment top centre
+      font Font_Blackwolf
+      stringId 126 TEXT_SCREEN_COPYRIGHT_MSG2
+    }
+    UIText
+    {
+      id Text_Copyright3
+      position 320.0 260.0 0.0
+      colour 0.2 0.9 0.2 1.0
+      rotation 0.0 0.0 0.0
+      width 560.0
+      height 180.0
+      scale 0.75
+      alignment top centre
+      font Font_Blackwolf
+      stringId 127 TEXT_SCREEN_COPYRIGHT_MSG3
+    }
+  }
+  SkipVideoScreen
+  {
+    id Scr_NickVideo
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video NICKGAMES
+    OnComplete
+    {
+      target system
+      message ChangeScreen
+      argument Scr_PublisherVideo
+    }
+  }
+  SkipVideoScreen
+  {
+    id Scr_PublisherVideo
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video THQ
+    OnComplete
+    {
+      target system
+      message ChangeScreen
+      argument Scr_DeveloperVideo
+    }
+  }
+  AnimorphicVideoScreen
+  {
+    id Scr_DeveloperVideo
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video kromelogo
+    OnComplete
+    {
+      target system
+      message ChangeScreen
+      argument Scr_PressStart
+    }
+  }
+  PressStartScreen
+  {
+    id Scr_PressStart
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video logo
+    TypeText
+    {
+      id Txt_PressStart
+      position 320.0 460.0 0.0
+      colour 0.2 0.9 0.2 1.0
+      rotation 0.0 0.0 0.0
+      width 560.0
+      height 40.0
+      alignment middle centre
+      font Font_Blackwolf
+      stringId 130 TEXT_SCREEN_PRESSSTART_MSG
+    }
+  }
+  SkipVideoScreen
+  {
+    id Scr_GamePlayVideo
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video attract
+    OnComplete
+    {
+      target system
+      message ChangeScreen
+      argument Scr_PressStart
+    }
+  }
+  AnimorphicVideoScreen
+  {
+    id Scr_IntroMovie
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video CS1G_99
+    OnComplete
+    {
+      target system
+      message ChangeScreen
+      argument Scr_PressStart
+    }
+  }
+  SkipVideoScreen
+  {
+    id Scr_Trailer_1
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video Trailer_01
+    OnComplete
+    {
+      target system
+      message PopScreen
+    }
+  }
+  SkipVideoScreen
+  {
+    id Scr_Trailer_2
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video Trailer_02
+    OnComplete
+    {
+      target system
+      message PopScreen
+    }
+  }
+  SkipVideoScreen
+  {
+    id Scr_Trailer_3
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video Trailer_03
+    OnComplete
+    {
+      target system
+      message PopScreen
+    }
+  }
+  SkipVideoScreen
+  {
+    id Scr_Trailer_4
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video Trailer_04
+    OnComplete
+    {
+      target system
+      message PopScreen
+    }
+  }
+  GalleryScreen
+  {
+    id Scr_Gallery
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    GalleryButtonGroup
+    {
+      id Btns_Gallery
+      position 320.0 256.0 0.0
+      rotation 0.0 0.0 0.0
+    }
+    PromptGroup
+    {
+      id PG_Gallery
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 10 TEXT_MENU_CANCEL
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+      PromptText
+      {
+        id LeftRight
+        position 65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 5 TEXT_MENU_SELECT
+      }
+      PromptText
+      {
+        id UpDown
+        position 220.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 5 TEXT_MENU_SELECT
+      }
+    }
+  }
+  BonusMoviesScreen
+  {
+    id Scr_Movies
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    NoisyButtonGroup
+    {
+      id Btns_Movies
+      position 320.0 160.0 0.0
+      rotation 0.0 0.0 0.0
+      JimmyButton
+      {
+        id GameIntro
+        position 0.0 0.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 220.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 30 TEXT_MOVIES_INTRO
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_IntroBonusMovie
+        }
+      }
+      JimmyButton
+      {
+        id GameOutro
+        position 0.0 40.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 220.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 31 TEXT_MOVIES_OUTRO
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_OutroMovie
+        }
+      }
+      JimmyButton
+      {
+        id BonusMovie
+        position 0.0 80.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 220.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 1008 TEXT_BIOCARDS
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_BioCardSelect
+        }
+      }
+      JimmyButton
+      {
+        id Outtakes
+        position 0.0 120.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 180.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 33 TEXT_MOVIES_OUTTAKES
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_Outtakes01
+        }
+      }
+    }
+    UIText
+    {
+      id Txt_Unlock
+      position 320.0 340.0 0.0
+      colour 0.2 0.9 0.2 1.0
+      rotation 0.0 0.0 0.0
+      width 460.0
+      height 40.0
+      scale 0.8
+      alignment middle centre
+      font Font_Blackwolf
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 15 TEXT_MENU_BACK
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+      PromptText
+      {
+        id UpDown
+        position 220.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 5 TEXT_MENU_SELECT
+      }
+    }
+    OnUpPressed
+    {
+      target Btns_Movies
+      message SelectPrevious
+    }
+    OnDownPressed
+    {
+      target Btns_Movies
+      message SelectNext
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  NewGameVideoScreen
+  {
+    id Scr_NewGameMovie
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video CS1G_99
+	  OnComplete
+    {
+      target Scr_NewGameMovie
+      message ChangeScreen
+    }
+  }
+  AnimorphicVideoScreen
+  {
+    id Scr_IntroBonusMovie
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video CS1G_99
+	  OnComplete
+	  {
+        target system
+        message PopScreen
+	  }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  AnimorphicVideoScreen
+  {
+    id Scr_OutroMovie
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video CS6C_02
+	  OnComplete
+	  {
+        target system
+        message PopScreen
+	  }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  SkipVideoScreen
+  {
+    id Scr_OuttakesMovie
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video Outtakes
+	  OnComplete
+	  {
+        target system
+        message PopScreen
+	  }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  CreditsScreen
+  {
+    id Scr_Credits
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    OnSelectPressed
+    {
+      target system
+      message PopScreen
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 15 TEXT_MENU_BACK
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+    }
+  }
+  UIScreen
+  {
+    id Scr_BonusMovie
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    NoisyButtonGroup
+    {
+      id Btns_BonusMovie
+      position 320.0 230.0 0.0
+      rotation 0.0 0.0 0.0
+      JimmyButton
+      {
+        id Btn_BioCards
+        position 0.0 -20.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 180.0
+          height 40.0
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 1008 TEXT_BIOCARDS
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_BioCardSelect
+        }
+      }
+      JimmyButton
+      {
+        id Btn_HomeVideoTrailer
+        position 0.0 20.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 460.0
+          height 40.0
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 1009 TEXT_HOMEVIDEO_TRAILER
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_HomeVideo
+        }
+      }
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 15 TEXT_MENU_BACK
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+      PromptText
+      {
+        id UpDown
+        position 220.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 5 TEXT_MENU_SELECT
+      }
+    }
+    OnUpPressed
+    {
+      target Btns_BonusMovie
+      message SelectPrevious
+    }
+    OnDownPressed
+    {
+      target Btns_BonusMovie
+      message SelectNext
+    }
+    OnSelectPressed
+    {
+      target Btns_BonusMovie
+      message Activate
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  UIScreen
+  {
+    id Scr_BioCardSelect
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    NoisyButtonGroup
+    {
+      id Btns_BioCardSelect
+      position 320.0 160.0 0.0
+      rotation 0.0 0.0 0.0
+      JimmyButton
+      {
+        position 0.0 0.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 270.0
+          height 40.0
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 1010 TEXT_BIOCARD_JIMMYNEUTRON
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_BioCardJimmy
+        }
+      }
+      JimmyButton
+      {
+        position 0.0 40.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 400.0
+          height 40.0
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 1011 TEXT_BIOCARD_PROFCALAMITOUS
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_BioCardCalamitous
+        }
+      }
+      JimmyButton
+      {
+        position 0.0 80.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 210.0
+          height 40.0
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 1012 TEXT_BIOCARD_JETFUSION
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_BioCardJetFusion
+        }
+      }
+      JimmyButton
+      {
+        position 0.0 120.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 160.0
+          height 40.0
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 1013 TEXT_BIOCARD_GODDARD
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_BioCardGoddard
+        }
+      }
+      JimmyButton
+      {
+        position 0.0 160.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 130.0
+          height 40.0
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 1014 TEXT_BIOCARD_SHEEN
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_BioCardSheen
+        }
+      }
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 15 TEXT_MENU_BACK
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+      PromptText
+      {
+        id UpDown
+        position 220.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 5 TEXT_MENU_SELECT
+      }
+    }
+    OnUpPressed
+    {
+      target Btns_BioCardSelect
+      message SelectPrevious
+    }
+    OnDownPressed
+    {
+      target Btns_BioCardSelect
+      message SelectNext
+    }
+    OnSelectPressed
+    {
+      target Btns_BioCardSelect
+      message Activate
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  BioCardScreen
+  {
+    id Scr_BioCardJimmy
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 15 TEXT_MENU_BACK
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+    }
+    OnSelectPressed
+    {
+      target system
+      message PopScreen
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  BioCardScreen
+  {
+    id Scr_BioCardCalamitous
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 15 TEXT_MENU_BACK
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+    }
+    OnSelectPressed
+    {
+      target system
+      message PopScreen
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  BioCardScreen
+  {
+    id Scr_BioCardJetFusion
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 15 TEXT_MENU_BACK
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+    }
+    OnSelectPressed
+    {
+      target system
+      message PopScreen
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  BioCardScreen
+  {
+    id Scr_BioCardGoddard
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 15 TEXT_MENU_BACK
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+    }
+    OnSelectPressed
+    {
+      target system
+      message PopScreen
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  BioCardScreen
+  {
+    id Scr_BioCardSheen
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 15 TEXT_MENU_BACK
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+    }
+    OnSelectPressed
+    {
+      target system
+      message PopScreen
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  SkipVideoScreen
+  {
+    id Scr_HomeVideo
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video bonus_video
+	  OnComplete
+	  {
+      target system
+      message PopScreen
+	  }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  AnimorphicVideoScreen
+  {
+    id Scr_Outtakes01
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video outtakes_01
+	  OnComplete
+	  {
+      target system
+      message ChangeScreen
+      argument Scr_Outtakes02
+	  }
+  }
+  AnimorphicVideoScreen
+  {
+    id Scr_Outtakes02
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video outtakes_02
+	  OnComplete
+	  {
+      target system
+      message ChangeScreen
+      argument Scr_Outtakes03
+	  }
+  }
+  AnimorphicVideoScreen
+  {
+    id Scr_Outtakes03
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video outtakes_03
+	  OnComplete
+	  {
+      target system
+      message ChangeScreen
+      argument Scr_Outtakes04
+	  }
+  }
+  AnimorphicVideoScreen
+  {
+    id Scr_Outtakes04
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video outtakes_04
+	  OnComplete
+	  {
+      target system
+      message ChangeScreen
+      argument Scr_Outtakes05
+	  }
+  }
+  AnimorphicVideoScreen
+  {
+    id Scr_Outtakes05
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video outtakes_05
+	  OnComplete
+	  {
+      target system
+      message ChangeScreen
+      argument Scr_Outtakes06
+	  }
+  }
+  AnimorphicVideoScreen
+  {
+    id Scr_Outtakes06
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video outtakes_06
+	  OnComplete
+	  {
+      target system
+      message ChangeScreen
+      argument Scr_Outtakes07
+	  }
+  }
+  AnimorphicVideoScreen
+  {
+    id Scr_Outtakes07
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video outtakes_07
+	  OnComplete
+	  {
+      target system
+      message ChangeScreen
+      argument Scr_Outtakes08
+	  }
+  }
+  AnimorphicVideoScreen
+  {
+    id Scr_Outtakes08
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+	  video outtakes_08
+	  OnComplete
+	  {
+      target system
+      message PopScreen
+	  }
+  }
+  include OptionsScreens.ui
+  include MemoryCard.ui
+}

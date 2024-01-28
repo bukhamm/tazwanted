@@ -1,0 +1,13 @@
+mesh cs3b_01_06_static
+skeleton CS3B_01_5
+
+ANIM STATIC_SOILD
+1-30
+CYCLE LOOP
+
+
+ANIM BINDPOSE
+0,1
+CYCLE LOOP
+
+

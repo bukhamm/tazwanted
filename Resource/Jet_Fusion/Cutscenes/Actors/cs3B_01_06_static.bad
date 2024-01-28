@@ -1,0 +1,14 @@
+mesh cs3b_01_06_static
+skeleton cs3b_01_06_static
+
+anim bindpose
+0,1
+cycle loop
+
+anim static_soild
+1-30
+cycle loop
+
+anim cutscene
+786-982,1
+cycle stop

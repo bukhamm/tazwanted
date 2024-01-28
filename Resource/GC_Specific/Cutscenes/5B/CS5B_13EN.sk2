@@ -1,0 +1,324 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "29/04/2003"
+  Time = "6:33:21 PM"
+  EdPos = 52952.67,-12407.91,-56121.08
+  EdPitch = -1.280
+  EdYaw = 6.870
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "goddard"
+  {
+    "goddard_Voice" = 89323276,0
+    "goddard_Lips" = 89323276,1
+    "goddard_Head" = 89323276,2
+    "goddard_Body" = 89323276,3
+    "goddard_Pos" = 89323276,4
+    "goddard_Look" = 89323276,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W5B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5B_13_P01GOEN.wav" = 10,103
+  "CS5B_13_P02GOEN.wav" = 123,58
+  "CS5B_13_P03GOEN.wav" = 191,98
+  "CS5B_13_P04GOEN.wav" = 299,138
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_GODDARD_Synker.BAD" = "goddard","CS5B_13_0.BAD"
+  {
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 52909.864,-13082.922,-55792.928
+        rot = 0.000,-0.080,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "goddard"
+  {
+    "goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "To steer the submarine, use the Control Stick ≤." = "CS5B_13_P01GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 103
+        }
+        "The JUMP Button ù will accelerate," = "CS5B_13_P02GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 123
+          length = 58
+        }
+        "The SECONDARY FIRE Button † will brake and reverse." = "CS5B_13_P03GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 191
+          length = 98
+        }
+        "The PRIMARY FIRE Button û will use the submarine's Shockwave function" = "CS5B_13_P04GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 299
+          length = 138
+        }
+      }
+    }
+    "goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 466
+        }
+      }
+    }
+    "goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadCurious" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 276
+        }
+        "HeadSurprised" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 276
+          length = 190
+        }
+      }
+    }
+    "goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 140
+        }
+        "BodyNeutral02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 140
+          length = 160
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 300
+          length = 166
+        }
+      }
+    }
+    "goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 466
+        }
+      }
+    }
+    "goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //To steer the submarine, use the CONTROL STICK.
+      goddard
+      {
+        d = 108,108,204,246,126,216,255,255,192,0,30,210,255,246,255,255,255,255,186,78,30,
+        d = 132,198,108,210,216,180,168,246,204,120,108,150,156,150,108,84,84,102,126,96,
+        d = 90,96,114,114,66,18,0,0,0,0,0,0,0,0,0,0,0,42,138,240,255,255,255,255,192,138,
+        d = 36,54,255,108,6,12,192,216,246,156,54,132,180,255,255,255,255,204,186,150,90,
+        d = 48,90,132,6,60,204,168,72,6,0,0,6,0,0,0,
+      }
+      //The JUMP BUTTON will accelerate,
+      goddard
+      {
+        d = 9,72,255,255,198,63,27,144,225,255,255,198,189,153,72,81,18,36,255,198,126,153,
+        d = 36,63,255,255,255,171,207,255,252,234,207,162,45,27,189,255,243,198,255,198,255,
+        d = 255,255,255,243,198,180,171,144,135,153,90,0,9,0,0,
+      }
+      //The SECONDARY FIRE BUTTON will brake and reverse.
+      goddard
+      {
+        d = 0,108,216,210,120,255,255,255,255,180,252,174,96,0,18,216,210,198,78,255,216,
+        d = 228,252,255,192,168,156,42,6,0,0,168,126,108,150,180,174,180,192,144,42,12,180,
+        d = 108,78,18,0,66,162,168,126,30,0,48,210,234,222,168,114,54,18,42,255,255,228,192,
+        d = 192,204,30,0,36,6,78,144,162,156,132,222,192,198,60,24,108,255,255,228,180,114,
+        d = 30,6,24,102,60,42,48,24,0,0,
+      }
+      //The PRIMARY FIRE BUTTON will use the submarine's Shockwave function
+      goddard
+      {
+        d = 54,255,150,12,0,42,96,120,156,120,180,210,204,252,180,138,132,186,192,186,222,
+        d = 144,18,6,12,168,192,168,156,162,186,186,192,186,192,84,66,108,120,90,42,30,78,
+        d = 108,36,18,18,60,60,48,42,18,0,0,0,12,108,198,255,216,192,168,174,174,204,255,
+        d = 255,246,255,252,186,144,102,18,90,255,180,114,204,246,198,132,255,255,96,60,114,
+        d = 186,198,204,168,162,144,144,126,174,114,90,168,198,156,174,156,120,144,84,0,0,
+        d = 30,255,255,204,174,168,126,30,0,0,0,120,108,96,120,120,42,114,120,72,114,84,36,
+        d = 48,60,24,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 1.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 52879.55,-13030.69,-55929.17, 52905.43,-13028.87,-55848.88
+    node = 52898.54,-13030.29,-55931.98, 52905.43,-13028.68,-55848.88
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENTS]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 466
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

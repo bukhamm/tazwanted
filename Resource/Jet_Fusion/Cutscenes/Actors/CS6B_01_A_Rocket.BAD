@@ -1,0 +1,10 @@
+mesh CS6B_01_A_Rocket
+skeleton CS6B_01_A_Rocket
+
+anim bindpose
+0,1
+cycle loop
+
+anim CutScene
+420-640,1
+cycle stop

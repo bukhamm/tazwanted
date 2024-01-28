@@ -1,0 +1,71 @@
+mesh a_KillerWhale.mdl
+skeleton a_KillerWhale.anm
+
+anim bindpose
+0-0,1
+cycle loop
+
+anim swim01
+10-30,1
+cycle loop
+
+anim Idle01
+40-80,1
+cycle loop
+
+anim Idle02
+90-190,1
+cycle stop
+
+anim Idle03
+220-290,1
+cycle stop
+
+anim Alert01
+SoundEvent WhaleAlert 491
+490-510,1
+cycle stop
+
+anim Taunt01
+330-405,1
+cycle stop
+
+anim Attack01
+415-445,1
+cycle stop
+
+anim Attack02
+450-475,1
+cycle stop
+
+anim Hit01
+520-540,1
+cycle stop
+
+anim DeathEntry01
+SoundEvent WhaleHit 612
+610-670,1
+cycle stop
+
+anim DeathLoop01
+670-690,1
+cycle loop
+
+anim DeathRecover01
+700-730,1
+cycle stop
+
+anim TurnLeft01
+550-570,1
+cycle stop
+
+anim TurnRight01
+580-600,1
+cycle stop
+
+anim Gum01
+750-843,1
+cycle loop
+
+
+\\end

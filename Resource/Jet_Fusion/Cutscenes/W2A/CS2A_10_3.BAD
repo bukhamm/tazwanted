@@ -1,0 +1,16 @@
+mesh a_GoddardgoKart
+skeleton CS2A_10_3
+
+ANIM LIPSNEUTRAL
+350-380,1
+CYCLE STOP
+
+
+//END
+//END
+
+ANIM IDLE
+5-15,1
+CYCLE LOOP
+
+

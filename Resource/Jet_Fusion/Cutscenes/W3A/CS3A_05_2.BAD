@@ -1,0 +1,6 @@
+mesh a_Cannibal
+skeleton CS3A_05_2
+
+ANIM CUTSCENE
+201-645,1
+CYCLE STOP

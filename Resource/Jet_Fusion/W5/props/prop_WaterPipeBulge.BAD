@@ -1,0 +1,12 @@
+skeleton prop_WaterPipeBulge
+mesh prop_WaterPipeBulge
+
+anim bindpose
+0-0,1
+cycle stop
+
+anim Pulse
+10-40,1
+cycle loop
+
+//end

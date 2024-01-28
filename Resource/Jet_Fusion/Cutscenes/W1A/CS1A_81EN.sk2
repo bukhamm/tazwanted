@@ -1,0 +1,305 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "JAIMEHOE"
+  Date = "15/06/2003"
+  Time = "11:57:45 AM"
+  EdPos = 3143.00,76.81,801.03
+  EdPitch = -0.290
+  EdYaw = -2.650
+}
+
+[EXTRAS]
+{
+  Windowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+    "Camera" = -3,0
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 62853396,0
+    "Goddard_Lips" = 62853396,1
+    "Goddard_Head" = 62853396,2
+    "Goddard_Body" = 62853396,3
+    "Goddard_Pos" = 62853396,4
+    "Goddard_Look" = 62853396,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W1A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1A_81_P01GOEN.wav" = 10,55
+  "CS1A_81_P02GOEN.wav" = 75,83
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_GODDARD_synker.BAD" = "Goddard","CS1A_81_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 3252.150,10.666,666.037
+        rot = 0.000,-2.030,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Welcome Jimmy Neutron." = "CS1A_81_P01GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 55
+        }
+        "Initializing diagnostic mode." = "CS1A_81_P02GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 75
+          length = 83
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "lipsneutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 168
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 168
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 168
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 168
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Welcome Jimmy Neutron.
+      Goddard
+      {
+        d = 75,195,255,255,255,255,240,82,7,52,255,255,240,255,255,247,157,150,217,255,172,
+        d = 210,210,202,210,187,232,247,217,255,247,187,37,52,195,187,180,210,202,195,142,
+        d = 157,202,247,255,255,105,15,0,0,0,0,0,0,0,
+      }
+      //Initializing diagnostic mode.
+      Goddard
+      {
+        d = 192,252,222,174,222,234,255,255,198,168,192,138,222,222,210,156,108,102,78,102,
+        d = 138,102,150,132,150,186,174,156,180,216,180,144,120,78,150,168,162,120,114,138,
+        d = 186,102,150,192,255,210,180,186,162,132,132,0,72,174,72,6,0,30,198,198,126,138,
+        d = 132,96,78,66,48,66,66,36,36,42,24,0,0,0,0,0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  Camera_1
+  {
+    Enabled = 1
+    FromFOV = 40.000
+    ToFOV = 40.000
+    NearPlane = 1.000
+    FarPlane = 10000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 3074.06,61.67,684.06, 3196.63,60.67,684.23
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "Camera_1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 168
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

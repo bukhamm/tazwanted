@@ -1,0 +1,476 @@
+
+[UserInterface]
+{
+  position 0.0 0.0 0.0
+  UIContainer
+  {
+    id p_default
+    position 0.0 0.0 0.0
+  }
+  PauseMainScreen
+  {
+    id Scr_Main
+    position 0.0 0.0 0.0
+    UIText
+    {
+      id Txt_Paused
+      position 320.0 60.0 0.0
+      colour 0.2 0.9 0.2 1.0
+      scale 2.0
+      width 250.0
+      height 60.0
+      alignment middle centre
+      font Font_Blackwolf
+      stringId 696 TEXT_PAUSE_PAUSED
+    }
+    NoisyButtonGroup
+    {
+      id Btns_Main
+      position 320.0 130.0 0.0
+      rotation 0.0 0.0 0.0
+      JimmyButton
+      {
+        id Continue
+        position 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          width 180.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 690 TEXT_PAUSE_CONTINUE
+        }
+      }
+      JimmyButton
+      {
+        id SaveGame
+        position 0.0 40.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 200.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 691 TEXT_PAUSE_SAVEGAME
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument SaveGameScreen
+        }
+      }
+      JimmyButton
+      {
+        id GameInfo
+        position 0.0 80.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          width 200.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 692 TEXT_PAUSE_GAMEINFO
+        }
+        OnActivate
+        {
+          target system
+          message ChangeScreen
+          argument Scr_MapInfo
+        }
+      }
+      JimmyButton
+      {
+        id Options
+        position 0.0 120.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          width 160.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 137 TEXT_SCREEN_MAINMENU_OPTIONS
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_Options
+        }
+      }
+      JimmyButton
+      {
+        id Exit
+        position 0.0 160.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          width 200.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 693 TEXT_PAUSE_EXITLEVEL
+        }
+      }
+      JimmyButton
+      {
+        id ExitMainMenu
+        position 0.0 200.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          width 200.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 695 TEXT_PAUSE_EXITMAINMENU
+        }
+      }
+      JimmyButton
+      {
+        id Exit_MiniGame
+        colour 1.0 1.0 1.0 1.0
+        position 0.0 240.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 240.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 694 TEXT_PAUSE_EXITMINIGAME
+        }
+      }
+    }
+    NoisyButtonGroup
+    {
+      id Btns_Confirm
+      position 320.0 170.0 0.0
+      rotation 0.0 0.0 0.0
+      JimmyButton
+      {
+        id Yes
+        position 0.0 70.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 80.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 1 TEXT_MENU_YES
+        }
+      }
+      JimmyButton
+      {
+        id No
+        position 0.0 110.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 60.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 2 TEXT_MENU_NO
+        }
+      }
+      UIText
+      {
+        id ExitConfirmText
+        position 0.0 20.0 0.0
+        colour 0.2 0.9 0.2 1.0
+        rotation 0.0 0.0 0.0
+        width 242.0
+        height 40.0
+        scale 1.5
+        alignment middle centre
+        font Font_Blackwolf
+        stringId 693 TEXT_PAUSE_EXITLEVEL
+      }
+    }
+    PromptGroup
+    {
+      id PromptGroup
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 15 TEXT_MENU_BACK
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+      PromptText
+      {
+        id UpDown
+        position 220.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 5 TEXT_MENU_SELECT
+      }
+    }
+  }
+  UIScreen
+  {
+    id AutosaveCardRemoved
+    position 0.0 0.0 0.0
+    UIReference
+    {
+      position 0.0 0.0 0.0
+      target p_default
+    }
+    MCText
+    {
+      colour 0.2 0.9 0.2 1.0
+      position 320.0 220.0 0.0
+      width 540.0
+      height 430.0
+      alignment middle centre
+      font Font_BlackWolf
+      stringId 107 TEXT_MEMCARD_CARDREMOVED
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 726.0
+      height 36.0
+      PromptText
+      {
+        id Forward
+        position 0.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_FrontEnd
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+    }
+    OnSelectPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  UIScreen
+  {
+    id AutosaveError
+    position 0.0 0.0 0.0
+    UIReference
+    {
+      position 0.0 0.0 0.0
+      target p_default
+    }
+    MCText
+    {
+      colour 0.2 0.9 0.2 1.0
+      position 320.0 220.0 0.0
+      width 550.0
+      height 440.0
+      alignment middle centre
+      font Font_BlackWolf
+      stringId 105 TEXT_MEMCARD_AUTOSAVEERROR
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 726.0
+      height 36.0
+      PromptText
+      {
+        id Forward
+        position 0.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_FrontEnd
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+    }
+    OnSelectPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  UIScreen
+  {
+    id AutosaveBroken
+    position 0.0 0.0 0.0
+    UIReference
+    {
+      position 0.0 0.0 0.0
+      target p_default
+    }
+    MCText
+    {
+      colour 0.2 0.9 0.2 1.0
+      position 320.0 220.0 0.0
+      width 540.0
+      height 430.0
+      alignment middle centre
+      font Font_BlackWolf
+      stringId 106 TEXT_MEMCARD_AUTOSAVEBROKEN
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 726.0
+      height 36.0
+      PromptText
+      {
+        id Forward
+        position 0.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_FrontEnd
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+    }
+    OnSelectPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  RestartConfirmScreen
+  {
+    id Scr_RestartConfirm
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    UIText
+    {
+      id Txt_Continues
+      position 320.0 120.0 0.0
+      rotation 0.0 0.0 0.0
+      colour 0.2 0.9 0.2 1.0
+      scale 1.5
+      width 600.0
+      height 60.0
+      alignment middle centre
+      font Font_Blackwolf
+    }
+    UIText
+    {
+      position 320.0 220.0 0.0
+      rotation 0.0 0.0 0.0
+      colour 0.2 0.9 0.2 1.0
+      width 600.0
+      height 60.0
+      alignment middle centre
+      font Font_Blackwolf
+      stringId 151 TEXT_SCREEN_RESTART_PROMPT
+    }
+    NoisyButtonGroup
+    {
+      id Btns_Confirm
+      position 320.0 270.0 0.0
+      rotation 0.0 0.0 0.0
+      JimmyButton
+      {
+        id Continue
+        position 0.0 0.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 300.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 152 TEXT_SCREEN_RESTART_CONTINUE
+        }
+      }
+      JimmyButton
+      {
+        id ExitGame
+        position 0.0 40.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 220.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 150 TEXT_SCREEN_LEVELSELECT_EXITGAME
+        }
+      }
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 726.0
+      height 36.0
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+      PromptText
+      {
+        id UpDown
+        position 65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 5 TEXT_MENU_SELECT
+      }
+    }
+    OnUpPressed
+    {
+      target Btns_Confirm
+      message SelectPrevious
+    }
+    OnDownPressed
+    {
+      target Btns_Confirm
+      message SelectNext
+    } 
+  }
+  include GameInfo.ui
+  include OptionsScreens.ui
+  include MemoryCard.ui
+}

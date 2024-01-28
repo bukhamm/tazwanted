@@ -1,0 +1,8 @@
+mesh prop_LightHouse.mdl
+skeleton prop_LightHouse.anm
+
+anim idle01
+0-90,1
+cycle loop
+
+

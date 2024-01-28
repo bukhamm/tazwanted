@@ -1,0 +1,6 @@
+mesh cs3A_04_Magshield
+skeleton CS3A_04_3
+
+ANIM CUTSCENE
+172-450,1
+CYCLE STOP

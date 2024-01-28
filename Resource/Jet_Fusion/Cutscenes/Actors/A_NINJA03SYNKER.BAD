@@ -1,0 +1,231 @@
+mesh a_Ninja03synker
+skeleton a_Ninja03synker
+
+//=-=-=-=-=-=-=-=-=-=-=-=-=-Patrol Mode
+
+anim bindPose
+0,1
+cycle stop
+
+//anim Walk01			Modified below
+SoundEvent Ninja2Steps 68
+SoundEvent Ninja2Steps 50
+//50-90,1
+//cycle loop
+
+anim QuickTurn01 //character turns 180 degrees SoundEvent Ninja2Steps 107
+SoundEvent Ninja2Steps 102
+CLOCKWISE
+100-110,1
+cycle stop
+
+anim Idle01
+130-180,1
+cycle loop
+
+anim Idle02	//tweaked by Rob(13/05/03)
+200-420,1
+cycle stop
+
+
+
+anim Alert01 //goes into Attack Mode -----> Next section
+SoundEvent HatNinjaAlert 451
+SoundEvent Ninja2Steps 461
+450-466,1
+cycle stop
+
+//=----------=-=-=-=-=-Attack Mode
+
+anim Run01
+SoundEvent Ninja2Steps 489
+SoundEvent Ninja2Steps 483
+480-492,1
+cycle loop
+
+anim AttackIdle01
+554-562,1
+cycle loop
+
+anim AttackIdle02
+SoundEvent NinjaLunge 593
+SoundEvent NinjaLand 617
+SoundEvent NinjaLunge 599
+SoundEvent NinjaLunge 587
+SoundEvent NinjaJump 575
+570-630,1
+cycle stop
+
+anim AttackIdle03
+SoundEvent EnemyLunge 723
+SoundEvent EnemySwingsPunch 714
+SoundEvent EnemyJump 708
+SoundEvent EnemyJump 702
+700-740,1
+cycle stop
+
+anim VulnerableIdle01 //Taking his Hat Off so he's vulnerable...
+1050-1100,1
+event hatoff 1061
+event haton 1099
+cycle stop
+
+anim RangedEntry01
+760-775,1
+cycle stop
+
+anim RangedLoop01
+775-785,1
+cycle loop
+
+anim RangedExit01
+SoundEvent EnemyThrows 787
+785-835,1
+event BroomLaunch 788
+event BroomReturn 812
+cycle stop
+
+anim Melee01 //Broom Strike
+SoundEvent EnemySwingsPunch 502
+500-524,1
+cycle stop
+
+anim Melee02
+SoundEvent EnemyThrows 863
+850-885,1
+cycle stop
+
+anim ChargeEntry01
+SoundEvent HatNinjaTaunt 651
+SoundEvent NinjaLunge 659
+650-665,1
+event JumpStart 660
+cycle stop
+
+anim ChargeLoop01
+665-675,1
+cycle loop
+
+anim ChargeExit01
+SoundEvent NinjaLand 678
+675-690,1
+event JumpLand 680
+cycle stop
+
+//=-=-=-=-=-=-=-=-=-=-=Pain
+
+anim Flinch01
+900-930,1
+cycle stop
+
+anim DeathEntry01
+SoundEvent HatNinjaHit 962
+SoundEvent EnemyFallMed 985
+SoundEvent TouchOne 992
+960-1000,1
+cycle stop
+
+anim DeathEntry02
+SoundEvent HatNinjaClunk 1218
+SoundEvent EnemyFallMed 1256
+SoundEvent SpinningHat 1202
+1200-1290,1
+cycle stop
+
+//======-------=========-----------=Hat throwing animation
+
+anim RangedGet02
+1110-1126,1
+cycle stop
+
+anim RangedShow02
+1126-1146,1
+cycle loop
+
+anim RangedThrow02
+SoundEvent EnemyThrows 1155
+event Hatthrown 1160
+1146-1180,1
+cycle stop
+
+anim Gum01
+1300-1549,0
+cycle loop
+
+//------------------------------Aditional test Jump animations by Jake (02/05/03)
+
+anim JumptoL
+2240-2270
+event Dodge 2250
+cycle stop
+
+anim JumptoR
+2270-2300
+event Dodge 2280
+cycle stop
+
+//--------------------------Additional Idle  for Static Ninja, Jake(02/05/03)
+
+//anim Idle01
+//2310-2540,1
+//cycle loop
+
+//--------------------------Modified Walk01 for Patrol Mode, Rob(13/05/03)
+
+anim Walk01
+2550-2590,1
+cycle loop
+
+
+
+///////////////////////////////Synker Anims
+
+anim HeadAngry
+1601-1602,1
+cycle stop
+
+anim HeadSuprised
+1602-1603,1
+cycle stop
+
+anim HeadNeutral
+1603-1604,1
+cycle stop
+
+anim LipsAngry
+1610-1640,1
+cycle stop
+
+anim LipsNeutral
+1650-1680,1
+cycle stop
+
+anim LipsHappy
+1690-1720,1
+cycle stop
+
+anim BodyNeutral
+1800-1840,1
+cycle loop
+
+anim BodyAngry
+1860-1930,1
+cycle Stop
+
+anim BodyNo
+1950-2020,1
+cycle Stop
+
+anim BodyYes
+2030-2095,1
+cycle Stop
+
+anim BodyPoint
+2120-2160,1
+cycle stop
+
+anim BodyClap
+2170-2220,1
+cycle stop
+
+//End

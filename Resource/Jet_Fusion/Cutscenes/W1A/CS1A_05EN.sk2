@@ -1,0 +1,794 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:23:08 PM"
+  EdPos = 1827.68,230.20,673.64
+  EdPitch = -0.600
+  EdYaw = -2.850
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+    "Jimmy_Voice" = 64639020,0
+    "Goddard_Voice" = 102721160,0
+    "Camera" = -3,0
+    "Jimmy_Pos" = 66893368,4
+    "Goddard_Pos" = 102267764,4
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 62183620,0
+    "Jimmy_Lips" = 62183620,1
+    "Jimmy_Head" = 62183620,2
+    "Jimmy_Body" = 62183620,3
+    "Jimmy_Pos" = 62183620,4
+    "Jimmy_Look" = 62183620,5
+    "Camera" = -3,0
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 98334460,0
+    "Goddard_Lips" = 98334460,1
+    "Goddard_Head" = 98334460,2
+    "Goddard_Body" = 98334460,3
+    "Goddard_Pos" = 98334460,4
+    "Goddard_Look" = 98334460,5
+    "Camera" = -3,0
+    "Jimmy_Voice" = 66893368,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W1A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1A_05_P01JIEN.WAV" = 42,33
+  "CS1A_05_P02JIEN.WAV" = 85,70
+  "CS1A_05_P03JIEN.WAV" = 165,87
+  "CS1A_05_P04JIEN.WAV" = 262,126
+  "CS1A_05_P05JIEN.WAV" = 398,91
+  "CS1A_05_P06JIEN.WAV" = 537,29
+  "CS1A_05_P07GOEN.WAV" = 576,28
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_JIMMY_Synker.BAD" = "Jimmy","CS1A_05_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.200
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 1929.270,10.366,323.020
+        rot = 0.000,0.030,0.000
+        pos = 1966.137,9.966,43.232
+        rot = -54.860,1.325,-307.205
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 1966.137,14.666,43.232
+        rot = -0.020,0.170,0.010
+      }
+      "path_3"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 1966.137,14.666,43.232
+        rot = 0.000,-0.340,0.000
+      }
+      "path_4"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 1966.137,14.666,43.232
+        rot = 0.000,1.090,0.000
+      }
+      "path_5"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 1966.137,14.666,43.232
+        rot = 0.000,0.000,0.000
+        pos = 2482.517,19.666,-138.380
+        rot = 0.000,14.666,43.232
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "Goddard","CS1A_05_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 1788.446,10.066,669.502
+        rot = 0.000,0.000,0.000
+        pos = 1867.593,11.166,156.967
+        rot = 0.000,0.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 1867.593,17.166,156.967
+        rot = 0.000,0.000,0.000
+      }
+      "path_3"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 1874.128,14.666,132.318
+        rot = 0.000,0.000,0.000
+      }
+      "run"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 1874.128,14.666,132.318
+        rot = 0.000,0.000,0.000
+        pos = 1875.166,14.666,71.139
+        rot = 0.000,0.000,0.000
+        pos = 2458.870,24.666,-108.176
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Alright, Goddard..." = "CS1A_05_P01JIEN.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 42
+          length = 33
+        }
+        "It's time for me to do my book report..." = "CS1A_05_P02JIEN.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 85
+          length = 70
+        }
+        "I'm going to create a Virtual World Reproduction Machine" = "CS1A_05_P03JIEN.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 165
+          length = 87
+        }
+        "so I can show my Jet Fusion book to the class as a holographic movie!" = "CS1A_05_P04JIEN.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 262
+          length = 126
+        }
+        "Everything I need should be in the classrooms of the school." = "CS1A_05_P05JIEN.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 398
+          length = 91
+        }
+        "Let's go, Goddard!" = "CS1A_05_P06JIEN.WAV"
+        {
+          Breaker = 0
+          Lock = 1
+          start = 537
+          length = 29
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 591
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 398
+        }
+        "HeadBlink" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 398
+          length = 30
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 428
+          length = 79
+        }
+        "HeadBlink" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 507
+          length = 30
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 537
+          length = 54
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "walk" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 67
+        }
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 67
+          length = 210
+        }
+        "BodyThinking" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 277
+          length = 121
+        }
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 398
+          length = 30
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 428
+          length = 109
+        }
+        "walk" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 537
+          length = 54
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 67
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 67
+          length = 98
+        }
+        "path_3" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 165
+          length = 334
+        }
+        "path_4" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 499
+          length = 38
+        }
+        "path_5" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 537
+          length = 54
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Alright, Goddard...
+      Jimmy
+      {
+        d = 27,45,171,255,243,255,255,255,255,255,225,225,171,117,135,126,9,0,81,189,255,
+        d = 255,255,243,99,135,216,180,153,90,45,0,0,
+      }
+      //It's time for me to do my book report...
+      Jimmy
+      {
+        d = 67,90,22,0,45,105,7,30,180,255,202,180,195,225,225,180,165,135,60,30,180,217,
+        d = 255,255,247,255,255,105,202,255,150,127,255,255,210,165,172,255,255,255,255,135,
+        d = 90,52,150,142,247,180,127,7,45,60,217,232,217,75,30,30,60,172,210,150,97,67,22,
+        d = 0,22,7,0,0,
+      }
+      //I'm going to create a Virtual World Reproduction Machine
+      Jimmy
+      {
+        d = 147,178,210,255,255,255,220,255,255,255,255,189,105,63,115,220,255,255,255,252,
+        d = 231,255,84,189,136,157,147,178,255,255,255,157,136,255,252,255,255,255,255,255,
+        d = 255,255,255,255,241,231,255,231,255,220,255,255,255,255,255,31,21,94,255,241,
+        d = 231,241,255,255,157,31,21,157,178,255,255,255,255,231,220,157,255,252,189,255,
+        d = 255,255,255,255,255,168,0,
+      }
+      //so I can show my Jet Fusion book to the class as a holographic movie!
+      Jimmy
+      {
+        d = 157,255,232,247,255,255,202,180,247,157,172,127,187,180,255,195,180,150,120,225,
+        d = 255,217,202,255,255,217,180,217,180,150,105,165,240,217,165,112,15,7,7,37,240,
+        d = 255,255,255,255,225,180,247,202,217,195,157,67,142,172,195,82,0,0,0,97,195,187,
+        d = 210,187,15,22,67,135,157,172,165,150,135,105,187,157,187,187,150,210,217,120,
+        d = 105,195,255,225,195,187,187,217,127,210,225,217,217,75,7,120,142,15,37,127,150,
+        d = 255,255,195,67,75,240,172,150,82,15,0,0,0,0,0,0,0,0,0,0,0,0,
+      }
+      //Everything I need should be in the classrooms of the school.
+      Jimmy
+      {
+        d = 90,225,165,150,195,255,255,105,30,232,255,255,255,210,195,187,210,255,255,255,
+        d = 217,150,105,97,105,112,90,255,255,202,255,255,180,157,217,255,255,255,255,150,
+        d = 105,187,195,255,210,157,45,0,60,60,202,202,217,232,195,150,127,150,90,52,105,
+        d = 105,97,120,172,225,255,255,82,90,105,172,165,187,210,217,202,105,150,67,0,75,
+        d = 255,255,255,217,195,112,97,52,0,
+      }
+      //Let's go, Goddard!
+      Jimmy
+      {
+        d = 72,252,255,180,36,117,180,54,252,255,255,255,255,252,216,99,207,180,225,225,162,
+        d = 234,255,255,63,63,99,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Bark bark!" = "CS1A_05_P07GOEN.WAV"
+        {
+          Breaker = 0
+          Lock = 1
+          start = 576
+          length = 28
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 570
+          length = 56
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 54
+        }
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 54
+          length = 572
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "walk01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 90
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 90
+          length = 140
+        }
+        "BodyThinking" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 230
+          length = 200
+        }
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 430
+          length = 70
+        }
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 500
+          length = 50
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 550
+          length = 20
+        }
+        "run01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 570
+          length = 56
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 90
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 90
+          length = 75
+        }
+        "path_3" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 165
+          length = 405
+        }
+        "run" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 570
+          length = 56
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+        "Jimmy_0_Head" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 54
+          length = 572
+        }
+      }
+    }
+    AWFS
+    {
+      //Bark bark!
+      Goddard
+      {
+        d = 6,6,6,6,12,6,6,12,12,12,12,54,252,255,186,66,6,0,0,12,186,255,255,255,96,6,0,
+        d = 0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.061,0.036,0.118,0.092,0.270,0.358,0.437,0.658,0.619,0.847,0.805,0.953,1.000,1.000,
+    node = 1966.59,111.67,-216.96, 1900.20,112.67,58.13
+    node = 1966.59,149.67,-216.96, 1900.20,86.67,58.13
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 1932.00,103.00,-111.00, 1937.08,83.67,16.28
+    node = 1954.00,103.00,-110.00, 1937.00,84.00,16.00
+  }
+  camera3
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 1953.00,84.00,-156.00, 1924.00,84.00,30.00
+    node = 1983.00,84.00,-155.00, 1924.00,84.00,30.00
+  }
+  camera4
+  {
+    Enabled = 1
+    FromFOV = 30.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 2295.42,111.67,19.00, 1971.65,89.67,11.80
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 165
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 165
+    length = 233
+  }
+  bar
+  {
+    BarName = "camera3",""
+    Breaker = 0
+    Lock = 0
+    start = 398
+    length = 101
+  }
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 499
+    length = 127
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

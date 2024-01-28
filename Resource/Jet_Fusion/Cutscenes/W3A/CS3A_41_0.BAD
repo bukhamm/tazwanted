@@ -1,0 +1,8 @@
+mesh a_LeverGustsynker
+skeleton CS3A_41_0
+
+ANIM BINDPOSE
+0-1,1
+CYCLE STOP
+CYCLE STOP
+

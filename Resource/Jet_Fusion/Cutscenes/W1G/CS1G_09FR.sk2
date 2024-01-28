@@ -1,0 +1,337 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:38:02 PM"
+  EdPos = 2870.51,239.05,527.47
+  EdPitch = -0.290
+  EdYaw = -0.960
+}
+
+[EXTRAS]
+{
+  Windowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 110767804,0
+    "Goddard_Lips" = 110767804,1
+    "Goddard_Head" = 110767804,2
+    "Goddard_Body" = 110767804,3
+    "Goddard_Pos" = 110767804,4
+    "Goddard_Look" = 110767804,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W1A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1G_09_P01GOFR.WAV" = 15,43
+  "CS1G_09_P02GOFR.WAV" = 80,87
+  "CS1G_09_P03GOFR.WAV" = 180,172
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_GODDARD_Synker.BAD" = "Goddard","CS1G_09_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 3280.822,131.666,717.383
+        rot = 0.000,-1.760,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Analyzing pickup." = "CS1G_09_P01GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 15
+          length = 43
+        }
+        "Pickup identified as 'Movie Bonus'." = "CS1G_09_P02GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 80
+          length = 87
+        }
+        "Collecting all 8 of these bonuses will unlock the movies in the Extras menu." = "CS1G_09_P03GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 180
+          length = 172
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 363
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 363
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 50
+        }
+        "BodyThinking" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 50
+          length = 200
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 250
+          length = 113
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 363
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Analyzing pickup.
+      Goddard
+      {
+        d = 153,180,198,255,255,255,255,255,255,255,255,252,225,198,255,255,207,108,135,225,
+        d = 243,234,255,255,153,9,18,144,255,234,18,0,27,255,216,144,108,45,9,0,0,0,9,
+      }
+      //Pickup identified as 'Movie Bonus'.
+      Goddard
+      {
+        d = 60,186,255,108,6,0,78,222,162,156,150,84,6,0,18,0,0,0,18,132,162,90,54,30,162,
+        d = 234,192,192,204,216,150,24,12,18,30,138,138,120,96,84,96,114,180,204,132,108,
+        d = 108,12,48,108,132,120,138,192,108,108,138,66,168,222,255,255,255,246,96,108,255,
+        d = 255,255,114,96,72,210,186,216,234,186,210,156,120,60,24,90,96,96,102,96,
+      }
+      //Collecting all 8 of these bonuses will unlock the movies in the Extras menu.
+      Goddard
+      {
+        d = 72,108,184,180,162,229,225,171,184,31,4,0,0,117,255,255,202,180,189,94,22,4,54,
+        d = 148,175,189,207,202,211,184,126,22,0,36,171,157,216,211,207,117,130,198,135,49,
+        d = 36,54,162,225,216,198,171,108,94,67,18,4,54,162,130,135,144,171,139,108,76,171,
+        d = 153,90,130,135,108,99,99,85,85,121,22,0,0,0,0,0,0,0,0,0,0,0,0,0,117,162,162,130,
+        d = 40,4,27,81,94,130,153,180,162,193,184,148,117,117,108,45,4,4,0,36,184,153,198,
+        d = 198,207,238,255,255,130,31,94,184,166,148,135,166,130,76,67,18,4,0,108,153,144,
+        d = 193,180,171,198,76,4,0,22,126,135,13,0,58,135,130,0,49,144,175,166,94,72,63,81,
+        d = 180,211,148,112,121,157,157,130,126,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 40.000
+    ToFOV = 40.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 3077.09,188.67,711.44, 3270.04,185.67,717.66
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 363
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

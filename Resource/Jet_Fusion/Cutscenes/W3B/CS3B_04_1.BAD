@@ -1,0 +1,11 @@
+mesh a_jimmyjungle
+skeleton CS3B_04_1
+
+ANIM CUTSCENE
+1-1200,1
+CYCLE STOP
+
+
+//END
+//END
+

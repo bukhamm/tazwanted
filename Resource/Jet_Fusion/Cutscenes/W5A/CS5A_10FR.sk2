@@ -1,0 +1,832 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "3:07:43 PM"
+  EdPos = 5043.11,-199.05,-1118.22
+  EdPitch = -0.260
+  EdYaw = 0.720
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "jimmy"
+  {
+    "jimmy_Voice" = 79082244,0
+    "jimmy_Lips" = 79082244,1
+    "jimmy_Head" = 79082244,2
+    "jimmy_Body" = 79082244,3
+    "jimmy_Pos" = 79082244,4
+    "jimmy_Look" = 79082244,5
+    "Camera" = -3,0
+  }
+  "goddard"
+  {
+    "goddard_Voice" = 75694064,0
+    "goddard_Lips" = 75694064,1
+    "goddard_Head" = 75694064,2
+    "goddard_Body" = 75694064,3
+    "goddard_Pos" = 75694064,4
+    "goddard_Look" = 75694064,5
+    "Camera" = -3,0
+  }
+  "Sailfish"
+  {
+    "Sailfish_Voice" = 107736984,0
+    "Sailfish_Lips" = 107736984,1
+    "Sailfish_Head" = 107736984,2
+    "Sailfish_Body" = 107736984,3
+    "Sailfish_Pos" = 107736984,4
+    "Sailfish_Look" = 107736984,5
+    "Camera" = -3,0
+  }
+  "Lifesaver"
+  {
+    "Lifesaver_Voice" = 143372304,0
+    "Lifesaver_Lips" = 143372304,1
+    "Lifesaver_Head" = 143372304,2
+    "Lifesaver_Body" = 143372304,3
+    "Lifesaver_Pos" = 143372304,4
+    "Lifesaver_Look" = 143372304,5
+    "Camera" = -3,0
+  }
+  "FishandRope"
+  {
+    "FishandRope_Voice" = 85341020,0
+    "FishandRope_Lips" = 85341020,1
+    "FishandRope_Head" = 85341020,2
+    "FishandRope_Body" = 85341020,3
+    "FishandRope_Pos" = 85341020,4
+    "FishandRope_Look" = 85341020,5
+    "Camera" = -3,0
+    "Event_0" = -1,0
+    "SoundFX" = -2,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W5A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_5aRopetension1" = 0,22
+  "CS_5aFishBurp" = 71,19
+  "CS_5aFishthresh" = 90,54
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5A_10_P01JIFR.WAV" = 178,36
+}
+
+[ACTOR_DATA]
+{
+  Count = 5
+  "A_JIMMY_SYNKER_PIRATE.BAD" = "jimmy","CS5A_10_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 4607.824,-491.556,-696.477
+        rot = 0.000,-0.140,0.000
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "goddard","CS5A_10_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 4475.270,-489.554,-661.334
+        rot = 0.000,-0.360,0.000
+      }
+    }
+  }
+  "A_SAILFISH.BAD" = "Sailfish","CS5A_10_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 4687.568,-653.113,-1913.501
+        rot = 0.000,3.100,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 4687.788,-653.000,-1913.133
+        rot = 0.000,0.000,0.000
+        pos = 4827.788,-648.000,-1875.129
+        rot = 0.000,0.000,0.000
+        pos = 4948.788,-700.000,-2460.144
+        rot = 0.000,0.000,0.000
+      }
+      "path_fish"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 4661.000,-709.000,-1879.000
+        rot = 0.180,3.100,0.000
+        pos = 4688.000,-710.000,-1914.000
+        rot = 0.000,3.110,0.000
+      }
+    }
+  }
+  "A_LIFESAVERSYNKER.BAD" = "Lifesaver","CS5A_10_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 4689.904,-588.384,-1819.898
+        rot = 0.000,0.000,0.000
+        pos = 4727.444,-265.383,-578.538
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_RopeandFish.BAD" = "FishandRope","CS5A_10_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 4684.040,-695.055,-1844.636
+        rot = 0.190,3.070,0.010
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "jimmy"
+  {
+    "jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "I did it." = "CS5A_10_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 178
+          length = 36
+        }
+      }
+    }
+    "jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 144
+          length = 84
+        }
+      }
+    }
+    "jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 213
+          length = 15
+        }
+      }
+    }
+    "jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyDazed" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 144
+          length = 84
+        }
+      }
+    }
+    "jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 144
+          length = 84
+        }
+      }
+    }
+    "jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //I did it.
+      jimmy
+      {
+        d = 42,42,73,10,178,231,255,255,255,255,252,255,255,255,255,255,126,255,255,252,189,
+        d = 147,168,105,31,0,52,136,52,10,0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "goddard"
+  {
+    "goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 144
+          length = 84
+        }
+      }
+    }
+    "goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 144
+          length = 84
+        }
+      }
+    }
+    "goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyLick" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 144
+          length = 84
+        }
+      }
+    }
+    "goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 144
+          length = 84
+        }
+      }
+    }
+    "goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Sailfish"
+  {
+    "Sailfish_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Sailfish_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Sailfish_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Sailfish_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "reel" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 51
+          length = 20
+        }
+        "swallow" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 71
+          length = 19
+        }
+        "swim01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 90
+          length = 54
+        }
+      }
+    }
+    "Sailfish_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_fish" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 51
+          length = 20
+        }
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 71
+          length = 19
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 90
+          length = 54
+        }
+      }
+    }
+    "Sailfish_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Lifesaver"
+  {
+    "Lifesaver_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Lifesaver_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Lifesaver_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Lifesaver_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "bindPose" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 74
+          length = 48
+        }
+      }
+    }
+    "Lifesaver_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 74
+          length = 48
+        }
+      }
+    }
+    "Lifesaver_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "FishandRope"
+  {
+    "FishandRope_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "FishandRope_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "FishandRope_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "FishandRope_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "breakrope" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 51
+        }
+      }
+    }
+    "FishandRope_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 51
+        }
+      }
+    }
+    "FishandRope_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 30.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 4729.13,-238.55,-589.23, 4686.96,-524.55,-1612.98
+  }
+  Camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 4732.24,-237.00,-589.71, 4680.07,-538.00,-1614.58
+    node = 4732.24,-237.00,-589.71, 4680.07,-541.00,-1614.58
+    node = 4732.24,-237.00,-589.71, 4673.12,-538.00,-1616.51
+    node = 4732.24,-237.00,-589.71, 4684.20,-536.00,-1612.86
+    node = 4732.24,-237.00,-589.71, 4680.07,-534.00,-1614.58
+    node = 4732.24,-237.00,-589.71, 4680.07,-541.00,-1614.58
+  }
+  Camera3
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 4703.09,-392.08,-911.14, 4546.04,-429.08,-688.85
+    node = 4681.00,-392.00,-910.00, 4546.00,-429.00,-689.00
+  }
+}
+
+[EVENT_DATA]
+{
+  "Hit" = "playsound LifePreserverHit"
+  "Ropebreak" = "playsound ClampSnap"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "Ropebreak",""
+    Breaker = 0
+    Lock = 0
+    start = 22
+    length = 20
+  }
+  bar
+  {
+    BarName = "Hit",""
+    Breaker = 0
+    Lock = 0
+    start = 121
+    length = 16
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_5aRopetension1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 22
+  }
+  bar
+  {
+    BarName = "CS_5aFishBurp",""
+    Breaker = 0
+    Lock = 0
+    start = 71
+    length = 19
+  }
+  bar
+  {
+    BarName = "CS_5aFishthresh",""
+    Breaker = 0
+    Lock = 0
+    start = 90
+    length = 54
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 122
+  }
+  bar
+  {
+    BarName = "Camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 122
+    length = 8
+  }
+  bar
+  {
+    BarName = "Camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 130
+    length = 7
+  }
+  bar
+  {
+    BarName = "Camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 137
+    length = 7
+  }
+  bar
+  {
+    BarName = "Camera3",""
+    Breaker = 0
+    Lock = 0
+    start = 144
+    length = 84
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

@@ -1,0 +1,8 @@
+mesh CS_BBIntro_EarCanal
+skeleton cs6c_03_EarCanal
+
+anim cutscene
+60-126,1
+cycle stop
+
+//END

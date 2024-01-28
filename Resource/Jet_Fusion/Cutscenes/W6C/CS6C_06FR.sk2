@@ -1,0 +1,596 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "LINDSAYPARMENTE"
+  Date = "14/07/2003"
+  Time = "1:24:08 PM"
+  EdPos = 671.84,560.62,-130.17
+  EdPitch = -2.250
+  EdYaw = -11.480
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "goddard"
+  {
+    "goddard_Voice" = 37677940,0
+    "goddard_Lips" = 37677940,1
+    "goddard_Head" = 37677940,2
+    "goddard_Body" = 37677940,3
+    "goddard_Pos" = 37677940,4
+    "goddard_Look" = 37677940,5
+    "Camera" = -3,0
+  }
+  "jimmy"
+  {
+    "jimmy_Voice" = 40729180,0
+    "jimmy_Lips" = 40729180,1
+    "jimmy_Head" = 40729180,2
+    "jimmy_Body" = 40729180,3
+    "jimmy_Pos" = 40729180,4
+    "jimmy_Look" = 40729180,5
+    "Camera" = -3,0
+    "Event_0" = -1,0
+    "Event_1" = -1,1
+  }
+  "calamibot"
+  {
+    "calamibot_Voice" = 85196800,0
+    "calamibot_Lips" = 85196800,1
+    "calamibot_Head" = 85196800,2
+    "calamibot_Body" = 85196800,3
+    "calamibot_Pos" = 85196800,4
+    "calamibot_Look" = 85196800,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W6C.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "cactusimpact1" = 44,30
+  "CS_bodyfall" = 104,30
+}
+
+[DYNAMIC_SFX]
+{
+  "CS6C_06_P01JIFR.WAV" = 73,25
+  "CS6C_06_P02JIFR.WAV" = 107,53
+  "CS6C_06_P03JIFR.WAV" = 173,29
+  "CS6C_06_P04JIFR.WAV" = 210,51
+}
+
+[ACTOR_DATA]
+{
+  Count = 3
+  "A_GODDARD_Synker.BAD" = "goddard","CS6C_06_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 533.287,22.436,-72.120
+        rot = 0.000,1.090,0.000
+      }
+    }
+  }
+  "A_JIMMY_SYNKER_TUXEDO.BAD" = "jimmy","CS6C_06_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 511.692,21.836,-178.141
+        rot = 0.000,1.600,0.000
+      }
+    }
+  }
+  "A_CALAMIBOT.bad" = "calamibot","CS6C_06_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 2260.018,22.836,-233.414
+        rot = 0.000,-2.030,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "goddard"
+  {
+    "goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 73
+          length = 90
+        }
+        "BodyHappy02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 163
+          length = 108
+        }
+      }
+    }
+    "goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 73
+          length = 198
+        }
+      }
+    }
+    "goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "jimmy"
+  {
+    "jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Haha!" = "CS6C_06_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 73
+          length = 25
+        }
+        "We did it again, Goddard!" = "CS6C_06_P02JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 107
+          length = 53
+        }
+        "C'mon, boy..." = "CS6C_06_P03JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 173
+          length = 29
+        }
+        "Where shall we go next?" = "CS6C_06_P04JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 210
+          length = 51
+        }
+      }
+    }
+    "jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 73
+          length = 198
+        }
+      }
+    }
+    "jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 73
+          length = 147
+        }
+        "BodyScratchHead" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 220
+          length = 51
+        }
+      }
+    }
+    "jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 73
+          length = 198
+        }
+      }
+    }
+    "jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Haha!
+      jimmy
+      {
+        d = 0,9,18,36,27,27,18,54,255,255,54,126,255,255,255,198,162,144,162,144,81,18,9,
+        d = 0,0,
+      }
+      //We did it again, Goddard!
+      jimmy
+      {
+        d = 12,72,252,240,255,255,255,255,255,255,192,108,36,36,144,240,255,255,192,192,255,
+        d = 0,0,0,0,0,255,255,204,255,255,240,240,168,132,255,255,255,240,168,192,228,204,
+        d = 132,0,0,192,0,0,255,0,255,255,
+      }
+      //C'mon, boy...
+      jimmy
+      {
+        d = 117,180,255,255,255,144,189,255,234,216,171,153,207,207,117,126,189,216,207,207,
+        d = 0,0,0,0,0,234,255,162,162,
+      }
+      //Where shall we go next?
+      jimmy
+      {
+        d = 22,37,37,127,217,255,255,255,232,127,247,187,240,180,217,142,165,180,187,82,37,
+        d = 0,0,0,0,0,30,75,225,240,255,187,232,187,187,255,225,180,142,135,60,7,0,0,30,127,
+        d = 0,150,0,0,135,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "calamibot"
+  {
+    "calamibot_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "calamibot_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "calamibot_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "calamibot_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "ThrustPunchUp01_Shock" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 73
+        }
+      }
+    }
+    "calamibot_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 73
+        }
+      }
+    }
+    "calamibot_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 0,0,1,0,0,1,1,1,0,0,0,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 748.67,86.14,-169.40, 601.39,86.14,-133.30
+    node = 751.56,78.04,-157.56, 599.84,78.04,-135.17
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 1815.83,282.84,-296.10, 1708.81,282.84,-211.29
+    node = 1800.62,282.84,-305.85, 1708.33,282.84,-211.12
+  }
+  camera3
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 1716.41,224.84,-118.11, 1821.82,224.84,-135.25
+    node = 1769.25,224.64,-118.80, 1822.42,224.74,-135.24
+  }
+}
+
+[EVENT_DATA]
+{
+  "ButtonPress" = ""
+  "explosion" = "playsound Explosion"
+  "hit" = ""
+  "hitting" = "playsound SmashObject"
+  "SmashObject" = ""
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "hitting",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 30
+  }
+}
+
+[EVENT_1]
+{
+  bar
+  {
+    BarName = "explosion",""
+    Breaker = 0
+    Lock = 0
+    start = 24
+    length = 49
+  }
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "cactusimpact1",""
+    Breaker = 0
+    Lock = 0
+    start = 44
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_bodyfall",""
+    Breaker = 0
+    Lock = 0
+    start = 104
+    length = 30
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera3",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 73
+  }
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 73
+    length = 198
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

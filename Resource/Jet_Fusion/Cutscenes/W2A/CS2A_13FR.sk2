@@ -1,0 +1,403 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:41:55 PM"
+  EdPos = -5222.50,124.45,-5708.25
+  EdPitch = -0.280
+  EdYaw = 7.220
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+    "Ninja_Pos" = 69828508,4
+    "Rickshaw_Pos" = 105838240,4
+    "Camera" = -3,0
+  }
+  "Ninja"
+  {
+    "Ninja_Voice" = 69828508,0
+    "Ninja_Lips" = 69828508,1
+    "Ninja_Head" = 69828508,2
+    "Ninja_Body" = 69828508,3
+    "Ninja_Pos" = 69828508,4
+    "Ninja_Look" = 69828508,5
+    "Camera" = -3,0
+  }
+  "Rickshaw"
+  {
+    "Rickshaw_Voice" = 105838240,0
+    "Rickshaw_Lips" = 105838240,1
+    "Rickshaw_Head" = 105838240,2
+    "Rickshaw_Body" = 105838240,3
+    "Rickshaw_Pos" = 105838240,4
+    "Rickshaw_Look" = 105838240,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W2A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS2A_13_P01NIFR.WAV" = 10,121
+  "CS2A_13_P02NIFR.WAV" = 141,82
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_NINJA03Synker.BAD" = "Ninja","CS2A_13_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -5576.605,-34.540,-5446.288
+        rot = 0.000,0.290,0.000
+      }
+    }
+  }
+  "A_Rickshaw.bad" = "Rickshaw","CS2A_13_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -5757.674,-34.540,-5328.006
+        rot = 0.000,-1.490,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Ninja"
+  {
+    "Ninja_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Yawn. All too easy." = "CS2A_13_P01NIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 121
+        }
+        "Let me know if you want to try again." = "CS2A_13_P02NIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 141
+          length = 82
+        }
+      }
+    }
+    "Ninja_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 233
+        }
+      }
+    }
+    "Ninja_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ninja_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 142
+        }
+        "BodyPoint" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 142
+          length = 40
+        }
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 182
+          length = 51
+        }
+      }
+    }
+    "Ninja_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 233
+        }
+      }
+    }
+    "Ninja_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Yawn. All too easy.
+      Ninja
+      {
+        d = 0,15,22,30,30,15,45,255,255,255,255,255,187,82,37,7,7,22,37,52,105,157,210,217,
+        d = 225,225,255,255,217,255,247,247,255,240,255,157,45,7,22,30,67,157,240,195,217,
+        d = 195,165,157,135,142,142,157,180,142,135,112,127,112,120,127,112,105,60,60,60,
+        d = 52,22,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,90,255,255,240,255,255,247,157,127,82,15,
+        d = 45,195,37,195,255,255,240,195,172,105,75,157,180,187,165,112,142,142,105,97,82,
+        d = 67,37,30,22,7,0,0,
+      }
+      //Let me know if you want to try again.
+      Ninja
+      {
+        d = 0,0,27,90,144,144,207,225,189,252,255,255,255,162,99,126,198,162,162,189,207,
+        d = 216,207,207,216,234,207,243,234,207,225,255,234,252,255,189,189,243,225,171,162,
+        d = 171,162,81,63,90,144,255,255,216,216,225,189,135,90,63,153,117,36,135,63,117,
+        d = 216,216,198,171,198,234,135,27,9,90,171,180,189,171,144,36,27,18,9,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,0,1,
+    }
+  }
+  "Rickshaw"
+  {
+    "Rickshaw_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Rickshaw_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Rickshaw_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Rickshaw_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Rickshaw_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 233
+        }
+      }
+    }
+    "Rickshaw_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 0,0,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -5515.99,74.46,-5583.36, -5629.90,56.46,-5424.32
+    node = -5500.00,74.00,-5556.00, -5630.00,56.00,-5424.00
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 233
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

@@ -1,0 +1,403 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "3:17:06 PM"
+  EdPos = -10073.88,-59939.48,32657.41
+  EdPitch = -1.950
+  EdYaw = -37.630
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "jimmy"
+  {
+    "jimmy_Voice" = 152433380,0
+    "jimmy_Lips" = 152433380,1
+    "jimmy_Head" = 152433380,2
+    "jimmy_Body" = 152433380,3
+    "jimmy_Pos" = 152433380,4
+    "jimmy_Look" = 152433380,5
+    "Camera" = -3,0
+  }
+  "shuttlecar"
+  {
+    "shuttlecar_Voice" = 112588228,0
+    "shuttlecar_Lips" = 112588228,1
+    "shuttlecar_Head" = 112588228,2
+    "shuttlecar_Body" = 112588228,3
+    "shuttlecar_Pos" = 112588228,4
+    "shuttlecar_Look" = 112588228,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W6B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_GODDARDJETBOARD.BAD" = "jimmy","CS6B_12_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -9232.000,-61911.000,32993.000
+        rot = 0.000,0.000,0.000
+        pos = -9233.520,-61908.000,32888.922
+        rot = -0.354,-0.794,0.000
+        pos = -9330.747,-61903.000,32856.988
+        rot = 0.328,-2.359,85.242
+        pos = -9514.388,-61902.000,33036.876
+        rot = 0.000,0.226,0.196
+      }
+      "path_3"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -9238.000,-61911.000,32993.000
+        rot = 0.000,0.000,0.000
+        pos = -9232.000,-61911.000,32993.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "PROP_SHUTTLECAR.BAD" = "shuttlecar","CS6B_12_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -9337.967,-61950.000,32810.292
+        rot = 0.370,2.500,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "jimmy"
+  {
+    "jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 208
+        }
+      }
+    }
+    "jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_3" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 140
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 140
+          length = 68
+        }
+      }
+    }
+    "jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,1,1,
+    }
+  }
+  "shuttlecar"
+  {
+    "shuttlecar_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "shuttlecar_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "shuttlecar_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "shuttlecar_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "bindpose" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 173
+        }
+        "open" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 173
+          length = 20
+        }
+      }
+    }
+    "shuttlecar_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 208
+        }
+      }
+    }
+    "shuttlecar_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,0,1,1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera4
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -9000.81,-61884.00,33072.02, -9091.00,-61871.00,33024.00
+    node = -8994.00,-61889.00,33061.00, -9091.00,-61871.00,33024.00
+  }
+  camera5
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -8994.00,-61889.00,33061.00, -9091.00,-61871.00,33024.00
+    node = -8995.38,-61888.00,33055.08, -9091.00,-61871.00,33024.00
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 140
+  }
+  bar
+  {
+    BarName = "camera5",""
+    Breaker = 0
+    Lock = 0
+    start = 140
+    length = 68
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

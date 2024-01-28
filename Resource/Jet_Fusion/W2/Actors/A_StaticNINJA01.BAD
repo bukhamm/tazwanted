@@ -1,0 +1,21 @@
+mesh a_Ninja03
+skeleton A_StaticNINJA01
+
+anim bindPose
+0,1
+cycle stop
+
+
+//anim Idle01
+//130-180,1
+//cycle loop
+
+
+//--------------------------Additional Idle  for Static Ninja(02/05/03)
+
+anim Idle01
+2310-2540,1
+cycle loop
+
+
+end

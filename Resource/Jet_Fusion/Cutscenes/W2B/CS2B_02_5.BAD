@@ -1,0 +1,8 @@
+mesh CS2B_02_RoboNinja
+skeleton CS2B_02_5
+
+ANIM CUTSCENE
+190-350,1
+CYCLE STOP
+
+//END

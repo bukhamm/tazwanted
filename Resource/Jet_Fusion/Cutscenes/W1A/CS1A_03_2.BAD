@@ -1,0 +1,11 @@
+mesh a_jimmy
+skeleton CS1A_03_2
+
+ANIM CUTSCENE
+10-59,1
+CYCLE STOP
+
+
+//END
+//END
+

@@ -1,0 +1,11 @@
+mesh a_Lifesaversynker
+skeleton a_Lifesaversynker
+
+anim bindPose
+0,1
+cycle stop
+
+anim idle01
+10-316,1
+cycle loop
+

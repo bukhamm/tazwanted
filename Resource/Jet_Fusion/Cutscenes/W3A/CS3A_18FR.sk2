@@ -1,0 +1,407 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:52:09 PM"
+  EdPos = -721.74,77.24,236.17
+  EdPitch = 0.020
+  EdYaw = 2.660
+}
+
+[EXTRAS]
+{
+  bWindowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jet"
+  {
+    "Jet_Voice" = 97393068,0
+    "Jet_Lips" = 97393068,1
+    "Jet_Head" = 97393068,2
+    "Jet_Body" = 97393068,3
+    "Jet_Pos" = 97393068,4
+    "Jet_Look" = 97393068,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+    "Event_0" = -1,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W3A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_staticinout" = 99,35
+}
+
+[DYNAMIC_SFX]
+{
+  "CS3A_18_P01JFFR.WAV" = 10,21
+  "CS3A_18_P02JFFR.WAV" = 41,58
+  "CS3A_18_P03JFFR.WAV" = 134,11
+  "CS3A_18_P04JFFR.WAV" = 155,89
+  "CS3A_18_P05JFFR.WAV" = 254,48
+  "CS3A_18_P06JFFR.WAV" = 312,60
+  "CS3A_18_P07JFFR.WAV" = 382,24
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_JetFusion_Synker.BAD" = "Jet","CS3A_18_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -1095.361,-62.159,-218.884
+        rot = 0.000,1.450,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jet"
+  {
+    "Jet_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Hey, Jimmy." = "CS3A_18_P01JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 21
+        }
+        "I hope you are getting closer to the volcano..." = "CS3A_18_P02JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 41
+          length = 58
+        }
+        "Good." = "CS3A_18_P03JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 134
+          length = 11
+        }
+        "Hopefully you'll get there and retrieve the idol before Calamitous." = "CS3A_18_P04JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 155
+          length = 89
+        }
+        "He's still ranting and raving..." = "CS3A_18_P05JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 254
+          length = 48
+        }
+        "Something about a Goddess of Fire..." = "CS3A_18_P06JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 312
+          length = 60
+        }
+        "Hurry, Jimmy!" = "CS3A_18_P07JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 382
+          length = 24
+        }
+      }
+    }
+    "Jet_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 416
+        }
+      }
+    }
+    "Jet_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 416
+        }
+      }
+    }
+    "Jet_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 416
+        }
+      }
+    }
+    "Jet_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 416
+        }
+      }
+    }
+    "Jet_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Hey, Jimmy.
+      Jet
+      {
+        d = 36,144,216,207,189,153,63,153,255,252,255,255,252,252,153,63,18,0,0,0,0,
+      }
+      //I hope you are getting closer to the volcano...
+      Jet
+      {
+        d = 60,168,180,156,132,210,255,198,30,6,72,156,132,108,48,84,210,144,18,42,120,60,
+        d = 36,60,84,204,255,234,162,126,174,102,102,102,120,108,48,66,174,222,246,150,12,
+        d = 0,72,102,222,162,168,192,204,198,114,108,72,30,6,0,
+      }
+      //Good.
+      Jet
+      {
+        d = 150,255,247,255,217,165,52,7,7,7,0,
+      }
+      //Hopefully you'll get there and retrieve the idol before Calamitous.
+      Jet
+      {
+        d = 126,198,255,255,252,81,63,81,234,255,255,255,255,255,255,234,117,45,216,255,243,
+        d = 18,0,81,225,216,255,255,171,171,180,252,144,45,207,162,144,255,255,255,252,135,
+        d = 117,207,207,255,255,255,255,255,255,207,234,216,180,144,255,72,81,63,243,255,
+        d = 255,216,45,54,171,225,198,171,252,234,252,252,255,252,255,216,126,90,27,9,45,
+        d = 162,180,162,171,99,9,
+      }
+      //He's still ranting and raving...
+      Jet
+      {
+        d = 90,255,255,198,252,255,255,81,27,189,255,225,255,252,252,180,135,144,207,255,
+        d = 255,255,216,180,36,54,189,225,225,189,189,153,162,198,255,252,255,255,252,225,
+        d = 117,117,99,63,27,9,9,0,
+      }
+      //Something about a Goddess of Fire...
+      Jet
+      {
+        d = 24,126,150,114,192,192,144,54,78,126,132,132,66,72,204,210,204,132,126,72,30,
+        d = 12,0,12,84,186,246,228,222,222,108,126,108,132,156,108,96,96,42,12,6,12,18,18,
+        d = 24,54,255,255,255,255,234,156,126,84,54,42,12,6,0,0,
+      }
+      //Hurry, Jimmy!
+      Jet
+      {
+        d = 18,126,210,255,255,162,138,126,126,72,48,54,120,108,162,102,84,72,60,30,0,0,0,
+        d = 0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,0,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -1053.14,43.52,-238.24, -1163.25,51.72,-200.48
+    node = -1051.66,44.00,-225.96, -1163.06,52.00,-200.53
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -866.11,-36.84,264.36, -987.12,-36.83,298.20
+    node = -863.38,-37.00,270.27, -986.62,-37.00,298.08
+  }
+}
+
+[EVENT_DATA]
+{
+  "ShowStatic" = "ShowStatic"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "ShowStatic",""
+    Breaker = 0
+    Lock = 0
+    start = 99
+    length = 35
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_staticinout",""
+    Breaker = 0
+    Lock = 0
+    start = 99
+    length = 35
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 416
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

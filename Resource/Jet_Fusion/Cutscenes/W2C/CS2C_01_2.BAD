@@ -1,0 +1,6 @@
+mesh a_sheen
+skeleton CS2C_01_2
+
+ANIM CUTSCENE
+157-1045,1
+CYCLE STOP

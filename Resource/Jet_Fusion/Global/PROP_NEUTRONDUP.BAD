@@ -1,0 +1,29 @@
+mesh prop_NeutronDup
+skeleton prop_NeutronDup
+
+
+anim TakeOut01
+//grow in size
+10-11,1
+cycle stop
+
+anim PutAway01
+30-31,1
+cycle stop
+
+anim Fire01
+70-80,1
+cycle stop
+
+anim Fire02
+50-60,1
+cycle stop
+
+anim Idle01
+90-100,1
+cycle loop
+
+
+
+
+//end

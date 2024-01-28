@@ -1,0 +1,437 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "3:53:47 PM"
+  EdPos = 1475.56,8125.17,2516.76
+  EdPitch = -1.130
+  EdYaw = -0.330
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "jet"
+  {
+    "jet_Voice" = 77611008,0
+    "jet_Lips" = 77611008,1
+    "jet_Head" = 77611008,2
+    "jet_Body" = 77611008,3
+    "jet_Pos" = 77611008,4
+    "jet_Look" = 77611008,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+    "Event_0" = -1,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W5B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_staticinout" = 13,30
+  "CS_lp_static" = 68,17
+  "CS_staticinout" = 85,24
+  "CS_lp_static" = 109,14
+  "CS_staticinout" = 154,24
+  "CS_lp_static" = 178,13
+  "CS_staticinout" = 217,21
+  "CS_lp_static" = 238,15
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5B_28_P01JFEN.WAV" = 10,12
+  "CS5B_28_P02JFEN.WAV" = 32,50
+  "CS5B_28_P03JFEN.WAV" = 113,45
+  "CS5B_28_P04JFEN.WAV" = 184,39
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_JetFusion_Synker.BAD" = "jet","CS5B_28_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 1482.240,7794.797,2663.836
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "jet"
+  {
+    "jet_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Jimmy..." = "CS5B_28_P01JFEN.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 12
+        }
+        "Calamitous has found the third idol." = "CS5B_28_P02JFEN.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 32
+          length = 50
+        }
+        "He's laying a trap for you in..." = "CS5B_28_P03JFEN.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 113
+          length = 45
+        }
+        "so don't flood the chamber." = "CS5B_28_P04JFEN.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 184
+          length = 39
+        }
+      }
+    }
+    "jet_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 253
+        }
+      }
+    }
+    "jet_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "jet_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 60
+        }
+        "BodyNeutral02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 60
+          length = 193
+        }
+      }
+    }
+    "jet_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 253
+        }
+      }
+    }
+    "jet_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Jimmy...
+      jet
+      {
+        d = 115,231,255,255,255,255,255,178,157,52,0,0,
+      }
+      //Calamitous has found the third idol.
+      jet
+      {
+        d = 81,180,225,252,243,255,255,255,255,255,243,252,189,255,198,198,255,243,81,18,
+        d = 153,252,255,255,243,252,255,189,99,27,18,27,225,255,216,225,255,198,255,255,255,
+        d = 255,255,255,171,117,54,0,0,0,
+      }
+      //He's laying a trap for you in...
+      jet
+      {
+        d = 36,255,255,198,180,117,216,225,225,255,255,255,255,225,189,72,126,180,117,162,
+        d = 234,255,255,255,72,9,9,54,135,255,225,207,198,162,198,252,255,255,234,255,255,
+        d = 255,255,126,45,
+      }
+      //so don't flood the chamber.
+      jet
+      {
+        d = 72,255,216,255,180,99,18,90,255,255,255,255,180,36,27,36,54,117,198,255,255,162,
+        d = 144,255,45,117,252,198,255,255,255,255,216,117,99,36,18,18,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 1500.64,7979.80,2556.92, 1495.60,7979.80,2624.87
+  }
+}
+
+[EVENT_DATA]
+{
+  "ShowStatic" = "ShowStatic"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "ShowStatic",""
+    Breaker = 0
+    Lock = 0
+    start = 13
+    length = 30
+  }
+  bar
+  {
+    BarName = "ShowStatic",""
+    Breaker = 0
+    Lock = 0
+    start = 68
+    length = 55
+  }
+  bar
+  {
+    BarName = "ShowStatic",""
+    Breaker = 0
+    Lock = 0
+    start = 154
+    length = 37
+  }
+  bar
+  {
+    BarName = "ShowStatic",""
+    Breaker = 0
+    Lock = 0
+    start = 217
+    length = 36
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_staticinout",""
+    Breaker = 0
+    Lock = 0
+    start = 13
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 68
+    length = 17
+  }
+  bar
+  {
+    BarName = "CS_staticinout",""
+    Breaker = 0
+    Lock = 0
+    start = 85
+    length = 24
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 109
+    length = 14
+  }
+  bar
+  {
+    BarName = "CS_staticinout",""
+    Breaker = 0
+    Lock = 0
+    start = 154
+    length = 24
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 178
+    length = 13
+  }
+  bar
+  {
+    BarName = "CS_staticinout",""
+    Breaker = 0
+    Lock = 0
+    start = 217
+    length = 21
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 238
+    length = 15
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 253
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

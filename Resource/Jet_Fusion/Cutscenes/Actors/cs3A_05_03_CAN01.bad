@@ -1,0 +1,9 @@
+mesh a_Cannibal
+skeleton cs3A_05_03_CAN01
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+201-645,1
+cycle stop

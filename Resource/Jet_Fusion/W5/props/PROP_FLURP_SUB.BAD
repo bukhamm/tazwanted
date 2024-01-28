@@ -1,0 +1,20 @@
+mesh prop_Flurp_Sub
+skeleton prop_Flurp_Sub
+
+anim bindpose
+0,1
+cycle stop
+
+anim Inactive
+10-10,1
+cycle loop
+
+anim Active
+20-20,1
+cycle loop
+
+anim Activating
+30-30,1
+cycle stop
+
+//end

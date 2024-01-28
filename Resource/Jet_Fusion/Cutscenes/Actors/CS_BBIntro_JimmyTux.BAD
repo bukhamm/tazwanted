@@ -1,0 +1,8 @@
+mesh a_JimmyTux
+skeleton CS_BBIntro_Jimmy
+
+anim cutscene
+10-30,1
+cycle stop
+
+//END

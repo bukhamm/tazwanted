@@ -1,0 +1,6 @@
+mesh a_Calamibot
+skeleton CS6C_01_5
+
+ANIM CUTSCENE
+646-940,1
+CYCLE STOP

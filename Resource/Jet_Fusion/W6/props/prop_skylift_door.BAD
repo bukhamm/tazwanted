@@ -1,0 +1,8 @@
+mesh prop_skylift_door
+skeleton prop_skylift_door
+
+
+anim open
+10-39,1
+cycle stop
+

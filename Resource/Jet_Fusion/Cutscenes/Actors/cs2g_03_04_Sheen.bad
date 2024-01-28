@@ -1,0 +1,10 @@
+mesh a_sheen_norm
+skeleton cs2g_03_04_Sheen
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+340-479,1
+cycle stop

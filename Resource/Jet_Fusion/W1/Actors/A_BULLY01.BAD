@@ -1,0 +1,138 @@
+mesh a_Bully01
+skeleton a_Bully01
+
+anim bindpose
+0,1
+cycle loop
+
+anim walk01
+SoundEvent BullySteps 44
+SoundEvent BallBounce 34
+SoundEvent BullySteps 24
+SoundEvent BallBounce 13
+10-50,1
+cycle loop
+
+anim Idle01
+60-90,1
+cycle loop
+
+anim Run01
+SoundEvent BullySteps 196
+SoundEvent BullySteps 182
+
+170-200,1
+cycle loop
+
+anim Flinch01
+SoundEvent SoftBullyStep 297
+SoundEvent SoftBullyStep 288
+SoundEvent SoftBullyStep 261
+SoundEvent SoftBullyStep 240
+SoundEvent SoftBullyStep 217
+210-300,1
+cycle stop
+
+anim Flinch02 //Sunnies fly off
+SoundEvent SunglassBreak 1304
+1300-1340,1
+cycle stop
+
+anim DeathEntry01
+SoundEvent EnemyFallMed 1715
+SoundEvent BullyHit 1701
+1700-1730,1
+cycle stop
+
+//anim DeathEntry01
+//SoundEvent BullyHit 315
+//SoundEvent EnemyThrows 316
+//SoundEvent BallBounce 334
+//SoundEvent EnemyFallMed 327
+//SoundEvent BallBounce 314
+//SoundEvent EnemySocked 311
+//310-360,1
+//cycle stop
+
+anim QuickTurn01
+SoundEvent PirateSkid 370
+370-385,1
+cycle stop
+
+anim Idle02
+SoundEvent BallBounce 610
+SoundEvent BallBounce 586
+SoundEvent EnemySocked 578
+SoundEvent BallBounce 570
+SoundEvent BullySteps 551
+SoundEvent BallBounce 527
+SoundEvent BullySteps 520
+SoundEvent BallBounce 404
+390-635,1
+cycle stop
+
+anim Idle03
+SoundEvent BallBounce 822
+SoundEvent BallBounce 814
+SoundEvent TouchTwoHard 808
+SoundEvent TouchOne 773
+SoundEvent TouchOne 704
+SoundEvent TouchTwoHard 685
+SoundEvent BallBounce 678
+SoundEvent SoftBullyStep 672
+660-875,1
+cycle stop
+
+anim Alert
+SoundEvent BullyALert 880
+SoundEvent BullySteps 885
+SoundEvent BullySteps 884
+880-889,1
+cycle stop
+
+ANIM RangedGet01
+SoundEvent BullyBallTaunt 101
+100-115,1
+Cycle stop
+
+ANIM RangedShow01
+910-940,1
+Cycle loop
+
+
+ANIM RangedThrow01
+SoundEvent BullySteps 157
+SoundEvent EnemyThrows 120
+115-160,1
+event BallLaunch 120
+Cycle stop
+
+
+Anim Melee01
+SoundEvent BulltTaunt 955
+SoundEvent EnemySwingsPunch 964
+950-980,1
+Cycle stop
+
+
+Anim Melee02
+SoundEvent BullySteps 1020
+SoundEvent BallBounce 1013
+SoundEvent EnemySwingsPunch 1004
+SoundEvent BallBounce 995
+990-1030,1
+Cycle stop
+
+
+Anim AttackIdle01
+1040-1140,1
+Cycle loop
+
+
+Anim AttackIdle02  // breathIdle
+1150-1180,1
+Cycle loop
+
+anim gum01
+1350-1438,1
+cycle loop

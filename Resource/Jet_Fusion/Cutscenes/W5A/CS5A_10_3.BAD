@@ -1,0 +1,8 @@
+mesh a_Lifesaversynker
+skeleton CS5A_10_3
+
+ANIM BINDPOSE
+0,1
+CYCLE STOP
+
+

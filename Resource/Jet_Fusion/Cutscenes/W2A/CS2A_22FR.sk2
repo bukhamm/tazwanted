@@ -1,0 +1,651 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:42:15 PM"
+  EdPos = -2034.25,101.22,-940.20
+  EdPitch = 0.080
+  EdYaw = 6.180
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 71834984,0
+    "Jimmy_Lips" = 71834984,1
+    "Jimmy_Head" = 71834984,2
+    "Jimmy_Body" = 71834984,3
+    "Jimmy_Pos" = 71834984,4
+    "Jimmy_Look" = 71834984,5
+    "Camera" = -3,0
+  }
+  "Ninja"
+  {
+    "Ninja_Voice" = 104349680,0
+    "Ninja_Lips" = 104349680,1
+    "Ninja_Head" = 104349680,2
+    "Ninja_Body" = 104349680,3
+    "Ninja_Pos" = 104349680,4
+    "Ninja_Look" = 104349680,5
+    "Camera" = -3,0
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 109592576,0
+    "Goddard_Lips" = 109592576,1
+    "Goddard_Head" = 109592576,2
+    "Goddard_Body" = 109592576,3
+    "Goddard_Pos" = 109592576,4
+    "Goddard_Look" = 109592576,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W2A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS2A_22_P01JIFR.WAV" = 10,78
+  "CS2A_22_P02JIFR.WAV" = 97,113
+  "CS2A_22_P03JIFR.WAV" = 221,74
+  "CS2A_22_P04JIFR.WAV" = 305,57
+  "CS2A_22_P05JIFR.WAV" = 372,61
+}
+
+[ACTOR_DATA]
+{
+  Count = 3
+  "A_JIMMY_SYNKER_JAPAN.BAD" = "Jimmy","CS2A_22_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -2052.156,58.619,-663.418
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_NINJA03Synker.BAD" = "Ninja","CS2A_22_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 3283.644,-34.540,-4925.899
+        rot = 0.000,-1.643,0.000
+      }
+    }
+  }
+  "A_GODDARD_SYNKER.BAD" = "Goddard","CS2A_22_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -1958.037,58.519,-675.583
+        rot = 0.000,-0.242,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Retroville, Japanese style." = "CS2A_22_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 78
+        }
+        "What once was a quiet urban area is now full of bamboo forests," = "CS2A_22_P02JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 97
+          length = 113
+        }
+        "Japanese architecture, Sumo stadiums" = "CS2A_22_P03JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 221
+          length = 74
+        }
+        "and Masters of the Martial Arts." = "CS2A_22_P04JIFR.WAV"
+        {
+          Breaker = 0
+          Lock = 1
+          start = 305
+          length = 57
+        }
+        "Time to enter the dragon!" = "CS2A_22_P05JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 372
+          length = 61
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 372
+          length = 80
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 372
+          length = 80
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "swordspecialidle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 372
+          length = 80
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 452
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Retroville, Japanese style.
+      Jimmy
+      {
+        d = 75,105,82,97,120,172,255,255,255,150,7,0,112,135,157,255,255,255,202,255,217,
+        d = 240,255,255,232,210,210,202,217,255,217,195,22,0,82,225,157,217,255,255,217,187,
+        d = 90,7,127,255,255,255,255,255,255,225,157,120,157,172,127,0,75,165,67,90,75,90,
+        d = 75,45,37,52,52,30,15,0,0,0,0,0,0,0,
+      }
+      //What once was a quiet urban area is now full of bamboo forests,
+      Jimmy
+      {
+        d = 225,255,255,210,232,187,127,255,255,255,195,127,37,142,255,232,135,225,225,45,
+        d = 0,22,45,52,187,255,255,225,172,210,195,52,15,22,127,232,247,225,255,217,210,255,
+        d = 247,210,180,165,142,112,97,97,112,112,157,172,142,105,195,255,247,202,255,255,
+        d = 255,187,202,165,105,150,202,150,22,22,30,150,217,240,240,195,225,195,172,187,
+        d = 217,225,255,247,255,255,255,255,255,255,202,45,22,22,210,255,255,202,232,217,
+        d = 120,60,37,97,135,22,60,127,112,37,0,
+      }
+      //Japanese architecture, Sumo stadiums
+      Jimmy
+      {
+        d = 120,180,195,157,97,15,172,232,255,255,255,255,142,195,255,255,255,195,7,37,217,
+        d = 120,120,217,195,112,30,60,187,105,82,45,37,7,0,15,15,7,7,0,15,172,210,217,180,
+        d = 255,255,150,112,180,255,247,255,217,165,210,90,37,240,225,187,202,172,202,180,
+        d = 165,142,112,97,105,112,75,67,30,
+      }
+      //and Masters of the Martial Arts.
+      Jimmy
+      {
+        d = 90,180,207,216,225,216,243,207,255,255,243,117,255,255,45,9,180,255,255,255,255,
+        d = 225,171,255,225,144,72,135,198,189,216,189,255,255,255,198,255,243,255,255,255,
+        d = 255,255,216,117,27,27,9,0,54,198,189,135,9,0,0,0,
+      }
+      //Time to enter the dragon!
+      Jimmy
+      {
+        d = 96,78,138,162,144,120,144,150,168,198,198,255,234,72,90,138,138,186,132,90,12,
+        d = 0,0,60,108,198,204,222,54,96,216,255,255,234,138,120,198,138,144,126,216,222,
+        d = 216,174,144,126,66,12,66,60,42,48,54,48,60,48,12,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Ninja"
+  {
+    "Ninja_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ninja_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ninja_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ninja_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "Idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 305
+          length = 15
+        }
+        "Alert01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 320
+          length = 16
+        }
+        "RangedGet02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 336
+          length = 16
+        }
+        "RangedShow02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 352
+          length = 20
+        }
+      }
+    }
+    "Ninja_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 305
+          length = 67
+        }
+      }
+    }
+    "Ninja_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 372
+          length = 80
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadCurious" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 372
+          length = 80
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyThinking" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 372
+          length = 80
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 372
+          length = 80
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = -400.00,1998.00,-2340.00, -478.17,902.80,-5762.32
+    node = -400.00,1812.00,-2340.00, 1199.00,904.00,-4016.00
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 2434.26,151.81,10083.96, 2814.37,211.94,9297.56
+    node = 2436.00,151.00,10260.00, 2636.00,171.00,10260.00
+  }
+  camera3
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 3720.60,1553.06,-1320.21, 5182.59,683.04,-3441.16
+    node = 3857.98,1863.06,-1381.63, 6935.69,762.34,-1009.93
+  }
+  camera4
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 2887.62,54.46,-4650.87, 3252.95,34.46,-4952.99
+    node = 3018.40,74.46,-4759.24, 3253.00,34.00,-4953.00
+  }
+  camera5
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = -2083.71,91.62,-1038.88, -2008.95,163.62,-664.14
+    node = -2189.84,92.00,-1016.81, -2008.84,164.00,-652.00
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 98
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 98
+    length = 124
+  }
+  bar
+  {
+    BarName = "camera3",""
+    Breaker = 0
+    Lock = 0
+    start = 222
+    length = 83
+  }
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 305
+    length = 67
+  }
+  bar
+  {
+    BarName = "camera5",""
+    Breaker = 0
+    Lock = 0
+    start = 372
+    length = 80
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

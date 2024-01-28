@@ -1,0 +1,7 @@
+mesh prop_map
+skeleton prop_map
+
+anim down
+10-59,1
+cycle stop
+

@@ -1,0 +1,469 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "1/07/2003"
+  Time = "2:52:38 PM"
+  EdPos = 7606.06,-339.38,4101.49
+  EdPitch = -0.510
+  EdYaw = 2.430
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 57507788,0
+    "Jimmy_Lips" = 57507788,1
+    "Jimmy_Head" = 57507788,2
+    "Jimmy_Body" = 57507788,3
+    "Jimmy_Pos" = 57507788,4
+    "Jimmy_Look" = 57507788,5
+    "Camera" = -3,0
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 101298656,0
+    "Goddard_Lips" = 101298656,1
+    "Goddard_Head" = 101298656,2
+    "Goddard_Body" = 101298656,3
+    "Goddard_Pos" = 101298656,4
+    "Goddard_Look" = 101298656,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W2B.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS2B_08_P01JIEN.wav" = 10,67
+  "CS2B_08_P02JIEN.wav" = 87,64
+  "CS2B_08_P03GOEN.wav" = 161,29
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_JIMMY_SYNKER_JAPAN.BAD" = "Jimmy","CS2B_08_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 7365.380,-583.048,3821.437
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "Goddard","CS2B_08_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 3,0.000,0.000,0.723,0.050,1.000,1.000,
+        pos = 7415.153,-656.062,3863.186
+        rot = 0.000,0.000,0.000
+        pos = 7415.561,-583.562,3863.209
+        rot = 0.000,0.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 7415.561,-568.562,3863.209
+        rot = 0.000,0.010,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Those gloves could be useful, Goddard!" = "CS2B_08_P01JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 67
+        }
+        "There has to be some way into this building." = "CS2B_08_P02JIEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 87
+          length = 64
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 200
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 200
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 110
+        }
+        "BodyScratchHead" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 110
+          length = 90
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 200
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Those gloves could be useful, Goddard!
+      Jimmy
+      {
+        d = 48,162,198,216,240,216,102,108,12,0,6,72,132,132,174,246,255,255,255,186,222,
+        d = 120,138,90,0,6,54,72,222,252,24,24,90,156,255,246,222,255,255,255,255,192,168,
+        d = 174,12,6,96,204,150,102,42,132,156,114,90,66,42,72,78,120,72,66,24,0,0,0,0,
+      }
+      //There has to be some way into this building.
+      Jimmy
+      {
+        d = 108,171,207,198,243,255,255,108,162,27,117,255,255,255,216,189,255,255,255,255,
+        d = 198,255,255,255,162,216,255,234,255,189,153,198,180,234,243,255,255,243,225,171,
+        d = 255,153,81,9,0,9,198,255,255,255,255,144,198,243,225,126,90,45,9,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Bark bark bark bark!" = "CS2B_08_P03GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 161
+          length = 29
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 140
+          length = 60
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 140
+          length = 60
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 140
+          length = 60
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 140
+          length = 18
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 158
+          length = 42
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Bark bark bark bark!
+      Goddard
+      {
+        d = 216,255,255,198,36,6,0,42,234,255,255,228,48,6,96,255,255,255,78,6,0,6,186,255,
+        d = 255,255,114,6,18,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 7292.19,-475.08,4031.64, 7345.15,-485.04,3838.50
+    node = 7296.17,-483.00,4015.34, 7345.12,-485.00,3838.64
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 7395.92,-448.51,3540.34, 7532.82,-500.02,3637.83
+    node = 7376.00,-449.00,3531.00, 7532.54,-500.00,3637.87
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 87
+  }
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 87
+    length = 113
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

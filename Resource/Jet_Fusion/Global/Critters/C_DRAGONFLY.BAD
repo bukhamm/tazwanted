@@ -1,0 +1,16 @@
+skeleton c_DragonFly
+mesh c_DragonFly
+
+anim bindpose
+0,1
+cycle stop
+
+anim flying01
+1-4,1
+cycle loop
+
+anim idle_ground
+6-59,1
+cycle loop
+
+//end

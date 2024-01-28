@@ -1,0 +1,57 @@
+mesh a_Cannibalcanoe
+skeleton a_Cannibalcanoe
+
+
+anim bindPose
+0,1
+cycle stop
+
+//Movement
+
+
+anim PaddleSlow01
+SoundEvent CanoePaddle 31
+10-50,1
+cycle loop
+
+Anim PaddleFast01
+SoundEvent CanoePaddle 70
+60-80,1
+cycle loop
+
+anim TurnRight01
+SoundEvent EnemySwingsPunch 94
+90-105,1
+cycle stop
+
+anim TurningRight01
+105-115,1
+cycle loop
+
+anim TurnLeft01
+SoundEvent CanoePaddle 127
+120-135,1
+cycle stop
+
+anim TurningLeft01
+135-145,1
+cycle loop
+
+anim idle01
+150-170,1
+cycle loop
+
+anim idle02
+170-235,1
+cycle stop
+
+anim idle03
+235-403,1
+cycle stop
+
+anim alert01
+SoundEvent CannibalAlert 421
+420-435,1
+cycle stop
+
+end

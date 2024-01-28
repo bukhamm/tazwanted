@@ -1,0 +1,6 @@
+mesh A_MsFowl
+skeleton CS1A_01_3
+
+ANIM CUTSCENE
+700-2045,1
+CYCLE STOP

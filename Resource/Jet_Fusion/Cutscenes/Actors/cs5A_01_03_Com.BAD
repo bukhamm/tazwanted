@@ -1,0 +1,10 @@
+mesh cs5A_01_03_Com
+skeleton cs5A_01_03_Com
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+40-930,1
+cycle stop

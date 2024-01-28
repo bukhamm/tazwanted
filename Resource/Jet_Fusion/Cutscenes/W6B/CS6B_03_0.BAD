@@ -1,0 +1,8 @@
+mesh a_JimmyTux
+skeleton CS6B_03_0
+
+ANIM CUTSCENE
+140-1350,1
+CYCLE STOP
+CYCLE STOP
+

@@ -1,0 +1,810 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "3:18:23 PM"
+  EdPos = -87.50,1587.43,-480.48
+  EdPitch = -0.990
+  EdYaw = 12.140
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 44646372,0
+    "Jimmy_Lips" = 44646372,1
+    "Jimmy_Head" = 44646372,2
+    "Jimmy_Body" = 44646372,3
+    "Jimmy_Pos" = 44646372,4
+    "Jimmy_Look" = 44646372,5
+    "Camera" = -3,0
+  }
+  "Bot"
+  {
+    "Bot_Voice" = 65044480,0
+    "Bot_Lips" = 65044480,1
+    "Bot_Head" = 65044480,2
+    "Bot_Body" = 65044480,3
+    "Bot_Pos" = 65044480,4
+    "Bot_Look" = 65044480,5
+    "Camera" = -3,0
+  }
+  "BotwJimmy"
+  {
+    "BotwJimmy_Voice" = 61062216,0
+    "BotwJimmy_Lips" = 61062216,1
+    "BotwJimmy_Head" = 61062216,2
+    "BotwJimmy_Body" = 61062216,3
+    "BotwJimmy_Pos" = 61062216,4
+    "BotwJimmy_Look" = 61062216,5
+    "Camera" = -3,0
+  }
+  "goddard"
+  {
+    "goddard_Voice" = 54132720,0
+    "goddard_Lips" = 54132720,1
+    "goddard_Head" = 54132720,2
+    "goddard_Body" = 54132720,3
+    "goddard_Pos" = 54132720,4
+    "goddard_Look" = 54132720,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W6C.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS6C_08_P01JIFR.WAV" = 15,30
+  "CS6C_08_P02JIFR.WAV" = 72,106
+  "CS6C_08_P03JIFR.WAV" = 188,30
+  "CS6C_08_P04JIFR.WAV" = 228,94
+}
+
+[ACTOR_DATA]
+{
+  Count = 4
+  "A_JIMMY_SYNKER_TUXEDO.BAD" = "Jimmy","CS6C_08_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -53.572,1453.908,-680.140
+        rot = 0.000,0.000,0.000
+        pos = -40.983,1458.908,-468.949
+        rot = 0.000,0.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -57.925,1461.300,-507.439
+        rot = 0.000,3.070,0.000
+      }
+      "path_3"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 312.373,1567.836,-478.694
+        rot = 0.000,-0.880,-0.020
+      }
+    }
+  }
+  "A_JIMMYBOT.BAD" = "Bot","CS6C_08_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 2.431,1799.908,34.651
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_JIMMYBOT.BAD" = "BotwJimmy","CS6C_08_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 299.622,1452.908,-485.679
+        rot = 0.000,-1.220,0.000
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "goddard","CS6C_08_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -110.129,1441.836,-606.885
+        rot = 0.000,0.000,0.000
+        pos = -97.000,1447.000,-492.000
+        rot = 0.000,0.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -113.925,1455.300,-530.439
+        rot = 0.000,3.050,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "The Jimmy Bot!" = "CS6C_08_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 15
+          length = 30
+        }
+        "Now we've got a chance to defeat Calamitous once and for all!" = "CS6C_08_P02JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 72
+          length = 106
+        }
+        "Let's go, Goddard." = "CS6C_08_P03JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 188
+          length = 30
+        }
+        "We've got an evil scientist to stop..." = "CS6C_08_P04JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 228
+          length = 94
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 228
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 228
+          length = 104
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 113
+        }
+        "HeadBlink" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 113
+          length = 30
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 143
+          length = 85
+        }
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 228
+          length = 74
+        }
+        "HeadBlinkHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 302
+          length = 30
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "walk" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 72
+        }
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 72
+          length = 30
+        }
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 102
+          length = 126
+        }
+        "specialidle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 228
+          length = 104
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 72
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 72
+          length = 156
+        }
+        "path_3" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 228
+          length = 104
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+        "Bot_0_Head" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 62
+        }
+      }
+    }
+    AWFS
+    {
+      //The Jimmy Bot!
+      Jimmy
+      {
+        d = 192,255,240,168,36,132,255,216,255,255,216,168,255,240,255,255,240,252,180,144,
+        d = 48,24,0,108,24,0,0,0,0,0,
+      }
+      //Now we've got a chance to defeat Calamitous once and for all!
+      Jimmy
+      {
+        d = 142,255,255,255,247,165,247,255,255,232,157,127,165,172,157,135,22,60,187,187,
+        d = 112,112,142,67,7,127,172,127,165,127,135,112,90,67,7,30,142,157,120,142,172,52,
+        d = 22,37,172,240,165,37,7,0,60,142,187,187,202,210,255,157,135,142,157,150,75,97,
+        d = 112,75,75,112,67,135,135,112,105,142,165,187,202,150,142,67,105,142,150,210,127,
+        d = 90,45,15,30,232,232,202,232,255,225,180,157,165,202,157,82,60,7,0,0,0,
+      }
+      //Let's go, Goddard.
+      Jimmy
+      {
+        d = 112,255,255,217,195,255,255,75,45,127,0,82,255,255,187,150,97,135,195,172,202,
+        d = 157,90,187,195,90,45,0,0,0,
+      }
+      //We've got an evil scientist to stop...
+      Jimmy
+      {
+        d = 7,7,67,120,75,187,232,247,255,255,255,255,195,127,150,105,82,232,247,195,165,
+        d = 142,67,82,105,90,127,142,82,7,0,22,120,255,255,255,255,225,67,135,255,195,112,
+        d = 75,150,172,225,187,172,255,255,172,195,157,165,172,165,172,120,15,180,255,187,
+        d = 157,75,180,180,60,45,195,172,135,135,127,120,90,0,30,255,255,255,247,187,142,
+        d = 7,0,0,15,15,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Bot"
+  {
+    "Bot_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Bot_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Bot_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Bot_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Bot_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 72
+        }
+      }
+    }
+    "Bot_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,0,0,0,0,0,0,1,1,1,1,
+    }
+  }
+  "BotwJimmy"
+  {
+    "BotwJimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "BotwJimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "BotwJimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "BotwJimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "Idle03" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 228
+          length = 60
+        }
+        "Idle02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 288
+          length = 44
+        }
+      }
+    }
+    "BotwJimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 228
+          length = 104
+        }
+      }
+    }
+    "BotwJimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,0,0,0,0,0,0,1,1,1,1,
+    }
+  }
+  "goddard"
+  {
+    "goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "walk01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 16
+        }
+        "walk01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 16
+          length = 16
+        }
+        "walk01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 32
+          length = 16
+        }
+        "walk01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 48
+          length = 16
+        }
+        "walk01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 64
+          length = 8
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 72
+          length = 110
+        }
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 182
+          length = 46
+        }
+      }
+    }
+    "goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 72
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 72
+          length = 156
+        }
+      }
+    }
+    "goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  Camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -31.82,1653.91,-1073.15, -45.55,1598.91,-795.32
+    node = -35.52,1800.91,-1006.68, 4.55,1813.91,-505.10
+  }
+  Camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -95.04,1529.12,-380.63, -85.47,1521.51,-460.89
+    node = -72.62,1529.11,-379.74, -85.53,1521.60,-461.17
+  }
+  Camera3
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 86.88,1677.91,-697.64, 297.74,1611.91,-470.70
+    node = -45.04,1697.91,-816.22, 297.74,1640.91,-470.70
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "Camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 72
+  }
+  bar
+  {
+    BarName = "Camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 72
+    length = 156
+  }
+  bar
+  {
+    BarName = "Camera3",""
+    Breaker = 0
+    Lock = 0
+    start = 228
+    length = 104
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

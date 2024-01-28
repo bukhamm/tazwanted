@@ -1,0 +1,6 @@
+mesh a_ProfCalamitus
+skeleton CS5C_03_4
+
+ANIM CUTSCENE
+194-850,1
+CYCLE STOP

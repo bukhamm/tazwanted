@@ -1,0 +1,6 @@
+mesh a_JimmyJungle
+skeleton CS3A_01_0
+
+ANIM CUTSCENE
+277-930,1
+CYCLE STOP

@@ -1,0 +1,3614 @@
+[HEADER]
+{
+// MapEd 1.3.6 Data File version 3
+// Copyright Krome Studios
+// Saved by [DYO]   Date: 22/06/2003   Time: 3:26:43 PM
+}
+
+[BOUNDING_REGION]
+{
+  WorldMinMax = -7498.270,-706.628,-7237.120,14999.458,5080.888,14422.336
+}
+
+[SWAP_GROUP_INFO]
+{
+  NumSwapGroups = 0
+  NumDescriptors = 0
+  NumInstances = 0
+}
+
+[SOUNDPROP]
+{
+  pos = -12, 110, 38
+  zone = 4
+  rot = 0.000, 0.000, 0.000
+    sound = *ElecLP,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  minDelay = 0.000
+  maxDelay = 0.000
+  bActive = 1,true
+  ID = 201,blank
+  dummySphere
+  {
+    pos = 332,-526,534
+    radius = 400.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = -22, 94, 30
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+    sound = *ComputerBankOneLP,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  minDelay = 0.000
+  maxDelay = 0.000
+  bActive = 1,true
+  ID = 202,blank
+  dummySphere
+  {
+    pos = 75,-1606,107
+    radius = 1500.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = -9, 62, 28
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *HumLP,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  minDelay = 0.000
+  maxDelay = 0.000
+  bActive = 1,true
+  ID = 203,blank
+  dummySphere
+  {
+    pos = 283,-526,502
+    radius = 400.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = 2083, 86, 2861
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *ComputerBankTwoLP,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,
+  minDelay = 0.000
+  maxDelay = 0.000
+  bActive = 1,true
+  ID = 204,blank
+  dummySphere
+  {
+    pos = 2075,26,2843
+    radius = 1500.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = 1091, -597, 1597
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *HumLP,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,
+  minDelay = 0.000
+  maxDelay = 0.000
+  bActive = 1,true
+  ID = 205,blank
+  dummySphere
+  {
+    pos = 1084,-600,1597
+    radius = 1500.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = 1855, -611, -523
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *HumLP,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,
+  minDelay = 0.000
+  maxDelay = 0.000
+  bActive = 1,true
+  ID = 206,blank
+  dummySphere
+  {
+    pos = 1848,-613,-522
+    radius = 1500.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = -0, -580, -1873
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *HumLP,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,
+  minDelay = 0.000
+  maxDelay = 0.000
+  bActive = 1,true
+  ID = 207,blank
+  dummySphere
+  {
+    pos = -7,-583,-1872
+    radius = 1500.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = -1777, -603, -552
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *HumLP,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,
+  minDelay = 0.000
+  maxDelay = 0.000
+  bActive = 1,true
+  ID = 208,blank
+  dummySphere
+  {
+    pos = -1785,-605,-551
+    radius = 1500.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = -1127, -625, 1555
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *HumLP,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,
+  minDelay = 0.000
+  maxDelay = 0.000
+  bActive = 1,true
+  ID = 209,blank
+  dummySphere
+  {
+    pos = -1135,-627,1555
+    radius = 1500.00
+  }
+// User: ???
+}
+
+[SOUNDPROP]
+{
+  pos = -4, 2148, 4
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+    sound = *HumLP,D:\src\Jimmy\MapEd\GlobalSound\SoundEvents.txt,*,,,
+  minDelay = 0.000
+  maxDelay = 0.000
+  bActive = 1,true
+  ID = 210,blank
+  dummySphere
+  {
+    pos = -11,2145,4
+    radius = 1500.00
+  }
+// User: ???
+}
+
+[GODDARDOVERRIDE]
+{
+  pos = 1938, 28, 2113
+  zone = 1
+  ID = 200,GoddardOverride
+  triggerbox
+  {
+    pos = 2,878,27
+    yaw = 0.00
+    width = 6951.25
+    height = 2133.75
+    depth = 6853.75
+    pitch = 0.00
+  }
+  waypoints
+  {
+  }
+  bActive = 0,false
+// User: ???
+}
+
+[JIMMY]
+{
+  pos = 2851, 19, -862
+  zone = 1
+  rot = 0.000, -1.945, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 199,JIMMY
+  CameraPos
+  {
+    pos = 3148,320,-958
+    radius = 100.00
+  }
+// User: ???
+}
+
+[GODDARD]
+{
+  pos = 2191, 19, -538
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 198,blank
+// User: ???
+}
+
+[HEALTHBONUS]
+{
+  pos = 1678, 70, 2499
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 191,Health5
+// User: ???
+}
+
+[HEALTHBONUS]
+{
+  pos = -1745, 70, 2337
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 192,Health6
+// User: ???
+}
+
+[HEALTHBONUS]
+{
+  pos = 1651, 70, -1211
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 193,Health0
+// User: ???
+}
+
+[HEALTHBONUS]
+{
+  pos = 1070, 70, -2406
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 194,Health1
+// User: ???
+}
+
+[HEALTHBONUS]
+{
+  pos = -648, 70, -153
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 195,Health2
+// User: ???
+}
+
+[HEALTHBONUS]
+{
+  pos = -625, 70, 1582
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 196,Health3
+// User: ???
+}
+
+[HEALTHBONUS]
+{
+  pos = 453, 70, 581
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 197,Health4
+// User: ???
+}
+
+[CANDY]
+{
+  pos = 1516, 102, 2030
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 186,Candy4
+// User: ???
+}
+
+[CANDY]
+{
+  pos = -1411, 102, 1982
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 187,Candy3
+// User: ???
+}
+
+[CANDY]
+{
+  pos = -2112, 102, -662
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 188,Candy2
+// User: ???
+}
+
+[CANDY]
+{
+  pos = 5, 86, -655
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 1,true
+  Collectable = 1,true
+  ID = 189,Candy1
+// User: ???
+}
+
+[CANDY]
+{
+  pos = 1791, 102, -506
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  Collectable = 1,true
+  ID = 190,Candy0
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -47, 147, -2031
+  zone = 2
+  rot = 0.000, 3.142, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 150,magt_lever24_2
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 5, 147, -1981
+  zone = 2
+  rot = 0.000, 1.571, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 151,magt_lever24_1
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 54, 147, -2031
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 152,magt_lever24_3
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 2, 147, -2083
+  zone = 2
+  rot = 0.000, 4.712, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 153,magt_lever24_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -273, 147, -2642
+  zone = 2
+  rot = 0.000, 4.712, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 154,magt_lever12_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 4, 147, -2642
+  zone = 2
+  rot = 0.000, 4.712, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 155,magt_lever21_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -274, 147, -2363
+  zone = 2
+  rot = 0.000, 4.712, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 156,magt_lever1_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 5, 147, -2363
+  zone = 2
+  rot = 0.000, 4.712, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 157,magt_lever6_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -327, 147, -2034
+  zone = 2
+  rot = 0.000, 3.142, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 158,magt_lever4_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -327, 147, -2317
+  zone = 2
+  rot = 0.000, 3.142, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 159,magt_lever1_1
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -606, 147, -2039
+  zone = 2
+  rot = 0.000, 3.142, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 160,magt_lever19_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -606, 147, -2317
+  zone = 2
+  rot = 0.000, 3.142, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 161,magt_lever11_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -607, 147, -2598
+  zone = 2
+  rot = 0.000, 3.142, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 162,magt_lever20_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -551, 147, -2642
+  zone = 2
+  rot = 0.000, 4.712, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 163,magt_lever20_1
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 614, 147, -2312
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 164,magt_lever14_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 614, 147, -2589
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 165,magt_lever22_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 564, 147, -2642
+  zone = 2
+  rot = 0.000, 4.712, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 166,magt_lever22_1
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 285, 147, -2642
+  zone = 2
+  rot = 0.000, 4.712, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 167,magt_lever13_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 281, 147, -2363
+  zone = 2
+  rot = 0.000, 4.712, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 168,magt_lever2_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 334, 147, -2310
+  zone = 2
+  rot = 0.000, 0.000, 0.025
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 169,magt_lever2_1
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 334, 147, -2029
+  zone = 2
+  rot = 0.000, 0.000, 0.025
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 170,magt_lever7_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -556, 147, -1423
+  zone = 2
+  rot = 0.000, 1.571, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 171,magt_lever16_1
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -606, 147, -1480
+  zone = 2
+  rot = 0.000, 3.142, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 172,magt_lever16_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -607, 147, -1759
+  zone = 2
+  rot = 0.000, 3.142, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 173,magt_lever10_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 614, 147, -1475
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 174,magt_lever18_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 563, 147, -1423
+  zone = 2
+  rot = 0.000, 1.571, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 175,magt_lever18_1
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 283, 147, -1423
+  zone = 2
+  rot = 0.000, 1.571, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 176,magt_lever9_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 3, 147, -1423
+  zone = 2
+  rot = 0.000, 1.571, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 177,magt_lever17_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -272, 147, -1422
+  zone = 2
+  rot = 0.000, 1.571, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 178,magt_lever8_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 614, 147, -2031
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 179,magt_lever23_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 614, 147, -1758
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 180,magt_lever15_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 334, 147, -1749
+  zone = 2
+  rot = 0.000, 0.000, 0.025
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 181,magt_lever3_1
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = 278, 147, -1701
+  zone = 2
+  rot = 0.000, 1.571, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 182,magt_lever3_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -3, 147, -1701
+  zone = 2
+  rot = 0.000, 1.571, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 183,magt_lever5_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -277, 147, -1701
+  zone = 2
+  rot = 0.000, 1.571, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 184,magt_lever0_0
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[LEVER_VERTICAL]
+{
+  pos = -327, 147, -1756
+  zone = 2
+  rot = 0.000, 3.142, 0.000
+  scale = 1.000, 1.000, 1.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  ID = 185,magt_lever0_1
+  bActive = 1,true
+  MultipleHit = 0,false
+  bRestart = 1,true
+// User: ???
+}
+
+[PLATFORM]
+{
+  pos = 3, 183, -1046
+  zone = 4
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 145,Platform1
+  waypoints
+  {
+    waypoint = 3, 183, -1046
+    waypoint = 2, 1412, -1146
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 1,true
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[PLATFORM]
+{
+  pos = 1020, 183, -300
+  zone = 4
+  rot = 0.000, 1.257, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 146,Platform0
+  waypoints
+  {
+    waypoint = 1020, 183, -300
+    waypoint = 1115, 1412, -331
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 15.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 1,true
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[PLATFORM]
+{
+  pos = -1018, 183, -308
+  zone = 4
+  rot = 0.000, 5.027, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 147,Platform2
+  waypoints
+  {
+    waypoint = -1018, 183, -308
+    waypoint = -1124, 1412, -336
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 1,true
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[PLATFORM]
+{
+  pos = 631, 183, 895
+  zone = 4
+  rot = 0.000, 2.513, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 148,Platform4
+  waypoints
+  {
+    waypoint = 631, 183, 895
+    waypoint = 725, 1412, 1025
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 1,true
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[PLATFORM]
+{
+  pos = -633, 183, 893
+  zone = 4
+  rot = 0.000, 3.770, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 149,Platform3
+  waypoints
+  {
+    waypoint = -633, 183, 893
+    waypoint = -701, 1412, 992
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 1,true
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[IDOL_GOLD2C]
+{
+  pos = -503, 1599, -666
+  zone = 4
+  rot = 0.000, -0.000, -0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  ID = 144,idol2
+  waypoints1
+  {
+    waypoint = -469, 1840, -458
+    waypoint = -497, 1744, -317
+    waypoint = -469, 1459, -147
+  }
+// User: ???
+}
+
+[IDOL_GOLD3C]
+{
+  pos = -816, 1618, 292
+  zone = 4
+  rot = 0.000, -2.183, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  ID = 143,idol1
+  waypoints1
+  {
+    waypoint = -724, 1840, 239
+    waypoint = -561, 1744, 159
+    waypoint = -519, 1459, 128
+  }
+// User: ???
+}
+
+[IDOL_GOLD5C]
+{
+  pos = 832, 1607, 292
+  zone = 4
+  rot = 0.000, 2.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  OnCollect
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  attach = 0,false
+  ID = 142,idol0
+  waypoints1
+  {
+    waypoint = 641, 1840, 280
+    waypoint = 504, 1744, 311
+    waypoint = 354, 1459, 388
+  }
+// User: ???
+}
+
+[BOX_CONTAINER01]
+{
+  pos = 4, 22, -1360
+  zone = 4
+  rot = 0.000, -1.573, 0.000
+  scale = 0.500, 0.400, 1.000
+  ID = 132,Box02
+// User: ???
+}
+
+[BOX_CONTAINER01]
+{
+  pos = -1327, 22, -411
+  zone = 4
+  rot = 0.000, -2.843, 0.000
+  scale = 0.500, 0.400, 1.000
+  ID = 133,Box03
+// User: ???
+}
+
+[BOX_CONTAINER01]
+{
+  pos = -813, 22, 1145
+  zone = 4
+  rot = 0.000, 2.180, 0.000
+  scale = 0.500, 0.400, 1.000
+  ID = 134,Box04
+// User: ???
+}
+
+[BOX_CONTAINER01]
+{
+  pos = 818, 22, 1153
+  zone = 4
+  rot = 0.000, 0.935, -0.000
+  scale = 0.500, 0.400, 1.000
+  ID = 135,Box00
+// User: ???
+}
+
+[BOX_CONTAINER01]
+{
+  pos = 1317, 22, -398
+  zone = 4
+  rot = 0.000, -0.330, -0.000
+  scale = 0.500, 0.400, 1.000
+  ID = 136,Box01
+// User: ???
+}
+
+[BOX_CONTAINER01]
+{
+  pos = 2064, 22, 1359
+  zone = 2
+  rot = 0.000, -2.575, 0.000
+  scale = 0.500, 0.400, 1.000
+  ID = 137,blank
+// User: ???
+}
+
+[BOX_CONTAINER01]
+{
+  pos = 2181, 22, 1554
+  zone = 2
+  rot = 0.000, -0.995, -0.000
+  scale = 1.000, 0.800, 1.000
+  ID = 138,blank
+// User: ???
+}
+
+[BOX_CONTAINER01]
+{
+  pos = 659, 22, 2253
+  zone = 2
+  rot = 0.000, 1.290, -0.000
+  scale = 1.000, 0.800, 1.000
+  ID = 139,blank
+// User: ???
+}
+
+[BOX_CONTAINER01]
+{
+  pos = 833, 22, 2131
+  zone = 2
+  rot = 0.000, -0.270, -0.000
+  scale = 0.500, 0.400, 1.000
+  ID = 140,blank
+// User: ???
+}
+
+[BOX_CONTAINER01]
+{
+  pos = 843, 22, 2518
+  zone = 2
+  rot = 0.000, -0.290, -0.000
+  scale = 1.000, 1.200, 1.000
+  ID = 141,blank
+// User: ???
+}
+
+[CALAMIBOT]
+{
+  pos = 648, 1454, -276
+  zone = 1
+  rot = 0.000, -0.350, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 131,Calamibot
+  waypoints
+  {
+  }
+  bActive = 1,true
+  stage1
+  {
+    waypoint = 691, 1454, -205
+    waypoint = 1403, 22, -333
+    waypoint = 1930, 22, -1214
+    waypoint = 2047, 22, 335
+  }
+  stage2
+  {
+    waypoint = 0, 1454, -710
+    waypoint = 1123, 22, -2227
+    waypoint = -1156, 22, -2132
+    waypoint = -24, 22, -1087
+  }
+  stage3
+  {
+    waypoint = -711, 1454, -209
+    waypoint = -1350, 22, -1173
+    waypoint = -1855, 22, -1685
+    waypoint = -2512, 22, 283
+  }
+  stage4
+  {
+    waypoint = -423, 1454, 637
+    waypoint = -1910, 22, 1352
+    waypoint = -899, 22, 1168
+    waypoint = -928, 22, 2237
+  }
+  stage5
+  {
+    waypoint = 431, 1454, 620
+    waypoint = 837, 22, 1217
+    waypoint = 1764, 22, 1013
+    waypoint = 1592, 22, 2199
+  }
+  stage6
+  {
+    waypoint = 691, 1454, -205
+    waypoint = 0, 1454, -710
+    waypoint = -711, 1454, -209
+    waypoint = -423, 1454, 637
+    waypoint = 431, 1454, 620
+  }
+// User: ???
+}
+
+[CALAMIBOT_PROJMGR_01]
+{
+  pos = 2267, 22, 2389
+// User: ???
+}
+
+[CALAMIBOT_PROJMGR_02]
+{
+  pos = 2384, 22, 2287
+// User: ???
+}
+
+[CALAMITUS]
+{
+  pos = 2109, 22, 2787
+  zone = 1
+  rot = 0.000, -0.740, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 128,Calamitus
+  waypoints
+  {
+    waypoint = 933, 22, 3336
+    waypoint = 1400, 22, 3177
+    waypoint = 1948, 22, 3024
+    waypoint = 2557, 22, 2301
+    waypoint = 2812, 22, 1995
+    waypoint = 3013, 22, 1593
+  }
+  bActive = 1,true
+// User: ???
+}
+
+[JIMMYBOT]
+{
+  pos = 2, 1799, 27
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 127,JimmyBot
+  waypoints
+  {
+  }
+  bActive = 1,true
+  ReleasedPos = 1428.000, 22.000, -1018.000
+// User: ???
+}
+
+[SHATTERPYLONCONTROLLER]
+{
+  pos = 747, 102, 1714
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 126,blank
+  ShatterPylon1 = 91,pylon0
+  ShatterPylon2 = 92,pylon1
+  ShatterPylon3 = 89,pylon2
+  ShatterPylon4 = 90,pylon3
+  OpenGate
+  {
+    TargetID = 0,none
+    Message = none
+  }
+// User: ???
+}
+
+[LASER_FLOOR]
+{
+  pos = 2804, 823, 878
+  zone = 8388610
+  rot = 1.525, -0.362, 0.001
+  scale = 1.000, 1.000, 1.000
+  ID = 114,lightgun_laser2
+  PathTimeToComplete = 15.000
+  waypoints1
+  {
+    waypoint = 2465, 27, 34
+    waypoint = 2431, 27, 401
+    waypoint = 2358, 27, 743
+  }
+  waypoints2
+  {
+    waypoint = 2469, 22, 18
+    waypoint = 2407, 27, -477
+    waypoint = 2248, 22, -971
+  }
+  waypoints3
+  {
+    waypoint = 1567, 22, 513
+    waypoint = 1634, 22, 195
+    waypoint = 1634, 22, -99
+  }
+  waypoints4
+  {
+  }
+  DrawParticles = 1,true
+  LaserActive = 1,true
+// User: ???
+}
+
+[LASER_FLOOR]
+{
+  pos = 1787, 829, -2317
+  zone = 8388610
+  rot = 1.527, 3.130, -0.005
+  scale = 1.000, 1.000, 1.000
+  ID = 115,lightgun_laser1
+  PathTimeToComplete = 15.000
+  waypoints1
+  {
+    waypoint = 1989, 27, -1425
+    waypoint = 1745, 27, -1702
+    waypoint = 1468, 27, -1946
+  }
+  waypoints2
+  {
+    waypoint = 2004, 22, -1395
+    waypoint = 2217, 22, -1040
+    waypoint = 2398, 22, -539
+  }
+  waypoints3
+  {
+    waypoint = 975, 22, -1293
+    waypoint = 1211, 26, -1084
+    waypoint = 1441, 22, -755
+  }
+  waypoints4
+  {
+  }
+  DrawParticles = 1,true
+  LaserActive = 1,true
+// User: ???
+}
+
+[LASER_FLOOR]
+{
+  pos = -1750, 1024, -2267
+  zone = 8388610
+  rot = 1.654, -2.885, 0.096
+  scale = 1.000, 1.000, 1.000
+  ID = 116,gust_laser2
+  PathTimeToComplete = 10.000
+  waypoints1
+  {
+    waypoint = -1315, 22, -1386
+    waypoint = -2482, 22, -534
+  }
+  waypoints2
+  {
+  }
+  waypoints3
+  {
+  }
+  waypoints4
+  {
+  }
+  DrawParticles = 1,true
+  LaserActive = 1,true
+// User: ???
+}
+
+[LASER_FLOOR]
+{
+  pos = -2761, 967, 873
+  zone = 8388610
+  rot = 1.620, 0.460, -0.014
+  scale = 1.000, 1.000, 1.000
+  ID = 117,gust_laser3
+  PathTimeToComplete = 10.000
+  waypoints1
+  {
+    waypoint = -1905, 22, 415
+    waypoint = -2313, 22, -1068
+  }
+  waypoints2
+  {
+  }
+  waypoints3
+  {
+  }
+  waypoints4
+  {
+  }
+  DrawParticles = 1,true
+  LaserActive = 1,true
+// User: ???
+}
+
+[LASER_FLOOR]
+{
+  pos = -2704, 973, 946
+  zone = 8388610
+  rot = 1.503, 2.234, 0.105
+  scale = 1.000, 1.000, 1.000
+  ID = 118,bub_laser2
+  PathTimeToComplete = 7.000
+  waypoints1
+  {
+    waypoint = -1750, 22, 1151
+    waypoint = -1611, 22, 1507
+    waypoint = -1644, 22, 1835
+    waypoint = -1963, 22, 1997
+    waypoint = -2277, 22, 1924
+    waypoint = -2472, 22, 1623
+    waypoint = -2483, 22, 1275
+    waypoint = -2161, 22, 1164
+    waypoint = -1750, 22, 1150
+  }
+  waypoints2
+  {
+  }
+  waypoints3
+  {
+  }
+  waypoints4
+  {
+  }
+  DrawParticles = 1,true
+  LaserActive = 1,true
+// User: ???
+}
+
+[LASER_FLOOR]
+{
+  pos = -33, 1005, 1029
+  zone = 8388610
+  rot = 1.471, -2.040, -0.049
+  scale = 1.000, 1.000, 1.000
+  ID = 119,bub_laser0
+  PathTimeToComplete = 7.000
+  waypoints1
+  {
+    waypoint = -508, 22, 1137
+    waypoint = -369, 22, 1493
+    waypoint = -402, 22, 1821
+    waypoint = -721, 22, 1983
+    waypoint = -1086, 22, 1942
+    waypoint = -1247, 22, 1620
+    waypoint = -1204, 22, 1321
+    waypoint = -919, 22, 1150
+    waypoint = -508, 22, 1136
+  }
+  waypoints2
+  {
+  }
+  waypoints3
+  {
+  }
+  waypoints4
+  {
+  }
+  DrawParticles = 1,true
+  LaserActive = 1,true
+// User: ???
+}
+
+[LASER_FLOOR]
+{
+  pos = 944, 992, 292
+  zone = 8388610
+  rot = 1.571, 0.230, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 120,lightgun_laser3
+  PathTimeToComplete = 15.000
+  waypoints1
+  {
+    waypoint = 996, 22, 258
+    waypoint = 1026, 22, 51
+    waypoint = 1010, 22, -128
+  }
+  waypoints2
+  {
+    waypoint = 998, 30, -81
+    waypoint = 974, 28, -279
+    waypoint = 884, 27, -462
+  }
+  waypoints3
+  {
+    waypoint = 1488, 22, -667
+    waypoint = 1604, 27, -325
+    waypoint = 1644, 22, -26
+  }
+  waypoints4
+  {
+  }
+  DrawParticles = 1,true
+  LaserActive = 1,true
+// User: ???
+}
+
+[LASER_FLOOR]
+{
+  pos = -602, 992, -736
+  zone = 8388610
+  rot = 1.561, -2.232, -0.009
+  scale = 1.000, 1.000, 1.000
+  ID = 121,gust_laser1
+  PathTimeToComplete = 15.000
+  waypoints1
+  {
+    waypoint = -723, 22, -657
+    waypoint = -993, 22, 186
+  }
+  waypoints2
+  {
+    waypoint = -1001, 22, -824
+    waypoint = -1688, 22, 257
+    waypoint = -1747, 22, -1413
+  }
+  waypoints3
+  {
+  }
+  waypoints4
+  {
+  }
+  DrawParticles = 1,true
+  LaserActive = 1,true
+// User: ???
+}
+
+[LASER_FLOOR]
+{
+  pos = -58, 1005, 2905
+  zone = 8388610
+  rot = 1.693, -0.798, 0.052
+  scale = 1.000, 1.000, 1.000
+  ID = 122,bub_laser3
+  PathTimeToComplete = 7.000
+  waypoints1
+  {
+    waypoint = -355, 22, 2066
+    waypoint = -766, 22, 2079
+    waypoint = -1051, 22, 2250
+    waypoint = -1094, 22, 2549
+    waypoint = -933, 22, 2871
+    waypoint = -568, 22, 2912
+    waypoint = -249, 22, 2750
+    waypoint = -216, 22, 2422
+    waypoint = -355, 22, 2065
+  }
+  waypoints2
+  {
+  }
+  waypoints3
+  {
+  }
+  waypoints4
+  {
+  }
+  DrawParticles = 1,true
+  LaserActive = 1,true
+// User: ???
+}
+
+[LASER_FLOOR]
+{
+  pos = -949, 992, 294
+  zone = 8388610
+  rot = 1.571, -0.220, 0.090
+  scale = 1.000, 1.000, 1.000
+  ID = 123,gust_laser0
+  PathTimeToComplete = 15.000
+  waypoints1
+  {
+    waypoint = -989, 22, 163
+    waypoint = -715, 22, -671
+  }
+  waypoints2
+  {
+    waypoint = -1353, 22, 142
+    waypoint = -1327, 22, -1136
+    waypoint = -2316, 22, 167
+  }
+  waypoints3
+  {
+  }
+  waypoints4
+  {
+  }
+  DrawParticles = 1,true
+  LaserActive = 1,true
+// User: ???
+}
+
+[LASER_FLOOR]
+{
+  pos = 625, 992, -789
+  zone = 8388610
+  rot = 1.678, 1.721, -0.159
+  scale = 1.000, 1.000, 1.000
+  ID = 124,lightgun_laser0
+  PathTimeToComplete = 15.000
+  waypoints1
+  {
+    waypoint = 911, 22, -436
+    waypoint = 808, 22, -605
+    waypoint = 663, 22, -747
+  }
+  waypoints2
+  {
+    waypoint = 999, 27, -117
+    waypoint = 961, 27, -323
+    waypoint = 848, 27, -511
+  }
+  waypoints3
+  {
+    waypoint = 1606, 22, -299
+    waypoint = 1512, 26, -609
+    waypoint = 1356, 22, -894
+  }
+  waypoints4
+  {
+  }
+  DrawParticles = 1,true
+  LaserActive = 1,true
+// User: ???
+}
+
+[LASER_FLOOR]
+{
+  pos = -943, 1005, 372
+  zone = 8388610
+  rot = 1.528, 2.982, 0.075
+  scale = 1.000, 1.000, 1.000
+  ID = 125,bub_laser1
+  PathTimeToComplete = 7.000
+  waypoints1
+  {
+    waypoint = -1124, 22, 848
+    waypoint = -1535, 22, 861
+    waypoint = -1820, 22, 1032
+    waypoint = -1863, 22, 1331
+    waypoint = -1702, 22, 1653
+    waypoint = -1337, 22, 1694
+    waypoint = -1018, 22, 1532
+    waypoint = -985, 22, 1204
+    waypoint = -1124, 22, 847
+  }
+  waypoints2
+  {
+  }
+  waypoints3
+  {
+  }
+  waypoints4
+  {
+  }
+  DrawParticles = 1,true
+  LaserActive = 1,true
+// User: ???
+}
+
+[SENTRY_TOWER]
+{
+  pos = 1993, 22, 1521
+  zone = 2
+  rot = 0.000, -0.975, -0.000
+  scale = 0.800, 0.400, 0.800
+// User: ???
+}
+
+[SENTRY_TOWER]
+{
+  pos = 883, 22, 2321
+  zone = 2
+  rot = 0.000, -0.305, -0.000
+  scale = 1.000, 0.600, 1.000
+// User: ???
+}
+
+[BUB_COGS]
+{
+  pos = -953, 22, 1768
+  zone = 2
+  rot = 0.000, 0.440, -0.000
+  scale = 0.500, 0.500, 0.500
+  ID = 107,bub_cog1
+  OnGum
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  FlashingShield = 0,false
+  ShieldInterval = 1.000
+  ShieldOffTime = 7.000
+  haltongum = 0,false
+// User: ???
+}
+
+[BUB_COGS]
+{
+  pos = -530, 22, 765
+  zone = 2
+  rot = 0.000, 0.605, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 108,bub_cog0
+  OnGum
+  {
+    TargetID = 32,w6c_controller
+    Message = LeverFunctional
+  }
+  FlashingShield = 1,true
+  ShieldInterval = 2.500
+  ShieldOffTime = 10.000
+  haltongum = 0,false
+// User: ???
+}
+
+[BUB_COGS]
+{
+  pos = -756, 22, 2599
+  zone = 2
+  rot = 0.000, 0.260, -0.000
+  scale = 0.500, 0.500, 0.500
+  ID = 109,bub_cog2
+  OnGum
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  FlashingShield = 0,false
+  ShieldInterval = 1.000
+  ShieldOffTime = 7.000
+  haltongum = 0,false
+// User: ???
+}
+
+[BUB_COGS]
+{
+  pos = -1767, 22, 1695
+  zone = 2
+  rot = 0.000, 0.905, -0.000
+  scale = 0.500, 0.500, 0.500
+  ID = 110,bub_cog3
+  OnGum
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  FlashingShield = 0,false
+  ShieldInterval = 1.000
+  ShieldOffTime = 7.000
+  haltongum = 0,false
+// User: ???
+}
+
+[BUB_COGS]
+{
+  pos = -1210, 22, 1024
+  zone = 2
+  rot = 0.000, 0.875, -0.000
+  scale = 0.500, 0.500, 0.500
+  ID = 111,bub_cog4
+  OnGum
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  FlashingShield = 0,false
+  ShieldInterval = 1.000
+  ShieldOffTime = 7.000
+  haltongum = 0,false
+// User: ???
+}
+
+[WALL_COGS]
+{
+  pos = -1676, 121, -2272
+  zone = 1
+  rot = 0.000, -0.600, -0.000
+  scale = 1.200, 1.200, 1.200
+  ID = 102,calami_cog1
+  OnGum
+  {
+    TargetID = 32,w6c_controller
+    Message = LeverFunctional
+  }
+  FlashingShield = 1,true
+  ShieldInterval = 2.000
+  ShieldOffTime = 2.000
+  haltongum = 1,true
+// User: ???
+}
+
+[WALL_COGS]
+{
+  pos = 1676, 121, -2270
+  zone = 1
+  rot = 0.000, 0.560, -0.000
+  scale = 1.200, 1.200, 1.200
+  ID = 103,calami_cog2
+  OnGum
+  {
+    TargetID = 32,w6c_controller
+    Message = LeverFunctional
+  }
+  FlashingShield = 1,true
+  ShieldInterval = 2.000
+  ShieldOffTime = 2.000
+  haltongum = 1,true
+// User: ???
+}
+
+[WALL_COGS]
+{
+  pos = -2706, 121, 902
+  zone = 1
+  rot = 0.000, -1.915, 0.000
+  scale = 1.200, 1.200, 1.200
+  ID = 104,calami_cog0
+  OnGum
+  {
+    TargetID = 32,w6c_controller
+    Message = LeverFunctional
+  }
+  FlashingShield = 1,true
+  ShieldInterval = 2.000
+  ShieldOffTime = 2.000
+  haltongum = 1,true
+// User: ???
+}
+
+[WALL_COGS]
+{
+  pos = 2712, 121, 906
+  zone = 1
+  rot = 0.000, 1.900, 0.000
+  scale = 1.200, 1.200, 1.200
+  ID = 105,calami_cog3
+  OnGum
+  {
+    TargetID = 32,w6c_controller
+    Message = LeverFunctional
+  }
+  FlashingShield = 1,true
+  ShieldInterval = 2.000
+  ShieldOffTime = 2.000
+  haltongum = 1,true
+// User: ???
+}
+
+[WALL_COGS]
+{
+  pos = 0, 121, 2871
+  zone = 1
+  rot = 0.000, 3.142, 0.000
+  scale = 1.200, 1.200, 1.200
+  ID = 106,calami_cog4
+  OnGum
+  {
+    TargetID = 32,w6c_controller
+    Message = LeverFunctional
+  }
+  FlashingShield = 1,true
+  ShieldInterval = 2.000
+  ShieldOffTime = 2.000
+  haltongum = 1,true
+// User: ???
+}
+
+[GUST_BOX_CIRC]
+{
+  pos = -2105, 22, -1305
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 101,gust_box0
+// User: ???
+}
+
+[GUST_BOX_HEX]
+{
+  pos = -2501, 22, -142
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 100,gust_box1
+// User: ???
+}
+
+[GUST_BOX_RECT]
+{
+  pos = -866, 22, -405
+  zone = 2
+  rot = 0.000, 0.320, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 99,gust_box2
+// User: ???
+}
+
+[GUST_BOX_SQU]
+{
+  pos = -989, 22, -131
+  zone = 2
+  rot = 0.000, 0.320, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 98,gust_box3
+// User: ???
+}
+
+[LASER_PILLAR]
+{
+  pos = 491, 22, -650
+  zone = 4
+  rot = 0.000, 3.770, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 93,blank
+// User: ???
+}
+
+[LASER_PILLAR]
+{
+  pos = -795, 22, 286
+  zone = 4
+  rot = 0.000, 1.257, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 94,blank
+// User: ???
+}
+
+[LASER_PILLAR]
+{
+  pos = -492, 22, -649
+  zone = 4
+  rot = 0.000, 2.513, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 95,blank
+// User: ???
+}
+
+[LASER_PILLAR]
+{
+  pos = 1, 22, 862
+  zone = 4
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 96,blank
+// User: ???
+}
+
+[LASER_PILLAR]
+{
+  pos = 794, 22, 285
+  zone = 4
+  rot = 0.000, 5.027, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 97,blank
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = 268, -491, -1739
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 1,Magt_Platform3
+  waypoints
+  {
+    waypoint = 268, -491, -1739
+    waypoint = 268, -765, -1739
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = 547, -491, -1739
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 2,Magt_Platform15
+  waypoints
+  {
+    waypoint = 547, -491, -1739
+    waypoint = 547, -765, -1739
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = -290, -491, -1460
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 3,Magt_Platform8
+  waypoints
+  {
+    waypoint = -290, -491, -1460
+    waypoint = -290, -765, -1460
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = 268, -491, -1460
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 4,Magt_Platform9
+  waypoints
+  {
+    waypoint = 268, -491, -1460
+    waypoint = 268, -765, -1460
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = -11, -491, -1460
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 5,Magt_Platform17
+  waypoints
+  {
+    waypoint = -11, -491, -1460
+    waypoint = -11, -765, -1460
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = 547, -491, -1460
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 6,Magt_Platform18
+  waypoints
+  {
+    waypoint = 547, -491, -1460
+    waypoint = 547, -765, -1460
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = -569, -491, -1460
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 7,Magt_Platform16
+  waypoints
+  {
+    waypoint = -569, -491, -1460
+    waypoint = -569, -765, -1460
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = 268, -491, -2018
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 8,Magt_Platform7
+  waypoints
+  {
+    waypoint = 268, -491, -2018
+    waypoint = 268, -765, -2018
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = 268, -491, -2297
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 9,Magt_Platform2
+  waypoints
+  {
+    waypoint = 268, -491, -2297
+    waypoint = 268, -765, -2297
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = 268, -491, -2576
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 10,Magt_Platform13
+  waypoints
+  {
+    waypoint = 268, -491, -2576
+    waypoint = 268, -765, -2576
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = 547, -491, -2297
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 11,Magt_Platform14
+  waypoints
+  {
+    waypoint = 547, -491, -2297
+    waypoint = 547, -765, -2297
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = 547, -491, -2576
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 12,Magt_Platform22
+  waypoints
+  {
+    waypoint = 547, -491, -2576
+    waypoint = 547, -765, -2576
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = 547, -491, -2018
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 13,Magt_Platform23
+  waypoints
+  {
+    waypoint = 547, -491, -2018
+    waypoint = 547, -765, -2018
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = -11, -491, -1739
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 14,Magt_Platform5
+  waypoints
+  {
+    waypoint = -11, -491, -1739
+    waypoint = -11, -765, -1739
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = -290, -491, -1739
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 15,Magt_Platform0
+  waypoints
+  {
+    waypoint = -290, -491, -1739
+    waypoint = -290, -765, -1739
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = -569, -491, -1739
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 16,Magt_Platform10
+  waypoints
+  {
+    waypoint = -569, -491, -1739
+    waypoint = -569, -765, -1739
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = -569, -491, -2576
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 17,Magt_Platform20
+  waypoints
+  {
+    waypoint = -569, -491, -2576
+    waypoint = -569, -765, -2576
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = -569, -491, -2297
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 18,Magt_Platform11
+  waypoints
+  {
+    waypoint = -569, -491, -2297
+    waypoint = -569, -765, -2297
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = -569, -491, -2018
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 19,Magt_Platform19
+  waypoints
+  {
+    waypoint = -569, -491, -2018
+    waypoint = -569, -765, -2018
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = -11, -491, -2297
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 20,Magt_Platform6
+  waypoints
+  {
+    waypoint = -11, -491, -2297
+    waypoint = -11, -765, -2297
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = -290, -491, -2297
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 21,Magt_Platform1
+  waypoints
+  {
+    waypoint = -290, -491, -2297
+    waypoint = -290, -765, -2297
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = -290, -491, -2576
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 22,Magt_Platform12
+  waypoints
+  {
+    waypoint = -290, -491, -2576
+    waypoint = -290, -765, -2576
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = -11, -491, -2576
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 23,Magt_Platform21
+  waypoints
+  {
+    waypoint = -11, -491, -2576
+    waypoint = -11, -765, -2576
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = -290, -491, -2018
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 24,Magt_Platform4
+  waypoints
+  {
+    waypoint = -290, -491, -2018
+    waypoint = -290, -765, -2018
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[MAGT_LEVER]
+{
+  pos = -11, -491, -2018
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  bActive = 1,true
+  ID = 25,magt_platform24
+  waypoints
+  {
+    waypoint = -11, -491, -2018
+    waypoint = -11, -765, -2018
+  }
+  CreateCircle = 0,false
+  CircleRadius = 5.000
+  CircleClockwise = 1,true
+  CircleStartAngle = 0.000
+  MovingatStart = 0,false
+  Loop = 1,true
+  Speed = 50.000
+  PathTime = 0.000
+  pauseAtWaypointTime = 0.000
+  MoveOnlyWhenRiderAttached = 0,false
+  StopAtEveryWaypoint = 0,false
+// User: ???
+}
+
+[ND_PYLON]
+{
+  pos = 455, 22, 1389
+  zone = 2
+  rot = 0.000, 1.000, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 89,pylon2
+// User: ???
+}
+
+[ND_PYLON]
+{
+  pos = 882, 262, 2324
+  zone = 2
+  rot = 0.000, -0.305, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 90,pylon3
+// User: ???
+}
+
+[ND_PYLON]
+{
+  pos = 1994, 182, 1521
+  zone = 2
+  rot = 0.000, 0.610, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 91,pylon0
+// User: ???
+}
+
+[ND_PYLON]
+{
+  pos = 1336, 22, 1103
+  zone = 2
+  rot = 0.000, 0.880, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 92,pylon1
+// User: ???
+}
+
+[PLR_CRATE]
+{
+  pos = 1920, 22, -7
+  zone = 8388610
+  rot = 0.000, 1.571, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 85,PLR_Crate2
+  activeTime = 8.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  moveRegion 
+  {
+    pos = 1592,22,-19
+    yaw = 0.00
+    width = 1010.00
+    height = 100.00
+    depth = 432.50
+    pitch = 0.00
+  }
+// User: ???
+}
+
+[PLR_CRATE]
+{
+  pos = 693, 22, -334
+  zone = 8388610
+  rot = 0.000, -1.975, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 86,PLR_Crate1
+  activeTime = 8.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  moveRegion 
+  {
+    pos = 1325,22,-617
+    yaw = -0.40
+    width = 1652.75
+    height = 100.00
+    depth = 467.50
+    pitch = 0.00
+  }
+// User: ???
+}
+
+[PLR_CRATE]
+{
+  pos = 2283, 22, 205
+  zone = 8388610
+  rot = 0.000, 3.087, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 87,PLR_Crate3
+  activeTime = 8.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  moveRegion 
+  {
+    pos = 2429,22,-447
+    yaw = -0.09
+    width = 688.50
+    height = 100.00
+    depth = 1788.75
+    pitch = 0.00
+  }
+// User: ???
+}
+
+[PLR_CRATE]
+{
+  pos = 2114, 22, -1713
+  zone = 8388610
+  rot = 0.000, 0.740, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 88,PLR_Crate0
+  activeTime = 8.000
+  OnHit
+  {
+    TargetID = 0,none
+    Message = none
+  }
+  moveRegion 
+  {
+    pos = 1634,22,-1367
+    yaw = -0.84
+    width = 1512.00
+    height = 100.00
+    depth = 511.25
+    pitch = 0.00
+  }
+// User: ???
+}
+
+[FLOORLASER_INNER]
+{
+  pos = 1001, 37, 26
+  zone = 2
+  rot = 0.000, -1.570, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 83,blank
+// User: ???
+}
+
+[FLOORLASER_INNER]
+{
+  pos = 809, 37, -562
+  zone = 2
+  rot = 0.000, -2.205, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 84,blank
+// User: ???
+}
+
+[FLOORLASER_MID]
+{
+  pos = 1533, 37, -469
+  zone = 2
+  rot = 0.000, -1.885, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 80,blank
+// User: ???
+}
+
+[FLOORLASER_MID]
+{
+  pos = 1603, 37, 195
+  zone = 2
+  rot = 0.000, -1.470, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 81,blank
+// User: ???
+}
+
+[FLOORLASER_MID]
+{
+  pos = 1199, 37, -1049
+  zone = 2
+  rot = 0.000, -2.305, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 82,blank
+// User: ???
+}
+
+[FLOORLASER_OUT]
+{
+  pos = 1724, 37, -1685
+  zone = 2
+  rot = 0.000, -2.355, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 76,blank
+// User: ???
+}
+
+[FLOORLASER_OUT]
+{
+  pos = 2403, 37, -344
+  zone = 2
+  rot = 0.000, -1.730, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 77,blank
+// User: ???
+}
+
+[FLOORLASER_OUT]
+{
+  pos = 2169, 36, -1068
+  zone = 2
+  rot = 0.000, -2.040, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 78,blank
+// User: ???
+}
+
+[FLOORLASER_OUT]
+{
+  pos = 2402, 38, 417
+  zone = 2
+  rot = 0.000, -1.415, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 79,blank
+// User: ???
+}
+
+[POWERCABLE_TOP]
+{
+  pos = -305, 1443, -77
+  zone = 4
+  rot = 0.000, 1.257, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 71,blank
+// User: ???
+}
+
+[POWERCABLE_TOP]
+{
+  pos = 5, 1443, -295
+  zone = 4
+  rot = 0.000, 2.513, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 72,blank
+// User: ???
+}
+
+[POWERCABLE_TOP]
+{
+  pos = 185, 1442, 290
+  zone = 4
+  rot = 0.000, 5.027, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 73,blank
+// User: ???
+}
+
+[POWERCABLE_TOP]
+{
+  pos = 308, 1443, -68
+  zone = 4
+  rot = 0.000, 3.770, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 74,blank
+// User: ???
+}
+
+[POWERCABLE_TOP]
+{
+  pos = -194, 1443, 285
+  zone = 4
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 75,blank
+// User: ???
+}
+
+[WARNLIGHT]
+{
+  pos = 962, 1430, 340
+  zone = 4
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 66,blank
+// User: ???
+}
+
+[WARNLIGHT]
+{
+  pos = -981, 1430, 346
+  zone = 4
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 67,blank
+// User: ???
+}
+
+[WARNLIGHT]
+{
+  pos = 596, 1430, -792
+  zone = 4
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 68,blank
+// User: ???
+}
+
+[WARNLIGHT]
+{
+  pos = -604, 1429, -801
+  zone = 4
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 69,blank
+// User: ???
+}
+
+[WARNLIGHT]
+{
+  pos = 3, 1430, 1035
+  zone = 4
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 70,blank
+// User: ???
+}
+
+[CHAMBER]
+{
+  pos = 0, 1565, 26
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 65,blank
+// User: ???
+}
+
+[ND_LASER]
+{
+  pos = 1240, 89, 1624
+  zone = 2
+  rot = -1.571, 0.000, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 64,ND_Laser
+// User: ???
+}
+
+[COMPUTER]
+{
+  pos = 998, 22, 3478
+  zone = 1
+  rot = 0.000, -0.310, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 54,blank
+// User: ???
+}
+
+[COMPUTER]
+{
+  pos = 1435, 22, 3319
+  zone = 1
+  rot = 0.000, -0.430, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 55,blank
+// User: ???
+}
+
+[COMPUTER]
+{
+  pos = 3162, 22, 1675
+  zone = 1
+  rot = 0.000, -1.110, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 56,blank
+// User: ???
+}
+
+[COMPUTER]
+{
+  pos = 2930, 22, 2045
+  zone = 1
+  rot = 0.000, -0.965, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 57,blank
+// User: ???
+}
+
+[COMPUTER]
+{
+  pos = 2668, 22, 2385
+  zone = 1
+  rot = 0.000, -0.870, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 58,blank
+// User: ???
+}
+
+[COMPUTER]
+{
+  pos = 368, 22, -90
+  zone = 2
+  rot = 0.000, 1.257, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 59,blank
+// User: ???
+}
+
+[COMPUTER]
+{
+  pos = -228, 22, 338
+  zone = 2
+  rot = 0.000, 3.770, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 60,blank
+// User: ???
+}
+
+[COMPUTER]
+{
+  pos = 227, 22, 343
+  zone = 2
+  rot = 0.000, 2.513, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 61,blank
+// User: ???
+}
+
+[COMPUTER]
+{
+  pos = -365, 22, -94
+  zone = 2
+  rot = 0.000, 5.027, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 62,blank
+// User: ???
+}
+
+[COMPUTER]
+{
+  pos = 1, 22, -362
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 63,blank
+// User: ???
+}
+
+[PLR_CRATE_SHAPE]
+{
+  pos = 1192, 22, -31
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 50,PLR_CrateEndPos2
+// User: ???
+}
+
+[PLR_CRATE_SHAPE]
+{
+  pos = 1128, 22, -932
+  zone = 2
+  rot = 0.000, -0.820, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 51,PLR_CrateEndPos0
+// User: ???
+}
+
+[PLR_CRATE_SHAPE]
+{
+  pos = 1922, 22, -889
+  zone = 2
+  rot = 0.000, -0.400, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 52,PLR_CrateEndPos1
+// User: ???
+}
+
+[PLR_CRATE_SHAPE]
+{
+  pos = 2514, 22, -1128
+  zone = 2
+  rot = 0.000, -0.090, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 53,PLR_CrateEndPos3
+// User: ???
+}
+
+[BOX_SQU_SHAPE]
+{
+  pos = -1708, 22, -658
+  zone = 2
+  rot = 0.000, 0.320, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 49,gust_target3
+// User: ???
+}
+
+[BOX_RECT_SHAPE]
+{
+  pos = -1785, 22, -424
+  zone = 2
+  rot = 0.000, 0.320, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 48,gust_target2
+// User: ???
+}
+
+[BOX_CIRC_SHAPE]
+{
+  pos = -1554, 24, -352
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 47,gust_target0
+// User: ???
+}
+
+[BOX_HEX_SHAPE]
+{
+  pos = -1484, 24, -590
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 46,gust_target1
+// User: ???
+}
+
+[FORCE_FIELD]
+{
+  pos = 963, 22, -1298
+  zone = 2
+  rot = 0.000, 3.770, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 41,ForceField0
+// User: ???
+}
+
+[FORCE_FIELD]
+{
+  pos = 1554, 22, 536
+  zone = 2
+  rot = 0.000, 5.027, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 42,ForceField4
+// User: ???
+}
+
+[FORCE_FIELD]
+{
+  pos = -961, 22, -1297
+  zone = 2
+  rot = 0.000, 2.513, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 43,ForceField1
+// User: ???
+}
+
+[FORCE_FIELD]
+{
+  pos = -1557, 22, 533
+  zone = 2
+  rot = 0.000, 1.257, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 44,ForceField2
+// User: ???
+}
+
+[FORCE_FIELD]
+{
+  pos = -1, 22, 1663
+  zone = 2
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 45,ForceField3
+// User: ???
+}
+
+[STAGE]
+{
+  pos = 0, 0, 0
+  zone = 4
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 40,blank
+// User: ???
+}
+
+[GUST_TRAP]
+{
+  pos = -1621, 22, -496
+  zone = 2
+  rot = 0.000, 5.027, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 39,blank
+// User: ???
+}
+
+[ICONHOLDER]
+{
+  pos = -819, 1453, 292
+  zone = 4
+  rot = 0.000, 0.450, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 36,idolpylonbottom1
+// User: ???
+}
+
+[ICONHOLDER]
+{
+  pos = -509, 1453, -671
+  zone = 4
+  rot = 0.000, 0.170, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 37,idolpylonbottom2
+// User: ???
+}
+
+[ICONHOLDER]
+{
+  pos = 824, 1453, 296
+  zone = 4
+  rot = 0.000, 0.290, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 38,idolpylonbottom0
+// User: ???
+}
+
+[ICONHOLDER_CRYSTAL]
+{
+  pos = 824, 1453, 296
+  zone = 4
+  rot = 0.000, 0.290, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 33,idolpylon0
+// User: ???
+}
+
+[ICONHOLDER_CRYSTAL]
+{
+  pos = -509, 1453, -671
+  zone = 4
+  rot = 0.000, 0.170, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 34,idolpylon2
+// User: ???
+}
+
+[ICONHOLDER_CRYSTAL]
+{
+  pos = -819, 1453, 292
+  zone = 4
+  rot = 0.000, 0.450, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 35,idolpylon1
+// User: ???
+}
+
+[W6C_CONTROLLER]
+{
+  pos = 362, 78, 532
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 32,w6c_controller
+// User: ???
+}
+
+[CALAMITUS_FIELD]
+{
+  pos = 1475, 22, 2043
+  zone = 1
+  rot = 0.000, -0.625, -0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 31,blank
+// User: ???
+}
+
+[LAB_DOORS]
+{
+  pos = 3130, 21, -995
+  zone = 1
+  rot = 0.000, -1.893, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 30,blank
+// User: ???
+}
+
+[LABWALL]
+{
+  pos = -2, 0, -3165
+  zone = 1
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 29,blank
+// User: ???
+}
+
+[STAGE_CENTRE]
+{
+  pos = 0, 0, 0
+  zone = 4
+  rot = 0.000, 0.000, 0.000
+  scale = 1.000, 1.000, 1.000
+  ID = 28,blank
+// User: ???
+}
+
+[COLLIDEBOX]
+{
+  pos = 869, 22, 2322
+  zone = 2
+  rot = 0.000, -0.280, -0.000
+  scale = 0.825, 1.175, 0.863
+  ID = 26,blank
+  bActive = 1,true
+// User: ???
+}
+
+[COLLIDEBOX]
+{
+  pos = 1996, -12, 1521
+  zone = 2
+  rot = 0.000, -0.975, -0.000
+  scale = 0.688, 0.975, 0.663
+  ID = 27,blank
+  bActive = 1,true
+// User: ???
+}

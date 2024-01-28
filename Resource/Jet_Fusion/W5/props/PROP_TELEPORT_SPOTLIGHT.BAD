@@ -1,0 +1,8 @@
+mesh prop_teleport_spotlight.mdl
+skeleton prop_teleport_spotlight.anm
+
+anim idle01
+0-1,1
+cycle stop
+
+

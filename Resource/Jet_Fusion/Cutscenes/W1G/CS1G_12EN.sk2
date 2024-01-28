@@ -1,0 +1,278 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "JAIMEHOE"
+  Date = "15/06/2003"
+  Time = "3:57:26 PM"
+  EdPos = 2924.76,239.25,475.68
+  EdPitch = -0.210
+  EdYaw = -0.750
+}
+
+[EXTRAS]
+{
+  Windowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Health"
+  {
+    "Health_Voice" = 67223452,0
+    "Health_Lips" = 67223452,1
+    "Health_Head" = 67223452,2
+    "Health_Body" = 67223452,3
+    "Health_Pos" = 67223452,4
+    "Health_Look" = 67223452,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W1A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1G_12_P01GOEN.wav" = 15,110
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_HealthBonusSynker.BAD" = "Health","CS1G_12_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 3239.776,155.666,721.114
+        rot = 0.160,-1.490,0.220
+        pos = 3239.776,160.666,721.114
+        rot = 0.290,-0.710,0.220
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Health"
+  {
+    "Health_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Flurp will increase your health through a rush of sugar." = "CS1G_12_P01GOEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 15
+          length = 110
+        }
+      }
+    }
+    "Health_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Health_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Health_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "bindpose" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 139
+        }
+      }
+    }
+    "Health_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 139
+        }
+      }
+    }
+    "Health_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Flurp will increase your health through a rush of sugar.
+      Health
+      {
+        d = 0,0,6,18,24,24,138,255,255,255,255,228,210,180,150,36,0,0,0,6,0,6,96,198,228,
+        d = 198,198,210,162,120,168,162,54,72,102,78,255,255,192,216,156,132,156,168,114,
+        d = 255,255,255,234,96,72,54,108,120,156,156,150,126,72,12,12,12,54,0,0,0,0,0,0,0,
+        d = 0,24,108,216,210,234,255,204,252,228,186,174,210,255,255,150,132,138,132,120,
+        d = 126,132,150,102,78,66,138,198,102,48,120,156,108,54,255,255,132,108,174,156,
+      }
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 40.000
+    ToFOV = 40.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 3077.09,188.67,711.44, 3270.04,185.67,717.66
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 139
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

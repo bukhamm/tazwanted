@@ -1,0 +1,16 @@
+skeleton c_jellyFish
+mesh c_JellyFish
+
+anim bindpose
+0-0,1
+cycle stop
+
+anim swim01
+10-60,1
+cycle loop
+
+anim idle01
+70-120,1
+cycle loop
+
+//end

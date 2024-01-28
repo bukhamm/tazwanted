@@ -1,0 +1,8 @@
+mesh CS6B_03_A_Rocket
+skeleton CS6B_01_2
+
+ANIM CUTSCENE
+420-640,1
+CYCLE STOP
+CYCLE STOP
+

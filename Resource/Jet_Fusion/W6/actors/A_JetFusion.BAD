@@ -1,0 +1,13 @@
+mesh A_JetFusion
+skeleton A_JetFusion
+
+anim idle01
+560-600,1
+cycle loop
+
+anim idle02
+600-730,1
+cycle loop
+
+
+end

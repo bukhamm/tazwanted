@@ -1,0 +1,14 @@
+mesh Prop_GymSpringBoard
+skeleton Prop_GymSpringBoard
+
+anim bindPose
+0,1
+cycle stop
+
+anim idle
+10,1
+cycle stop
+
+anim bounce
+10-25,1
+cycle stop

@@ -1,0 +1,10 @@
+mesh cs2C_01_08_RoboNinja
+skeleton cs2C_01_08_RoboNinja
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+157-1045,1
+cycle stop

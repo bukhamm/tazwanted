@@ -1,0 +1,625 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "3:09:22 PM"
+  EdPos = 5549.81,1.65,-1132.08
+  EdPitch = -0.260
+  EdYaw = 34.340
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 79943720,0
+    "Jimmy_Lips" = 79943720,1
+    "Jimmy_Head" = 79943720,2
+    "Jimmy_Body" = 79943720,3
+    "Jimmy_Pos" = 79943720,4
+    "Jimmy_Look" = 79943720,5
+    "Camera" = -3,0
+  }
+  "Pirate"
+  {
+    "Pirate_Voice" = 79886916,0
+    "Pirate_Lips" = 79886916,1
+    "Pirate_Head" = 79886916,2
+    "Pirate_Body" = 79886916,3
+    "Pirate_Pos" = 79886916,4
+    "Pirate_Look" = 79886916,5
+    "SoundFX" = -2,0
+  }
+  "Sailfish"
+  {
+    "Sailfish_Voice" = 108246152,0
+    "Sailfish_Lips" = 108246152,1
+    "Sailfish_Head" = 108246152,2
+    "Sailfish_Body" = 108246152,3
+    "Sailfish_Pos" = 108246152,4
+    "Sailfish_Look" = 108246152,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W5A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_whoosh" = 53,50
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5A_38_P01JIFR.WAV" = 10,83
+  "CS5A_38_P02JIFR.WAV" = 103,30
+  "CS5A_38_P03JIFR.WAV" = 143,63
+  "CS5A_38_P04JIFR.WAV" = 216,58
+  "CS5A_38_P05JIFR.WAV" = 284,38
+}
+
+[ACTOR_DATA]
+{
+  Count = 3
+  "A_JIMMY_SYNKER_PIRATE.BAD" = "Jimmy","CS5A_38_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -18973.718,-85.797,-1944.278
+        rot = 0.000,1.220,0.000
+      }
+    }
+  }
+  "a_Pirate01.bad" = "Pirate","CS5A_38_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 8,0.000,0.000,0.114,0.847,0.264,0.942,0.440,0.986,0.668,0.978,0.778,0.939,0.889,0.985,1.000,1.000,
+        pos = -9922.602,473.249,-4263.576
+        rot = 0.000,1.200,0.000
+        pos = -9922.602,576.249,-4263.576
+        rot = 0.000,1.520,0.000
+      }
+    }
+  }
+  "A_SAILFISH.BAD" = "Sailfish","CS5A_38_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 5356.549,-671.000,-2729.712
+        rot = 0.000,0.000,0.000
+        pos = 4214.084,-666.000,-2735.034
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "A vicious battle between salty sea dogs..." = "CS5A_38_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 83
+        }
+        "Broken rigging," = "CS5A_38_P02JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 103
+          length = 30
+        }
+        "and a very hungry fish..." = "CS5A_38_P03JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 143
+          length = 63
+        }
+        "Here be pirates." = "CS5A_38_P04JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 216
+          length = 58
+        }
+        "Arrrr!" = "CS5A_38_P05JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 284
+          length = 38
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsAngry" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 216
+          length = 116
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 216
+          length = 116
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyAngry" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 216
+          length = 44
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 260
+          length = 24
+        }
+        "BodyYes" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 284
+          length = 30
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 314
+          length = 18
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 332
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //A vicious battle between salty sea dogs...
+      Jimmy
+      {
+        d = 216,207,144,153,135,171,207,243,255,234,189,255,255,162,153,153,126,63,18,9,243,
+        d = 255,225,234,126,36,99,144,207,180,171,243,216,72,135,81,216,255,207,180,162,126,
+        d = 108,90,144,180,162,144,225,255,225,255,255,135,9,117,126,126,117,90,243,252,207,
+        d = 216,198,252,255,180,225,207,171,162,198,234,255,162,189,189,162,189,36,0,0,
+      }
+      //Broken rigging,
+      Jimmy
+      {
+        d = 36,72,243,255,255,255,255,153,27,126,255,198,198,189,198,225,198,180,135,99,234,
+        d = 255,255,255,252,189,9,0,0,0,
+      }
+      //and a very hungry fish...
+      Jimmy
+      {
+        d = 82,90,105,90,105,135,127,135,112,97,105,97,105,157,225,255,255,240,172,135,127,
+        d = 142,157,150,120,150,187,225,195,150,180,135,105,172,165,142,75,30,45,52,210,202,
+        d = 202,67,37,112,135,127,105,67,7,0,0,0,0,0,0,0,0,0,0,0,0,
+      }
+      //Here be pirates.
+      Jimmy
+      {
+        d = 0,36,117,108,243,255,255,252,255,252,243,243,207,189,153,144,90,36,9,72,252,255,
+        d = 255,255,255,255,255,207,189,189,180,72,0,18,144,180,216,255,255,255,255,255,255,
+        d = 180,54,63,45,9,0,0,18,81,108,99,27,0,0,0,
+      }
+      //Arrrr!
+      Jimmy
+      {
+        d = 42,252,255,255,255,255,255,255,255,255,255,255,255,255,255,210,231,220,255,220,
+        d = 189,178,220,255,157,157,147,157,126,136,94,84,42,21,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Pirate"
+  {
+    "Pirate_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Pirate_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Pirate_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Pirate_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "AttackIdle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 53
+          length = 50
+        }
+      }
+    }
+    "Pirate_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 53
+          length = 50
+        }
+      }
+    }
+    "Pirate_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,0,
+    }
+  }
+  "Sailfish"
+  {
+    "Sailfish_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Sailfish_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Sailfish_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Sailfish_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "swim01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 143
+          length = 73
+        }
+      }
+    }
+    "Sailfish_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 143
+          length = 73
+        }
+      }
+    }
+    "Sailfish_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  Camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = -9766.36,710.60,-4289.68, -12766.36,260.13,-4528.98
+    node = -9766.00,711.00,-4290.00, -13362.00,260.00,-2875.00
+  }
+  Camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 2111.20,2256.71,-225.66, 1912.30,1353.44,-3145.33
+    node = 2094.31,2112.71,-613.20, 1912.30,1492.44,-3145.33
+  }
+  Camera3
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 1000000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 4071.92,874.60,534.40, 5891.40,-1457.53,-4176.15
+    node = 4071.92,894.60,534.40, 4416.83,-1458.00,-4241.57
+  }
+  Camera4
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -18831.41,-12.40,-1950.09, -19013.94,-5.40,-1975.14
+    node = -18833.00,-12.00,-1938.00, -19014.00,-5.00,-1975.00
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_whoosh",""
+    Breaker = 0
+    Lock = 0
+    start = 53
+    length = 50
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "Camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 103
+  }
+  bar
+  {
+    BarName = "Camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 103
+    length = 40
+  }
+  bar
+  {
+    BarName = "Camera3",""
+    Breaker = 0
+    Lock = 0
+    start = 143
+    length = 73
+  }
+  bar
+  {
+    BarName = "Camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 216
+    length = 116
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

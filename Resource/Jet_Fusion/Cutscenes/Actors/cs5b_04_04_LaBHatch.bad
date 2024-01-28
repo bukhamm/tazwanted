@@ -1,0 +1,10 @@
+mesh cs5b_04_04_LabHatch
+skeleton cs5b_04_04_LabHatch
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+174-550,1
+cycle stop

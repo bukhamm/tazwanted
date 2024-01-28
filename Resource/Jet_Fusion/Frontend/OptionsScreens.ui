@@ -1,0 +1,617 @@
+
+[UserInterface]
+{
+  UIScreen
+  {
+    id Scr_Options
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    NoisyButtonGroup
+    {
+      id Btns_Options
+      position 320.0 180.0 0.0
+      rotation 0.0 0.0 0.0
+      JimmyButton
+      {
+        id Options_Sound
+        position 0.0 0.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 120.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 155 TEXT_SCREEN_OPTIONS_SOUND
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_OptionsSound
+        }
+      }
+      JimmyButton
+      {
+        id Options_Screen
+        position 0.0 40.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 140.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 156 TEXT_SCREEN_OPTIONS_SCREEN
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_OptionsScreen
+        }
+      }
+      JimmyButton
+      {
+        id Options_Controls
+        position 0.0 80.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 180.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 157 TEXT_SCREEN_OPTIONS_CONTROLS
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument Scr_OptionsControls
+        }
+      }
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 15 TEXT_MENU_BACK
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+      PromptText
+      {
+        id UpDown
+        position 220.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 5 TEXT_MENU_SELECT
+      }
+    }
+    OnUpPressed
+    {
+      target Btns_Options
+      message SelectPrevious
+    }
+    OnDownPressed
+    {
+      target Btns_Options
+      message SelectNext
+    }
+    OnSelectPressed
+    {
+      target Btns_Options
+      message Activate
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  OptionsSoundScreen
+  {
+    id Scr_OptionsSound
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    NoisyButtonGroup
+    {
+      id Btns_OptionsSound
+      position 240.0 180.0 0.0
+      rotation 0.0 0.0 0.0
+      JimmyButton
+      {
+        id SFXVol
+        position 0.0 0.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 300.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 160 TEXT_SCREEN_OPTIONSSOUND_SFXVOL
+        }
+      }
+      JimmyButton
+      {
+        id MusicVol
+        position 0.0 40.0 0.0
+        rotation 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          rotation 0.0 0.0 0.0
+          width 240.0
+          height 40.0
+          alignment middle centre
+          font Font_Blackwolf
+          stringId 161 TEXT_SCREEN_OPTIONSSOUND_MUSVOL
+        }
+      }
+    }
+    UIImage
+    {
+      position 400.0 180.0 0.0
+      rotation 0.0 0.0 0.0
+      colour 0.023 0.121 0.015 1.0
+      width 150.0
+      height 24.0
+      alignment middle left
+      texture fx_hud_energy_bar
+    }
+    SliderBarImage
+    {
+      id Bar_SoundVolume
+      position 400.0 180.0 0.0
+      rotation 0.0 0.0 0.0
+      colour 0.2 0.9 0.2 1.0
+      width 150.0
+      height 24.0
+      alignment middle left
+      texture fx_hud_energy_bar
+    }
+    UIImage
+    {
+      position 400.0 220.0 0.0
+      rotation 0.0 0.0 0.0
+      colour 0.023 0.121 0.015 1.0
+      width 150.0
+      height 24.0
+      alignment middle left
+      texture fx_hud_energy_bar
+    }
+    SliderBarImage
+    {
+      id bar_MusicVolume
+      position 400.0 220.0 0.0
+      rotation 0.0 0.0 0.0
+      colour 0.2 0.9 0.2 1.0
+      width 150.0
+      height 24.0
+      alignment middle left
+      texture fx_hud_energy_bar
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 10 TEXT_MENU_CANCEL
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+      PromptText
+      {
+        id LeftRight
+        position 65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 6 TEXT_MENU_CHANGE
+      }
+      PromptText
+      {
+        id UpDown
+        position 220.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 5 TEXT_MENU_SELECT
+      }
+    }
+    OnUpPressed
+    {
+      target Btns_OptionsSound
+      message SelectPrevious
+    }
+    OnDownPressed
+    {
+      target Btns_OptionsSound
+      message SelectNext
+    }
+    OnSelectPressed
+    {
+      target system
+      message PopScreen
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  OptionsScreenScreen
+  {
+    id Scr_OptionsScreen
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    NoisyButtonGroup
+    {
+      id Btns_OptionsScreen
+      position 220.0 200.0 0.0
+      JimmyButton
+      {
+        id Widescreen
+        position 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          width 220.0
+          height 40.0
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 171 TEXT_SCREEN_OPTIONSSCREEN_WIDESCREEN
+        }
+      }
+      JimmyButton
+      {
+        id Subtitles
+        position 0.0 40.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          width 180.0
+          height 40.0
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 172 TEXT_SCREEN_OPTIONSSCREEN_SUBTITLES
+        }
+      }
+    }
+    NoisyButtonGroup
+    {
+      id Btns_Widescreen
+      position 465.0 202.0 0.0
+      JimmyButton
+      {
+        id On
+        position -30.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          width 60.0
+          height 40.0
+          scale 0.8
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 3 TEXT_MENU_ON
+        }
+      }
+      JimmyButton
+      {
+        id Off
+        position 30.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          width 60.0
+          height 40.0
+          scale 0.8
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 4 TEXT_MENU_OFF
+        }
+      }
+    }
+    NoisyButtonGroup
+    {
+      id Btns_Subtitles
+      position 465.0 242.0 0.0
+      JimmyButton
+      {
+        id On
+        position -30.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          width 60.0
+          height 40.0
+          scale 0.8
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 3 TEXT_MENU_ON
+        }
+      }
+      JimmyButton
+      {
+        id Off
+        position 30.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          width 60.0
+          height 40.0
+          scale 0.8
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 4 TEXT_MENU_OFF
+        }
+      }
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+		    position -210.0 0.0 0.0
+        width 100.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 10 TEXT_MENU_CANCEL
+      }
+      PromptText
+      {
+        id Forward
+        position -65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+      PromptText
+      {
+        id LeftRight
+        position 65.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 6 TEXT_MENU_CHANGE
+      }
+      PromptText
+      {
+        id UpDown
+        position 220.0 0.0 0.0
+        width 150.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 5 TEXT_MENU_SELECT
+      }
+    }
+    OnUpPressed
+    {
+      target Btns_OptionsScreen
+      message SelectPrevious
+    }
+    OnDownPressed
+    {
+      target Btns_OptionsScreen
+      message SelectNext
+    }
+    OnSelectPressed
+    {
+      target system
+      message PopScreen
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  ControlOptionsScreen
+  {
+    id Scr_OptionsControls
+    position 0.0 0.0 0.0
+    NoisyButtonGroup
+    {
+      id Buttons
+      position 320.0 200.0 0.0
+      JimmyButton
+      {
+        id Configuration
+        position 0.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          scale 1.000
+          width 260.0
+          height 40.0
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 16 TEXT_SCREEN_CONTROLS_CONFIGURATION
+        }
+        OnActivate
+        {
+          target system
+          message PushScreen
+          argument ControlConfig
+        }
+      }
+      JimmyButton
+      {
+        id Vibration
+        position -70.0 40.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          scale 1.000
+          width 340.0
+          height 40.0
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 17 TEXT_SCREEN_CONTROLS_VIBRATION
+        }
+      }
+    }
+    NoisyButtonGroup
+    {
+      id RumbleButtons
+      position 480.0 242.0 0.0
+      JimmyButton
+      {
+        id Off
+        position 30.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          width 60.0
+          height 40.0
+          scale 0.8
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 4 TEXT_MENU_OFF
+        }
+      }
+      JimmyButton
+      {
+        id On
+        position -30.0 0.0 0.0
+        UIText
+        {
+          position 0.0 0.0 0.0
+          width 60.0
+          height 40.0
+          scale 0.8
+          alignment middle centre
+          font Font_BlackWolf
+          stringId 3 TEXT_MENU_ON
+        }
+      }
+    }
+    PromptGroup
+    {
+      position 320.0 460.0 0.0
+      scale 0.7500
+      width 720.0
+      height 36.0
+      PromptText
+      {
+        id Back
+        position -160.0 0.0 0.0
+        width 80.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 10 TEXT_MENU_CANCEL
+      }
+      PromptText
+      {
+        id Forward
+        position -80.0 0.0 0.0
+        width 80.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 7 TEXT_MENU_ACCEPT
+      }
+      PromptText
+      {
+        id LeftRight
+        position 80.0 0.0 0.0
+        width 80.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 6 TEXT_MENU_CHANGE
+      }
+      PromptText
+      {
+        id UpDown
+        position 160.0 0.0 0.0
+        width 80.0
+        height 36.0
+        alignment middle centre
+        font Font_BlackWolf
+        stringId 5 TEXT_MENU_SELECT
+      }
+    }
+    OnUpPressed
+    {
+      target Buttons
+      message SelectPrevious
+    }
+    OnDownPressed
+    {
+      target Buttons
+      message SelectNext
+    }
+    OnSelectPressed
+    {
+      target system
+      message PopScreen
+    }
+    OnCancelPressed
+    {
+      target system
+      message PopScreen
+    }
+  }
+  include ControlConfig.ui
+}

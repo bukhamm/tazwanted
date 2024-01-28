@@ -1,0 +1,16 @@
+mesh a_GoddardtoJetboard
+skeleton a_GoddardtoJetboard
+
+anim bindpose
+0,1
+cycle loop
+
+anim Transform
+SoundEvent GddEars 54
+SoundEvent GddStretchFwd 32
+SoundEvent GddMechNoise 29
+SoundEvent GddTransform 3
+1-77,1
+cycle stop
+
+

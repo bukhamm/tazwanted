@@ -1,0 +1,20 @@
+mesh prop_Curtain
+skeleton prop_Curtain
+
+anim bindPose
+0,1
+cycle stop
+
+anim idle01
+5-45,1
+cycle loop
+
+//anim NeutralToMoving01
+//0-5,1
+//cycle stop
+
+//anim MovingToNeutral01
+//45-55,1
+//cycle stop
+
+end

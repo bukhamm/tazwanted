@@ -1,0 +1,311 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:32:34 PM"
+  EdPos = 2985.01,273.00,701.15
+  EdPitch = -0.370
+  EdYaw = -1.560
+}
+
+[EXTRAS]
+{
+  Windowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 64172296,0
+    "Jimmy_Lips" = 64172296,1
+    "Jimmy_Head" = 64172296,2
+    "Jimmy_Body" = 64172296,3
+    "Jimmy_Pos" = 64172296,4
+    "Jimmy_Look" = 64172296,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W1A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1A_08_P01JIFR.WAV" = 10,10
+  "CS1A_08_P02JIFR.WAV" = 30,91
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_JIMMY_Synker.BAD" = "Jimmy","CS1A_08_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 3298.838,117.666,667.702
+        rot = 0.000,-1.960,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "No" = "CS1A_08_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 10
+        }
+        "I don't think I should go in there until I have the Goddard Shield." = "CS1A_08_P02JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 30
+          length = 91
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 132
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 132
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNo" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 50
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 50
+          length = 82
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 132
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //No
+      Jimmy
+      {
+        d = 210,255,255,222,168,132,78,72,60,18,
+      }
+      //I don't think I should go in there until I have the Goddard Shield.
+      Jimmy
+      {
+        d = 117,255,255,162,36,255,216,234,255,225,9,72,252,255,225,180,255,255,207,207,255,
+        d = 252,255,225,216,255,255,252,255,255,180,243,255,234,216,180,162,171,171,171,216,
+        d = 126,171,180,216,189,180,207,225,198,153,171,198,216,108,126,108,225,135,27,153,
+        d = 234,252,255,198,108,180,180,135,117,63,135,234,255,171,189,234,225,162,99,72,
+        d = 72,63,18,9,0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 40.000
+    ToFOV = 40.000
+    NearPlane = 1.000
+    FarPlane = 10000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 3207.26,188.67,669.68, 3301.23,192.67,674.60
+    node = 3210.01,189.00,689.60, 3301.01,193.00,674.17
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 132
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

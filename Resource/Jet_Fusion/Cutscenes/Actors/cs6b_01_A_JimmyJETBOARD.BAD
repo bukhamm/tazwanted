@@ -1,0 +1,13 @@
+mesh a_GoddardJetboard
+skeleton cs6b_01_a_JimmyJetboard
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+158-858,1
+cycle stop
+
+
+//end//

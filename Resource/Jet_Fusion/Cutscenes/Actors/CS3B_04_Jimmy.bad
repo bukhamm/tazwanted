@@ -1,0 +1,13 @@
+mesh a_jimmyjungle
+skeleton CS3B_04_Jimmy
+
+anim bindPose
+0-1,1
+cycle stop
+
+anim cutscene
+1-1200,1
+cycle stop
+
+
+//end

@@ -1,0 +1,11 @@
+mesh a_STATICPirate01
+skeleton a_STATICPirate01
+
+anim bindPose
+0,1
+cycle stop
+
+anim idle01  
+2150-2310,1
+cycle loop
+

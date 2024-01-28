@@ -1,0 +1,6 @@
+mesh a_JetFusion_No_Legs
+skeleton CS2A_01_4
+
+ANIM CUTSCENE
+760-2710,1
+CYCLE STOP

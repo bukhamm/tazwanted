@@ -1,0 +1,16 @@
+Skeleton a_Ice_Stalactite1Synker
+Mesh a_Ice_Stalactite1Synker
+
+anim bindpose
+0-1,1
+cycle stop
+
+anim FallEntree
+10-40,1
+cycle stop
+
+anim FallLoop
+40-45,1
+cycle loop
+
+end

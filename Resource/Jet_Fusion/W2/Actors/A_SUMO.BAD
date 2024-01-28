@@ -1,0 +1,62 @@
+mesh a_Sumo
+skeleton a_Sumo
+
+anim Idle01
+500-700,1
+cycle loop
+
+anim Idle02
+700-735,1
+cycle stop
+
+anim grapple01
+50-80,1
+cycle loop
+
+anim pushBackward01
+SoundEvent CannibalStep 99
+SoundEvent CannibalStep 88
+80-105,1
+cycle stop
+
+anim pushForward01
+SoundEvent CannibalStep 120
+SoundEvent CannibalStep 111
+105-130,1
+cycle stop
+
+anim winningPush01
+SoundEvent SumoTaunt 404
+400-425,1
+cycle stop
+
+anim winner01
+SoundEvent CannibalStep 455
+SoundEvent CannibalStep 453
+SoundEvent EnemyJump 441
+425-465,1
+cycle loop
+
+anim fallEntry01
+220-250,1
+cycle stop
+
+anim fallLoop01
+250-251,1
+cycle loop
+
+anim fallExit01
+SoundEvent SumoDefeated 261
+SoundEvent SumoBounce 252
+251-265,1
+cycle stop
+
+anim loser01
+265-310,1
+cycle stop
+
+anim loseridle01
+310-380,1
+cycle loop
+
+//end

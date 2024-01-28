@@ -1,0 +1,6 @@
+mesh a_JetFusion
+skeleton CS5A_01_3
+
+ANIM CUTSCENE
+40-920,1
+CYCLE STOP

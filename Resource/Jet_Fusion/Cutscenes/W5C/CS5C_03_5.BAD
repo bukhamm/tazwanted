@@ -1,0 +1,6 @@
+mesh CS5C_03_Remote
+skeleton CS5C_03_5
+
+ANIM CUTSCENE
+350-850,1
+CYCLE STOP

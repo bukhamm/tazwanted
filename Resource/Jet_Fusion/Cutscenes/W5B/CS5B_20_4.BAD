@@ -1,0 +1,8 @@
+mesh a_Ice_Stalactite1Synker
+skeleton CS5B_20_4
+
+ANIM FALLENTREE
+10-40,1
+CYCLE STOP
+
+

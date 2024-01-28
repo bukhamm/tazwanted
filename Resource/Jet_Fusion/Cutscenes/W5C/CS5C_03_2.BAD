@@ -1,0 +1,6 @@
+mesh a_Humphrey
+skeleton CS5C_03_2
+
+ANIM CUTSCENE
+101-270,1
+CYCLE STOP

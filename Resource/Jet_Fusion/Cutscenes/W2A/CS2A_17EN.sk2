@@ -1,0 +1,500 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "24/06/2003"
+  Time = "9:20:04 AM"
+  EdPos = -898.81,440.56,1116.36
+  EdPitch = -0.740
+  EdYaw = 1.330
+}
+
+[EXTRAS]
+{
+  Windowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jet"
+  {
+    "Jet_Voice" = 103940044,0
+    "Jet_Lips" = 103940044,1
+    "Jet_Head" = 103940044,2
+    "Jet_Body" = 103940044,3
+    "Jet_Pos" = 103940044,4
+    "Jet_Look" = 103940044,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+    "Event_0" = -1,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W2A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_staticinout" = 0,30
+  "CS_lp_static" = 154,14
+  "CS_lp_static" = 168,16
+  "CS_staticinout" = 184,30
+  "CS_lp_static" = 214,14
+  "CS_lp_static" = 228,14
+  "CS_lp_static" = 312,14
+  "CS_lp_static" = 326,15
+  "CS_staticinout" = 341,30
+  "CS_lp_static" = 371,16
+  "CS_staticinout" = 479,30
+}
+
+[DYNAMIC_SFX]
+{
+  "CS2A_17_P01JFEN.wav" = 10,35
+  "CS2A_17_P02JFEN.wav" = 55,19
+  "CS2A_17_P03JFEN.wav" = 84,100
+  "CS2A_17_P04JFEN.wav" = 214,127
+  "CS2A_17_P05JFEN.wav" = 371,83
+  "CS2A_17_P06JFEN.wav" = 464,26
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_JetFusion_Synker.BAD" = "Jet","CS2A_17_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -1122.158,110.620,1133.196
+        rot = 0.000,3.040,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jet"
+  {
+    "Jet_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Jimmy... Jimmy!" = "CS2A_17_P01JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 35
+        }
+        "Are you there?" = "CS2A_17_P02JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 55
+          length = 19
+        }
+        "You should be passing some sort of race track by now, in the..." = "CS2A_17_P03JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 84
+          length = 100
+        }
+        "Looking around there are guards everywhere and there is a big fence." = "CS2A_17_P04JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 214
+          length = 127
+        }
+        "fence is guarded with Onibi lanterns." = "CS2A_17_P05JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 371
+          length = 83
+        }
+        "Hurry Jimmy!" = "CS2A_17_P06JFEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 464
+          length = 26
+        }
+      }
+    }
+    "Jet_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 509
+        }
+      }
+    }
+    "Jet_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 509
+        }
+      }
+    }
+    "Jet_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 509
+        }
+      }
+    }
+    "Jet_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 509
+        }
+      }
+    }
+    "Jet_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Jimmy... Jimmy!
+      Jet
+      {
+        d = 82,150,225,255,210,187,217,165,120,127,52,7,0,0,0,0,0,0,0,0,15,135,255,255,255,
+        d = 0,255,255,255,240,135,105,37,7,0,
+      }
+      //Are you there?
+      Jet
+      {
+        d = 21,94,147,178,255,255,189,178,255,252,255,255,255,255,255,241,157,31,0,
+      }
+      //You should be passing some sort of race track by now, in the...
+      Jet
+      {
+        d = 81,225,252,198,255,255,255,255,255,255,243,162,144,153,255,255,255,54,9,36,255,
+        d = 0,225,252,255,255,255,216,234,207,189,225,207,126,216,207,180,225,225,255,189,
+        d = 255,0,255,144,255,255,198,225,153,99,72,126,189,255,255,255,255,255,255,162,234,
+        d = 117,0,9,162,126,171,216,189,162,162,63,0,0,0,162,189,189,180,162,180,189,162,
+        d = 189,144,0,162,180,171,198,180,171,216,216,207,243,207,171,162,
+      }
+      //Looking around there are guards everywhere and there is a big fence.
+      Jet
+      {
+        d = 36,114,216,204,96,60,138,216,234,222,168,144,138,186,180,162,156,156,156,162,
+        d = 0,150,162,156,150,144,204,198,162,150,156,150,120,126,90,36,48,54,48,42,30,36,
+        d = 36,0,18,30,42,198,255,240,255,255,246,174,126,132,174,186,228,204,252,144,126,
+        d = 186,0,186,168,168,168,162,138,108,96,120,126,138,132,108,150,174,174,72,6,6,6,
+        d = 6,6,6,0,6,6,0,0,30,120,162,198,168,168,180,174,204,174,150,120,18,6,162,255,228,
+        d = 216,180,0,78,72,42,42,30,48,186,255,255,222,132,78,24,192,
+      }
+      //fence is guarded with Onibi lanterns.
+      Jet
+      {
+        d = 0,7,30,97,202,195,247,255,90,187,217,187,180,165,142,22,0,0,97,217,255,247,255,
+        d = 0,255,255,255,255,217,232,247,225,120,180,187,217,210,180,90,22,30,150,202,232,
+        d = 0,247,255,255,255,255,255,255,105,255,255,255,255,255,255,255,255,232,217,202,
+        d = 225,0,217,225,255,255,217,22,135,180,157,142,82,37,22,52,105,105,90,
+      }
+      //Hurry Jimmy!
+      Jet
+      {
+        d = 27,153,252,255,255,255,189,243,207,189,117,81,255,243,255,255,234,198,162,117,
+        d = 0,90,81,36,9,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,0,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  Camera1
+  {
+    Enabled = 1
+    FromFOV = 50.000
+    ToFOV = 50.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -1096.60,215.62,1196.17, -1137.14,226.62,1077.54
+    node = -1106.48,216.00,1195.30, -1136.72,227.00,1077.51
+  }
+}
+
+[EVENT_DATA]
+{
+  "ShowStatic" = "ShowStatic"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "ShowStatic",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 20
+  }
+  bar
+  {
+    BarName = "ShowStatic",""
+    Breaker = 0
+    Lock = 0
+    start = 154
+    length = 88
+  }
+  bar
+  {
+    BarName = "ShowStatic",""
+    Breaker = 0
+    Lock = 0
+    start = 312
+    length = 75
+  }
+  bar
+  {
+    BarName = "ShowStatic",""
+    Breaker = 0
+    Lock = 0
+    start = 479
+    length = 30
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_staticinout",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 154
+    length = 14
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 168
+    length = 16
+  }
+  bar
+  {
+    BarName = "CS_staticinout",""
+    Breaker = 0
+    Lock = 0
+    start = 184
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 214
+    length = 14
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 228
+    length = 14
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 312
+    length = 14
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 326
+    length = 15
+  }
+  bar
+  {
+    BarName = "CS_staticinout",""
+    Breaker = 0
+    Lock = 0
+    start = 341
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 371
+    length = 16
+  }
+  bar
+  {
+    BarName = "CS_staticinout",""
+    Breaker = 0
+    Lock = 0
+    start = 479
+    length = 30
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "Camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 509
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

@@ -1,0 +1,8 @@
+mesh a_GoddardJetboard
+skeleton CS6B_12_0
+
+ANIM IDLE01
+10-24,1
+CYCLE LOOP
+
+

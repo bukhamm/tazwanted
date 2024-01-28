@@ -1,0 +1,9 @@
+mesh cs1A_01_09_CindyNoHair
+skeleton cs1A_01_09_CindyNoHair
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+461-536,1
+cycle stop

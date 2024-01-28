@@ -1,0 +1,6 @@
+skeleton prop_bub_cogs
+mesh prop_bub_cogs
+
+anim idle01
+0-60,1
+cycle loop

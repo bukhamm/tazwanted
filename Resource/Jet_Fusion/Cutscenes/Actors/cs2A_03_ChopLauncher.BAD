@@ -1,0 +1,10 @@
+mesh cs2A_03_ChopLauncher
+skeleton cs2A_03_ChopLauncher
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+239-370,1
+cycle stop

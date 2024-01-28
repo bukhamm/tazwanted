@@ -1,0 +1,10 @@
+mesh cs2A_04_07_Wall02
+skeleton cs2A_04_07_Wall02
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+720-875,1
+cycle stop

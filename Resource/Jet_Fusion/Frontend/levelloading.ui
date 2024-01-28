@@ -1,0 +1,42 @@
+
+[UserInterface]
+{
+  position 0.0 0.0 0.0
+  LoadingScreen
+  {
+    id Scr_LoadLevel
+    position 0.0 0.0 0.0
+    rotation 0.0 0.0 0.0
+    UIImage
+    {
+      id Img_Level
+      position 320.0 256.0 0.0
+      rotation 0.0 0.0 0.0
+      width 640.0
+      height 512.0
+      alignment middle centre
+    }
+    SliderBarImage
+    {
+      id Bar_Progress
+      position 70.0 445.0 0.0
+      rotation 0.0 0.0 0.0
+      colour 0.2 0.9 0.2 1.0
+      width 490.0
+      height 16.0
+      alignment middle left
+      texture fx_loading_bar
+    }
+    UIText
+    {
+      id Txt_LevelName
+      position 320.0 110.0 0.0
+      rotation 0.0 0.0 0.0
+      colour 0.2 0.9 0.2 1.0
+      width 460.0
+      height 40.0
+      alignment middle centre
+      font Font_BlackWolf
+    }
+  }
+}

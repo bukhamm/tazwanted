@@ -1,0 +1,2009 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:52:06 PM"
+  EdPos = 61578.56,1237.59,6541.33
+  EdPitch = -0.800
+  EdYaw = -5.990
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 60260292,0
+    "Jimmy_Lips" = 60260292,1
+    "Jimmy_Head" = 60260292,2
+    "Jimmy_Body" = 60260292,3
+    "Jimmy_Pos" = 60260292,4
+    "Jimmy_Look" = 60260292,5
+    "Camera" = -3,0
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 60669952,0
+    "Goddard_Lips" = 60669952,1
+    "Goddard_Head" = 60669952,2
+    "Goddard_Body" = 60669952,3
+    "Goddard_Pos" = 60669952,4
+    "Goddard_Look" = 60669952,5
+    "Camera" = -3,0
+  }
+  "Witchdoctor"
+  {
+    "Witchdoctor_Voice" = 100365616,0
+    "Witchdoctor_Lips" = 100365616,1
+    "Witchdoctor_Head" = 100365616,2
+    "Witchdoctor_Body" = 100365616,3
+    "Witchdoctor_Pos" = 100365616,4
+    "Witchdoctor_Look" = 100365616,5
+    "Camera" = -3,0
+    "Event_0" = -1,0
+  }
+  "Cannibal1"
+  {
+    "Cannibal1_Voice" = 62715700,0
+    "Cannibal1_Lips" = 62715700,1
+    "Cannibal1_Head" = 62715700,2
+    "Cannibal1_Body" = 62715700,3
+    "Cannibal1_Pos" = 62715700,4
+    "Cannibal1_Look" = 62715700,5
+    "Camera" = -3,0
+  }
+  "Cannibal2"
+  {
+    "Cannibal2_Voice" = 62765552,0
+    "Cannibal2_Lips" = 62765552,1
+    "Cannibal2_Head" = 62765552,2
+    "Cannibal2_Body" = 62765552,3
+    "Cannibal2_Pos" = 62765552,4
+    "Cannibal2_Look" = 62765552,5
+    "Camera" = -3,0
+  }
+  "Boulder1"
+  {
+    "Boulder1_Voice" = 104300544,0
+    "Boulder1_Lips" = 104300544,1
+    "Boulder1_Head" = 104300544,2
+    "Boulder1_Body" = 104300544,3
+    "Boulder1_Pos" = 104300544,4
+    "Boulder1_Look" = 104300544,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+  }
+  "Boulder2"
+  {
+    "Boulder2_Voice" = 104349696,0
+    "Boulder2_Lips" = 104349696,1
+    "Boulder2_Head" = 104349696,2
+    "Boulder2_Body" = 104349696,3
+    "Boulder2_Pos" = 104349696,4
+    "Boulder2_Look" = 104349696,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+  }
+  "Boulder3"
+  {
+    "Boulder3_Voice" = 104625476,0
+    "Boulder3_Lips" = 104625476,1
+    "Boulder3_Head" = 104625476,2
+    "Boulder3_Body" = 104625476,3
+    "Boulder3_Pos" = 104625476,4
+    "Boulder3_Look" = 104625476,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+  }
+  "Boulder4"
+  {
+    "Boulder4_Voice" = 104676588,0
+    "Boulder4_Lips" = 104676588,1
+    "Boulder4_Head" = 104676588,2
+    "Boulder4_Body" = 104676588,3
+    "Boulder4_Pos" = 104676588,4
+    "Boulder4_Look" = 104676588,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+  }
+  "Cannibal3"
+  {
+    "Cannibal3_Voice" = 106919096,0
+    "Cannibal3_Lips" = 106919096,1
+    "Cannibal3_Head" = 106919096,2
+    "Cannibal3_Body" = 106919096,3
+    "Cannibal3_Pos" = 106919096,4
+    "Cannibal3_Look" = 106919096,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W3A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_Volcano" = 533,77
+  "CS_rockhitsshield" = 625,6
+  "CS_rockhitsshield" = 631,20
+  "CS_rockhitsshield" = 651,6
+  "CS_rockhitsshield" = 657,20
+}
+
+[DYNAMIC_SFX]
+{
+  "CS3A_16_P01JIFR.WAV" = 30,40
+  "CS3A_16_P02JIFR.WAV" = 191,70
+  "CS3A_16_P03GOFR.WAV" = 271,60
+  "CS3A_16_P04WIFR.WAV" = 337,75
+  "CS3A_16_P05WIFR.WAV" = 426,92
+  "CS3A_16_P06JIFR.WAV" = 663,20
+  "CS3A_16_P07JIFR.WAV" = 694,56
+  "CS3A_16_P08JIFR.WAV" = 754,43
+}
+
+[ACTOR_DATA]
+{
+  Count = 10
+  "A_JIMMY_SYNKER_JUNGLE.BAD" = "Jimmy","CS3A_16_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 51382.884,734.402,4578.048
+        rot = 0.000,2.350,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 61145.796,746.191,7174.336
+        rot = 0.000,2.280,0.000
+      }
+      "path_3"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 60819.628,744.728,6847.194
+        rot = 0.000,0.000,0.000
+        pos = 61146.000,751.000,7174.000
+        rot = 0.000,745.959,416.270
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "Goddard","CS3A_16_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 61271.792,748.489,7081.762
+        rot = 0.000,2.760,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 60995.872,740.455,6752.195
+        rot = 0.000,0.000,0.000
+        pos = 61272.000,753.000,7082.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_WITCHDOCTOR_Synker.BAD" = "Witchdoctor","CS3A_16_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 61351.804,747.142,7369.627
+        rot = 0.000,-0.520,0.000
+      }
+      "path2"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 61146.080,744.145,7028.850
+        rot = 0.000,0.000,0.000
+        pos = 60204.296,747.791,6073.138
+        rot = 0.000,744.384,0.000
+      }
+    }
+  }
+  "A_CANNIBAL_Synker.BAD" = "Cannibal1","CS3A_16_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 51826.584,734.878,4999.824
+        rot = 0.000,0.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+      }
+      "path_3"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 61010.000,744.000,7158.000
+        rot = 0.000,2.200,0.000
+      }
+      "pathrun"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 61012.572,747.615,6050.677
+        rot = 0.000,0.000,0.000
+        pos = 59765.232,741.718,5665.500
+        rot = 0.000,746.098,0.000
+      }
+    }
+  }
+  "A_CANNIBAL_Synker.BAD" = "Cannibal2","CS3A_16_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 51100.524,741.230,4327.092
+        rot = 0.000,2.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 60620.132,744.089,6803.701
+        rot = 0.000,0.000,0.000
+        pos = 61010.000,742.000,7158.000
+        rot = 0.000,0.000,0.000
+      }
+      "path_3"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 61283.000,748.000,6963.000
+        rot = 0.000,3.000,0.000
+      }
+      "pathrun"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 59942.852,748.458,6588.837
+        rot = 0.000,0.000,0.000
+        pos = 59885.512,744.340,5968.195
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "a_BoulderGlow.BAD" = "Boulder1","CS3A_16_5.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 63573.600,2222.309,6906.573
+        rot = 0.000,0.000,0.000
+        pos = 63573.972,747.000,6907.048
+        rot = 0.000,0.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 63573.972,787.000,6907.048
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "a_BoulderGlow.BAD" = "Boulder2","CS3A_16_6.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 63458.448,1685.964,7253.156
+        rot = 0.000,0.000,0.000
+        pos = 63458.000,751.000,7253.000
+        rot = 0.000,0.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 63458.000,751.000,7253.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "a_BoulderGlow.BAD" = "Boulder3","CS3A_16_7.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 63585.904,2467.546,6716.226
+        rot = 0.000,0.000,0.000
+        pos = 63565.904,662.546,6716.410
+        rot = 0.000,0.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 63586.000,773.000,6716.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "a_BoulderGlow.BAD" = "Boulder4","CS3A_16_8.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 63939.148,1884.379,7080.002
+        rot = 0.000,0.000,0.000
+        pos = 63939.620,709.000,7079.766
+        rot = 0.000,0.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 63939.620,749.000,7079.766
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "A_CANNIBAL_Synker.BAD" = "Cannibal3","CS3A_16_9.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 60950.000,747.000,6552.000
+        rot = 0.000,0.000,0.000
+        pos = 61283.000,743.000,6963.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Clever boys..." = "CS3A_16_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 30
+          length = 40
+        }
+        "Ohhh... I don't like the look of this, Goddard..." = "CS3A_16_P02JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 191
+          length = 70
+        }
+        "C'mon, boy!" = "CS3A_16_P06JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 663
+          length = 20
+        }
+        "We've got to do something to protect the village" = "CS3A_16_P07JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 694
+          length = 56
+        }
+        "before we're all ash!" = "CS3A_16_P08JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 754
+          length = 43
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 97
+        }
+        "LipsSad" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 94
+        }
+        "LipsSad" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 146
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 663
+          length = 153
+        }
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 97
+        }
+        "HeadSad" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 94
+        }
+        "HeadSad" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 146
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 663
+          length = 153
+        }
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 47
+        }
+        "BodyHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 47
+          length = 11
+        }
+        "walk" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 94
+        }
+        "BodyNo" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 50
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 241
+          length = 96
+        }
+        "BodyNod" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 663
+          length = 153
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 97
+        }
+        "path_3" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 94
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 146
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 663
+          length = 153
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Clever boys...
+      Jimmy
+      {
+        d = 171,216,90,99,189,198,252,255,255,255,216,255,255,255,243,252,207,171,225,198,
+        d = 255,255,255,255,180,45,9,9,9,0,18,99,108,81,27,0,0,0,0,0,
+      }
+      //Ohhh... I don't like the look of this, Goddard...
+      Jimmy
+      {
+        d = 0,0,7,22,37,45,82,120,120,112,112,127,142,142,150,172,142,157,150,142,120,150,
+        d = 180,202,187,202,217,210,225,210,150,112,7,30,165,247,247,240,255,255,157,22,67,
+        d = 202,210,187,210,240,142,112,142,37,0,60,217,247,255,255,255,112,202,225,240,202,
+        d = 135,60,22,7,0,0,
+      }
+      //C'mon, boy!
+      Jimmy
+      {
+        d = 120,157,210,255,195,247,255,255,180,187,127,127,105,120,120,90,60,37,7,0,
+      }
+      //We've got to do something to protect the village
+      Jimmy
+      {
+        d = 171,255,255,171,27,117,255,255,255,135,135,234,198,255,255,126,72,99,81,9,198,
+        d = 255,126,36,9,9,189,180,225,135,189,117,18,171,216,36,117,225,225,81,9,0,162,252,
+        d = 216,234,189,255,255,234,189,255,189,252,198,153,
+      }
+      //before we're all ash!
+      Jimmy
+      {
+        d = 63,255,243,72,18,144,225,216,216,126,162,189,180,189,225,255,255,255,255,255,
+        d = 225,171,135,198,216,243,252,225,216,135,81,90,72,63,108,90,99,135,99,27,27,27,
+        d = 27,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Whine" = "CS3A_16_P03GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 271
+          length = 60
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 94
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 146
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 663
+          length = 153
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadSad" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 94
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 92
+        }
+        "HeadSad" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 283
+          length = 54
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 663
+          length = 153
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "walk01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 94
+        }
+        "BodyScared" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 146
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 663
+          length = 153
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 94
+        }
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 146
+        }
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 663
+          length = 153
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Whine
+      Goddard
+      {
+        d = 126,162,174,216,240,198,204,255,255,255,255,255,255,255,255,222,246,246,210,186,
+        d = 228,234,198,162,204,186,96,168,156,84,210,138,24,0,0,0,0,0,0,0,0,54,54,48,30,
+        d = 30,18,12,12,6,6,12,6,0,6,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Witchdoctor"
+  {
+    "Witchdoctor_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "The Big Headed One has invaded our land!" = "CS3A_16_P04WIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 337
+          length = 75
+        }
+        "It is he who has upset the volcano!" = "CS3A_16_P05WIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 426
+          length = 92
+        }
+      }
+    }
+    "Witchdoctor_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "lipsNeutral01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 337
+          length = 196
+        }
+      }
+    }
+    "Witchdoctor_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 337
+          length = 196
+        }
+      }
+    }
+    "Witchdoctor_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 94
+        }
+        "BodyAngry01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 337
+          length = 196
+        }
+        "Run" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 663
+          length = 153
+        }
+      }
+    }
+    "Witchdoctor_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 94
+        }
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 337
+          length = 196
+        }
+        "path2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 663
+          length = 153
+        }
+      }
+    }
+    "Witchdoctor_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //The Big Headed One has invaded our land!
+      Witchdoctor
+      {
+        d = 18,54,117,54,27,54,27,18,36,180,198,189,135,27,99,243,180,90,45,81,45,9,18,18,
+        d = 0,0,0,9,27,45,63,45,225,162,99,99,90,54,18,9,18,36,63,81,108,225,255,255,153,
+        d = 81,108,99,135,99,27,27,36,27,18,18,45,54,81,99,144,81,99,180,189,99,45,27,9,0,
+        d = 9,
+      }
+      //It is he who has upset the volcano!
+      Witchdoctor
+      {
+        d = 9,22,31,36,40,36,36,76,72,103,63,63,36,40,36,45,67,103,99,67,63,54,27,49,36,9,
+        d = 18,22,18,9,4,4,13,13,31,49,85,72,18,4,9,13,22,58,67,72,76,49,18,4,4,0,0,0,22,
+        d = 58,162,255,255,144,54,94,94,85,76,81,85,85,94,112,99,72,63,63,58,58,36,40,27,
+        d = 36,40,9,18,22,18,9,4,0,4,4,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Cannibal1"
+  {
+    "Cannibal1_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal1_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal1_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal1_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 25
+          length = 72
+        }
+        "idle04" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 50
+        }
+        "idle03" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 241
+          length = 96
+        }
+        "run01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 663
+          length = 153
+        }
+      }
+    }
+    "Cannibal1_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 97
+        }
+        "path_3" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 146
+        }
+        "pathrun" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 663
+          length = 153
+        }
+      }
+    }
+    "Cannibal1_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Cannibal2"
+  {
+    "Cannibal2_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal2_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal2_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal2_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 97
+        }
+        "walk01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 94
+        }
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 100
+        }
+        "idle02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 291
+          length = 46
+        }
+        "run01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 716
+          length = 100
+        }
+      }
+    }
+    "Cannibal2_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 97
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 94
+        }
+        "path_3" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 191
+          length = 146
+        }
+        "pathrun" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 716
+          length = 100
+        }
+      }
+    }
+    "Cannibal2_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Boulder1"
+  {
+    "Boulder1_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Boulder1_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Boulder1_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Boulder1_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "bindpose" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 610
+          length = 65
+        }
+      }
+    }
+    "Boulder1_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 610
+          length = 15
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 625
+          length = 50
+        }
+      }
+    }
+    "Boulder1_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Boulder2"
+  {
+    "Boulder2_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Boulder2_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Boulder2_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Boulder2_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "bindpose" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 636
+          length = 27
+        }
+      }
+    }
+    "Boulder2_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 636
+          length = 15
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 651
+          length = 12
+        }
+      }
+    }
+    "Boulder2_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Boulder3"
+  {
+    "Boulder3_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Boulder3_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Boulder3_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Boulder3_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "bindpose" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 610
+          length = 53
+        }
+      }
+    }
+    "Boulder3_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 610
+          length = 18
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 628
+          length = 35
+        }
+      }
+    }
+    "Boulder3_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Boulder4"
+  {
+    "Boulder4_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Boulder4_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Boulder4_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Boulder4_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "bindpose" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 636
+          length = 27
+        }
+      }
+    }
+    "Boulder4_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 636
+          length = 19
+        }
+        "path_2" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 655
+          length = 8
+        }
+      }
+    }
+    "Boulder4_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Cannibal3"
+  {
+    "Cannibal3_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal3_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal3_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Cannibal3_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "walk01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 80
+          length = 111
+        }
+      }
+    }
+    "Cannibal3_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 97
+          length = 94
+        }
+      }
+    }
+    "Cannibal3_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.242,0.026,0.393,0.044,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 51468.43,809.97,4645.51, 51333.96,813.47,4578.00
+    node = 52114.81,824.02,5049.29, 51980.34,825.78,4981.78
+  }
+  camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 61440.58,837.09,7360.95, 61225.39,802.42,7141.16
+    node = 61414.45,837.31,7370.22, 61225.67,802.40,7141.03
+  }
+  camera3
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 61132.08,837.73,7227.82, 61429.69,810.40,7365.92
+    node = 61140.00,838.00,7212.00, 61430.00,810.00,7366.00
+  }
+  camera4
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 63889.32,1392.59,7821.14, 64200.78,1423.49,7394.25
+    node = 63889.00,1393.00,7821.00, 64200.78,1419.00,7394.25
+    node = 63889.00,1393.00,7821.00, 64205.06,1421.49,7403.29
+    node = 63889.00,1393.00,7821.00, 64200.78,1428.49,7394.25
+    node = 63889.00,1393.00,7821.00, 64199.07,1424.49,7390.64
+    node = 63889.00,1393.00,7821.00, 64200.78,1420.49,7394.25
+    node = 63889.00,1393.00,7821.00, 64200.78,1423.49,7394.25
+  }
+  Camera5
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 61852.28,1037.12,7523.38, 61164.68,848.31,7044.33
+    node = 61861.36,1037.00,7479.69, 61165.00,848.00,7044.00
+  }
+  Camera6
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 62834.90,940.54,7696.61, 63472.54,1729.90,7100.66
+    node = 62834.90,960.54,7696.61, 63473.00,980.00,7101.00
+  }
+  Camera7
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 62835.00,961.00,7697.00, 63473.00,980.00,7101.00
+    node = 62835.00,961.00,7697.00, 63473.00,976.00,7101.00
+    node = 62835.00,961.00,7697.00, 63472.12,978.00,7099.20
+    node = 62835.00,961.00,7697.00, 63474.75,982.00,7104.60
+    node = 62835.00,961.00,7697.00, 63464.94,980.00,7102.70
+    node = 62835.00,961.00,7697.00, 63476.60,986.00,7099.25
+  }
+  Camera8
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = 62835.00,961.00,7697.00, 63473.00,980.00,7101.00
+  }
+}
+
+[EVENT_DATA]
+{
+  "Witchdocjump" = "playsound NinjaJump"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "Witchdocjump",""
+    Breaker = 0
+    Lock = 0
+    start = 353
+    length = 18
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_Volcano",""
+    Breaker = 0
+    Lock = 0
+    start = 533
+    length = 77
+  }
+  bar
+  {
+    BarName = "CS_rockhitsshield",""
+    Breaker = 0
+    Lock = 0
+    start = 625
+    length = 6
+  }
+  bar
+  {
+    BarName = "CS_rockhitsshield",""
+    Breaker = 0
+    Lock = 0
+    start = 631
+    length = 20
+  }
+  bar
+  {
+    BarName = "CS_rockhitsshield",""
+    Breaker = 0
+    Lock = 0
+    start = 651
+    length = 6
+  }
+  bar
+  {
+    BarName = "CS_rockhitsshield",""
+    Breaker = 0
+    Lock = 0
+    start = 657
+    length = 20
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 97
+  }
+  bar
+  {
+    BarName = "Camera5",""
+    Breaker = 0
+    Lock = 0
+    start = 97
+    length = 94
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 191
+    length = 146
+  }
+  bar
+  {
+    BarName = "camera3",""
+    Breaker = 0
+    Lock = 0
+    start = 337
+    length = 196
+  }
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 533
+    length = 7
+  }
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 540
+    length = 8
+  }
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 548
+    length = 7
+  }
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 555
+    length = 5
+  }
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 560
+    length = 9
+  }
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 569
+    length = 5
+  }
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 574
+    length = 7
+  }
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 581
+    length = 11
+  }
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 592
+    length = 9
+  }
+  bar
+  {
+    BarName = "camera4",""
+    Breaker = 0
+    Lock = 0
+    start = 601
+    length = 9
+  }
+  bar
+  {
+    BarName = "Camera6",""
+    Breaker = 0
+    Lock = 0
+    start = 610
+    length = 15
+  }
+  bar
+  {
+    BarName = "Camera7",""
+    Breaker = 0
+    Lock = 0
+    start = 625
+    length = 6
+  }
+  bar
+  {
+    BarName = "Camera7",""
+    Breaker = 0
+    Lock = 0
+    start = 631
+    length = 5
+  }
+  bar
+  {
+    BarName = "Camera8",""
+    Breaker = 0
+    Lock = 0
+    start = 636
+    length = 15
+  }
+  bar
+  {
+    BarName = "Camera7",""
+    Breaker = 0
+    Lock = 0
+    start = 651
+    length = 6
+  }
+  bar
+  {
+    BarName = "Camera7",""
+    Breaker = 0
+    Lock = 0
+    start = 657
+    length = 6
+  }
+  bar
+  {
+    BarName = "camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 663
+    length = 153
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

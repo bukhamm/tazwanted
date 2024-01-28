@@ -1,0 +1,439 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "18/07/2003"
+  Time = "12:30:42 PM"
+  EdPos = -30459.23,1728.47,-47982.68
+  EdPitch = -0.730
+  EdYaw = -9.440
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "goddard"
+  {
+    "goddard_Voice" = 75726832,0
+    "goddard_Lips" = 75726832,1
+    "goddard_Head" = 75726832,2
+    "goddard_Body" = 75726832,3
+    "goddard_Pos" = 75726832,4
+    "goddard_Look" = 75726832,5
+    "Camera" = -3,0
+  }
+  "jimmy"
+  {
+    "jimmy_Voice" = 60473328,0
+    "jimmy_Lips" = 60473328,1
+    "jimmy_Head" = 60473328,2
+    "jimmy_Body" = 60473328,3
+    "jimmy_Pos" = 60473328,4
+    "jimmy_Look" = 60473328,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W6A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS6A_24_P01JIFR.WAV" = 10,71
+  "CS6A_24_P02JIFR.WAV" = 91,39
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_GODDARD_Synker.BAD" = "goddard","CS6A_24_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -30401.044,1438.000,-48303.680
+        rot = 0.000,0.257,0.000
+      }
+    }
+  }
+  "A_JIMMY_SYNKER_TUXEDO.BAD" = "jimmy","CS6A_24_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -30352.248,1438.000,-48294.572
+        rot = 0.000,0.367,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "goddard"
+  {
+    "goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadCurious" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 135
+        }
+      }
+    }
+    "goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 135
+        }
+      }
+    }
+    "goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 135
+        }
+      }
+    }
+    "goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "jimmy"
+  {
+    "jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Calamitous is controlling another satellite." = "CS6A_24_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 71
+        }
+        "We can't let him do that!" = "CS6A_24_P02JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 91
+          length = 39
+        }
+      }
+    }
+    "jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 10
+          length = 71
+        }
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 91
+          length = 39
+        }
+      }
+    }
+    "jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadSurprised" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 30
+        }
+        "HeadBlinkSurprised" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 30
+          length = 30
+        }
+        "HeadSurprised" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 60
+          length = 31
+        }
+        "HeadAngry" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 91
+          length = 44
+        }
+      }
+    }
+    "jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 91
+        }
+        "BodyNo" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 91
+          length = 44
+        }
+      }
+    }
+    "jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 135
+        }
+      }
+    }
+    "jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Calamitous is controlling another satellite.
+      jimmy
+      {
+        d = 72,78,126,126,96,186,216,204,174,126,138,132,36,54,60,90,90,90,102,120,120,78,
+        d = 12,120,186,162,72,54,162,168,156,168,132,150,156,144,174,144,150,204,204,168,
+        d = 222,246,186,18,42,102,126,108,156,126,108,84,204,255,255,156,78,114,120,102,36,
+        d = 84,48,30,6,0,30,6,0,
+      }
+      //We can't let him do that!
+      jimmy
+      {
+        d = 178,255,147,10,73,157,255,255,252,84,126,147,199,241,136,189,210,255,241,136,
+        d = 255,255,189,136,241,255,255,255,136,115,255,168,21,31,157,42,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -30257.22,1508.00,-48422.99, -30355.65,1508.00,-48332.83
+    node = -30271.68,1511.60,-48435.70, -30355.65,1508.00,-48332.83
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 135
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

@@ -1,0 +1,8 @@
+mesh cs2A_02_MagTurner
+skeleton CS2A_02_4
+
+ANIM CUTSCENE
+244-770,1
+CYCLE STOP
+
+//END

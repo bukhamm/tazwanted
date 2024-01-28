@@ -1,0 +1,10 @@
+mesh CS3c_03_05_Comm
+skeleton CS3c_03_05_Comm
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+743-1240,1
+cycle loop

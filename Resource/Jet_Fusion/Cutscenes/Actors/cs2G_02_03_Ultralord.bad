@@ -1,0 +1,10 @@
+mesh cs2G_02_03_Ultralord
+skeleton cs2G_02_03_Ultralord
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+875-970,1
+cycle stop

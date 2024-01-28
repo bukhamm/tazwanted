@@ -1,0 +1,16 @@
+skeleton c_Parakeet
+mesh c_Parakeet
+
+anim bindpose
+1-1,1
+cycle stop
+
+anim fly01
+10-25,1
+cycle loop
+
+anim Soar01
+30-40,1
+cycle loop
+
+//end

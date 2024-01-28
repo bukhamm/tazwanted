@@ -1,0 +1,180 @@
+mesh a_MsFowlFire
+skeleton a_MsFowlFire
+
+
+anim bindPose
+0,1
+cycle stop
+
+anim walk01
+SoundEvent FowlStep 123
+SoundEvent FowlStep 111
+100-124,1
+event step 112
+event step 124
+cycle loop
+
+
+anim run01
+SoundEvent FowlStep 163
+SoundEvent FowlStep 151
+140-164,1
+cycle loop
+
+anim idle01
+170-200,1
+cycle loop
+
+anim idle02
+210-300,1
+cycle stop
+
+anim idle03
+1280-1430,1
+cycle stop
+
+anim quickturn01
+SoundEvent FowlStep 1262
+1250-1265,1
+cycle stop
+
+anim AttackIdle01
+SoundEvent TouchOne 533
+SoundEvent TouchOne 522
+SoundEvent TouchOne 513
+500-565,1
+cycle stop
+
+
+anim AttackIdle02
+400-445,1
+cycle stop
+
+anim melee01
+SoundEvent LavaDragonThud 334
+SoundEvent EnemyJump 318
+310-370,1
+event stomp 334
+cycle stop
+
+anim alert
+580-595,1
+cycle stop
+
+anim powerup
+SoundEvent CEMedLand 724
+SoundEvent FowlCharge 617
+610-785,1
+event effectOn 669
+event effectOff 723
+event land 726
+cycle stop
+
+anim laugh
+SoundEvent FowlTaunt 802
+800-875,1
+cycle stop
+
+anim flinch01
+SoundEvent FowlHit 894
+SoundEvent FowlStep 1013
+SoundEvent FowlStep 993
+SoundEvent FowlStep 978
+SoundEvent FowlStep 961
+890-1030,1
+event land 962
+event land 979
+event land 994
+event land 1014
+cycle stop
+
+anim pushed01
+SoundEvent FowlStep 1055
+1040-1070,1
+event land 1055
+cycle stop
+
+anim RangedGet01
+SoundEvent FowlTaunt 1081
+1080-1093,1
+event show 1085
+cycle stop
+
+anim RangedShow01
+1093-1110,1
+cycle loop
+
+anim RangedThrow01
+SoundEvent FowlFire 1120
+1110-1140,1
+event throw 1119
+cycle stop
+
+anim DeathEntry01
+SoundEvent EnemyFallMed 1164
+1150-1230,1
+cycle stop
+
+//anim ClimbOut01	* removed anims
+//1500-1523,1
+//cycle loop
+
+//anim StandUp01	* removed anims
+//1523-1560,1
+//cycle stop
+
+anim Enraged01
+SoundEvent EnemyLunge 1592
+SoundEvent CEMedLand 1620
+1560-1635,1
+cycle stop
+
+anim Gum01
+2500-2550,1
+cycle loop
+
+anim powerup02
+2580-2665,1
+event effectOn 2638
+cycle stop
+
+anim midAirThrow01
+SoundEvent FowlFire 2695
+SoundEvent FowlFire 2709
+SoundEvent FowlFire 2727
+2665-2750,1
+event Show 2677
+event Show 2689
+event Throw 2695
+event Throw 2708
+event Show 2717
+event Throw 2726
+event effectOff 2749
+cycle stop
+
+//anim flyEntry01
+//1880-1900,1
+//cycle stop
+
+anim flyLoop01
+2750-2780,1
+cycle loop
+
+anim descendEntry01
+2780-2790,1
+cycle stop
+
+anim descendLoop01
+2790-2800,1
+cycle loop
+
+anim ascendLoop01
+2810-2840,1
+cycle loop
+
+anim flyExit01
+2840-2930,1
+event land 2872
+cycle stop
+
+//end

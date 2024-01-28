@@ -1,0 +1,910 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:40:52 PM"
+  EdPos = -13860.12,1101.84,-2658.88
+  EdPitch = -6.670
+  EdYaw = -13.500
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Brain"
+  {
+    "Brain_Voice" = 76692084,0
+    "Brain_Lips" = 76692084,1
+    "Brain_Head" = 76692084,2
+    "Brain_Body" = 76692084,3
+    "Brain_Pos" = 76692084,4
+    "Brain_Look" = 76692084,5
+    "SoundFX" = -2,0
+  }
+  "EarCanal"
+  {
+    "EarCanal_Voice" = 77123020,0
+    "EarCanal_Lips" = 77123020,1
+    "EarCanal_Head" = 77123020,2
+    "EarCanal_Body" = 77123020,3
+    "EarCanal_Pos" = 77123020,4
+    "EarCanal_Look" = 77123020,5
+  }
+  "Neuronpieces"
+  {
+    "Neuronpieces_Voice" = 76834536,0
+    "Neuronpieces_Lips" = 76834536,1
+    "Neuronpieces_Head" = 76834536,2
+    "Neuronpieces_Body" = 76834536,3
+    "Neuronpieces_Pos" = 76834536,4
+    "Neuronpieces_Look" = 76834536,5
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 106741760,0
+    "Jimmy_Lips" = 106741760,1
+    "Jimmy_Head" = 106741760,2
+    "Jimmy_Body" = 106741760,3
+    "Jimmy_Pos" = 106741760,4
+    "Jimmy_Look" = 106741760,5
+  }
+  "Magturner"
+  {
+    "Magturner_Voice" = 165003264,0
+    "Magturner_Lips" = 165003264,1
+    "Magturner_Head" = 165003264,2
+    "Magturner_Body" = 165003264,3
+    "Magturner_Pos" = 165003264,4
+    "Magturner_Look" = 165003264,5
+  }
+  "NeuronStrands"
+  {
+    "NeuronStrands_Voice" = 71565296,0
+    "NeuronStrands_Lips" = 71565296,1
+    "NeuronStrands_Head" = 71565296,2
+    "NeuronStrands_Body" = 71565296,3
+    "NeuronStrands_Pos" = 71565296,4
+    "NeuronStrands_Look" = 71565296,5
+  }
+  "plate"
+  {
+    "plate_Voice" = 110369532,0
+    "plate_Lips" = 110369532,1
+    "plate_Head" = 110369532,2
+    "plate_Body" = 110369532,3
+    "plate_Pos" = 110369532,4
+    "plate_Look" = 110369532,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 1,"CS2A_02_Camera.mcd"
+  WorldFile = (null)
+  Level = W2A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_FastWhoosh" = 16,37
+  "CS_SlowWhoosh" = 55,55
+  "CS_FastWhoosh" = 122,39
+  "CS_zap2" = 309,14
+  "CS_zap2" = 323,30
+}
+
+[DYNAMIC_SFX]
+{
+  "CS2A_02_P01JIFR.WAV" = 190,50
+  "CS2A_02_P02JIFR.WAV" = 287,151
+  "CS2A_02_P03JIFR.WAV" = 445,141
+  "CS2A_02_P04JIFR.WAV" = 608,145
+}
+
+[ACTOR_DATA]
+{
+  Count = 7
+  "CS_BBIntro_Brain.BAD" = "Brain","CS2A_02_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS_BBIntro_EarCanal.BAD" = "EarCanal","CS2A_02_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS2A_02_Neuronpieces06.bad" = "Neuronpieces","CS2A_02_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS2A_02_Jimmy.bad" = "Jimmy","CS2A_02_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "cs2A_02_MagTurner.bad" = "Magturner","CS2A_02_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "CS_BBIntro_Neuron_Strands.bad" = "NeuronStrands","CS2A_02_5.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+  "plate_01.bad" = "plate","CS2A_02_6.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 1
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 0.000,0.000,0.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Brain"
+  {
+    "Brain_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Brain_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Brain_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Brain_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 117
+          length = 44
+        }
+      }
+    }
+    "Brain_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 117
+          length = 44
+        }
+      }
+    }
+    "Brain_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "EarCanal"
+  {
+    "EarCanal_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "EarCanal_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "EarCanal_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "EarCanal_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 50
+          length = 66
+        }
+      }
+    }
+    "EarCanal_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 50
+          length = 66
+        }
+      }
+    }
+    "EarCanal_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "Neuronpieces"
+  {
+    "Neuronpieces_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Neuronpieces_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Neuronpieces_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Neuronpieces_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 162
+          length = 598
+        }
+      }
+    }
+    "Neuronpieces_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 162
+          length = 598
+        }
+      }
+    }
+    "Neuronpieces_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+    }
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "The Magnetic Turner!" = "CS2A_02_P01JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 190
+          length = 50
+        }
+        "The PRIMARY FIRE BUTTON ž will create a magnetic field that moves metal objects." = "CS2A_02_P02JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 287
+          length = 151
+        }
+        "The SECONDARY FIRE BUTTON   projects a magnetic bolt that will daze opponents." = "CS2A_02_P03JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 445
+          length = 141
+        }
+        "Well, people have always said I've got a magnetic personality." = "CS2A_02_P04JIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 608
+          length = 145
+        }
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 760
+        }
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 760
+        }
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //The Magnetic Turner!
+      Jimmy
+      {
+        d = 0,63,178,241,255,255,255,252,199,210,178,136,105,136,189,255,255,255,255,255,
+        d = 255,220,199,255,178,10,0,0,10,10,21,189,255,255,241,255,255,210,199,231,220,189,
+        d = 147,94,73,52,42,0,0,0,
+      }
+      //The PRIMARY FIRE BUTTON ž will create a magnetic field that moves metal objects.
+      Jimmy
+      {
+        d = 150,108,12,0,30,72,222,228,255,255,204,126,120,252,210,192,198,162,162,132,138,
+        d = 48,36,12,12,174,210,222,108,138,132,156,120,48,42,72,84,126,24,114,252,255,252,
+        d = 252,156,162,222,138,72,6,48,54,48,186,240,255,252,150,216,132,114,174,168,240,
+        d = 246,156,138,120,90,126,252,255,216,168,198,78,120,108,36,42,24,12,36,255,246,
+        d = 156,156,108,84,114,126,150,138,120,168,186,192,30,0,12,114,150,162,180,192,144,
+        d = 174,150,150,96,42,132,156,132,150,162,108,150,150,66,24,174,255,255,255,24,90,
+        d = 132,120,102,12,6,0,18,102,102,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+      }
+      //The SECONDARY FIRE BUTTON   projects a magnetic bolt that will daze opponents.
+      Jimmy
+      {
+        d = 66,66,96,84,96,120,156,234,66,0,54,192,255,255,168,192,126,114,102,120,84,24,
+        d = 6,12,120,150,96,78,96,96,96,72,60,102,156,78,90,255,255,255,108,6,0,0,36,162,
+        d = 174,132,96,144,156,156,42,12,72,102,174,252,255,240,192,162,120,120,156,240,255,
+        d = 246,180,174,126,138,84,12,12,12,24,198,240,222,180,210,84,0,0,0,84,132,150,138,
+        d = 114,132,120,102,114,114,108,48,6,114,216,228,156,210,255,255,246,210,60,60,144,
+        d = 210,30,12,66,174,255,234,174,186,210,186,108,72,60,36,6,12,72,96,102,54,12,0,
+        d = 0,0,0,0,0,0,0,
+      }
+      //Well, people have always said I've got a magnetic personality.
+      Jimmy
+      {
+        d = 96,198,228,255,255,198,174,96,102,66,24,0,0,12,6,6,6,6,0,0,0,0,6,0,204,255,255,
+        d = 255,186,84,78,192,210,246,222,198,192,252,255,255,255,180,168,252,204,174,126,
+        d = 168,150,174,222,255,255,204,156,240,240,192,156,150,90,48,180,192,192,138,150,
+        d = 156,198,204,198,150,144,144,108,156,228,252,186,174,126,114,102,12,0,0,18,90,
+        d = 162,144,102,156,108,96,114,120,102,120,138,174,192,222,138,36,108,108,102,108,
+        d = 24,6,0,0,0,0,0,6,24,12,6,6,6,96,222,252,198,210,126,54,6,12,96,138,132,66,90,
+        d = 60,18,6,0,0,0,0,0,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Magturner"
+  {
+    "Magturner_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Magturner_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Magturner_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Magturner_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 234
+          length = 526
+        }
+      }
+    }
+    "Magturner_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 234
+          length = 526
+        }
+      }
+    }
+    "Magturner_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,
+    }
+  }
+  "NeuronStrands"
+  {
+    "NeuronStrands_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "NeuronStrands_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "NeuronStrands_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "NeuronStrands_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 162
+          length = 373
+        }
+      }
+    }
+    "NeuronStrands_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 162
+          length = 373
+        }
+      }
+    }
+    "NeuronStrands_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+  "plate"
+  {
+    "plate_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plate_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plate_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "plate_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "cutscene" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 162
+          length = 598
+        }
+      }
+    }
+    "plate_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 162
+          length = 598
+        }
+      }
+    }
+    "plate_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_FastWhoosh",""
+    Breaker = 0
+    Lock = 0
+    start = 16
+    length = 37
+  }
+  bar
+  {
+    BarName = "CS_SlowWhoosh",""
+    Breaker = 0
+    Lock = 0
+    start = 55
+    length = 55
+  }
+  bar
+  {
+    BarName = "CS_FastWhoosh",""
+    Breaker = 0
+    Lock = 0
+    start = 122
+    length = 39
+  }
+  bar
+  {
+    BarName = "CS_zap2",""
+    Breaker = 0
+    Lock = 0
+    start = 309
+    length = 14
+  }
+  bar
+  {
+    BarName = "CS_zap2",""
+    Breaker = 0
+    Lock = 0
+    start = 323
+    length = 30
+  }
+}
+
+[CAMERA]
+{
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

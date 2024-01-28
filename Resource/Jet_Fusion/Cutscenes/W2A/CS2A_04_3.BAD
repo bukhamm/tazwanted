@@ -1,0 +1,6 @@
+mesh cs2A_04_04_Remote
+skeleton CS2A_04_3
+
+ANIM CUTSCENE
+254-328,1
+CYCLE STOP

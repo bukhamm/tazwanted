@@ -1,0 +1,6 @@
+skeleton Prop_gate_solar
+mesh Prop_gate_solar
+
+anim open
+1-150,1
+cycle stop

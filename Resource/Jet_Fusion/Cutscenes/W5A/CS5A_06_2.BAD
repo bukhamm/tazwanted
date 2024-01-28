@@ -1,0 +1,9 @@
+mesh a_Sailfish.mdl
+skeleton CS5A_06_2
+
+ANIM REAR_UP
+SOUNDEVENT FISHSURFACE 177
+170-235,1 
+CYCLE STOP
+
+//END

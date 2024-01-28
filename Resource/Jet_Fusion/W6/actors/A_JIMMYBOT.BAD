@@ -1,0 +1,163 @@
+mesh a_JimmyBot
+skeleton a_JimmyBot
+
+anim bindpose
+0,1
+cycle stop
+
+//------------------ More of a roller blade cycle
+anim Run01	
+SoundEvent JbotSlinky 68
+SoundEvent JbotSlinky 48
+SoundEvent JbotStep 61
+SoundEvent JbotStep 41
+40-80,1
+cycle loop
+
+anim RuntoStop
+SoundEvent JbotStep 92
+80-110
+cycle stop
+
+anim Walk01
+SoundEvent JbotMove 111
+110-120,1
+cycle loop
+
+//------------------- A fairly neutral idle
+anim Idle01
+120-150,1
+cycle loop
+
+anim Idle02
+SoundEvent JbotWhir1 243
+SoundEvent JbotSlinky 221
+220-260,1
+cycle loop
+
+//------------------- Eurika idle
+anim Idle03
+SoundEvent JbotWhir1 181
+SoundEvent JbotWhir1 157
+150-210,1
+cycle stop
+
+anim QuickTurn01
+SoundEvent JbotStep 267
+SoundEvent JbotWhir2 261
+260-270,1
+cycle stop
+
+//------------- anim Ranged Attacks,shoots its weapons,Primary fire:Goo darts(01), Secondary fire:Magneto Ray(02)
+
+anim RangedEntry01
+SoundEvent JbotWhir2 271
+270-285,1
+cycle stop
+
+anim RangedLoop01
+285-295,1
+cycle loop
+
+anim RangedExit01
+SoundEvent JbotWhir2 292
+290-310,1
+cycle stop
+	
+//anim RangedEntry02
+//320-335
+//cycle stop
+
+//anim RangedLoop02
+//335-345,1
+//cycle stop	
+
+//anim RangedExit02
+//345-360, 1
+//cycle stop
+
+//----------- pushed backwards by huge blast of wind
+
+anim Pushed01
+SoundEvent JbotSlinky 373
+SoundEvent JbotWhir2 391
+SoundEvent JbotStep 389
+SoundEvent JbotStep 372
+370-400,1
+cycle loop  
+
+anim Flinch01
+SoundEvent JbotSlinky 412
+SoundEvent JbotWhir1 411
+410-425,1
+cycle stop
+
+anim Flinch02 
+SoundEvent JbotWhir2 429
+SoundEvent JbotMove 426
+425-440,1
+cycle stop
+
+anim Death01
+SoundEvent JbotDeath 483
+SoundEvent JbotLand 451
+450-520,1
+cycle stop
+
+//---------------Grab and Throw Attack (03)
+//Grab
+anim ArmGrab
+SoundEvent JbotWhir2 531
+530-548,1
+cycle stop
+
+//Grab miss and return
+anim ArmMiss
+SoundEvent JbotSlinky 631
+630-640,1
+cycle stop
+
+
+//Lift
+anim ArmLift
+SoundEvent JbotWhir2 549
+548-570,1
+cycle stop
+
+//Spin
+anim ArmSpin
+SoundEvent JbotWhir1 571
+570-580,1
+cycle loop
+
+//Throw
+anim ArmThrow
+SoundEvent EnemyThrows 599
+SoundEvent JbotWhir1 582
+event Throw 601
+580-620,1
+cycle stop
+
+//lose Balance
+anim Flinch03
+SoundEvent JbotStep 687
+SoundEvent JbotLand 654
+650-690,1
+cycle stop
+
+
+//Fall on Back  
+anim FallBack
+SoundEvent JbotFall 707
+700-732,1
+cycle stop
+
+//get up
+anim GetUp
+SoundEvent JbotWhir2 757
+SoundEvent JbotMove 735
+732-770,1
+cycle stop
+
+
+//end

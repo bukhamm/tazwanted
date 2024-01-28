@@ -1,0 +1,576 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "3:09:14 PM"
+  EdPos = -12738.87,436.52,-4230.38
+  EdPitch = -0.450
+  EdYaw = -0.900
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Pirate"
+  {
+    "Pirate_Voice" = 75953572,0
+    "Pirate_Lips" = 75953572,1
+    "Pirate_Head" = 75953572,2
+    "Pirate_Body" = 75953572,3
+    "Pirate_Pos" = 75953572,4
+    "Pirate_Look" = 75953572,5
+    "Camera" = -3,0
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice" = 76003960,0
+    "Jimmy_Lips" = 76003960,1
+    "Jimmy_Head" = 76003960,2
+    "Jimmy_Body" = 76003960,3
+    "Jimmy_Pos" = 76003960,4
+    "Jimmy_Look" = 76003960,5
+    "Camera" = -3,0
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 190052808,0
+    "Goddard_Lips" = 190052808,1
+    "Goddard_Head" = 190052808,2
+    "Goddard_Body" = 190052808,3
+    "Goddard_Pos" = 190052808,4
+    "Goddard_Look" = 190052808,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W5A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS5A_33_P01PIFR.WAV" = 10,26
+  "CS5A_33_P02PIFR.WAV" = 46,50
+  "CS5A_33_P03PIFR.WAV" = 106,61
+  "CS5A_33_P04PIFR.WAV" = 192,63
+}
+
+[ACTOR_DATA]
+{
+  Count = 3
+  "a_Pirate01_Synker.bad" = "Pirate","CS5A_33_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -12108.833,161.974,-3879.703
+        rot = 0.000,-1.210,0.000
+      }
+    }
+  }
+  "A_JIMMY_SYNKER_PIRATE.BAD" = "Jimmy","CS5A_33_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -12444.201,163.025,-3913.923
+        rot = 0.000,0.000,0.000
+        pos = -12347.799,168.025,-3901.701
+        rot = 0.000,0.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -12348.000,168.000,-3902.000
+        rot = 0.000,1.540,0.000
+      }
+      "path_3"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -12348.000,168.000,-3902.000
+        rot = 0.000,1.110,0.000
+      }
+    }
+  }
+  "A_GODDARD_Synker.BAD" = "Goddard","CS5A_33_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -12271.008,164.173,-3811.306
+        rot = 0.000,0.000,0.000
+        pos = -12271.008,169.173,-3811.306
+        rot = 0.000,0.000,0.000
+      }
+      "path_2"
+      {
+        stride = 1.000
+        AimAtPath = 1
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -12493.413,162.121,-3870.571
+        rot = 0.000,0.000,0.000
+        pos = -12271.000,164.000,-3811.000
+        rot = 0.000,0.000,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Pirate"
+  {
+    "Pirate_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Arrr..." = "CS5A_33_P01PIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 26
+        }
+        "Ye were so close." = "CS5A_33_P02PIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 46
+          length = 50
+        }
+        "Ye only had a few more to get." = "CS5A_33_P03PIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 106
+          length = 61
+        }
+        "Maybe ye could try again?" = "CS5A_33_P04PIFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 192
+          length = 63
+        }
+      }
+    }
+    "Pirate_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsAngry" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 265
+        }
+      }
+    }
+    "Pirate_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadAngry" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 192
+        }
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 192
+          length = 73
+        }
+      }
+    }
+    "Pirate_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNO" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 34
+        }
+        "BodyPoint" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 34
+          length = 76
+        }
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 110
+          length = 155
+        }
+      }
+    }
+    "Pirate_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 265
+        }
+      }
+    }
+    "Pirate_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Arrr...
+      Pirate
+      {
+        d = 115,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,
+        d = 231,66,66,33,0,0,
+      }
+      //Ye were so close.
+      Pirate
+      {
+        d = 12,48,132,180,228,216,240,180,144,240,216,204,96,192,144,156,168,168,168,180,
+        d = 255,255,255,255,255,255,255,252,156,36,12,120,84,84,216,255,255,255,252,216,180,
+        d = 108,144,168,156,108,60,24,0,0,
+      }
+      //Ye only had a few more to get.
+      Pirate
+      {
+        d = 40,175,202,216,255,255,255,255,255,175,175,216,255,255,255,135,135,148,229,255,
+        d = 255,189,121,216,243,162,27,54,54,108,162,255,255,255,255,135,162,162,255,255,
+        d = 255,243,216,13,0,40,108,229,216,81,27,202,255,243,216,67,0,13,54,0,0,
+      }
+      //Maybe ye could try again?
+      Pirate
+      {
+        d = 15,120,165,210,255,255,255,255,105,105,135,255,255,255,225,225,255,255,90,0,30,
+        d = 120,60,255,210,90,15,45,195,240,180,45,165,195,240,255,255,255,255,240,240,180,
+        d = 165,165,30,15,105,225,210,240,195,180,150,60,75,75,60,45,30,15,15,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,0,
+    }
+  }
+  "Jimmy"
+  {
+    "Jimmy_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Jimmy_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  Camera1
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 1000000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = -12662.97,343.54,-4261.03, -12058.72,243.54,-3843.19
+    node = -12503.92,344.00,-4153.04, -11988.00,244.00,-3796.00
+  }
+  Camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 1000000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -12239.95,276.86,-3953.88, -12074.58,276.86,-3818.36
+    node = -12251.48,277.00,-3930.80, -12075.00,277.00,-3818.00
+  }
+  Camera3
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 1000000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -12222.12,277.72,-4221.03, -12226.77,257.72,-3986.27
+  }
+  Camera4
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 1000000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -12243.56,254.18,-4009.48, -12331.60,254.18,-3878.94
+    node = -12253.00,254.00,-4017.00, -12332.00,254.00,-3879.00
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "Camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 265
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

@@ -1,0 +1,620 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:42:12 PM"
+  EdPos = -996.28,377.14,1348.69
+  EdPitch = -0.558
+  EdYaw = -3.762
+}
+
+[EXTRAS]
+{
+  Windowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Jet"
+  {
+    "Jet_Voice" = 103940044,0
+    "Jet_Lips" = 103940044,1
+    "Jet_Head" = 103940044,2
+    "Jet_Body" = 103940044,3
+    "Jet_Pos" = 103940044,4
+    "Jet_Look" = 103940044,5
+    "Camera" = -3,0
+    "SoundFX" = -2,0
+    "Event_0" = -1,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W2A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+  "CS_staticinout" = 0,30
+  "CS_lp_static" = 112,12
+  "CS_lp_static" = 124,13
+  "CS_staticinout" = 137,30
+  "CS_lp_static" = 167,13
+  "CS_lp_static" = 180,12
+  "CS_lp_static" = 694,14
+  "CS_lp_static" = 708,14
+  "CS_staticinout" = 722,30
+  "CS_lp_static" = 752,13
+  "CS_lp_static" = 765,14
+  "CS_lp_static" = 1065,18
+  "CS_staticinout" = 1083,30
+}
+
+[DYNAMIC_SFX]
+{
+  "CS2A_19_P01JFFR.WAV" = 10,17
+  "CS2A_19_P02JFFR.WAV" = 37,32
+  "CS2A_19_P03JFFR.WAV" = 79,58
+  "CS2A_19_P04JFFR.WAV" = 167,103
+  "CS2A_19_P05JFFR.WAV" = 280,88
+  "CS2A_19_P06JFFR.WAV" = 378,132
+  "CS2A_19_P07JFFR.WAV" = 520,107
+  "CS2A_19_P08JFFR.WAV" = 637,85
+  "CS2A_19_P09JFFR.WAV" = 752,117
+  "CS2A_19_P10JFFR.WAV" = 879,56
+  "CS2A_19_P11JFFR.WAV" = 945,70
+  "CS2A_19_P12JFFR.WAV" = 1025,58
+}
+
+[ACTOR_DATA]
+{
+  Count = 1
+  "A_JetFusion_Synker.BAD" = "Jet","CS2A_19_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 0
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -1126.740,118.620,1147.374
+        rot = 0.000,3.040,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Jet"
+  {
+    "Jet_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "Jimmy..." = "CS2A_19_P01JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 10
+          length = 17
+        }
+        "Grave news..." = "CS2A_19_P02JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 37
+          length = 32
+        }
+        "I've found out what Calamitous is doing..." = "CS2A_19_P03JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 79
+          length = 58
+        }
+        "He seems to be obsessed with three Objects of Power." = "CS2A_19_P04JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 167
+          length = 103
+        }
+        "These take the form of glowing, golden idols..." = "CS2A_19_P05JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 280
+          length = 88
+        }
+        "They could quite possibly be the most powerful objects in the world." = "CS2A_19_P06JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 378
+          length = 132
+        }
+        "Calamitous wants to unlock their power to drive a machine..." = "CS2A_19_P07JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 520
+          length = 107
+        }
+        "a machine that will let him rule the Earth." = "CS2A_19_P08JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 637
+          length = 85
+        }
+        "You'll have to hold off on my rescue, Jimmy, this is more important." = "CS2A_19_P09JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 752
+          length = 117
+        }
+        "You must stop Calamitous." = "CS2A_19_P10JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 879
+          length = 56
+        }
+        "You have to get the idols before he does..." = "CS2A_19_P11JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 945
+          length = 70
+        }
+        "I'll help you as much as I can, but..." = "CS2A_19_P12JFFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 1025
+          length = 58
+        }
+      }
+    }
+    "Jet_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1113
+        }
+      }
+    }
+    "Jet_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1113
+        }
+      }
+    }
+    "Jet_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1113
+        }
+      }
+    }
+    "Jet_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 1113
+        }
+      }
+    }
+    "Jet_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //Jimmy...
+      Jet
+      {
+        d = 63,199,252,255,255,255,255,255,255,255,255,126,42,21,0,0,0,
+      }
+      //Grave news...
+      Jet
+      {
+        d = 22,112,150,225,240,232,255,255,255,255,172,120,120,225,217,225,225,255,232,217,
+        d = 165,142,120,60,67,150,157,180,172,82,0,0,
+      }
+      //I've found out what Calamitous is doing...
+      Jet
+      {
+        d = 15,112,142,172,112,45,37,90,247,255,255,255,255,255,255,225,232,255,255,247,255,
+        d = 255,120,22,90,142,180,255,255,225,240,247,255,240,255,255,180,172,255,180,240,
+        d = 240,150,150,142,52,15,120,232,217,172,142,127,90,60,22,7,0,
+      }
+      //He seems to be obsessed with three Objects of Power.
+      Jet
+      {
+        d = 0,120,202,187,135,232,240,247,255,202,247,255,247,255,255,247,112,15,157,232,
+        d = 112,187,255,255,210,112,112,90,82,150,232,247,225,247,187,232,255,255,225,172,
+        d = 217,60,15,75,82,187,240,172,22,7,7,7,7,22,135,157,157,180,187,247,255,255,255,
+        d = 217,247,255,255,255,255,255,255,210,135,217,195,247,202,157,15,172,225,165,217,
+        d = 120,67,7,0,67,142,187,255,255,255,255,255,217,232,150,105,22,7,0,0,
+      }
+      //These take the form of glowing, golden idols...
+      Jet
+      {
+        d = 30,217,240,255,225,210,180,67,52,172,255,255,225,67,7,7,180,127,37,22,22,75,255,
+        d = 255,255,255,255,247,255,195,202,135,67,45,22,7,7,97,165,157,247,247,202,255,217,
+        d = 210,210,210,195,217,240,255,255,105,60,30,30,172,255,255,255,255,255,217,165,
+        d = 202,247,217,210,232,232,232,217,255,255,240,210,172,97,37,22,60,90,120,142,142,
+        d = 52,0,
+      }
+      //They could quite possibly be the most powerful objects in the world.
+      Jet
+      {
+        d = 45,157,255,90,22,90,217,127,52,7,15,67,112,90,90,180,217,195,195,240,105,30,7,
+        d = 0,52,75,187,217,217,240,255,247,217,217,142,172,165,172,202,255,225,142,60,67,
+        d = 210,232,225,240,247,255,112,187,180,187,210,225,240,255,255,255,255,247,202,247,
+        d = 22,22,7,0,0,0,82,142,247,255,255,255,255,255,255,255,225,75,15,22,172,232,247,
+        d = 202,225,247,247,255,255,232,165,67,150,210,195,172,30,157,240,142,255,195,210,
+        d = 172,172,187,247,247,210,255,255,255,255,255,255,232,225,180,127,90,75,22,7,7,
+        d = 15,15,0,0,
+      }
+      //Calamitous wants to unlock their power to drive a machine...
+      Jet
+      {
+        d = 60,165,210,180,195,255,255,255,255,247,195,187,142,165,172,210,187,37,45,172,
+        d = 172,172,172,135,82,7,120,157,37,7,0,7,112,217,255,202,255,240,232,255,240,255,
+        d = 255,255,255,255,247,22,0,15,90,255,150,112,30,0,30,105,120,150,165,150,135,105,
+        d = 150,187,217,90,165,232,135,82,127,120,127,232,255,202,240,255,157,150,187,172,
+        d = 232,202,165,157,127,135,157,187,187,210,180,255,255,225,217,172,142,112,90,67,
+        d = 22,15,0,
+      }
+      //a machine that will let him rule the Earth.
+      Jet
+      {
+        d = 22,105,135,172,157,180,150,172,187,247,240,247,255,150,255,255,255,232,202,187,
+        d = 195,210,210,157,150,120,75,247,255,255,150,127,187,247,232,112,187,210,165,195,
+        d = 187,180,195,195,217,217,210,255,255,255,255,247,232,240,225,210,150,150,90,150,
+        d = 255,255,195,60,7,0,15,135,195,255,255,255,210,120,60,15,15,15,22,22,15,15,7,0,
+        d = 0,
+      }
+      //You'll have to hold off on my rescue, Jimmy, this is more important.
+      Jet
+      {
+        d = 36,114,102,102,150,210,216,255,255,216,48,6,78,192,204,132,138,228,255,255,228,
+        d = 216,150,162,246,255,228,240,96,18,24,138,216,246,180,216,186,168,138,132,138,
+        d = 198,192,174,168,198,150,222,162,36,36,66,126,114,96,36,54,72,78,90,126,120,144,
+        d = 120,114,114,108,66,12,6,0,0,6,6,24,54,192,204,168,144,204,138,120,162,102,186,
+        d = 234,255,222,234,210,168,222,255,198,192,198,54,18,48,126,246,228,204,186,60,12,
+        d = 96,48,36,12,12,60,30,6,0,0,
+      }
+      //You must stop Calamitous.
+      Jet
+      {
+        d = 52,150,202,225,210,255,240,255,255,255,255,255,255,240,255,255,255,255,202,0,
+        d = 52,255,255,255,255,240,45,30,0,82,157,255,255,255,187,240,187,195,187,202,210,
+        d = 202,120,90,75,22,30,75,127,112,97,90,60,15,0,0,
+      }
+      //You have to get the idols before he does...
+      Jet
+      {
+        d = 24,138,210,216,192,120,114,168,162,198,234,255,192,48,18,36,162,156,84,36,126,
+        d = 168,150,48,6,78,204,180,168,186,192,198,186,186,162,126,132,132,108,150,12,144,
+        d = 168,30,6,72,222,255,228,174,138,120,144,186,192,192,162,132,162,84,78,84,24,6,
+        d = 30,66,90,96,78,12,
+      }
+      //I'll help you as much as I can, but...
+      Jet
+      {
+        d = 37,90,172,165,172,165,157,172,180,225,240,202,45,30,255,255,255,255,255,232,142,
+        d = 135,255,255,255,247,82,67,172,247,165,135,165,202,240,195,105,15,60,135,135,255,
+        d = 217,187,225,187,157,157,165,187,120,60,172,195,120,7,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,0,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  Camera1
+  {
+    Enabled = 1
+    FromFOV = 50.000
+    ToFOV = 50.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -1109.50,230.62,1201.65, -1143.22,229.62,1067.66
+    node = -1119.11,231.00,1199.94, -1142.80,230.00,1067.63
+  }
+}
+
+[EVENT_DATA]
+{
+  "ShowStatic" = "ShowStatic"
+}
+
+[EVENT_0]
+{
+  bar
+  {
+    BarName = "ShowStatic",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 30
+  }
+  bar
+  {
+    BarName = "ShowStatic",""
+    Breaker = 0
+    Lock = 0
+    start = 112
+    length = 80
+  }
+  bar
+  {
+    BarName = "ShowStatic",""
+    Breaker = 0
+    Lock = 0
+    start = 694
+    length = 85
+  }
+  bar
+  {
+    BarName = "ShowStatic",""
+    Breaker = 0
+    Lock = 0
+    start = 1065
+    length = 48
+  }
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+  bar
+  {
+    BarName = "CS_staticinout",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 112
+    length = 12
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 124
+    length = 13
+  }
+  bar
+  {
+    BarName = "CS_staticinout",""
+    Breaker = 0
+    Lock = 0
+    start = 137
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 167
+    length = 13
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 180
+    length = 12
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 694
+    length = 14
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 708
+    length = 14
+  }
+  bar
+  {
+    BarName = "CS_staticinout",""
+    Breaker = 0
+    Lock = 0
+    start = 722
+    length = 30
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 752
+    length = 13
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 765
+    length = 14
+  }
+  bar
+  {
+    BarName = "CS_lp_static",""
+    Breaker = 0
+    Lock = 0
+    start = 1065
+    length = 18
+  }
+  bar
+  {
+    BarName = "CS_staticinout",""
+    Breaker = 0
+    Lock = 0
+    start = 1083
+    length = 30
+  }
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "Camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 1113
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

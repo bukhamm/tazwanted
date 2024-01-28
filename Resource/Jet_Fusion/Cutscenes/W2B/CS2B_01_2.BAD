@@ -1,0 +1,6 @@
+mesh cs2B_01_03_Doors
+skeleton CS2B_01_2
+
+ANIM CUTSCENE
+100-480,1
+CYCLE STOP

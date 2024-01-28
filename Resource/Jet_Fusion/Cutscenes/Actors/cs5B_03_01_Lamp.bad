@@ -1,0 +1,10 @@
+mesh cs5B_03_01_Lamp
+skeleton cs5B_03_01_Lamp
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+172-450,1
+cycle stop

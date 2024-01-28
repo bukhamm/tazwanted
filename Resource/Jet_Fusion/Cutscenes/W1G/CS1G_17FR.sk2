@@ -1,0 +1,392 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "ANDREWB"
+  Date = "8/07/2003"
+  Time = "2:38:09 PM"
+  EdPos = 2924.57,306.72,590.79
+  EdPitch = -0.410
+  EdYaw = -1.280
+}
+
+[EXTRAS]
+{
+  Windowed = 1
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Goddard"
+  {
+    "Goddard_Voice" = 110767804,0
+    "Goddard_Lips" = 110767804,1
+    "Goddard_Head" = 110767804,2
+    "Goddard_Body" = 110767804,3
+    "Goddard_Pos" = 110767804,4
+    "Goddard_Look" = 110767804,5
+    "Camera" = -3,0
+  }
+  "Charger"
+  {
+    "Charger_Voice" = 64666180,0
+    "Charger_Lips" = 64666180,1
+    "Charger_Head" = 64666180,2
+    "Charger_Body" = 64666180,3
+    "Charger_Pos" = 64666180,4
+    "Charger_Look" = 64666180,5
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"..."
+  WorldFile = (null)
+  Level = W1A.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS1G_17_P01GOFR.WAV" = 13,65
+  "CS1G_17_P02GOFR.WAV" = 88,103
+}
+
+[ACTOR_DATA]
+{
+  Count = 2
+  "A_GODDARD_Synker.BAD" = "Goddard","CS1G_17_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 3280.822,131.666,717.383
+        rot = 0.000,-2.230,0.000
+      }
+    }
+  }
+  "A_BatteryRechargerSynker.BAD" = "Charger","CS1G_17_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = 3270.952,189.166,717.479
+        rot = 0.110,0.040,-0.710
+        pos = 3270.952,189.166,717.479
+        rot = 0.110,0.620,-0.710
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Goddard"
+  {
+    "Goddard_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "This is a battery charger." = "CS1G_17_P01GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 13
+          length = 65
+        }
+        "If you stand on it, your battery will recharge." = "CS1G_17_P02GOFR.WAV"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 88
+          length = 103
+        }
+      }
+    }
+    "Goddard_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "LipsNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 200
+        }
+      }
+    }
+    "Goddard_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "HeadHappy" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 200
+        }
+      }
+    }
+    "Goddard_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "BodyNeutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 200
+        }
+      }
+    }
+    "Goddard_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 80
+          length = 120
+        }
+      }
+    }
+    "Goddard_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //This is a battery charger.
+      Goddard
+      {
+        d = 30,54,144,255,255,255,246,144,114,150,168,138,48,6,12,210,255,204,162,144,252,
+        d = 240,192,96,66,72,180,162,180,150,150,114,180,192,192,186,174,168,156,42,6,78,
+        d = 180,126,138,102,78,66,114,72,42,24,120,150,120,60,54,54,42,6,0,0,0,0,0,
+      }
+      //If you stand on it, your battery will recharge.
+      Goddard
+      {
+        d = 198,255,255,204,24,12,36,60,228,246,234,255,255,156,192,180,144,0,66,192,150,
+        d = 150,138,150,174,210,126,132,96,84,72,72,96,102,114,102,6,0,12,0,0,0,0,0,0,0,0,
+        d = 0,0,6,60,114,216,222,228,255,255,252,240,114,96,30,144,138,132,126,114,90,174,
+        d = 228,216,228,216,228,252,255,216,228,222,216,180,120,144,216,234,255,96,24,96,
+        d = 144,150,156,126,108,108,108,96,132,150,102,120,132,48,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,
+    }
+  }
+  "Charger"
+  {
+    "Charger_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Charger_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Charger_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Charger_Body"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Charger_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 80
+        }
+      }
+    }
+    "Charger_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  camera1
+  {
+    Enabled = 1
+    FromFOV = 40.000
+    ToFOV = 40.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = 3081.89,188.67,723.31, 3274.84,185.67,729.53
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 200
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

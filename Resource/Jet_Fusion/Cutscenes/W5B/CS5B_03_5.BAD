@@ -1,0 +1,9 @@
+mesh CS_BBIntro_Neuronpieces06
+skeleton CS5B_03_5
+
+ANIM CUTSCENE
+172-450,1
+CYCLE STOP
+
+
+//END

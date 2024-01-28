@@ -1,0 +1,240 @@
+mesh A_sheen
+skeleton A_sheen
+
+//=-=-=--==-=-=-=-==-=-=--Patrol Mode
+
+anim bindpose
+0,1
+cycle stop
+
+anim walk01
+SoundEvent NinjaSteps 80
+SoundEvent NinjaSteps 70
+50-81,1
+cycle loop
+
+anim quickTurn01
+SoundEvent SheenStep 683
+675-690,1
+cycle stop
+
+anim idle01
+100-130,1
+cycle loop
+
+anim idle02
+SoundEvent NinjaSteps 252
+150-290,1
+cycle stop
+
+anim idle03
+370-490,1
+cycle stop
+
+anim Alert01
+725-740,1
+cycle stop
+
+//--=-=-=-=-=-=-=-=-=-=-Attack mode
+anim Run01
+SoundEvent SheenStep 709
+SoundEvent SheenStep 705
+700-716,1
+cycle loop
+
+anim Attackidle01
+100-130,1
+cycle loop
+
+anim AttackIdle02
+500-660,1
+cycle stop
+
+//This Idle is for When Sheen is vulnerable to attack (To be used as per design document).
+anim AttackIdle03
+SoundEvent EnemySwingsPunch 1026
+SoundEvent NinjaSteps 1039
+SoundEvent NinjaSteps 1020
+SoundEvent NinjaSteps 912
+SoundEvent NinjaSteps 903
+900-1050,1
+cycle stop
+
+anim ChargeEntry01
+1100-1162,1
+cycle stop
+
+anim ChargeLoop01
+1162-1170,1
+cycle loop
+
+anim ChargeExit01
+SoundEvent NinjaLand 1177
+1170-1190,1
+cycle stop
+
+anim ChargeEntry02
+SoundEvent SheenStep 824
+800-827,1
+cycle stop
+
+anim ChargeLoop02
+SoundEvent SheenStep 835
+SoundEvent SheenStep 829
+827-839,1
+cycle loop
+
+anim ChargeExit02
+SoundEvent NinjaLand 851
+839-885,1
+cycle stop
+
+anim jumpEntry01
+300-320,1
+cycle stop
+
+anim jumpLoop01
+320-327,1
+cycle loop
+
+anim jumpExit01
+SoundEvent NinjaSteps 349
+SoundEvent NinjaSteps 344
+SoundEvent NinjaLand 330
+327-355,1
+cycle stop
+
+anim Flinch01
+1300-1400,1
+cycle stop
+
+anim Summon01
+1450-1525,1
+event summon 1482
+cycle stop
+
+anim DeathEntry01
+SoundEvent MaskFall 1555
+SoundEvent EnemyFallMed 1576
+1550-1600,1
+cycle stop
+
+// Kicks Ultralord down steps
+anim Shove01
+1700-1735,1
+event shove 1720
+cycle stop
+
+anim Shove02
+SoundEvent EnemySwingsPunch 1750
+1750-1776,1
+event shove 1756
+cycle stop
+
+anim Shove03
+SoundEvent EnemyLunge 1815
+SoundEvent EnemyLunge 1808
+1800-1835,1
+event shove 1813
+cycle stop
+
+//flying anims
+
+anim flyEntry01
+1900-1910,1
+SoundEvent EnemyJump 1906
+cycle stop
+
+anim flyLoop01
+1910-1920,1
+cycle loop
+
+anim flyExit01
+1920-1934,1
+SoundEvent NinjaLand 1923
+cycle stop
+
+anim flyEntry02
+3000-3010,1
+SoundEvent EnemyJump 3006
+cycle stop
+
+anim flyLoop02
+3010-3020,1
+cycle loop
+
+anim flyExit02
+3020-3035,1
+SoundEvent NinjaLand 3023
+cycle stop
+
+anim flyEntry03
+3050-3060,1
+SoundEvent EnemyJump 3056
+cycle stop
+
+anim flyLoop03
+3060-3070,1
+cycle loop
+
+anim flyExit03
+3070-3085,1
+SoundEvent NinjaLand 3073
+cycle stop
+
+anim Ultspawn01
+1940-1984,1
+SoundEvent SheenButton 1954
+event spawn 1956
+event drop 1973
+cycle stop
+
+anim Ultspawn02
+3100-3130,1
+SoundEvent SheenButton 3109
+event spawn 3112
+event drop 3121
+cycle stop
+
+anim Ultspawn03
+3150-3170,1
+SoundEvent SheenButton 3158
+event spawn 3160
+event drop 3163
+cycle stop
+
+anim flyflinch01
+1990-2006,1
+cycle stop
+
+anim flyflinch02
+SoundEvent EnemyFallMed 2105
+2100-2200,1
+cycle stop
+
+anim FlyDeathEntry01
+3200-3270,1
+cycle stop
+
+//Everybody should always act "normal"
+anim normalwalk01
+SoundEvent SheenStep 2048
+SoundEvent SheenStep 2032
+2030-2062,1
+cycle loop
+
+anim normalrun01
+SoundEvent SheenStep 2083
+SoundEvent SheenStep 2075
+2070-2086,1
+cycle loop
+
+anim Gum01
+3385-3470,1
+cycle loop
+
+anim CloseAttack
+3700-3766,1
+cycle stop
+
+//END

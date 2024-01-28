@@ -1,0 +1,473 @@
+//************************************************************************
+// Global settings go here
+//************************************************************************
+name Global
+
+minFadingPropAlpha = .2            // the same value as the old define. Jimmy best use this
+maxParticles = 1400
+terrainMaxDist = 80000
+
+// Information about all the levels
+//************************************************************************
+//* WORLD 1 - SCHOOL A - SCHOOL
+//************************************************************************
+
+name w1a
+
+WorldMinMax = -3196.629,-24.854,-2468.461,6977.299,95.293,5475.729
+ground = room_1a_01.mdl
+//water = w2a_water
+weather = rain
+envcube = env_w1a.mdl
+envrotate = 0.00
+waterFog = 0.40, 0.35, 0.75
+maxDepth = 600.00
+fogPlane = 1000.00
+farPlane = 10000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+music = level1.wav
+waterMaterial = fx_088
+causticMaterial = fx_089
+light = -1.00, 1.50, 1.30
+overlay_0 = room_1a_02.mdl, 0, grasseffect
+overlay_1 = room_1a_03.mdl, 1,
+clipplanes =  30     200000
+
+//************************************************************************
+//* WORLD 2 - JAPAN A - VILLAGE
+//************************************************************************
+
+name w2a
+
+WorldMinMax = -3196.629,-24.854,-2468.461,6977.299,95.293,5475.729
+ground = room_2a_01.mdl
+envcube = env_w2a.mdl
+overlay_0 = room_2a_02.mdl, 0, grasseffect
+
+clipplanes =  30     200000
+fogPlanes  =  2000   10000
+fogCol     =  0.129  0.129  0.255
+lightdir_0 = -0.500 -0.500 -0.700
+lightdir_1 =  0.200 -0.500  1.000
+lightdir_2 =  1.000 -0.500  0.000
+lightcol_0 =  0.353  0.235  0.098
+lightcol_1 =  0.129  0.152  0.603
+lightcol_2 =  0.368  0.305  0.086
+ambientcol =  0.180  0.156  0.078
+waterMaterial = fx_088
+causticMaterial = fx_089
+water = w2a_teagarden_water
+
+//************************************************************************
+//* WORLD 2 - JAPAN B - SHRINE
+//************************************************************************
+
+name w2b
+
+WorldMinMax = -3196.629,-24.854,-2468.461,6977.299,95.293,5475.729
+ground = room_2b_01.mdl
+water = w2b_water
+weather = rain
+envcube = env_w2b.mdl
+envrotate = 0.00
+fog = 0.30, 0.35, 0.32
+fogCol     =  0.01  0.045  0.142
+lightdir_0 = -0.500 -0.500 -0.700
+lightdir_1 =  0.200 -0.500  1.000
+lightdir_2 =  1.000 -0.500  0.000
+lightcol_0 =  0.353  0.235  0.098
+lightcol_1 =  0.129  0.152  0.603
+lightcol_2 =  0.368  0.305  0.086
+ambientcol =  0.180  0.156  0.078
+waterFog = 0.40, 0.35, 0.75
+maxDepth = 600.00
+clipplanes =  30     200000
+fogPlanes  =  2000   10000
+//fogPlane = 1000.00
+//farPlane = 10000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+music = level1.wav
+waterMaterial = fx_088
+causticMaterial = fx_089
+light = -1.00, 1.50, 1.30
+overlay_0 = room_2b_02.mdl, 0
+overlay_1 = room_2b_04.mdl, 2
+
+//************************************************************************
+//* WORLD 2 - JAPAN C - DOJO
+//************************************************************************
+
+name w2c
+
+WorldMinMax = -3196.629,-24.854,-2468.461,6977.299,95.293,5475.729
+ground = room_2c_01.mdl
+//water = w2c_water
+weather = rain
+envcube = env_w2b.mdl
+envrotate = 0.00
+fog = 0.30, 0.35, 0.32
+lightdir_0 = -0.500 -0.500 -0.700
+lightdir_1 =  0.200 -0.500  1.000
+lightdir_2 =  1.000 -0.500  0.000
+lightcol_0 =  0.62 0.72 0.78
+lightcol_1 =  0.45 0.36 0.33
+lightcol_2 =  0.2 0.2 0.2
+ambientcol =  0.19 0.12 0
+waterFog = 0.40, 0.35, 0.75
+maxDepth = 600.00
+clipplanes =  30     200000
+fogPlanes  =  2000   10000
+//fogPlane = 1000.00
+//farPlane = 10000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+music = level1.wav
+waterMaterial = fx_088
+causticMaterial = fx_089
+light = -1.00, 1.50, 1.30
+overlay_0 = room_2c_02.mdl, 0, none
+overlay_1 = room_2c_03.mdl, 1, none
+overlay_2 = room_2c_04.mdl, 1, none
+
+
+//************************************************************************
+//* WORLD 3 - ISLE OF OBLIVION A - JUNGLE
+//************************************************************************
+
+name w3a
+
+WorldMinMax = -3196.629,-24.854,-2468.461,6977.299,95.293,5475.729
+ground = room_3a_01.mdl
+water = w3a_water
+weather = rain
+envcube = env_w3a.mdl
+bEnvCubeLocked = 0
+envrotate = 0.00
+
+clipplanes =  30 80000
+fogPlanes  =  35 10000
+fogCol     =  0.078  0.121  0.181
+lightdir_0 = -0.500 -0.500 -0.700
+lightdir_1 =  0.177 -0.440  0.880
+lightdir_2 =  0.900 -0.450  0.000
+lightcol_0 =  0.861 0.814 0.526
+lightcol_1 =  0.772 0.779 0.676
+lightcol_2 =  0.342 0.355 0.397
+ambientcol =  0.282 0.220 0.182
+terrainMaxDist = 25000
+
+waterFog = 0.40, 0.35, 0.75
+maxDepth = 600.00
+//fogPlane = 1000.00
+//farPlane = 10000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+music = level1.wav
+waterMaterial = fx_088
+causticMaterial = fx_089
+light = -0.50, 1.80, 1.80
+overlay_0 = room_3a_02.mdl, 0, none
+overlay_2 = room_3a_03.mdl, 1, none
+maxParticles 4000
+
+
+//************************************************************************
+//* WORLD 3 - ISLE OF OBLIVION B - INSIDE VOLCANO
+//************************************************************************
+
+name w3b
+
+WorldMinMax = -3196.629,-24.854,-2468.461,6977.299,95.293,5475.729
+ground = room_3b_01.mdl
+water = w3b_water
+weather = rain
+envcube = env_w3b.mdl
+envrotate = 0.00
+fog = 0.30, 0.35, 0.32
+fogCol     =  0.105 0.011 0.004
+lightdir_0 = -0.284 0.873 -0.397
+lightdir_1 =  0.200 -0.500  1.000
+lightdir_2 =  1.000 -0.500  0.000
+lightcol_0 =  0.907 0.667 0.480
+lightcol_1 =  0.772 0.779 0.676
+lightcol_2 =  0.342 0.355 0.397
+ambientcol =  0.286 0.110 0.063
+waterFog = 0.40, 0.35, 0.75
+maxDepth = 600.00
+clipplanes =  30     200000
+fogPlanes  =  2000   10000
+//fogPlane = 1000.00
+//farPlane = 10000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+music = level1.wav
+waterMaterial = fx_088
+causticMaterial = fx_089
+light = -1.00, 1.50, 1.30
+overlay_0 = room_3b_02.mdl, 0, none
+overlay_1 = room_3b_03.mdl, 1, none
+overlay_2 = room_3b_04.mdl, 1, none
+maxParticles 3600
+terrainMaxDist 20000
+
+//************************************************************************
+//* WORLD 3 - ISLE OF OBLIVION C - CRATER
+//************************************************************************
+
+name w3c
+
+WorldMinMax = -3196.629,-24.854,-2468.461,6977.299,95.293,5475.729
+ground = room_3c_01.mdl
+water = w3c_water
+weather = rain
+envcube = env_w3b.mdl
+envrotate = 0.00
+fog = 0.30, 0.35, 0.32
+fogCol     =  0.105 0.011 0.004
+lightdir_0 = -0.284 0.873 -0.397
+lightdir_1 =  0.200 -0.500  1.000
+lightdir_2 =  1.000 -0.500  0.000
+lightcol_0 =  0.907 0.667 0.480
+lightcol_1 =  0.772 0.779 0.676
+lightcol_2 =  0.342 0.355 0.397
+ambientcol =  0.286 0.110 0.063
+waterFog = 0.40, 0.35, 0.75
+maxDepth = 600.00
+clipplanes =  30     200000
+fogPlanes  =  2000   10000
+//fogPlane = 1000.00
+//farPlane = 10000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+music = level1.wav
+waterMaterial = fx_088
+causticMaterial = fx_089
+light = -1.00, 1.50, 1.30
+overlay_0 = room_3c_02.mdl, 0, none
+overlay_1 = room_3c_03.mdl, 1, none
+overlay_2 = room_3c_05.mdl, 1, none
+maxParticles 3600
+
+
+//************************************************************************
+//* WORLD 5 - SEA KING A - PIRATES
+//************************************************************************
+
+name w5a
+
+WorldMinMax = -3196.629,-24.854,-2468.461,6977.299,95.293,5475.729
+ground = room_5a_01.mdl
+water = w5a_water
+weather = rain
+envcube = env_w5.mdl
+envrotate = 0.00
+fog = 0.30, 0.35, 0.32
+fogCol     =  0.105 0.011 0.004
+lightdir_0 = -0.5 -0.5 -0.7
+lightdir_1 =  0.200 -0.500  1.000
+lightdir_2 =  1.000 -0.500  0.000
+lightcol_0 =  0.328 0.468 0.850
+lightcol_1 =  0.365 0.406 0.438
+lightcol_2 =  0.160 0.240 0.179
+ambientcol =  0.369 0.262 0.357
+waterFog = 0.40, 0.35, 0.75
+maxDepth = 600.00
+fogPlane = 1000.00
+farPlane = 10000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+music = level1.wav
+waterMaterial = fx_088
+causticMaterial = fx_089
+light = -1.00, 1.50, 1.30
+overlay_0 = room_5a_02.mdl, 0, none
+overlay_1 = room_5a_03.mdl, 1, none
+overlay_2 = room_5a_04.mdl, 1, none
+overlay_3 = room_5a_05.mdl, 1, none
+clipplanes =  30     200000
+
+
+//************************************************************************
+//* WORLD 5 - SEA KING B - SEA LAB
+//************************************************************************
+
+name w5b
+
+WorldMinMax = -3196.629,-24.854,-2468.461,6977.299,95.293,5475.729
+ground = room_5b_01.mdl
+//water = w5b_water
+weather = rain
+envcube = env_w5b.mdl
+envrotate = 0.00
+fog = 0.30, 0.35, 0.32
+lightdir_0 =  0 -1 0
+lightdir_1 =  0.200 -0.500  1.000
+lightdir_2 =  1.000 -0.500  0.000
+lightcol_0 =  0.971 0.986 0.994
+lightcol_1 =  0.4 0.4 0.4
+lightcol_2 =  0.035 0.184 0.043
+ambientcol =  0.176 0.259 0.267
+waterFog = 0.40, 0.35, 0.75
+maxDepth = 600.00
+clipplanes =  30     200000
+fogPlanes  =  50   20000
+fogCol     =  0.075  0.075  0.300
+//fogPlane = 1000.00
+//farPlane = 10000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+music = level1.wav
+waterMaterial = fx_088
+causticMaterial = fx_089
+light = -1.00, 1.50, 1.30
+overlay_0 = room_5b_02.mdl, 0, none
+overlay_1 = room_5b_03.mdl, 1, none
+maxParticles 3500
+
+//************************************************************************
+//* WORLD 5 - SEA KING C - SUBMERSIBLE ROOM
+//************************************************************************
+
+name w5c
+
+WorldMinMax = -3196.629,-24.854,-2468.461,6977.299,95.293,5475.729
+ground = room_5c_01.mdl
+water = w5c_water
+weather = rain
+envcube = env_w5c.mdl
+envrotate = 0.00
+fog = 0.30, 0.35, 0.32
+lightdir_0 =  -0.5 -0.5 -0.7
+lightdir_1 =  0.200 -0.500  1.000
+lightdir_2 =  1.000 -0.500  0.000
+lightcol_0 =  0.605 0.532 0.370
+lightcol_1 =  0.545 0.464 0.328
+lightcol_2 =  0.573 0.430 0.324
+ambientcol =  0.187 0.523 0.643
+waterFog = 0.40, 0.35, 0.75
+maxDepth = 600.00
+clipplanes =  30     200000
+fogPlanes  =  2000   10000
+//fogPlane = 1000.00
+//farPlane = 10000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+music = level1.wav
+waterMaterial = fx_088
+causticMaterial = fx_089
+light = -1.00, 1.50, 1.30
+overlay_0 = room_5c_02.mdl, 0, none
+overlay_1 = room_5c_03.mdl, 0, none
+
+//************************************************************************
+//* WORLD 6 - POWER OF SECRET TREASURE A - SPACE PORT
+//************************************************************************
+
+name w6a
+
+WorldMinMax = -3196.629,-24.854,-2468.461,6977.299,95.293,5475.729
+ground = room_6a_01.mdl
+//water = w6a_water
+weather = rain
+envcube = env_w6a.mdl
+envrotate = 0.00
+fog = 0.30, 0.35, 0.32
+fogCol     =  0.357 0.216 0.172
+waterFog = 0.40, 0.35, 0.75
+maxDepth = 600.00
+clipplanes =  30     200000
+fogPlanes  =  10000   30000
+//fogPlane = 1000.00
+//farPlane = 10000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+music = level1.wav
+waterMaterial = fx_088
+causticMaterial = fx_089
+light = -1.00, 1.50, 1.30
+overlay_0 = room_6a_02.mdl, 0, none
+overlay_1 = room_6a_03.mdl, 0, none
+overlay_2 = room_6a_04.mdl, 0, none
+overlay_3 = room_6a_05.mdl, 0, none
+overlay_4 = room_6a_06.mdl, 0, none
+
+
+
+//************************************************************************
+//* WORLD 6 - POWER OF SECRET TREASURE B - SPACE
+//************************************************************************
+
+name w6b
+
+WorldMinMax = -3196.629,-24.854,-2468.461,6977.299,95.293,5475.729
+ground = room_6b_01a.mdl
+ground = room_6b_01b.mdl
+ground = room_6b_01c.mdl
+
+water = w6b_water
+weather = rain
+envcube = env_w6.mdl
+bEnvCubeLocked = 1
+envrotate = 0.00
+fog = 0.30, 0.35, 0.32
+waterFog = 0.40, 0.35, 0.75
+maxDepth = 600.00
+clipplanes =  30     200000
+fogPlanes  =  8000   100000
+//fogPlane = 1000.00
+//farPlane = 10000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+music = level1.wav
+waterMaterial = fx_088
+causticMaterial = fx_089
+light = -1.00, 1.50, 1.30
+overlay_0 = room_6b_02.mdl, 0, none
+overlay_1 = room_6b_03.mdl, 1, none
+overlay_2 = room_6b_04.mdl, 1, none
+overlay_3 = room_6b_05.mdl, 1, none
+terrainMaxDist = 55000
+
+//************************************************************************
+//* WORLD 6 - POWER OF SECRET TREASURE C - SPACE STATION
+//************************************************************************
+
+name w6c
+
+WorldMinMax = -3196.629,-24.854,-2468.461,6977.299,95.293,5475.729
+ground = room_6c_01.mdl
+//water = w6c_water
+weather = rain
+envcube = JN_w6c_skydome_01
+envrotate = 0.00
+fog = 0.30, 0.35, 0.32
+waterFog = 0.40, 0.35, 0.75
+maxDepth = 600.00
+clipplanes =  30     200000
+fogPlanes  =  2000   10000
+//fogPlane = 1000.00
+//farPlane = 10000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+music = level1.wav
+waterMaterial = fx_088
+causticMaterial = fx_089
+light = -1.00, 1.50, 1.30
+overlay_0 = room_6c_02.mdl, 0, none
+overlay_2 = room_6c_03.mdl, 0, none
+overlay_2 = room_6c_06.mdl, 0, none
+maxParticles = 4000

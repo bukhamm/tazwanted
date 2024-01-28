@@ -1,0 +1,11 @@
+
+mesh prop_water_splash
+skeleton prop_water_splash
+
+
+anim splash
+1-50,1
+cycle stop
+
+//end
+

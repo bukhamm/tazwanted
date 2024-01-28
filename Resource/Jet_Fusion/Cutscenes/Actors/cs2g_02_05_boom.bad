@@ -1,0 +1,10 @@
+mesh cs2G_02_05_boom
+skeleton cs2G_02_05_boom
+
+anim bindpose
+0,1
+cycle loop
+
+anim cutscene
+100-875,1
+cycle stop

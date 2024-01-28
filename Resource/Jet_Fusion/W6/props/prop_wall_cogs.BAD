@@ -1,0 +1,6 @@
+skeleton prop_wall_cogs
+mesh prop_wall_cogs
+
+anim idle01
+0-60,1
+cycle loop

@@ -1,0 +1,14 @@
+mesh Prop_Chair_Lounge.mdl
+skeleton Prop_Chair_Lounge.anm
+
+anim bindPose
+0,1
+cycle stop
+
+anim idle
+5,1
+cycle loop
+
+anim bounce
+5-20,1
+cycle stop

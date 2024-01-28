@@ -1,0 +1,6 @@
+mesh a_batterySynker
+skeleton CS1G_11_0
+
+ANIM BINDPOSE
+0-1,1
+CYCLE STOP

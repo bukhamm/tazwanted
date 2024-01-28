@@ -1,0 +1,10 @@
+mesh prop_lever_vertical.mdl
+skeleton prop_lever_vertical.anm
+
+anim lever_down
+0-30,1
+cycle stop
+
+anim idle01
+0-0,1
+cycle loop

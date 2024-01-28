@@ -1,0 +1,6 @@
+mesh a_SubSynker
+skeleton CS5B_04_2
+
+ANIM CUTSCENE
+10-290,1
+CYCLE STOP

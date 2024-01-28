@@ -1,0 +1,833 @@
+// SYNKER 2 DATA FILE
+// Copyright 2002  Krome Studios Pty. Ltd.
+
+[GENERAL]
+{
+  LastSavedBy = "JAIMEHOE"
+  Date = "15/06/2003"
+  Time = "5:56:48 PM"
+  EdPos = -563.51,325.10,-179.46
+  EdPitch = -0.540
+  EdYaw = 5.780
+}
+
+[EXTRAS]
+{
+  (null) = 
+}
+
+[TIME_TABS]
+{
+  "All"
+  {
+  }
+  "Sheen"
+  {
+    "Sheen_Voice" = 59956768,0
+    "Sheen_Lips" = 59956768,1
+    "Sheen_Head" = 59956768,2
+    "Sheen_Body" = 59956768,3
+    "Sheen_Pos" = 59956768,4
+    "Sheen_Look" = 59956768,5
+    "Camera" = -3,0
+  }
+  "Ultralord01"
+  {
+    "Ultralord01_Voice" = 102742800,0
+    "Ultralord01_Lips" = 102742800,1
+    "Ultralord01_Head" = 102742800,2
+    "Ultralord01_Body" = 102742800,3
+    "Ultralord01_Pos" = 102742800,4
+    "Ultralord01_Look" = 102742800,5
+    "Camera" = -3,0
+  }
+  "Ultralord02"
+  {
+    "Ultralord02_Voice" = 102793216,0
+    "Ultralord02_Lips" = 102793216,1
+    "Ultralord02_Head" = 102793216,2
+    "Ultralord02_Body" = 102793216,3
+    "Ultralord02_Pos" = 102793216,4
+    "Ultralord02_Look" = 102793216,5
+    "Camera" = -3,0
+  }
+  "Ultralord03"
+  {
+    "Ultralord03_Voice" = 102842368,0
+    "Ultralord03_Lips" = 102842368,1
+    "Ultralord03_Head" = 102842368,2
+    "Ultralord03_Body" = 102842368,3
+    "Ultralord03_Pos" = 102842368,4
+    "Ultralord03_Look" = 102842368,5
+    "Camera" = -3,0
+  }
+  "Ultralord04"
+  {
+    "Ultralord04_Voice" = 102891500,0
+    "Ultralord04_Lips" = 102891500,1
+    "Ultralord04_Head" = 102891500,2
+    "Ultralord04_Body" = 102891500,3
+    "Ultralord04_Pos" = 102891500,4
+    "Ultralord04_Look" = 102891500,5
+    "Camera" = -3,0
+  }
+}
+
+[SCENE]
+{
+  3DSMaxCam = 0,"CamFile:"
+  WorldFile = (null)
+  Level = W2C.LV3
+}
+
+[HIDDEN_PROPS]
+{
+}
+
+[MEM_SFX]
+{
+}
+
+[DYNAMIC_SFX]
+{
+  "CS2C_06_P01SHEN.wav" = 140,96
+  "CS2C_06_P02SHEN.wav" = 246,64
+  "CS2C_06_P03SHEN.wav" = 320,125
+}
+
+[ACTOR_DATA]
+{
+  Count = 5
+  "A_SHEEN_SYNKER.BAD" = "Sheen","CS2C_06_0.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -287.846,-79.931,296.547
+        rot = 0.200,-0.610,0.000
+      }
+    }
+  }
+  "A_ULTRALORD.BAD" = "Ultralord01","CS2C_06_1.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -439.275,-88.496,100.554
+        rot = 0.000,2.110,0.000
+      }
+    }
+  }
+  "A_ULTRALORD.BAD" = "Ultralord02","CS2C_06_2.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -337.133,-87.984,19.453
+        rot = 0.000,2.380,0.000
+      }
+    }
+  }
+  "A_ULTRALORD.BAD" = "Ultralord03","CS2C_06_3.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -444.212,-87.931,19.159
+        rot = 0.000,2.350,0.000
+      }
+    }
+  }
+  "A_ULTRALORD.BAD" = "Ultralord04","CS2C_06_4.BAD"
+  {
+    LitFromGround = 0
+    DropShadow = 1
+    Paths
+    {
+      "path_1"
+      {
+        stride = 1.000
+        AimAtPath = 0
+        MaxAnim = 0
+        env = 2,0.000,0.000,1.000,1.000,
+        pos = -381.768,-87.931,-46.020
+        rot = 0.000,2.970,0.000
+      }
+    }
+  }
+}
+
+[ACTORS]
+{
+  "Sheen"
+  {
+    "Sheen_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+        "So... you have returned." = "CS2C_06_P01SHEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 140
+          length = 96
+        }
+        "You will not prevail." = "CS2C_06_P02SHEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 246
+          length = 64
+        }
+        "Tremble at the power of my all new hand chopping motion!" = "CS2C_06_P03SHEN.wav"
+        {
+          Breaker = 1
+          Lock = 1
+          start = 320
+          length = 125
+        }
+      }
+    }
+    "Sheen_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+        "Lipsangry" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 140
+          length = 315
+        }
+      }
+    }
+    "Sheen_Head"
+    {
+      Voice = 0
+      Bars
+      {
+        "Headangry" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 140
+          length = 315
+        }
+      }
+    }
+    "Sheen_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 140
+        }
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 140
+          length = 106
+        }
+        "Bodypoint" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 246
+          length = 60
+        }
+        "Bodyneutral" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 306
+          length = 90
+        }
+        "Bodyangry" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 396
+          length = 59
+        }
+      }
+    }
+    "Sheen_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 455
+        }
+      }
+    }
+    "Sheen_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+      //So... you have returned.
+      Sheen
+      {
+        d = 0,16,49,82,99,99,82,99,255,255,255,255,255,247,247,247,231,198,214,198,181,165,
+        d = 181,148,115,66,16,0,0,0,0,0,0,0,0,16,49,132,198,255,247,255,255,214,181,181,115,
+        d = 115,247,255,247,247,231,214,214,181,82,16,16,16,33,115,198,247,255,231,115,16,
+        d = 0,0,0,115,148,231,255,255,255,255,247,214,198,198,198,181,181,148,132,115,82,
+        d = 49,33,33,16,16,0,0,
+      }
+      //You will not prevail.
+      Sheen
+      {
+        d = 0,16,132,247,255,255,255,255,255,148,99,214,255,255,255,255,198,115,49,66,115,
+        d = 214,231,247,231,214,214,16,0,0,0,0,33,181,214,181,181,82,33,82,255,247,247,247,
+        d = 214,214,198,214,198,214,214,214,214,231,255,255,231,148,115,115,49,16,0,0,
+      }
+      //Tremble at the power of my all new hand chopping motion!
+      Sheen
+      {
+        d = 13,148,94,27,40,162,255,255,255,255,108,121,108,67,108,255,255,255,255,255,229,
+        d = 27,0,13,229,108,13,0,0,135,216,255,255,255,255,255,255,255,243,229,216,121,135,
+        d = 255,255,162,27,27,54,202,202,216,148,27,0,27,229,255,255,255,255,255,255,255,
+        d = 255,202,67,81,108,135,175,202,216,202,216,189,229,255,135,135,135,202,243,229,
+        d = 255,255,255,255,108,67,40,27,67,148,243,255,255,81,0,0,162,135,162,54,54,81,202,
+        d = 216,216,108,67,27,54,121,175,202,162,162,148,54,40,27,13,0,0,
+      }
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,
+    }
+  }
+  "Ultralord01"
+  {
+    "Ultralord01_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ultralord01_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ultralord01_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ultralord01_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 80
+        }
+        "Melee02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 80
+          length = 18
+        }
+        "idle02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 98
+          length = 100
+        }
+        "Melee01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 198
+          length = 15
+        }
+        "idle04" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 213
+          length = 33
+        }
+      }
+    }
+    "Ultralord01_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 246
+        }
+      }
+    }
+    "Ultralord01_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,
+    }
+  }
+  "Ultralord02"
+  {
+    "Ultralord02_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ultralord02_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ultralord02_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ultralord02_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "Melee01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 15
+        }
+        "AttackIdle03" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 15
+          length = 100
+        }
+        "Melee02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 115
+          length = 18
+        }
+        "idle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 133
+          length = 80
+        }
+        "AttackIdle03" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 213
+          length = 33
+        }
+      }
+    }
+    "Ultralord02_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 246
+        }
+      }
+    }
+    "Ultralord02_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,
+    }
+  }
+  "Ultralord03"
+  {
+    "Ultralord03_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ultralord03_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ultralord03_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ultralord03_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "idle03" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 100
+        }
+        "Melee02" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 100
+          length = 18
+        }
+        "Melee01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 118
+          length = 22
+        }
+        "AttackIdle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 140
+          length = 106
+        }
+      }
+    }
+    "Ultralord03_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 246
+        }
+      }
+    }
+    "Ultralord03_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,
+    }
+  }
+  "Ultralord04"
+  {
+    "Ultralord04_Voice"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ultralord04_Lips"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ultralord04_Head"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    "Ultralord04_Body"
+    {
+      Voice = 0
+      Bars
+      {
+        "AttackIdle01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 100
+        }
+        "Melee01" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 100
+          length = 15
+        }
+        "AttackIdle03" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 115
+          length = 131
+        }
+      }
+    }
+    "Ultralord04_Pos"
+    {
+      Voice = 0
+      Bars
+      {
+        "path_1" = ""
+        {
+          Breaker = 0
+          Lock = 0
+          start = 0
+          length = 246
+        }
+      }
+    }
+    "Ultralord04_Look"
+    {
+      Voice = 0
+      Bars
+      {
+      }
+    }
+    AWFS
+    {
+    }
+    SubObjs
+    {
+      d = 1,1,1,1,1,1,1,1,
+    }
+  }
+}
+
+[CAMERA_NODES]
+{
+  Camera1
+  {
+    Enabled = 1
+    FromFOV = 30.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 8,0.000,0.000,0.111,0.015,0.220,0.089,0.348,0.252,0.659,0.808,0.778,0.939,0.889,0.985,1.000,1.000,
+    node = -600.07,20.50,-413.99, -394.97,14.50,25.68
+  }
+  Camera2
+  {
+    Enabled = 1
+    FromFOV = 60.000
+    ToFOV = 60.000
+    NearPlane = 10.000
+    FarPlane = 100000.000
+    env = 2,0.000,0.000,1.000,1.000,
+    node = -435.92,14.86,105.20, -262.22,-19.14,287.01
+    node = -421.05,15.00,88.44, -262.25,-19.00,287.48
+  }
+}
+
+[EVENT_DATA]
+{
+}
+
+[EVENT_0]
+{
+}
+
+[EVENT_1]
+{
+}
+
+[EVENT_2]
+{
+}
+
+[EVENT_3]
+{
+}
+
+[EVENT_4]
+{
+}
+
+[EVENT_5]
+{
+}
+
+[EVENT_6]
+{
+}
+
+[EVENT_7]
+{
+}
+
+[EVENT_8]
+{
+}
+
+[EVENT_9]
+{
+}
+
+[SOUNDFX]
+{
+}
+
+[CAMERA]
+{
+  bar
+  {
+    BarName = "Camera1",""
+    Breaker = 0
+    Lock = 0
+    start = 0
+    length = 246
+  }
+  bar
+  {
+    BarName = "Camera2",""
+    Breaker = 0
+    Lock = 0
+    start = 246
+    length = 209
+  }
+}
+
+[FX_0]
+{
+}
+
+[FX_1]
+{
+}
+
+[FX_2]
+{
+}
+
+[FX_3]
+{
+}
+
+[FX_4]
+{
+}
+
+[FX_5]
+{
+}
+
+[FX_6]
+{
+}
+
+[FX_7]
+{
+}
+
+[FX_8]
+{
+}
+
+[FX_9]
+{
+}

@@ -1,0 +1,6 @@
+mesh a_Pirate01
+skeleton CS1A_04_3
+
+ANIM CUTSCENE
+1890-2200,1
+CYCLE STOP

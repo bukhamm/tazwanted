@@ -1,0 +1,12 @@
+mesh plate_01
+skeleton Plate_01
+
+anim bindPose
+0-1,1
+cycle stop
+
+anim cutscene
+170-900,1
+cycle stop
+
+//end

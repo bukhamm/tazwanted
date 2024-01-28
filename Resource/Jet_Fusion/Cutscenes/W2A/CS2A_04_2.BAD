@@ -1,0 +1,6 @@
+mesh cs2A_04_03_ChopLauncher
+skeleton CS2A_04_2
+
+ANIM CUTSCENE
+190-790,1
+CYCLE STOP
