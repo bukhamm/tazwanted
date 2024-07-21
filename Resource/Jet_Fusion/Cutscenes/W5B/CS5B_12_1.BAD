@@ -1,8 +1,0 @@
-mesh a_subSynker
-skeleton CS5B_12_1
-
-ANIM IDLE01
-50-96,1
-CYCLE LOOP
-
-

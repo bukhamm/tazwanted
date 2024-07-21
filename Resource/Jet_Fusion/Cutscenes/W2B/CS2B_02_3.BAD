@@ -1,9 +1,0 @@
-mesh CS_BBIntro_Neuron_Strands
-skeleton CS2B_02_3
-
-ANIM CUTSCENE
-172-350,1
-CYCLE STOP
-
-
-//END

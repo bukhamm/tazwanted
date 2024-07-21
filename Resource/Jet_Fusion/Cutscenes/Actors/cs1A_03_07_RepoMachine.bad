@@ -1,9 +1,0 @@
-mesh cs1A_03_07_RepoMachine
-skeleton cs1A_03_07_RepoMachine
-anim bindpose
-0,1
-cycle loop
-
-anim cutscene
-170-526,1
-cycle stop

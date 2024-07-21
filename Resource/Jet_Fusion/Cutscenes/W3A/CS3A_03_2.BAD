@@ -1,8 +1,0 @@
-mesh CS_BBIntro_EarCanal
-skeleton CS3A_03_2
-
-ANIM CUTSCENE
-60-126,1
-CYCLE STOP
-
-//END

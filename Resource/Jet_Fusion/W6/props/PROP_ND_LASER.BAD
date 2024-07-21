@@ -1,8 +1,0 @@
-mesh prop_ND_laser
-skeleton prop_ND_laser
-
-anim idle01
-1,1
-cycle stop
-
-

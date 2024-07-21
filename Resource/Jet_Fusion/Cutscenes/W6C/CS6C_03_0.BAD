@@ -1,8 +1,0 @@
-mesh CS_BBIntro_Brain
-skeleton CS6C_03_0
-
-ANIM CUTSCENE
-127-171,1
-CYCLE STOP
-
-//END

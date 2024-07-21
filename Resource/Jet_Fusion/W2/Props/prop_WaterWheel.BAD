@@ -1,7 +1,0 @@
-mesh prop_WaterWheel.mdl
-skeleton prop_WaterWheel.anm
-
-anim idle01
-0,1
-cycle stop
-

@@ -1,9 +1,0 @@
-mesh cs1A_01_07_HairMachine
-skeleton cs1A_01_07_HairMachine
-anim bindpose
-0,1
-cycle loop
-
-anim cutscene
-150-2045,1
-cycle stop

@@ -1,6 +1,0 @@
-mesh a_LeverLightraysynker
-skeleton CS2A_40_0
-
-ANIM BINDPOSE
-0-1,1
-CYCLE STOP

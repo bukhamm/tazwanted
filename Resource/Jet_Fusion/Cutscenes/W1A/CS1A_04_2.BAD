@@ -1,6 +1,0 @@
-mesh a_ninja01
-skeleton CS1A_04_2
-
-ANIM CUTSCENE
-1890-2200,1
-CYCLE STOP

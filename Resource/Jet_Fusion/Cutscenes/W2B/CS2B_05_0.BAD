@@ -1,6 +1,0 @@
-mesh Prop_gate_solar
-skeleton CS2B_05_0
-
-ANIM OPEN
-1-150,1
-CYCLE STOP

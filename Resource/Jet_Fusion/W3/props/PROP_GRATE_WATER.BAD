@@ -1,7 +1,0 @@
-mesh prop_grate_water
-skeleton prop_grate_water
-
-anim open
-10-39,1
-cycle stop
-

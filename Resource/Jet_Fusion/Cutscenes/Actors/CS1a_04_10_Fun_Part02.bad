@@ -1,8 +1,0 @@
-mesh CS1a_04_10_Fun_Part02
-skeleton CS1a_04_10_Fun_Part02
-
-anim cutscene
-10-400,1
-cycle loop
-
-//END

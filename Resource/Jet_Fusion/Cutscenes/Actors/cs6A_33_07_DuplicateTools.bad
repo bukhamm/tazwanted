@@ -1,9 +1,0 @@
-mesh cs6A_33_07_DuplicateTools
-skeleton cs6A_33_07_DuplicateTools
-anim bindpose
-0,1
-cycle loop
-
-anim cutscene
-170-400,1
-cycle stop

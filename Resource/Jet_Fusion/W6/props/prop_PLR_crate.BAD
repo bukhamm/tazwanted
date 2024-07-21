@@ -1,6 +1,0 @@
-mesh prop_PLR_crate.mdl
-skeleton prop_PLR_crate.anm
-
-anim idle01
-0-30,1
-cycle stop

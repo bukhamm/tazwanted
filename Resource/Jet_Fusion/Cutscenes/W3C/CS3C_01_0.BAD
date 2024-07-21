@@ -1,6 +1,0 @@
-mesh a_Jimmyjungle
-skeleton CS3C_01_0
-
-ANIM CUTSCENE
-1-1000,1
-CYCLE STOP

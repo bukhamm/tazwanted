@@ -1,8 +1,0 @@
-mesh prop_laser_wall
-skeleton prop_laser_wall
-
-anim idle01
-1,1
-cycle stop
-
-

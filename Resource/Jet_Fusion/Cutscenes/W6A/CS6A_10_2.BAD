@@ -1,8 +1,0 @@
-mesh a_ScienceBot
-skeleton CS6A_10_2
-
-ANIM IDLE01
-10-40,1
-CYCLE LOOP
-
-

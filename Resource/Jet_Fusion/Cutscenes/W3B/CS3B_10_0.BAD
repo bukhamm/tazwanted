@@ -1,8 +1,0 @@
-mesh prop_minecart
-skeleton CS3B_10_0
-
-ANIM ROLL
-5-15,1
-CYCLE LOOP
-CYCLE LOOP
-

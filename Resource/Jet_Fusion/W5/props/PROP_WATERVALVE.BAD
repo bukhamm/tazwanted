@@ -1,6 +1,0 @@
-skeleton prop_watervalve
-mesh prop_watervalve
-
-anim idle01
-0-30,1
-cycle loop

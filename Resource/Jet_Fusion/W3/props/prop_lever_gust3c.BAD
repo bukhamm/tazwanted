@@ -1,7 +1,0 @@
-mesh prop_lever_gust3c
-skeleton prop_lever_gust3c
-
-anim idle01
-0,1
-cycle stop
-

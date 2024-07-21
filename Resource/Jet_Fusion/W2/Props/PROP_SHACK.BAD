@@ -1,6 +1,0 @@
-mesh prop_shack.mdl
-skeleton prop_shack.anm
-
-anim open
-10-90,1
-cycle stop

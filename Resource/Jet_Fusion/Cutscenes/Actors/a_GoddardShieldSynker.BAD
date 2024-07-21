@@ -1,6 +1,0 @@
-skeleton a_GoddardShieldSynker
-mesh a_GoddardShieldSynker
-
-anim bindpose
-0-1,1
-cycle stop

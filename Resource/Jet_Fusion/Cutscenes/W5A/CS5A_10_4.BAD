@@ -1,6 +1,0 @@
-mesh a_RopeandFish
-skeleton CS5A_10_4
-
-ANIM BREAKROPE
-60-111,1
-CYCLE LOOP

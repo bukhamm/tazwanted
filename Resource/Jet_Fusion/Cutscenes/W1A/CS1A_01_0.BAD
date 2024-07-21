@@ -1,6 +1,0 @@
-mesh a_Jimmy
-skeleton CS1A_01_0
-
-ANIM CUTSCENE
-150-4000,1
-CYCLE STOP

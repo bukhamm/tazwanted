@@ -1,1 +1,0 @@
-rkv-extract.exe "Data_GC.rkv" "Resource\Jet_Fusion"

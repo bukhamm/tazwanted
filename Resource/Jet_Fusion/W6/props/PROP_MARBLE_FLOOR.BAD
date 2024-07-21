@@ -1,8 +1,0 @@
-mesh prop_marble_floor.mdl
-skeleton prop_marble_floor.anm
-
-anim idle01
-10,1
-cycle stop
-
-

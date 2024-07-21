@@ -1,8 +1,0 @@
-mesh Prop_Tree_Venus
-skeleton CS3A_02_1
-
-ANIM IDLE01
-10-90,1
-CYCLE LOOP
-
-

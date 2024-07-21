@@ -1,6 +1,0 @@
-skeleton a_HLTPlantLashingsSynker
-mesh a_HLTPlantLashingsSynker
-
-anim bindpose
-0-1,1
-cycle stop

@@ -1,8 +1,0 @@
-mesh a_Pirate01
-skeleton CS5A_18_3
-
-ANIM ATTACKIDLE01 
-680-700,1
-CYCLE LOOP
-
-

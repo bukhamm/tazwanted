@@ -1,9 +1,0 @@
-mesh cs1A_01_06_MsFowlHairGrow
-skeleton cs1A_01_06_MsFowlHairGrow
-anim bindpose
-0,1
-cycle loop
-
-anim cutscene
-1945-2045,1
-cycle stop

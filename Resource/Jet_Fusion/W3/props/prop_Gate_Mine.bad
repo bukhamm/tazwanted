@@ -1,6 +1,0 @@
-skeleton Prop_Gate_Mine
-mesh Prop_Gate_Mine
-
-anim open
-1-100,1
-cycle stop

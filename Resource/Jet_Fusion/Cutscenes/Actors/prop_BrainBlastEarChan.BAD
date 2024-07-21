@@ -1,8 +1,0 @@
-skeleton prop_BrainBlastEarChan
-mesh prop_BrainBlastEarChan
-
-anim bindpose
-0-0,1
-cycle stop
-
-//end

@@ -1,6 +1,0 @@
-mesh prop_gate_pooledge.mdl
-skeleton prop_gate_pooledge.anm
-
-anim open
-10-69,1
-cycle stop

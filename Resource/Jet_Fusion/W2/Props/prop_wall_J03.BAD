@@ -1,6 +1,0 @@
-mesh prop_wall_J03.mdl
-skeleton prop_wall_J03.anm
-
-anim open
-0-45,1
-cycle stop

@@ -1,8 +1,0 @@
-mesh CS_BBIntro_Brain
-skeleton CS1A_02_Brain
-
-anim cutscene
-127-171,1
-cycle stop
-
-//END

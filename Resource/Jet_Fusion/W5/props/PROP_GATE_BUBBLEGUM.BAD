@@ -1,6 +1,0 @@
-mesh prop_gate_bubblegum
-skeleton prop_gate_bubblegum
-
-anim cycle
-10-39,1
-cycle loop

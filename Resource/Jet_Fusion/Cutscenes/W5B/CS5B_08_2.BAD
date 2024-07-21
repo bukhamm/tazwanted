@@ -1,6 +1,0 @@
-mesh a_OCTOPUSBody
-skeleton CS5B_08_2
-
-ANIM CUTSCENE
-180-260,1
-CYCLE STOP

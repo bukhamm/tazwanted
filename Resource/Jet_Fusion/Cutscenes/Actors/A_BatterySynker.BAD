@@ -1,6 +1,0 @@
-skeleton a_batterySynker
-mesh a_batterySynker
-
-anim bindpose
-0-1,1
-cycle stop

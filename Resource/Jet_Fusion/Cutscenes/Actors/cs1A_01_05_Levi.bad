@@ -1,9 +1,0 @@
-mesh cs1A_01_05_Levi
-skeleton cs1A_01_05_Levi
-anim bindpose
-0,1
-cycle loop
-
-anim cutscene
-2046-3840,1
-cycle stop

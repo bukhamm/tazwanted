@@ -1,9 +1,0 @@
-mesh cs1A_01_08_CindyHairGrow
-skeleton cs1A_01_08_CindyHairGrow
-anim bindpose
-0,1
-cycle loop
-
-anim cutscene
-150-460,1
-cycle stop

@@ -1,6 +1,0 @@
-skeleton Prop_Door_Classroom
-mesh Prop_Door_Classroom
-
-anim open
-0-15,1
-cycle stop

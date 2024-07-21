@@ -1,8 +1,0 @@
-mesh a_SecurityBot
-skeleton CS6A_22_3
-
-ANIM IDLE01
-40-70,1
-CYCLE LOOP
-
-

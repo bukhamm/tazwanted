@@ -1,7 +1,0 @@
-mesh prop_mirror_metal.mdl
-skeleton prop_mirror_metal.anm
-
-anim idle01
-0,1
-cycle loop
-

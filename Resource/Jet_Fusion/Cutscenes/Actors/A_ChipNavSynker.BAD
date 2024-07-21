@@ -1,6 +1,0 @@
-skeleton A_ChipNavSynker
-mesh A_ChipNavSynker
-
-anim bindpose
-0-1,1
-cycle stop
